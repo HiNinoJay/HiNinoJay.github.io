@@ -1,105 +1,65 @@
-if (!!$.prototype.justifiedGallery) { // if justifiedGallery method is defined
-    var options = {
-        rowHeight: 140,
-        margins: 4,
-        lastRow: 'justify'
-    };
-    $('.article-gallery').justifiedGallery(options);
-}
+/* global KEEP */
 
+window.addEventListener('DOMContentLoaded', () => {
 
-$(window).load(function() {
-    
-       $("#wrapper").fadeTo("slow",1);
-       $("#blogtitel").fadeOut(2000);
-});
+  KEEP.themeInfo = {
+    theme: `Keep v${KEEP.theme_config.version}`,
+    author: 'XPoet',
+    repository: 'https://github.com/XPoet/hexo-theme-keep'
+  }
 
-$(document).ready(function() {
+  KEEP.localStorageKey = 'KEEP-THEME-STATUS';
 
+  KEEP.styleStatus = {
+    isExpandPageWidth: false,
+    isDark: false,
+    fontSizeLevel: 0,
+    isOpenPageAside: true
+  }
 
-    $(window).on('scroll', function() {
+  // print theme base info
+  KEEP.printThemeInfo = () => {
+    console.log(`\n %c ${KEEP.themeInfo.theme} %c ${KEEP.themeInfo.repository} \n`, `color: #fadfa3; background: #333; padding: 5px 0;`, `background: #fadfa3; padding: 5px 0;`);
+  }
 
-        var z = $(".banner")[0].getBoundingClientRect().bottom / (
-            $(".banner")[0].getBoundingClientRect().bottom - $(".banner")[0].getBoundingClientRect().top)
+  // set styleStatus to localStorage
+  KEEP.setStyleStatus = () => {
+    localStorage.setItem(KEEP.localStorageKey, JSON.stringify(KEEP.styleStatus));
+  }
 
-        if (z < 0) {
-            z = 0.01
-        }
+  // get styleStatus from localStorage
+  KEEP.getStyleStatus = () => {
+    let temp = localStorage.getItem(KEEP.localStorageKey);
+    if (temp) {
+      temp = JSON.parse(temp);
+      for (let key in KEEP.styleStatus) {
+        KEEP.styleStatus[key] = temp[key];
+      }
+      return temp;
+    } else {
+      return null;
+    }
+  }
 
-        $(".wrapper")[0].style.zoom = z
-        $(".wrapper")[0].style.MozTransform = "scale(" + z + ")"
+  KEEP.refresh = () => {
+    KEEP.initUtils();
+    KEEP.initHeaderShrink();
+    KEEP.initModeToggle();
+    KEEP.initBack2Top();
 
-    });
-
-    $("#menu-icon, #menu-icon-tablet").click(function() {
-        if ($('#menu').css('visibility') == 'hidden') {
-            $('#menu').css('visibility', 'visible');
-            $('#menu-icon, #menu-icon-tablet').addClass('active');
-
-            var topDistance = $("#menu > #nav").offset().top;
-
-            $("#menu > #nav").show();
-            return false;
-        } else {
-            $('#menu').css('visibility', 'hidden');
-            $('#menu-icon, #menu-icon-tablet').removeClass('active');
-
-            return false;
-        }
-    });
-
-    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-    $("#header > #nav > ul > .icon").click(function() {
-        $("#header > #nav > ul").toggleClass("responsive");
-    });
-
-    if ($("#menu").length) {
-        $(window).on('scroll', function() {
-            var topDistance = $(window).scrollTop();
-
-            if ($('#menu').css('visibility') != 'hidden' && topDistance < 10) {
-                $("#menu > #nav").show();
-            } else if ($('#menu').css('visibility') != 'hidden' && topDistance > 10) {
-                $("#menu > #nav").hide();
-            }
-
-            if (!$("#menu-icon").is(":visible") && topDistance < 10) {
-
-                $("#menu-icon-tablet").show();
-                $("#top-icon-tablet").hide();
-            } else if (!$("#menu-icon").is(":visible") && topDistance > 10) {
-
-                $("#menu-icon-tablet").hide();
-                $("#top-icon-tablet").show();
-            }
-        });
+    if (KEEP.theme_config.local_search.enable === true) {
+      KEEP.initLocalSearch();
     }
 
-    if ($("#footer-post").length) {
-        var lastScrollTop = 0;
-        $(window).on('scroll', function() {
-            var topDistance = $(window).scrollTop();
-
-            if (topDistance > lastScrollTop) {
-                // downscroll code
-                $("#footer-post").hide();
-            } else {
-                // upscroll code
-                $("#footer-post").show();
-            }
-            lastScrollTop = topDistance;
-
-            $("#nav-footer").hide();
-            $("#toc-footer").hide();
-            $("#share-footer").hide();
-
-            if (topDistance < 50) {
-                $("#actions-footer > ul > #top").hide();
-                $("#actions-footer > ul > #menu").show();
-            } else if (topDistance > 100) {
-                $("#actions-footer > ul > #menu").hide();
-                $("#actions-footer > ul > #top").show();
-            }
-        });
+    if (KEEP.theme_config.code_copy.enable === true) {
+      KEEP.initCodeCopy();
     }
+
+    if (KEEP.theme_config.lazyload.enable === true) {
+      KEEP.initLazyLoad();
+    }
+  }
+
+  KEEP.printThemeInfo();
+  KEEP.refresh();
 });
