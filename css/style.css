@@ -1215,7 +1215,7 @@ pre .javascript .function {
   position: relative;
   box-sizing: border-box;
   width: 80%;
-  max-width: 920px;
+  max-width: 1000px;
   height: 100%;
 }
 @media (max-width: 780px) {
@@ -1539,7 +1539,7 @@ pre .javascript .function {
   position: relative;
   height: 100%;
   width: 80%;
-  max-width: 920px;
+  max-width: 1000px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -1547,7 +1547,7 @@ pre .javascript .function {
   z-index: 1005;
 }
 .header-wrapper .header-content.has-first-screen {
-  max-width: 1104px;
+  max-width: 1200px;
 }
 @media (max-width: 780px) {
   .header-wrapper .header-content {

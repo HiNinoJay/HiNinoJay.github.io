@@ -112,34 +112,78 @@
 <div class="body-outer">
   <div class="body-inner">
     
-    <section class="intro-section">
-    <div class="intro-content">
-        <div class="intro-title animate__animated  animate__fadeInUp">Hi.I&#39;m White.</div>
-        <div class="intro-sub animate__animated  animate__fadeInUp"><p>A <a target="_blank" rel="noopener" href="https://github.com/FuShaoLei/hexo-theme-white">White</a> theme for <a target="_blank" rel="noopener" href="http://hexo.io/">Hexo</a></p>
-</div>
-        <p class="intro-contact animate__animated  animate__fadeInUp">
-            
-                <a href="https://github.com/FuShaoLei/hexo-theme-white" target="_blank">
-                    <i class="ri-github-line"></i>
-                </a>
-            
-                <a href="mailto:1563250958@qq.com" target="_blank">
-                    <i class="ri-mail-line"></i>
-                </a>
-            
-        </p>
+
+<article class="post-inner">
+    <div class="post-content-outer">
+      <div class="post-intro">
+
+      </div>
+      <div class="post-content-inner">
+        <div class="post-content-inner-space">
+  
+        </div>
+        <div class="post-content-main animate__animated  animate__fadeInUp">
+            <div class="search">
+                <div class="search-input-outer">
+                    <form>
+                        <input type="text" placeholder="想要搜些什么呢..." id="local-search-input" name="q" results="0">
+                        <button type="submit"><i class="ri-search-line"></i></button>
+                    </form>
+                </div>
+                <div id="local-search-result">
+                    
+                </div>
+            </div>
+
+        </div>
+        <div class="post-content-inner-space">
+        </div>
+     </div>
     </div>
+  </article>
 
-</section>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
 
+<script src="/js/search.js"></script>
 
-
+<script type="text/javascript">      
+    var search_path = "search.xml";
+    var path = "/" + search_path;
+    searchFunc(path, 'local-search-input', 'local-search-result');
+</script>
   </div>
 </div>
 
 
 
 <!-- 如果是home模式的话，不在首页就显示footer，如果不是home模式的话 所有都显示footer -->
+
+  <div class="footer-outer animate__animated  animate__fadeInUp">
+    <div class="footer-inner">
+    <div class="footer-text">
+    <p>Power by <a target="_blank" rel="noopener" href="http://hexo.io/">Hexo</a> Theme by <a target="_blank" rel="noopener" href="https://github.com/FuShaoLei/hexo-theme-white">White</a></p>
+
+    </div>
+    <div class="footer-contact">
+    <ul class="footer-ul">
+        
+        <li class="footer-li">
+            <a href="https://github.com/FuShaoLei/hexo-theme-white" target="_blank">
+                <i class="ri-github-line"></i>
+            </a>
+        </li>
+        
+        <li class="footer-li">
+            <a href="mailto:1563250958@qq.com" target="_blank">
+                <i class="ri-mail-line"></i>
+            </a>
+        </li>
+        
+    </ul>
+    </div>
+    </div>
+</div>
+
 
 
 
