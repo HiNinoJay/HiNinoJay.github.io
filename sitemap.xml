@@ -2,24 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/admin/config.json</loc>
-    
-    <lastmod>2022-01-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/admin/index.html</loc>
-    
-    <lastmod>2022-01-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/2022/01/24/GTD%E6%80%9D%E6%83%B3/</loc>
     
     <lastmod>2022-01-23</lastmod>
