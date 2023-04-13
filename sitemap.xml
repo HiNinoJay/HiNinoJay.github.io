@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.ninojay.top/archives/index.html</loc>
+    
+    <lastmod>2023-04-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.ninojay.top/about/index.html</loc>
     
     <lastmod>2023-04-13</lastmod>
@@ -281,6 +290,20 @@
 
   
   <url>
+    <loc>https://www.ninojay.top/tags/%E6%80%9D%E8%BE%A9/</loc>
+    <lastmod>2023-04-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ninojay.top/tags/%E6%83%85%E7%BB%AA/</loc>
+    <lastmod>2023-04-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.ninojay.top/tags/%E5%8D%95%E8%AF%8D/</loc>
     <lastmod>2023-04-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -295,21 +318,7 @@
   </url>
   
   <url>
-    <loc>https://www.ninojay.top/tags/%E6%80%9D%E8%BE%A9/</loc>
-    <lastmod>2023-04-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.ninojay.top/tags/%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8/</loc>
-    <lastmod>2023-04-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.ninojay.top/tags/%E6%83%85%E7%BB%AA/</loc>
     <lastmod>2023-04-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -332,13 +341,6 @@
 
   
   <url>
-    <loc>https://www.ninojay.top/categories/%E5%AD%A6%E7%A7%91/</loc>
-    <lastmod>2023-04-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.ninojay.top/categories/%E9%98%85%E8%AF%BB/</loc>
     <lastmod>2023-04-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -346,14 +348,21 @@
   </url>
   
   <url>
-    <loc>https://www.ninojay.top/categories/%E5%A3%B0%E5%85%89/</loc>
+    <loc>https://www.ninojay.top/categories/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2023-04-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.ninojay.top/categories/%E5%AD%A6%E7%A7%91/%E8%8B%B1%E8%AF%AD/</loc>
+    <loc>https://www.ninojay.top/categories/%E9%98%85%E8%AF%BB/%E5%BF%83%E7%90%86%E5%AD%A6/</loc>
+    <lastmod>2023-04-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ninojay.top/categories/%E5%AD%A6%E7%A7%91/</loc>
     <lastmod>2023-04-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -381,6 +390,20 @@
   </url>
   
   <url>
+    <loc>https://www.ninojay.top/categories/%E7%94%9F%E6%B4%BB/%E8%AE%B0%E5%BF%86/</loc>
+    <lastmod>2023-04-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ninojay.top/categories/%E5%A3%B0%E5%85%89/</loc>
+    <lastmod>2023-04-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.ninojay.top/categories/%E9%98%85%E8%AF%BB/%E5%93%B2%E5%AD%A6/</loc>
     <lastmod>2023-04-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -388,14 +411,7 @@
   </url>
   
   <url>
-    <loc>https://www.ninojay.top/categories/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2023-04-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.ninojay.top/categories/%E5%A3%B0%E5%85%89/%E6%AD%8C%E6%9B%B2/</loc>
+    <loc>https://www.ninojay.top/categories/%E5%AD%A6%E7%A7%91/%E8%8B%B1%E8%AF%AD/</loc>
     <lastmod>2023-04-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -416,13 +432,6 @@
   </url>
   
   <url>
-    <loc>https://www.ninojay.top/categories/%E9%98%85%E8%AF%BB/%E5%BF%83%E7%90%86%E5%AD%A6/</loc>
-    <lastmod>2023-04-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.ninojay.top/categories/%E4%BA%92%E8%81%94%E7%BD%91/%E6%80%9D%E6%83%B3/</loc>
     <lastmod>2023-04-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -430,14 +439,14 @@
   </url>
   
   <url>
-    <loc>https://www.ninojay.top/categories/%E5%A3%B0%E5%85%89/%E7%94%B5%E5%BD%B1/</loc>
+    <loc>https://www.ninojay.top/categories/%E5%A3%B0%E5%85%89/%E6%AD%8C%E6%9B%B2/</loc>
     <lastmod>2023-04-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.ninojay.top/categories/%E7%94%9F%E6%B4%BB/%E8%AE%B0%E5%BF%86/</loc>
+    <loc>https://www.ninojay.top/categories/%E5%A3%B0%E5%85%89/%E7%94%B5%E5%BD%B1/</loc>
     <lastmod>2023-04-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
