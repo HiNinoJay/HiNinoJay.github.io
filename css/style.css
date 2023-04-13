@@ -395,3 +395,19 @@ a
     font-size: 1.38rem;
     color: var(--default-text-color);
 }
+
+/* 标签访问过后的颜色 */
+
+a:link { 
+    color:#4f7dde; 
+    text-decoration:none; 
+} 
+
+a:visited { 
+    color:#9c9caf; 
+    text-decoration: underline; 
+} 
+a:hover {
+    color:#000000;
+    text-decoration: underline; 
+}
