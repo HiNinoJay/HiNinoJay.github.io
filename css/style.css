@@ -411,3 +411,8 @@ a:hover {
     color:#000000;
     text-decoration: underline; 
 }
+
+.description {
+    font-size: smaller;
+    color: #9c9caf;
+}

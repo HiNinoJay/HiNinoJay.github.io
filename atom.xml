@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Nino&#39;s brain</title>
+  <title>Nino</title>
   
-  <subtitle>jay</subtitle>
+  
   <link href="https://www.ninojay.top/atom.xml" rel="self"/>
   
   <link href="https://www.ninojay.top/"/>
@@ -99,19 +99,19 @@
   
   <entry>
     <title>about</title>
-    <link href="https://www.ninojay.top/index.html"/>
-    <id>https://www.ninojay.top/index.html</id>
+    <link href="https://www.ninojay.top/about/"/>
+    <id>https://www.ninojay.top/about/</id>
     <published>2023-03-09T15:59:25.623Z</published>
-    <updated>2023-04-13T21:08:43.474Z</updated>
+    <updated>2023-04-14T06:12:54.734Z</updated>
     
-    <content type="html"><![CDATA[<p>目前只是一名流浪汉。</p><h4 id="Feel"><a href="#Feel" class="headerlink" title="Feel"></a>Feel</h4><ul><li><strong>作家</strong>：王小波、夏目漱石、太宰治、毛姆、埃莱娜·费兰特、赫尔曼·黑塞</li><li><strong>哲学家</strong>：苏格拉底、柏拉图、叔本华</li><li><strong>心理学家</strong>：阿德勒</li><li><strong>乐队</strong>：新裤子、五条人、后海大鲨鱼</li></ul><h4 id="Tool"><a href="#Tool" class="headerlink" title="Tool"></a>Tool</h4><ul><li><strong>生活工具</strong>：Spotify、Edge、ClashX、Marginnote、Anki</li><li><strong>编程工具</strong>：IDEA、VSCode</li></ul>]]></content>
+    <content type="html"><![CDATA[<h4 id="Feel"><a href="#Feel" class="headerlink" title="Feel"></a>Feel</h4><ul><li><strong>作家</strong>：王小波、夏目漱石、太宰治、毛姆、埃莱娜·费兰特、赫尔曼·黑塞</li><li><strong>哲学家</strong>：苏格拉底、柏拉图、叔本华</li><li><strong>心理学家</strong>：阿德勒</li><li><strong>乐队</strong>：新裤子、五条人、后海大鲨鱼</li></ul><h4 id="Tool"><a href="#Tool" class="headerlink" title="Tool"></a>Tool</h4><ul><li><strong>生活工具</strong>：Spotify、Edge、ClashX、Marginnote、Anki</li><li><strong>编程工具</strong>：IDEA、VSCode</li></ul>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;目前只是一名流浪汉。&lt;/p&gt;
-&lt;h4 id=&quot;Feel&quot;&gt;&lt;a href=&quot;#Feel&quot; class=&quot;headerlink&quot; title=&quot;Feel&quot;&gt;&lt;/a&gt;Feel&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;作家&lt;/strong&gt;：王小波、夏目漱石、太宰治、毛姆、埃莱</summary>
+    <summary type="html">&lt;h4 id=&quot;Feel&quot;&gt;&lt;a href=&quot;#Feel&quot; class=&quot;headerlink&quot; title=&quot;Feel&quot;&gt;&lt;/a&gt;Feel&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;作家&lt;/strong&gt;：王小波、夏目漱石、太宰治、毛姆、埃莱娜·费兰特、赫尔曼·黑塞&lt;/li&gt;
+</summary>
       
     
     
