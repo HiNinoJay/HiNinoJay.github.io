@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Nino</title>
   
-  
+  <subtitle>Web开发者｜阅读写作爱好者</subtitle>
   <link href="https://www.ninojay.top/atom.xml" rel="self"/>
   
   <link href="https://www.ninojay.top/"/>
@@ -102,7 +102,7 @@
     <link href="https://www.ninojay.top/about/"/>
     <id>https://www.ninojay.top/about/</id>
     <published>2023-03-09T15:59:25.623Z</published>
-    <updated>2023-04-14T06:12:54.734Z</updated>
+    <updated>2023-04-14T08:21:37.510Z</updated>
     
     <content type="html"><![CDATA[<h4 id="Feel"><a href="#Feel" class="headerlink" title="Feel"></a>Feel</h4><ul><li><strong>作家</strong>：王小波、夏目漱石、太宰治、毛姆、埃莱娜·费兰特、赫尔曼·黑塞</li><li><strong>哲学家</strong>：苏格拉底、柏拉图、叔本华</li><li><strong>心理学家</strong>：阿德勒</li><li><strong>乐队</strong>：新裤子、五条人、后海大鲨鱼</li></ul><h4 id="Tool"><a href="#Tool" class="headerlink" title="Tool"></a>Tool</h4><ul><li><strong>生活工具</strong>：Spotify、Edge、ClashX、Marginnote、Anki</li><li><strong>编程工具</strong>：IDEA、VSCode</li></ul>]]></content>
     

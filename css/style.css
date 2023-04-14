@@ -34,6 +34,7 @@ a
 .paper
 {
     padding: 4vw;
+    background: #e4e4e4;
 }
 .paper-main
 {
@@ -42,7 +43,15 @@ a
     margin: 0 auto;
     padding: 72px 8vw 24px;
     background: #fff;
-    border-radius: 24px;
+    /*border-radius: 24px;*/
+    background: #fff;
+}
+.index-main
+{
+    width: 100%;
+    max-width: 685px;
+    margin: 0 auto;
+    padding: 72px 8vw 24px;
     background: #fff;
 }
 
