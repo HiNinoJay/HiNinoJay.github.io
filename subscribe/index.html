@@ -64,36 +64,6 @@
 
     
     
-    
-        
-<div class="comments-container">
-<div id="comment-anchor"></div>
-<div class="comment-area-title">
-    comments
-</div>
-    
- 
-    <div id="waline"></div>
-    <script type="module"  >
-        import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
-        function loadWaline() {
-            init({
-                el: '#waline',
-                serverURL: 'waline.ninojay.eu.org',
-                lang: 'zh-CN',
-                dark: 'body[class~="dark-mode"]',
-                requiredMeta: ['nick','mail'], // cannot customize by theme config, change it yourself
-            });
-        }
-        const loadWalineTimeout = setTimeout(() => {
-            loadWaline();
-            clearTimeout(loadWalineTimeout);
-        }, 1000);
-    </script>
-
-
-</div>
-
      
 </div>
                 <div class="footer">
