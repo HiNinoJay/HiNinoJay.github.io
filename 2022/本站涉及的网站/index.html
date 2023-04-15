@@ -22,11 +22,9 @@
 </head>
     <body>
         <div class="paper">
-                
-                    <div class="paper-main">
-                    
-
-<div class="header">
+            
+                <div class="paper-main">
+                <div class="header">
     <div class="header-container">
         <img class="header-img" src="/img/favicon.png" width="10%"></img>
         <div class="header-content">
@@ -43,15 +41,11 @@
         
         <li><a href="/list">文章</a></li>
         
-        <li><a href="/message">留言</a></li>
-        
         <li><a href="/about">关于</a></li>
-        
-        <li><a href="/now">now</a></li>
         
     </ul>
 </div>
-                    <div class="post-main">
+                <div class="post-main">
 
     
     
@@ -69,7 +63,13 @@
 <p><a target="_blank" rel="noopener" href="https://pixabay.com/">https://pixabay.com/</a></p>
 <p><a target="_blank" rel="noopener" href="https://visualhunt.com/">https://visualhunt.com/</a></p>
 <h1 id="B站视频嵌入代码显示问题"><a href="#B站视频嵌入代码显示问题" class="headerlink" title="B站视频嵌入代码显示问题"></a>B站视频嵌入代码显示问题</h1><p>直接使用嵌入代码，尺寸有问题，用如下的，修改下src地址就行。</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;position: relative; padding: 30% 45%;&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">iframe</span> </span></span><br><span class="line"><span class="tag"><span class="attr">style</span>=<span class="string">&quot;position: absolute; width: 100%; height: 100%; left: 0; top: 0;&quot;</span> </span></span><br><span class="line"><span class="tag"><span class="attr">src</span>=<span class="string">&quot;//player.bilibili.com/player.html?aid=934381863&amp;bvid=BV13M4y1P7PM&amp;cid=447999850</span></span></span><br><span class="line"><span class="string"><span class="tag">&amp;page=1&amp;as_wide=1&amp;high_quality=1&amp;danmaku=0&quot;</span><span class="attr">frameborder</span>=<span class="string">&quot;no&quot;</span> <span class="attr">scrolling</span>=<span class="string">&quot;no&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-html" data-language="html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">position</span><span class="token punctuation">:</span> relative<span class="token punctuation">;</span> <span class="token property">padding</span><span class="token punctuation">:</span> 30% 45%<span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>iframe</span> 
+<span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">position</span><span class="token punctuation">:</span> absolute<span class="token punctuation">;</span> <span class="token property">width</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span> <span class="token property">height</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span> <span class="token property">left</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span> <span class="token property">top</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span> 
+<span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>//player.bilibili.com/player.html?aid=934381863&amp;bvid=BV13M4y1P7PM&amp;cid=447999850
+&amp;page=1&amp;as_wide=1&amp;high_quality=1&amp;danmaku=0<span class="token punctuation">"</span></span><span class="token attr-name">frameborder</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>no<span class="token punctuation">"</span></span> <span class="token attr-name">scrolling</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>no<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>iframe</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <table>
 <thead>
@@ -117,13 +117,15 @@
 <li>语句接口：<a target="_blank" rel="noopener" href="https://v1.hitokoto.cn/">https://v1.hitokoto.cn/</a></li>
 </ul>
 <p>更新主题版本：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm update --save hexo-theme-fluid</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-js" data-language="js"><code class="language-js">npm update <span class="token operator">--</span>save hexo<span class="token operator">-</span>theme<span class="token operator">-</span>fluid<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>icon图标</p>
 <p><img src="https://hexo.fluid-dev.com/docs/assets/img/iconfont.f8319467.png" alt="icon图标"></p>
 <h1 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a><a target="_blank" rel="noopener" href="https://markdown.com.cn/">Markdown</a></h1><h3 id="换行"><a href="#换行" class="headerlink" title="换行"></a>换行</h3><p>在一行的末尾添加两个或多个空格，然后按回车键,即可创建一个换行(<code>&lt;br&gt;</code>)。</p>
 <h3 id="多个段落的块引用"><a href="#多个段落的块引用" class="headerlink" title="多个段落的块引用"></a>多个段落的块引用</h3><p>块引用可以包含多个段落。为段落之间的空白行添加一个 <code>&gt;</code> 符号。</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; Dorothy followed her through many of the beautiful rooms in her castle.</span><br><span class="line">&gt;</span><br><span class="line">&gt; The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-text" data-language="text"><code class="language-text">> Dorothy followed her through many of the beautiful rooms in her castle.
+>
+> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 
 <p>渲染效果如下：</p>
 <blockquote>
@@ -131,7 +133,9 @@
 <p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</p>
 </blockquote>
 <h3 id="嵌套块引用"><a href="#嵌套块引用" class="headerlink" title="#嵌套块引用"></a><a target="_blank" rel="noopener" href="https://markdown.com.cn/basic-syntax/blockquotes.html#%E5%B5%8C%E5%A5%97%E5%9D%97%E5%BC%95%E7%94%A8">#</a>嵌套块引用</h3><p>块引用可以嵌套。在要嵌套的段落前添加一个 <code>&gt;&gt;</code> 符号。</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; Dorothy followed her through many of the beautiful rooms in her castle.</span><br><span class="line">&gt;</span><br><span class="line">&gt;&gt; The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-text" data-language="text"><code class="language-text">> Dorothy followed her through many of the beautiful rooms in her castle.
+>
+>> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 
 <p>渲染效果如下：</p>
 <blockquote>
@@ -141,7 +145,12 @@
 </blockquote>
 </blockquote>
 <h3 id="带有其它元素的块引用"><a href="#带有其它元素的块引用" class="headerlink" title="#带有其它元素的块引用"></a><a target="_blank" rel="noopener" href="https://markdown.com.cn/basic-syntax/blockquotes.html#%E5%B8%A6%E6%9C%89%E5%85%B6%E5%AE%83%E5%85%83%E7%B4%A0%E7%9A%84%E5%9D%97%E5%BC%95%E7%94%A8">#</a>带有其它元素的块引用</h3><p>块引用可以包含其他 Markdown 格式的元素。并非所有元素都可以使用，你需要进行实验以查看哪些元素有效。</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&gt; #### The quarterly results look great!</span><br><span class="line">&gt;</span><br><span class="line">&gt; - Revenue was off the chart.</span><br><span class="line">&gt; - Profits were higher than ever.</span><br><span class="line">&gt;</span><br><span class="line">&gt;  *Everything* is going according to **plan**.</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-text" data-language="text"><code class="language-text">> #### The quarterly results look great!
+>
+> - Revenue was off the chart.
+> - Profits were higher than ever.
+>
+>  *Everything* is going according to **plan**.<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p>渲染效果如下：</p>
 <blockquote>
@@ -151,25 +160,37 @@
 </ul>
 <p><em>Everything</em> is going according to <strong>plan</strong>.</p>
 </blockquote>
-<h3 id="图片和链接"><a href="#图片和链接" class="headerlink" title="图片和链接"></a>图片和链接</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">图片： ![Tux, the Linux mascot](/assets/images/tux.png)</span><br><span class="line">这是一个链接 [Markdown语法](https://markdown.com.cn &quot;最好的markdown教程&quot;)。</span><br></pre></td></tr></table></figure>
+<h3 id="图片和链接"><a href="#图片和链接" class="headerlink" title="图片和链接"></a>图片和链接</h3><pre class="line-numbers language-js" data-language="js"><code class="language-js">图片： <span class="token operator">!</span><span class="token punctuation">[</span>Tux<span class="token punctuation">,</span> the Linux mascot<span class="token punctuation">]</span><span class="token punctuation">(</span><span class="token operator">/</span>assets<span class="token operator">/</span>images<span class="token operator">/</span>tux<span class="token punctuation">.</span>png<span class="token punctuation">)</span>
+这是一个链接 <span class="token punctuation">[</span>Markdown语法<span class="token punctuation">]</span><span class="token punctuation">(</span>https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>markdown<span class="token punctuation">.</span>com<span class="token punctuation">.</span>cn <span class="token string">"最好的markdown教程"</span><span class="token punctuation">)</span>。<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
 <p>使用尖括号可以很方便地把URL或者email地址变成可点击的链接。</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;https://markdown.com.cn&gt;</span><br><span class="line">&lt;fake@example.com&gt;</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-text" data-language="text"><code class="language-text">&lt;https://markdown.com.cn>
+&lt;fake@example.com><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
 <p>给图片增加链接，请将图像的Markdown 括在方括号中，然后将链接添加在圆括号中。</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[![沙漠中的岩石图片](/assets/img/shiprock.jpg &quot;Shiprock&quot;)](https://markdown.com.cn)</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-text" data-language="text"><code class="language-text">[![沙漠中的岩石图片](/assets/img/shiprock.jpg "Shiprock")](https://markdown.com.cn)<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <h3 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h3><p>创建分隔线，请在单独一行上使用三个或多个星号 (<code>***</code>)、破折号 (<code>---</code>) 或下划线 (<code>___</code>) ，并且不能包含其他内容。</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">***</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">_________________</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-text" data-language="text"><code class="language-text">***
 
-<h3 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">~~世界是平坦的。~~ 我们现在知道世界是圆的。</span><br></pre></td></tr></table></figure>
+---
+
+_________________<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h3 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h3><pre class="line-numbers language-text" data-language="text"><code class="language-text">~~世界是平坦的。~~ 我们现在知道世界是圆的。<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><p>创建表格代码的链接：<a target="_blank" rel="noopener" href="https://www.tablesgenerator.com/markdown_tables">https://www.tablesgenerator.com/markdown_tables</a></p>
 <p>要添加表格，请使用三个或多个连字符（<code>---</code>）创建每列的标题，并使用管道（<code>|</code>）分隔每列。您可以选择在表的任一端添加管道。</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">| Syntax      | Description |</span><br><span class="line">| ----------- | ----------- |</span><br><span class="line">| Header      | Title       |</span><br><span class="line">| Paragraph   | Text        |</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-text" data-language="text"><code class="language-text">| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p>您可以通过在标题行中的连字符的左侧，右侧或两侧添加冒号（<code>:</code>），将列中的文本对齐到左侧，右侧或中心。</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">| Syntax      | Description | Test Text     |</span><br><span class="line">| :---        |    :----:   |          ---: |</span><br><span class="line">| Header      | Title       | Here&#x27;s this   |</span><br><span class="line">| Paragraph   | Text        | And more      |</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-text" data-language="text"><code class="language-text">| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 
         </div>
 
@@ -190,7 +211,7 @@
         function loadWaline() {
             init({
                 el: '#waline',
-                serverURL: 'https://waline.ninojay.eu.org/',
+                serverURL: 'waline.ninojay.eu.org',
                 lang: 'zh-CN',
                 dark: 'body[class~="dark-mode"]',
                 requiredMeta: ['nick','mail'], // cannot customize by theme config, change it yourself
@@ -207,7 +228,7 @@
 
      
 </div>
-                    <div class="footer">
+                <div class="footer">
     <span>© 2022-1999 nino 
         / <a href="/contact">联系</a>
         / <a href="/support">支持</a>
@@ -231,8 +252,7 @@
     hljs.initLineNumbersOnLoad();
 </script>
 
-                    </div>
-                
+                </div>
             
         </div>
     </body>

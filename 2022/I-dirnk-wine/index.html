@@ -22,11 +22,9 @@
 </head>
     <body>
         <div class="paper">
-                
-                    <div class="paper-main">
-                    
-
-<div class="header">
+            
+                <div class="paper-main">
+                <div class="header">
     <div class="header-container">
         <img class="header-img" src="/img/favicon.png" width="10%"></img>
         <div class="header-content">
@@ -43,15 +41,11 @@
         
         <li><a href="/list">文章</a></li>
         
-        <li><a href="/message">留言</a></li>
-        
         <li><a href="/about">关于</a></li>
-        
-        <li><a href="/now">now</a></li>
         
     </ul>
 </div>
-                    <div class="post-main">
+                <div class="post-main">
 
     
     
@@ -194,7 +188,7 @@
         function loadWaline() {
             init({
                 el: '#waline',
-                serverURL: 'https://waline.ninojay.eu.org/',
+                serverURL: 'waline.ninojay.eu.org',
                 lang: 'zh-CN',
                 dark: 'body[class~="dark-mode"]',
                 requiredMeta: ['nick','mail'], // cannot customize by theme config, change it yourself
@@ -211,7 +205,7 @@
 
      
 </div>
-                    <div class="footer">
+                <div class="footer">
     <span>© 2022-1999 nino 
         / <a href="/contact">联系</a>
         / <a href="/support">支持</a>
@@ -235,8 +229,7 @@
     hljs.initLineNumbersOnLoad();
 </script>
 
-                    </div>
-                
+                </div>
             
         </div>
     </body>
