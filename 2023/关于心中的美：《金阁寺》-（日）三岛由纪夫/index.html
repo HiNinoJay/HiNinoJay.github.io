@@ -17,7 +17,9 @@
     
 <link rel="stylesheet" href="/css/fonts.css">
 
-    <link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css"/>
+    
+<link rel="stylesheet" href="/css/waline.css">
+
 <meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="Nino" type="application/atom+xml">
 <link rel="alternate" href="/rss2.xml" title="Nino" type="application/rss+xml">
 </head>
@@ -99,7 +101,7 @@
  
     <div id="waline"></div>
     <script type="module"  >
-        import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+        import { init } from 'https://evan.beee.top/js/waline.mjs';
         function loadWaline() {
             init({
                 el: '#waline',
@@ -109,10 +111,7 @@
                 requiredMeta: ['nick','mail'], // cannot customize by theme config, change it yourself
             });
         }
-        const loadWalineTimeout = setTimeout(() => {
-            loadWaline();
-            clearTimeout(loadWalineTimeout);
-        }, 1000);
+        window.addEventListener('DOMContentLoaded', loadWaline);
     </script>
 
 
@@ -144,7 +143,6 @@
     hljs.initHighlightingOnLoad();
     hljs.initLineNumbersOnLoad();
 </script>
-
                 </div>
             
         </div>
