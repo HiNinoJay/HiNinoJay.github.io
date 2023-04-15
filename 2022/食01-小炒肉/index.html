@@ -55,7 +55,8 @@
                 <div class="post-main">
 
     
-    
+        <!-- data-path 将作为查询条件 -->
+
         <div class="post-main-title">
             食01-小炒肉
         </div>
@@ -109,10 +110,12 @@ src="//player.bilibili.com/player.html?aid=98598787&bvid=BV1G7411m7Qn&cid=168313
 <div class="comments-container">
 <div id="comment-anchor"></div>
 <div class="comment-area-title">
-    comments
+   以上。 
 </div>
     
- 
+    <!-- data-path 将作为查询条件 -->
+
+
     <div id="waline"></div>
     <script type="module"  >
         import { init } from 'https://evan.beee.top/js/waline.mjs';
@@ -123,6 +126,10 @@ src="//player.bilibili.com/player.html?aid=98598787&bvid=BV1G7411m7Qn&cid=168313
                 lang: 'zh-CN',
                 dark: 'body[class~="dark-mode"]',
                 requiredMeta: ['nick','mail'], // cannot customize by theme config, change it yourself
+                search: false, // 禁止表情包搜索
+                reaction: false, // 对文章打分
+                pageview: false, // 浏览量统计
+                comment: false, // 评论数统计
             });
         }
         window.addEventListener('DOMContentLoaded', loadWaline);
