@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Nino</title>
-  <icon>https://www.ninojay.top/icon.png</icon>
+  <icon>https://www.ninojay.top/img/favicon.png</icon>
   <subtitle>Web开发者｜阅读写作爱好者</subtitle>
   <link href="https://www.ninojay.top/atom.xml" rel="self"/>
   
