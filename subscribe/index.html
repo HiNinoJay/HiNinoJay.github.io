@@ -24,8 +24,8 @@
     <body>
         <div class="paper">
             
-                <div class="index-main">
-                    <div class="header">
+                <div class="paper-main">
+                <div class="header">
     <div class="header-container">
         <img class="header-img" src="/img/favicon.png" width="10%"></img>
         <div class="header-content">
@@ -50,32 +50,53 @@
         
     </ul>
 </div>
-                    <div class="post-main">
+                <div class="post-main">
+
     
-         
+
+        <div class="post-md">
+            <p>你可以通过以下方式订阅了解与我相关的内容：</p>
+<ul>
+<li><a href="https://www.ninojay.top/rss2.xml">RSS</a></li>
+</ul>
+
+        </div>
+
     
-         
     
-         
     
-         
-    
-         
-    
-         
-    
-         
-    
-         
-    
-         
-    
-         
-    
-         
-    
+        
+<div class="comments-container">
+<div id="comment-anchor"></div>
+<div class="comment-area-title">
+    comments
 </div>
-                    <div class="footer">
+    
+ 
+    <div id="waline"></div>
+    <script type="module"  >
+        import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+        function loadWaline() {
+            init({
+                el: '#waline',
+                serverURL: 'waline.ninojay.eu.org',
+                lang: 'zh-CN',
+                dark: 'body[class~="dark-mode"]',
+                requiredMeta: ['nick','mail'], // cannot customize by theme config, change it yourself
+            });
+        }
+        const loadWalineTimeout = setTimeout(() => {
+            loadWaline();
+            clearTimeout(loadWalineTimeout);
+        }, 1000);
+    </script>
+
+
+</div>
+
+     
+</div>
+                <div class="footer">
     <span>© 2022-1999 nino 
         / <a href="/contact">联系</a>
         / <a href="/support">支持</a>
