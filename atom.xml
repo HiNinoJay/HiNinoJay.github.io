@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Nino</title>
-  
+  <icon>https://www.ninojay.top/icon.png</icon>
   <subtitle>Web开发者｜阅读写作爱好者</subtitle>
   <link href="https://www.ninojay.top/atom.xml" rel="self"/>
   
@@ -503,9 +503,9 @@
     <category term="心理学" scheme="https://www.ninojay.top/categories/%E9%98%85%E8%AF%BB/%E5%BF%83%E7%90%86%E5%AD%A6/"/>
     
     
-    <category term="思辩" scheme="https://www.ninojay.top/tags/%E6%80%9D%E8%BE%A9/"/>
-    
     <category term="摘抄" scheme="https://www.ninojay.top/tags/%E6%91%98%E6%8A%84/"/>
+    
+    <category term="思辩" scheme="https://www.ninojay.top/tags/%E6%80%9D%E8%BE%A9/"/>
     
   </entry>
   
