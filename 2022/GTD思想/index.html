@@ -68,8 +68,8 @@
 <p>所谓GTD思想，即是大部分管理软件所倡导的思想。</p>
 <p>我们熟知的一些系统管理软件都是基于GTD思想来为用户设计的，比如ios，ipadOS，mac系统中的提醒事项、日历、备忘录。根据亲身经历并细心观察，大部分用户和我一样并没有深入学习软件的使用，直接暴力地使用软件常见的功能。我有时候总觉得有些不得劲，明明软件设计的很精巧，随着时间推移，我产生的内容在软件中越来越杂乱无章，即便是在我时不时刻意去分类的情况下。</p>
 <p><em><strong>掌握GTD思想更有助于合理使用软件服务生活、改善焦虑与拖延症、今日事今日毕。</strong></em></p>
-<p>这里是直接借鉴<a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=fFE0Td2o98Y">Y<em>ouTuber“mac云课堂”的休康</em></a>总结的使用方法，完全够用。具体的GTD思想的细节使用，就贴一下维基百科：<a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Getting_Things_Done">https://en.wikipedia.org/wiki/Getting_Things_Done</a></p>
-<h2 id="具体内容"><a href="#具体内容" class="headerlink" title="具体内容"></a>具体内容</h2><p>按照休康的总结，GTD*(Get Things Done)*分为五个步骤：捕获、明晰、组织、回顾、执行</p>
+<p>这里是直接借鉴<a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=fFE0Td2o98Y">YouTuber“mac云课堂”的休康</a>总结的使用方法，完全够用。具体的GTD思想的细节使用，就贴一下维基百科：<a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Getting_Things_Done">https://en.wikipedia.org/wiki/Getting_Things_Done</a></p>
+<h2 id="具体内容"><a href="#具体内容" class="headerlink" title="具体内容"></a>具体内容</h2><p>按照休康的总结，GTD <em>(Get Things Done)</em> 分为五个步骤：捕获、明晰、组织、回顾、执行</p>
 <p>捕获：弄一个收集箱，把脑袋中所有的想法记录下来。</p>
 <p>明晰：将这些想法进行分类。</p>
 <p>组织：按照分类将它们放到对应的清单。</p>
@@ -111,12 +111,17 @@
                 lang: 'zh-CN',
                 dark: 'body[class~="dark-mode"]',
                 requiredMeta: ['nick','mail'], // cannot customize by theme config, change it yourself
-                placeholder: '填写正确的邮箱地址，回复将能得到邮件通知。',
                 search: false, // 禁止表情包搜索
                 reaction: false, // 对文章打分
                 pageview: false, // 浏览量统计
                 comment: false, // 评论数统计
+
+                locale: {
+                    placeholder: '正确的邮箱地址，回复将能得到邮件通知。', 
+                    sofa: ''
+                },
             });
+            
         }
         window.addEventListener('DOMContentLoaded', loadWaline);
     </script>
