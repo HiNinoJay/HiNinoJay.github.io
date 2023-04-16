@@ -503,9 +503,9 @@
     <category term="心理学" scheme="https://www.ninojay.top/categories/%E9%98%85%E8%AF%BB/%E5%BF%83%E7%90%86%E5%AD%A6/"/>
     
     
-    <category term="摘抄" scheme="https://www.ninojay.top/tags/%E6%91%98%E6%8A%84/"/>
-    
     <category term="思辩" scheme="https://www.ninojay.top/tags/%E6%80%9D%E8%BE%A9/"/>
+    
+    <category term="摘抄" scheme="https://www.ninojay.top/tags/%E6%91%98%E6%8A%84/"/>
     
   </entry>
   
@@ -833,16 +833,18 @@
     <link href="https://www.ninojay.top/index/"/>
     <id>https://www.ninojay.top/index/</id>
     <published>2020-02-03T16:00:00.000Z</published>
-    <updated>2023-04-15T09:54:44.419Z</updated>
+    <updated>2023-04-16T07:58:54.238Z</updated>
     
-    <content type="html"><![CDATA[<h4 id="项目："><a href="#项目：" class="headerlink" title="项目："></a>项目：</h4><ul><li>本hexo博客主题开源：<a href="https://github.com/HiNinoJay/hexo-theme-A4.git">hexo-theme-A4</a>（正在维护）</li></ul>]]></content>
+    <content type="html"><![CDATA[<p>项目：</p><ul><li>写30篇文章（9&#x2F;30）</li><li>博客主题<a href="https://github.com/HiNinoJay/hexo-theme-A4.git">hexo-theme-A4</a>开源（正在维护）</li><li>系统阅读奥威尔、卡夫卡</li></ul><br><p>期待：</p><ul><li><del>开发自己的hexo博客主题</del>，官方收录（已申请）</li><li>2023 GitHub star数获得10个</li></ul><br><p>年度任务（0&#x2F;1）：</p><ul><li>找到工作</li></ul>]]></content>
     
     
       
       
         
         
-    <summary type="html">&lt;h4 id=&quot;项目：&quot;&gt;&lt;a</summary>
+    <summary type="html">&lt;p&gt;项目：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;</summary>
         
       
     
