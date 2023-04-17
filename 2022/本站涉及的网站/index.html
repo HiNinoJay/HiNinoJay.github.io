@@ -44,6 +44,8 @@
         
         <li><a href="/list">文章</a></li>
         
+        <li><a href="/works">作品</a></li>
+        
         <li><a href="/message">留言</a></li>
         
         <li><a href="/about">关于</a></li>
@@ -69,14 +71,14 @@
 <p><a target="_blank" rel="noopener" href="https://pixabay.com/">https://pixabay.com/</a></p>
 <p><a target="_blank" rel="noopener" href="https://visualhunt.com/">https://visualhunt.com/</a></p>
 <h1 id="B站视频嵌入代码显示问题"><a href="#B站视频嵌入代码显示问题" class="headerlink" title="B站视频嵌入代码显示问题"></a>B站视频嵌入代码显示问题</h1><p>直接使用嵌入代码，尺寸有问题，用如下的，修改下src地址就行。</p>
-<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token operator">&lt;</span>div style<span class="token operator">=</span><span class="token string">"position: relative; padding: 30% 45%;"</span><span class="token operator">></span>
-<span class="token operator">&lt;</span>iframe 
-style<span class="token operator">=</span><span class="token string">"position: absolute; width: 100%; height: 100%; left: 0; top: 0;"</span> 
-src<span class="token operator">=</span>"<span class="token comment">//player.bilibili.com/player.html?aid=934381863&amp;bvid=BV13M4y1P7PM&amp;cid=447999850</span>
-<span class="token operator">&amp;</span>page<span class="token operator">=</span><span class="token number">1</span><span class="token operator">&amp;</span>as_wide<span class="token operator">=</span><span class="token number">1</span><span class="token operator">&amp;</span>high_quality<span class="token operator">=</span><span class="token number">1</span><span class="token operator">&amp;</span>danmaku<span class="token operator">=</span><span class="token number">0</span><span class="token string">"frameborder="</span>no<span class="token string">" scrolling="</span>no"<span class="token operator">></span>
-<span class="token operator">&lt;</span><span class="token operator">/</span>iframe<span class="token operator">></span>
-<span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
+<pre><code class="js">&lt;div style=&quot;position: relative; padding: 30% 45%;&quot;&gt;
+&lt;iframe 
+style=&quot;position: absolute; width: 100%; height: 100%; left: 0; top: 0;&quot; 
+src=&quot;//player.bilibili.com/player.html?aid=934381863&amp;bvid=BV13M4y1P7PM&amp;cid=447999850
+&amp;page=1&amp;as_wide=1&amp;high_quality=1&amp;danmaku=0&quot;frameborder=&quot;no&quot; scrolling=&quot;no&quot;&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+</code></pre>
 <table>
 <thead>
 <tr>
@@ -123,26 +125,26 @@ src<span class="token operator">=</span>"<span class="token comment">//player.bi
 <li>语句接口：<a target="_blank" rel="noopener" href="https://v1.hitokoto.cn/">https://v1.hitokoto.cn/</a></li>
 </ul>
 <p>更新主题版本：</p>
-<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">npm update <span class="token operator">--</span>save hexo<span class="token operator">-</span>theme<span class="token operator">-</span>fluid<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
+<pre><code class="js">npm update --save hexo-theme-fluid
+</code></pre>
 <p>icon图标</p>
 <p><img src="https://hexo.fluid-dev.com/docs/assets/img/iconfont.f8319467.png" alt="icon图标"></p>
 <h1 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a><a target="_blank" rel="noopener" href="https://markdown.com.cn/">Markdown</a></h1><h3 id="换行"><a href="#换行" class="headerlink" title="换行"></a>换行</h3><p>在一行的末尾添加两个或多个空格，然后按回车键,即可创建一个换行(<code>&lt;br&gt;</code>)。</p>
 <h3 id="多个段落的块引用"><a href="#多个段落的块引用" class="headerlink" title="多个段落的块引用"></a>多个段落的块引用</h3><p>块引用可以包含多个段落。为段落之间的空白行添加一个 <code>&gt;</code> 符号。</p>
-<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token operator">></span> Dorothy followed her through many <span class="token keyword">of</span> the beautiful rooms <span class="token keyword">in</span> her castle<span class="token punctuation">.</span>
-<span class="token operator">></span>
-<span class="token operator">></span> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed <span class="token keyword">with</span> wood<span class="token punctuation">.</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-
+<pre><code class="js">&gt; Dorothy followed her through many of the beautiful rooms in her castle.
+&gt;
+&gt; The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
+</code></pre>
 <p>渲染效果如下：</p>
 <blockquote>
 <p>Dorothy followed her through many of the beautiful rooms in her castle.</p>
 <p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</p>
 </blockquote>
 <h3 id="嵌套块引用"><a href="#嵌套块引用" class="headerlink" title="#嵌套块引用"></a><a target="_blank" rel="noopener" href="https://markdown.com.cn/basic-syntax/blockquotes.html#%E5%B5%8C%E5%A5%97%E5%9D%97%E5%BC%95%E7%94%A8">#</a>嵌套块引用</h3><p>块引用可以嵌套。在要嵌套的段落前添加一个 <code>&gt;&gt;</code> 符号。</p>
-<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token operator">></span> Dorothy followed her through many <span class="token keyword">of</span> the beautiful rooms <span class="token keyword">in</span> her castle<span class="token punctuation">.</span>
-<span class="token operator">></span>
-<span class="token operator">>></span> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed <span class="token keyword">with</span> wood<span class="token punctuation">.</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-
+<pre><code class="js">&gt; Dorothy followed her through many of the beautiful rooms in her castle.
+&gt;
+&gt;&gt; The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
+</code></pre>
 <p>渲染效果如下：</p>
 <blockquote>
 <p>Dorothy followed her through many of the beautiful rooms in her castle.</p>
@@ -151,13 +153,13 @@ src<span class="token operator">=</span>"<span class="token comment">//player.bi
 </blockquote>
 </blockquote>
 <h3 id="带有其它元素的块引用"><a href="#带有其它元素的块引用" class="headerlink" title="#带有其它元素的块引用"></a><a target="_blank" rel="noopener" href="https://markdown.com.cn/basic-syntax/blockquotes.html#%E5%B8%A6%E6%9C%89%E5%85%B6%E5%AE%83%E5%85%83%E7%B4%A0%E7%9A%84%E5%9D%97%E5%BC%95%E7%94%A8">#</a>带有其它元素的块引用</h3><p>块引用可以包含其他 Markdown 格式的元素。并非所有元素都可以使用，你需要进行实验以查看哪些元素有效。</p>
-<pre class="line-numbers language-text" data-language="text"><code class="language-text">> #### The quarterly results look great!
->
-> - Revenue was off the chart.
-> - Profits were higher than ever.
->
->  *Everything* is going according to **plan**.<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
+<pre><code class="text">&gt; #### The quarterly results look great!
+&gt;
+&gt; - Revenue was off the chart.
+&gt; - Profits were higher than ever.
+&gt;
+&gt;  *Everything* is going according to **plan**.
+</code></pre>
 <p>渲染效果如下：</p>
 <blockquote>
 <h4 id="The-quarterly-results-look-great"><a href="#The-quarterly-results-look-great" class="headerlink" title="The quarterly results look great!"></a>The quarterly results look great!</h4><ul>
@@ -166,37 +168,38 @@ src<span class="token operator">=</span>"<span class="token comment">//player.bi
 </ul>
 <p><em>Everything</em> is going according to <strong>plan</strong>.</p>
 </blockquote>
-<h3 id="图片和链接"><a href="#图片和链接" class="headerlink" title="图片和链接"></a>图片和链接</h3><pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">图片： <span class="token operator">!</span><span class="token punctuation">[</span>Tux<span class="token punctuation">,</span> the Linux mascot<span class="token punctuation">]</span><span class="token punctuation">(</span><span class="token operator">/</span>assets<span class="token operator">/</span>images<span class="token operator">/</span>tux<span class="token punctuation">.</span>png<span class="token punctuation">)</span>
-这是一个链接 <span class="token punctuation">[</span>Markdown语法<span class="token punctuation">]</span><span class="token punctuation">(</span>https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>markdown<span class="token punctuation">.</span>com<span class="token punctuation">.</span>cn <span class="token string">"最好的markdown教程"</span><span class="token punctuation">)</span>。<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-
+<h3 id="图片和链接"><a href="#图片和链接" class="headerlink" title="图片和链接"></a>图片和链接</h3><pre><code class="js"> 图片： ![Tux, the Linux mascot](/assets/images/tux.png)
+ 这是一个链接 [Markdown语法](https://markdown.com.cn &quot;最好的markdown教程&quot;)。
+</code></pre>
 <p>使用尖括号可以很方便地把URL或者email地址变成可点击的链接。</p>
-<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token operator">&lt;</span>https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>markdown<span class="token punctuation">.</span>com<span class="token punctuation">.</span>cn<span class="token operator">></span>
-<span class="token operator">&lt;</span>fake@example<span class="token punctuation">.</span>com<span class="token operator">></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-
+<pre><code class="js">&lt;https://markdown.com.cn&gt;
+&lt;fake@example.com&gt;
+</code></pre>
 <p>给图片增加链接，请将图像的Markdown 括在方括号中，然后将链接添加在圆括号中。</p>
-<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token punctuation">[</span><span class="token operator">!</span><span class="token punctuation">[</span>沙漠中的岩石图片<span class="token punctuation">]</span><span class="token punctuation">(</span><span class="token operator">/</span>assets<span class="token operator">/</span>img<span class="token operator">/</span>shiprock<span class="token punctuation">.</span>jpg <span class="token string">"Shiprock"</span><span class="token punctuation">)</span><span class="token punctuation">]</span><span class="token punctuation">(</span>https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>markdown<span class="token punctuation">.</span>com<span class="token punctuation">.</span>cn<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
+<pre><code class="js">[![沙漠中的岩石图片](/assets/img/shiprock.jpg &quot;Shiprock&quot;)](https://markdown.com.cn)
+</code></pre>
 <h3 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h3><p>创建分隔线，请在单独一行上使用三个或多个星号 (<code>***</code>)、破折号 (<code>---</code>) 或下划线 (<code>___</code>) ，并且不能包含其他内容。</p>
-<pre class="line-numbers language-text" data-language="text"><code class="language-text">***
+<pre><code class="text">***
 
 ---
 
-_________________<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h3 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h3><pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown"><span class="token strike"><span class="token punctuation">~~</span><span class="token content">世界是平坦的。</span><span class="token punctuation">~~</span></span> 我们现在知道世界是圆的。<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
+_________________
+</code></pre>
+<h3 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h3><pre><code class="md">~~世界是平坦的。~~ 我们现在知道世界是圆的。
+</code></pre>
 <h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><p>创建表格代码的链接：<a target="_blank" rel="noopener" href="https://www.tablesgenerator.com/markdown_tables">https://www.tablesgenerator.com/markdown_tables</a></p>
 <p>要添加表格，请使用三个或多个连字符（<code>---</code>）创建每列的标题，并使用管道（<code>|</code>）分隔每列。您可以选择在表的任一端添加管道。</p>
-<pre class="line-numbers language-text" data-language="text"><code class="language-text">| Syntax      | Description |
+<pre><code class="text">| Syntax      | Description |
 | ----------- | ----------- |
 | Header      | Title       |
-| Paragraph   | Text        |<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-
+| Paragraph   | Text        |
+</code></pre>
 <p>您可以通过在标题行中的连字符的左侧，右侧或两侧添加冒号（<code>:</code>），将列中的文本对齐到左侧，右侧或中心。</p>
-<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown"><span class="token table"><span class="token table-header-row"><span class="token punctuation">|</span><span class="token table-header important"> Syntax      </span><span class="token punctuation">|</span><span class="token table-header important"> Description </span><span class="token punctuation">|</span><span class="token table-header important"> Test Text     </span><span class="token punctuation">|</span>
-</span><span class="token table-line"><span class="token punctuation">|</span> <span class="token punctuation">:---</span>        <span class="token punctuation">|</span>    <span class="token punctuation">:----:</span>   <span class="token punctuation">|</span>          <span class="token punctuation">---:</span> <span class="token punctuation">|</span>
-</span><span class="token table-data-rows"><span class="token punctuation">|</span><span class="token table-data"> Header      </span><span class="token punctuation">|</span><span class="token table-data"> Title       </span><span class="token punctuation">|</span><span class="token table-data"> Here's this   </span><span class="token punctuation">|</span>
-<span class="token punctuation">|</span><span class="token table-data"> Paragraph   </span><span class="token punctuation">|</span><span class="token table-data"> Text        </span><span class="token punctuation">|</span><span class="token table-data"> And more      </span><span class="token punctuation">|</span></span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<pre><code class="md">| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here&#39;s this   |
+| Paragraph   | Text        | And more      |
+</code></pre>
 
         </div>
 
