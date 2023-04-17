@@ -26,6 +26,9 @@
     <body>
         <div class="paper">
             
+            
+            
+            
                 <div class="paper-main">
                     <div class="header">
     <div class="header-container">
@@ -53,8 +56,17 @@
         <li><a href="/now">Now</a></li>
         
     </ul>
-</div>
-                    <div class="post-main">
+</div> 
+        
+                    
+                    
+
+                    
+                    
+                    
+                    <!--说明是文章post页面-->
+                    
+                        <div class="post-main">
 
     
         <div class="post-main-title">
@@ -63,8 +75,10 @@
         <div class="post-meta">
             2023-04-15
         </div>
-        <div class="post-md">
-            <p>该篇文章讲解我目前写作的工具使用，以及基本的流程。自认为是一套成熟且稳定，数据即刻安全备份，有网络即可写作，随时同步到自己的博客网站中。</p>
+    
+
+    <div class="post-md">
+        <p>该篇文章讲解我目前写作的工具使用，以及基本的流程。自认为是一套成熟且稳定，数据即刻安全备份，有网络即可写作，随时同步到自己的博客网站中。</p>
 <h3 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h3><p>我在github上建好了两个私有仓库：<em>github pages仓库</em> 和 <em>source仓库</em></p>
 <p>我的<a target="_blank" rel="noopener" href="https://ninojay.top/">网站</a>是通过本地<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">hexo</a>加载自己做的博客网站主题<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4">hexo-theme-A4</a>(已开源)，生成静态页面，发布代码到 github pages仓库 ，再用<a target="_blank" rel="noopener" href="https://vercel.com/dashboard">vercel容器</a>部署 github pages代码 进行互联网的访问。所以当 github pages仓库 任何的改动，vercel都会拉取最新的代码进行自动网站部署更新。</p>
 <p><em>github pages仓库 :博客网站源码</em></p>
@@ -116,9 +130,7 @@ comment: false # 手动关闭该篇文章的评论系统（可选，默认打开
 <h3 id="不足"><a href="#不足" class="headerlink" title="不足"></a>不足</h3><p>因为拆分为了两个仓库，所以多了一步手动部署至网站。我再找找有什么办法，可以在source仓库上写好文章提交，其他啥也不用管，自动同步到 git pages仓库的方法。</p>
 <p>目前已了解到github Action似乎可以完成这个操作。</p>
 
-        </div>
-
-    
+    </div>
     
     
         
@@ -161,6 +173,7 @@ comment: false # 手动关闭该篇文章的评论系统（可选，默认打开
 
      
 </div>
+                    
                     <div class="footer">
     
         <span>© 2022-1999 nino 
@@ -171,6 +184,7 @@ comment: false # 手动关闭该篇文章的评论系统（可选，默认打开
         </span>
     
 </div>
+<!--这是指一条线往下的内容-->
 <div class="footer-last">
     
         <span class="footer-last-span">🌊看过大海的人不会忘记海的广阔🌊</span>
@@ -193,6 +207,5 @@ comment: false # 手动关闭该篇文章的评论系统（可选，默认打开
 </script>
                 </div>
             
-        </div>
     </body>
 </html>

@@ -26,139 +26,96 @@
     <body>
         <div class="paper">
             
-                <div class="index-main">
-                    <!-- 这个header就是特指首页的header -->
+            
+            
+            
+                <div class="paper-main">
+                    <div class="header">
+    <div class="header-container">
+        <img cache-control="max-age=86400" class="header-img" src="/img/favicon.png" width="10%"></img>
+        <div class="header-content">
+            <a class="logo" href="/">Nino</a> 
+            <span class="description">Web开发者｜阅读写作爱好者</span> 
+        </div>
+        
+    </div>
+    
+   
+    <ul class="nav">
+        
+        <li><a href="/">首页</a></li>
+        
+        <li><a href="/list">文章</a></li>
+        
+        <li><a href="/works">作品</a></li>
+        
+        <li><a href="/message">留言</a></li>
+        
+        <li><a href="/about">关于</a></li>
+        
+        <li><a href="/now">Now</a></li>
+        
+    </ul>
+</div> 
+        
+                    
+                    
 
+                    
+                    
+                    
+                    <!--说明是文章post页面-->
+                    
+                        <div class="post-main">
 
-<div class="index-header-line"><span>It&#39;s gonna be okay.</span></div>
+    
 
-<a class="index-logo" href="/">Nino</a>
-<div class="index-header">
-    首页&nbsp / &nbsp  
+    <div class="post-md">
+        
+    </div>
+    
     
         
-
-        
+<div class="comments-container">
+<div id="comment-anchor"></div>
+<div class="comment-area-title">
+   以上。 
+</div>
     
-        
-            <a href="/list">文章</a>&nbsp / &nbsp 
-        
+    <!-- data-path 将作为查询条件 -->
 
-        
-    
-        
 
-        
-    
-        
+    <div id="waline"></div>
+    <script type="module"  >
+        import { init } from 'https://evan.beee.top/js/waline.mjs';
+        function loadWaline() {
+            init({
+                el: '#waline',
+                serverURL: 'waline.ninojay.eu.org',
+                lang: 'zh-CN',
+                dark: 'body[class~="dark-mode"]',
+                requiredMeta: ['nick','mail'], // cannot customize by theme config, change it yourself
+                search: false, // 禁止表情包搜索
+                reaction: false, // 对文章打分
+                pageview: false, // 浏览量统计
+                comment: false, // 评论数统计
 
-        
-    
-        
-            <a href="/about">关于</a>&nbsp / &nbsp 
-        
+                locale: {
+                    placeholder: '正确的邮箱地址，回复将能得到邮件通知。', 
+                    sofa: ''
+                },
+            });
+            
+        }
+        window.addEventListener('DOMContentLoaded', loadWaline);
+    </script>
 
-        
-    
-        
 
-        
-            <a href="/now">Now</a>
-        
-    
 </div>
 
-                    <div class="post-main">
-    
-         
-    
-         
-    
-         
-    
-         
-    
-         
-    
-         
-    
-         
-    
-         
-    
-         
-    
-         
-    
-         
-    
-         
-    
-         
-    
-         
-    
-         
-    
-         
-    
-         
-    
-         
-    
-         
-    
-         
-    
-         
-    
-         
-    
-         
-    
-         
-    
-         
-    
-         
-    
-         
-    
-         
-    
-         
-    
-        
-            <div class="post-md">
-                <p>项目：</p>
-<ul>
-<li><del>博客网站搭建：最终定型为A4纸风格</del></li>
-<li><del>开源博客主题</del> <a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4.git">hexo-theme-A4</a>（正在维护）</li>
-<li>开发并开源博客主题对应的typora主题typora-theme-A4</li>
-<li>系统阅读奥威尔、卡夫卡</li>
-<li>写30篇文章，不包括摘抄（8&#x2F;30）</li>
-</ul>
-<br>
-
-<p>期待：</p>
-<ul>
-<li><del>开发自己的hexo博客主题</del>，官方收录（已申请）</li>
-<li>玩《塞尔达·王国之泪》</li>
-<li>2023 GitHub star数获得10个</li>
-</ul>
-<br>
-
-
-
-<p>年度任务（0&#x2F;1）：</p>
-<ul>
-<li>找到工作</li>
-</ul>
-
-            </div>
-         
-    
+     
 </div>
+                    
                     <div class="footer">
     
         <span>© 2022-1999 nino 
@@ -169,6 +126,7 @@
         </span>
     
 </div>
+<!--这是指一条线往下的内容-->
 <div class="footer-last">
     
         <span class="footer-last-span">🌊看过大海的人不会忘记海的广阔🌊</span>
@@ -191,6 +149,5 @@
 </script>
                 </div>
             
-        </div>
     </body>
 </html>
