@@ -204,12 +204,12 @@
                             互联网
                         </a>
                     
-                        <a href='/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/'>
-                            工具使用
-                        </a>
-                    
                         <a href='/tags/%E7%94%9F%E6%B4%BB/'>
                             生活
+                        </a>
+                    
+                        <a href='/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/'>
+                            工具使用
                         </a>
                     
                 </span>
@@ -243,7 +243,7 @@
         function loadWaline() {
             init({
                 el: '#waline',
-                serverURL: 'waline.ninojay.eu.org',
+                serverURL: 'https://ninojay-commnet.netlify.app/.netlify/functions/comment',
                 lang: 'zh-CN',
                 dark: 'body[class~="dark-mode"]',
                 requiredMeta: ['nick','mail'], // cannot customize by theme config, change it yourself
