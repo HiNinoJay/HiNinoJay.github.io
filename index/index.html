@@ -16,11 +16,8 @@
 
     
 <link rel="stylesheet" href="/css/fonts.css">
-
-    
-        
-<link rel="stylesheet" href="/css/waline.css">
-
+ 
+    <!--注意：首页既不是post也不是page-->
     
 <meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="Nino" type="application/atom+xml">
 <link rel="alternate" href="/rss2.xml" title="Nino" type="application/rss+xml">
@@ -112,44 +109,6 @@
 
     </div>
     
-    
-        
-    <div class="comments-container">
-    <div id="comment-anchor"></div>
-    <div class="comment-area-title">
-        以上。 
-    </div>
-        
-
-    <div id="waline"></div>
-    <script type="module"  >
-        import { init } from 'https://evan.beee.top/js/waline.mjs';
-        function loadWaline() {
-            init({
-                el: '#waline',
-                serverURL: 'waline.ninojay.eu.org',
-                lang: 'zh-CN',
-                dark: 'body[class~="dark-mode"]',
-                requiredMeta: ['nick','mail'], // cannot customize by theme config, change it yourself
-                search: false, // 禁止表情包搜索
-                reaction: false, // 对文章打分
-                pageview: false, // 浏览量统计
-                comment: false, // 评论数统计
-
-                locale: {
-                    placeholder: '正确的邮箱地址，回复将能得到邮件通知。', 
-                    sofa: ''
-                },
-            });
-            
-        }
-        window.addEventListener('DOMContentLoaded', loadWaline);
-    </script>
-
-
-    </div>
-
-
      
 </div>
                     
