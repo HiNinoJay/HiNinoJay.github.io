@@ -6,7 +6,7 @@
   <link href="https://www.ninojay.top/atom.xml" rel="self"/>
   
   <link href="https://www.ninojay.top/"/>
-  <updated>2023-04-21T02:31:50.559Z</updated>
+  <updated>2023-04-21T05:33:14.251Z</updated>
   <id>https://www.ninojay.top/</id>
   
   <author>
@@ -15,6 +15,39 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo底层json数据内容</title>
+    <link href="https://www.ninojay.top/2023/hexo-date-inside/"/>
+    <id>https://www.ninojay.top/2023/hexo-date-inside/</id>
+    <published>2023-04-21T04:49:00.000Z</published>
+    <updated>2023-04-21T05:33:14.251Z</updated>
+    
+    <content type="html"><![CDATA[<p>为了便于开发hexo主题，在此记录下hexo启动后，基本的参数内容。</p><p>因为几乎都是json格式，熟悉了过后，用ejs写代码去实现自己想要的功能，两个字：带劲。</p><p><strong>page</strong></p><pre><code class="json">&#123;  title: &#39;now&#39;,  date: Moment&lt;2023-04-13T23:30:27+08:00&gt;,  _content: &#39;&#39;,  source: &#39;now/index.md&#39;,  raw: &#39;&#39;,  updated: Moment&lt;2023-04-21T12:08:08+08:00&gt;,  path: &#39;now/index.html&#39;,  comments: true,  layout: &#39;page&#39;,  _id: &#39;&#39;,  content: &#39;具体内容&#39;,  site: &#123; data: &#123;&#125; &#125;,  excerpt: &#39;&#39;,  more: &#39;&#39;,  permalink: &#39;https://www.ninojay.top/now/index.html&#39;,  full_source: &#39;/Users/cengzhongjie/Desktop/website/source/now/index.md&#39;,  __page: true,  lang: &#39;en&#39;,  canonical_path: &#39;now/index.html&#39;&#125;</code></pre><p><strong>page(is_post() &#x3D;&#x3D; true)</strong></p><pre><code class="json">&#123;  title: &#39;hexo底层json数据内容&#39;,  date: Moment&lt;2023-04-21T12:49:00+08:00&gt;,  _content: &#39;&#39;,  source: &#39;_posts/2023/hexo-date-inside.md&#39;,  raw: &#39;&#39;,  slug: &#39;2023/hexo-date-inside&#39;,  published: true,  updated: Moment&lt;2023-04-21T12:56:33+08:00&gt;,  _id: &#39;&#39;,  comments: true,  layout: &#39;post&#39;,  photos: [],  link: &#39;&#39;,  content: &#39;&#39;,  site: &#123; data: &#123;&#125; &#125;,  excerpt: &#39;&#39;,  more: &#39;&#39;,  path: &#39;2023/hexo-date-inside/&#39;,  permalink: &#39;https://www.ninojay.top/2023/hexo-date-inside/&#39;,  full_source: &#39;/Users/cengzhongjie/Desktop/website/source/_posts/2023/hexo-date-inside.md&#39;,  asset_dir: &#39;/Users/cengzhongjie/Desktop/website/source/_posts/2023/hexo-date-inside/&#39;,  tags: _Query &#123;    data: [ [_Document], [_Document], [_Document], [_Document] ],    length: 4  &#125;,  categories: _Query &#123; data: [ [_Document] ], length: 1 &#125;,  next: &lt;ref *1&gt; _Document &#123;    title: &#39;这个世界真的能消灭贫困吗？&#39;,    date: Moment&lt;2023-04-20T20:17:00+08:00&gt;,    _content: &#39;&#39;,    source: &#39;_posts/2023/ask-why-no-more-peaceful-person.md&#39;,    raw: &#39;&#39;,    slug: &#39;2023/ask-why-no-more-peaceful-person&#39;,    published: true,    updated: Moment&lt;2023-04-21T10:31:50+08:00&gt;,    _id: &#39;&#39;,    comments: true,    layout: &#39;post&#39;,    photos: [],    link: &#39;&#39;,    content: &#39;&#39;,    site: &#123; data: &#123;&#125; &#125;,    excerpt: &#39;&#39;,    more: &#39;&#39;,    path: [Getter],    permalink: [Getter],    full_source: [Getter],    asset_dir: [Getter],    tags: [Getter],    categories: [Getter],    prev: _Document &#123;      title: &#39;hexo底层json数据内容&#39;,      date: Moment&lt;2023-04-21T12:49:00+08:00&gt;,      _content: &#39;&#39;,      source: &#39;_posts/2023/hexo-date-inside.md&#39;,      raw: &#39;&#39;,      slug: &#39;2023/hexo-date-inside&#39;,      published: true,      updated: Moment&lt;2023-04-21T12:56:33+08:00&gt;,      _id: &#39;&#39;,      comments: true,      layout: &#39;post&#39;,      photos: [],      link: &#39;&#39;,      content: &#39;&#39;,      site: [Object],      excerpt: &#39;&#39;,      more: &#39;&#39;,      path: [Getter],      permalink: [Getter],      full_source: [Getter],      asset_dir: [Getter],      tags: [Getter],      categories: [Getter],      next: [Circular *1],      __post: true    &#125;,    next: _Document &#123;      title: &#39;手把手教你搭建轻型个人网站（0）——前言&#39;,      date: Moment&lt;2023-04-19T13:45:00+08:00&gt;,      _content: &#39;&#39;,      source: &#39;_posts/2023/how-to-deploy-your-own-website-0.md&#39;,      raw: &#39;&#39;,      slug: &#39;2023/how-to-deploy-your-own-website-0&#39;,      published: true,      updated: Moment&lt;2023-04-21T12:50:39+08:00&gt;,      _id: &#39;clgq2pcx20008inqt63x2a5i1&#39;,      comments: true,      layout: &#39;post&#39;,      photos: [],      link: &#39;&#39;,      content: &#39;&#39;,      path: [Getter],      permalink: [Getter],      full_source: [Getter],      asset_dir: [Getter],      tags: [Getter],      categories: [Getter],      prev: [Circular *1],      next: [_Document],      __post: true    &#125;,    __post: true  &#125;,  __post: true,  lang: &#39;en&#39;,  canonical_path: &#39;2023/hexo-date-inside/index.html&#39;&#125;</code></pre><p><strong>page.tags</strong></p><pre><code class="json">_Query &#123;  data: [    _Document &#123;      name: &#39;互联网&#39;,      _id: &#39;&#39;,      slug: [Getter], // 互联网      path: [Getter], // tags/工具使用/      permalink: [Getter], // https://www.ninojay.top/tags/%E6%80%9D%E8%80%83/      posts: [Getter], //见下      length: [Getter] // 1 代表这个标签下的post数目    &#125;,    _Document &#123;      name: &#39;工具使用&#39;,      _id: &#39;&#39;,      slug: [Getter],      path: [Getter],       permalink: [Getter],      posts: [Getter],      length: [Getter]    &#125;,    _Document &#123;      name: &#39;搭建网站&#39;,      _id: &#39;&#39;,      slug: [Getter],      path: [Getter],      permalink: [Getter],      posts: [Getter],      length: [Getter]    &#125;,    _Document &#123;      name: &#39;hexo&#39;,      _id: &#39;&#39;,      slug: [Getter],      path: [Getter],      permalink: [Getter],      posts: [Getter],      length: [Getter]    &#125;  ],  length: 4&#125;</code></pre><p><strong>page.tags.data[0].posts</strong></p><pre><code class="json">_Query &#123;  data: [    _Document &#123;      title: &#39;这个世界真的能消灭贫困吗？&#39;,      date: Moment&lt;2023-04-20T20:17:00+08:00&gt;,      _content: &#39;&#39;,      source: &#39;&#39;,      slug: &#39;2023/ask-why-no-more-peaceful-person&#39;,      published: true,      updated: Moment&lt;2023-04-21T10:31:50+08:00&gt;,      _id: &#39;&#39;,      comments: true,      layout: &#39;post&#39;,      photos: [],      link: &#39;&#39;,      content: &#39;&#39;,      site: [Object],      excerpt: &#39;&#39;,      more: &#39;&#39;,      path: [Getter],      permalink: [Getter],      full_source: [Getter],      asset_dir: [Getter],      tags: [Getter],      categories: [Getter],      prev: [_Document],      next: [_Document],      __post: true    &#125;  ],  length: 1&#125;</code></pre><p><strong>page.categoires</strong></p><pre><code class="json">_Query &#123;  data: [    _Document &#123;      name: &#39;思辨&#39;,      _id: &#39;&#39;,      slug: [Getter], // 思辨      path: [Getter], // categories/思辨/      permalink: [Getter],  // https://www.ninojay.top/categories/%E6%80%9D%E8%BE%A8/      posts: [Getter],      length: [Getter] // 7 代表该分类下post数量    &#125;  ],  length: 1&#125;</code></pre><p><strong>page.categories.data[0].posts</strong></p><pre><code class="json">_Query &#123;  data: [    _Document &#123;      title: &#39;食01-小炒肉&#39;,      date: Moment&lt;2022-03-31T14:27:36+08:00&gt;,      banner: &#39;/img/postImages/xiaochaorou.jpg&#39;,      _content: &#39;&#39;,      source: &#39;_posts/2022/stir-fried-pork.md&#39;,      raw: &#39;&#39;,      slug: &#39;2022/stir-fried-pork&#39;,      published: true,      updated: Moment&lt;2023-04-19T03:11:22+08:00&gt;,      comments: true,      layout: &#39;post&#39;,      photos: [],      link: &#39;&#39;,      _id: &#39;&#39;,      content: &#39;&#39;,      path: [Getter],      permalink: [Getter],      full_source: [Getter],      asset_dir: [Getter],      tags: [Getter],      categories: [Getter],      prev: [_Document],      next: [_Document],      __post: true    &#125;  ],  length: 1&#125;</code></pre>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了便于开发hexo主题，在此记录</summary>
+        
+      
+    
+    
+    
+    <category term="软件" scheme="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/"/>
+    
+    
+    <category term="互联网" scheme="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/"/>
+    
+    <category term="工具使用" scheme="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/"/>
+    
+    <category term="hexo" scheme="https://www.ninojay.top/tags/hexo/"/>
+    
+    <category term="搭建网站" scheme="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/"/>
+    
+  </entry>
   
   <entry>
     <title>这个世界真的能消灭贫困吗？</title>
@@ -45,10 +78,10 @@
   
   <entry>
     <title>手把手教你搭建轻型个人网站（0）——前言</title>
-    <link href="https://www.ninojay.top/2023/how-to-deploy-your-own-website-1/"/>
-    <id>https://www.ninojay.top/2023/how-to-deploy-your-own-website-1/</id>
+    <link href="https://www.ninojay.top/2023/how-to-deploy-your-own-website-0/"/>
+    <id>https://www.ninojay.top/2023/how-to-deploy-your-own-website-0/</id>
     <published>2023-04-19T05:45:00.000Z</published>
-    <updated>2023-04-20T13:17:33.743Z</updated>
+    <updated>2023-04-21T05:35:58.979Z</updated>
     
     <content type="html"><![CDATA[<p>如果你有搭建个人网站的念头，会去互联网搜索搭建网站的方法。外行人浏览一圈资讯能一下入坑，完成独立搭建的人，占极少部分，大多需要折腾十天半个月，结果放弃。就算是学过编程的人，一想到搭建网站，也会联想到动态网站的服务器，域名，后端数据库，前端页面的设计管理，头也会变得很大。</p><p>这时候就会有人提出，使用成熟静态网站搭建工具。这便是该系列教程的主题。如果你只想搭建一个轻型的静态博客网站，那么你即是本系列文章的目标群体。</p><p>开始之前，我想说一个现象，很多教程一上来就分步骤描述，第一步安装什么，第二步安装什么..过程当中遇到了一些问题，都会让读者迷惑不已，甚至搭建好了才发现不适合自己，后续的维护繁琐，还不如直接用商用的博客平台。</p><p>所以，我会按照这个顺序描述：</p><ul><li>假设你已经有了自己的网站，日常你将如何发布新文章到网站，如何维护网站</li><li>搭建一个网站的几个必备要素是什么，要不要付费，哪些实际上可以不花钱</li><li>到底如何把网站代码自动生成出来，怎么挑选喜欢的网站风格，便捷地一键切换</li></ul><p>跟着我的思路走，你的心里就会有数，搭建之前就形成一种管理自己网站的大局观，了然该种方法适不适合你，要不要接下去跟着我把个人网站完成。</p><p><strong>ps：等待我的博客主题被官方收录再正式更新吧。</strong></p><p><strong>系列：</strong></p><ul><li><a href="">手把手教你搭建轻型个人网站（1）——如何维护自己的网站</a></li><li><a href="">手把手教你搭建轻型个人网站（2）——搭建网站的必备要素</a></li><li><a href="">手把手教你搭建轻型个人网站（3）——随意挑选喜欢的网站风格并生成代码上传</a></li></ul>]]></content>
     
@@ -69,6 +102,8 @@
     <category term="互联网" scheme="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/"/>
     
     <category term="工具使用" scheme="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/"/>
+    
+    <category term="hexo" scheme="https://www.ninojay.top/tags/hexo/"/>
     
     <category term="搭建网站" scheme="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/"/>
     
