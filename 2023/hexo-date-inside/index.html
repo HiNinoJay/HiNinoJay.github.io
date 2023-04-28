@@ -1,6 +1,108 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta content="width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover" name="viewport"><meta name="description" content="hexo底层json数据内容"><link rel="alternate icon" type="image/webp" href="/img/favicon.webp"><title>Nino | Web开发者｜阅读写作爱好者</title><link rel="stylesheet" href="/css/reset.css"><link rel="stylesheet" href="/css/style.css"><link rel="stylesheet" href="/css/markdown.css"><link rel="stylesheet" href="/css/fonts.css"><link rel="stylesheet" href="/css/waline.css"><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="Nino" type="application/atom+xml">
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  viewport-fit=cover" name="viewport" />
+    <meta name="description" content="hexo底层json数据内容" />
+    <link rel="alternate icon" type="image/webp" href="/img/favicon.webp">
+    <title>Nino | Web开发者｜阅读写作爱好者</title>
+    
+<link rel="stylesheet" href="/css/reset.css">
+
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    
+<link rel="stylesheet" href="/css/markdown.css">
+
+    
+<link rel="stylesheet" href="/css/fonts.css">
+ 
+    <!--注意：首页既不是post也不是page-->
+    
+        
+<link rel="stylesheet" href="/css/waline.css">
+
+    
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="Nino" type="application/atom+xml">
 <link rel="alternate" href="/rss2.xml" title="Nino" type="application/rss+xml">
-</head><body><div class="paper"><div class="paper-main"><div class="header"><div class="header-container"><img style="width:56px;height:auto" alt="^-^" cache-control="max-age=86400" class="header-img" src="/img/favicon.webp" width="10%"><div class="header-content"><a class="logo" href="/">Nino</a> <span class="description">Web开发者｜阅读写作爱好者</span></div></div><ul class="nav"><li><a href="/">首页</a></li><li><a href="/list">文章</a></li><li><a href="/works">作品</a></li><li><a href="/message">留言</a></li><li><a href="/about">关于</a></li><li><a href="/now">Now</a></li></ul></div><div class="post-main"><div class="post-main-title">hexo底层json数据内容</div><div class="post-md"><p>为了便于开发hexo主题，在此记录下hexo启动后，基本的参数内容。</p><p>因为几乎都是json格式，熟悉了过后，用ejs写代码去实现自己想要的功能，两个字：带劲。</p><blockquote><p>不明白官网使用手册，基本的参数都提供了，这个json数据为啥不直接提供。都是我自己运行后调用，打印出来的。</p></blockquote><p><strong>page</strong></p><pre><code class="json">&#123;
+</head>
+    <body>
+        <div class="paper">
+           
+            
+            
+            
+                <div class="paper-main">
+                    
+<div class="header">
+    <div class="header-container">
+        <img style="
+        width: 56px;
+        height: auto;" alt="^-^" cache-control="max-age=86400" class="header-img" src="/img/favicon.webp" width="10%"></img>
+        <div class="header-content">
+            <a class="logo" href="/">Nino</a> 
+            <span class="description">Web开发者｜阅读写作爱好者</span> 
+        </div>
+        
+    </div>
+    
+   
+    <ul class="nav">
+        
+            
+                <li><a href="/">首页</a></li>
+            
+        
+            
+                <li><a href="/list/">文章</a></li>
+            
+        
+            
+                <li><a href="/works/">作品</a></li>
+            
+        
+            
+                <li><a href="/message/">留言</a></li>
+            
+        
+            
+                <li><a href="/about/">关于</a></li>
+            
+        
+            
+                <li><a href="/now/">Now</a></li>
+            
+        
+    </ul>
+</div> 
+        
+                    
+                    
+
+                    
+                    
+                    
+                    <!--说明是文章post页面-->
+                    
+                        <div class="post-main">
+
+
+    
+        <div class="post-main-title">
+            hexo底层json数据内容
+        </div>
+        
+    
+   
+    <div class="post-md">
+        <p>为了便于开发hexo主题，在此记录下hexo启动后，基本的参数内容。</p>
+<p>因为几乎都是json格式，熟悉了过后，用ejs写代码去实现自己想要的功能，两个字：带劲。</p>
+<blockquote>
+<p>不明白官网使用手册，基本的参数都提供了，这个json数据为啥不直接提供。都是我自己运行后调用，打印出来的。</p>
+</blockquote>
+<p><strong>page</strong></p>
+<pre><code class="json">&#123;
   title: &#39;now&#39;,
   date: Moment&lt;2023-04-13T23:30:27+08:00&gt;,
   _content: &#39;&#39;,
@@ -21,7 +123,9 @@
   lang: &#39;en&#39;,
   canonical_path: &#39;now/index.html&#39;
 &#125;
-</code></pre><p><strong>page(is_post() &#x3D;&#x3D; true)</strong></p><pre><code class="json">&#123;
+</code></pre>
+<p><strong>page(is_post() &#x3D;&#x3D; true)</strong></p>
+<pre><code class="json">&#123;
   title: &#39;hexo底层json数据内容&#39;,
   date: Moment&lt;2023-04-21T12:49:00+08:00&gt;,
   _content: &#39;&#39;,
@@ -130,7 +234,9 @@
   lang: &#39;en&#39;,
   canonical_path: &#39;2023/hexo-date-inside/index.html&#39;
 &#125;
-</code></pre><p><strong>page.tags</strong></p><pre><code class="json">_Query &#123;
+</code></pre>
+<p><strong>page.tags</strong></p>
+<pre><code class="json">_Query &#123;
   data: [
     _Document &#123;
       name: &#39;互联网&#39;,
@@ -172,7 +278,9 @@
   length: 4
 &#125;
 
-</code></pre><p><strong>page.tags.data[0].posts</strong></p><pre><code class="json">_Query &#123;
+</code></pre>
+<p><strong>page.tags.data[0].posts</strong></p>
+<pre><code class="json">_Query &#123;
   data: [
     _Document &#123;
       title: &#39;这个世界真的能消灭贫困吗？&#39;,
@@ -204,7 +312,9 @@
   ],
   length: 1
 &#125;
-</code></pre><p><strong>page.categoires</strong></p><pre><code class="json">_Query &#123;
+</code></pre>
+<p><strong>page.categoires</strong></p>
+<pre><code class="json">_Query &#123;
   data: [
     _Document &#123;
       name: &#39;思辨&#39;,
@@ -218,7 +328,9 @@
   ],
   length: 1
 &#125;
-</code></pre><p><strong>page.categories.data[0].posts</strong></p><pre><code class="json">_Query &#123;
+</code></pre>
+<p><strong>page.categories.data[0].posts</strong></p>
+<pre><code class="json">_Query &#123;
   data: [
     _Document &#123;
       title: &#39;食01-小炒肉&#39;,
@@ -249,4 +361,148 @@
   ],
   length: 1
 &#125;
-</code></pre></div><div class="post-meta"><i><span>2023-04-21</span> <span>该篇文章被 nino</span> <span>打上标签: <a href="/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用 </a><a href="/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网 </a><a href="/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站 </a><a href="/tags/hexo/">hexo </a></span><span>归为分类: <a href="/categories/%E8%BD%AF%E4%BB%B6/">软件</a></span></i></div><div class="comments-container"><div id="comment-anchor"></div><div class="comment-area-title">以上。</div><div id="waline"></div><script type="module">import{init}from"/js/waline.mjs";function loadWaline(){init({el:"#waline",serverURL:"waline.ninojay.top",lang:"zh-CN",dark:'body[class~="dark-mode"]',requiredMeta:["nick","mail"],search:!1,reaction:!1,pageview:!1,comment:!1,locale:{placeholder:"正确的邮箱地址，回复将能得到邮件通知。",sofa:""}})}window.addEventListener("DOMContentLoaded",loadWaline)</script></div></div><div class="footer"><span>© 2022-1999 nino / <a href="/contact">联系 </a>/ <a href="/support">支持 </a>/ <a href="/subscribe">订阅 </a>/ <a href="/friends">近邻</a></span></div><div class="footer-last"><span class="footer-last-span">🌊看过大海的人不会忘记海的广阔🌊</span></div><link rel="stylesheet" href="/css/a11y-dark.min.css"><script src="/js/highlight.min.js"></script><script src="/js/highlightjs-line-numbers.js"></script><script>hljs.initHighlightingOnLoad(),hljs.initLineNumbersOnLoad()</script></div></div></body></html>
+</code></pre>
+
+    </div>
+   
+    <div class="post-meta">
+        <i>
+        
+            <span>2023-04-21</span>
+            
+                <span>该篇文章被 nino</span>
+            
+            
+                <span>打上标签:
+                    
+                    
+                        <a href='/tags/%E4%BA%92%E8%81%94%E7%BD%91/'>
+                            互联网
+                        </a>
+                    
+                        <a href='/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/'>
+                            工具使用
+                        </a>
+                    
+                        <a href='/tags/hexo/'>
+                            hexo
+                        </a>
+                    
+                        <a href='/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/'>
+                            搭建网站
+                        </a>
+                    
+                </span>
+             
+             
+                <span>归为分类:
+                    
+                    
+                        <a href='/categories/%E8%BD%AF%E4%BB%B6/'>
+                            软件
+                        </a>
+                    
+                </span>
+            
+
+        
+        </i>
+    </div>
+    
+        
+    <div class="comments-container">
+    <div id="comment-anchor"></div>
+    <div class="comment-area-title">
+        以上。 
+    </div>
+        
+
+    <div id="waline"></div>
+    <script type="module"  >
+        import { init } from '/js/waline.mjs';
+        function loadWaline() {
+            init({
+                el: '#waline',
+                serverURL: 'waline.ninojay.top',
+                lang: 'zh-CN',
+                dark: 'body[class~="dark-mode"]',
+                requiredMeta: ['nick','mail'], // cannot customize by theme config, change it yourself
+                search: false, // 禁止表情包搜索
+                reaction: false, // 对文章打分
+                pageview: false, // 浏览量统计
+                comment: false, // 评论数统计
+
+                locale: {
+                    placeholder: '正确的邮箱地址，回复将能得到邮件通知。', 
+                    sofa: ''
+                },
+            });
+            
+        }
+        window.addEventListener('DOMContentLoaded', loadWaline);
+    </script>
+
+
+    </div>
+
+
+     
+</div>
+                    
+                    <div class="footer">
+    
+        <span> 
+            © 2022-1999 nino 
+
+            
+                
+
+            
+                
+                    / <a href="/contact/"> 联系 </a>
+                
+
+            
+                
+                    / <a href="/support/"> 支持 </a>
+                
+
+            
+                
+                    / <a href="/subscribe/"> 订阅 </a>
+                
+
+            
+                
+                    / <a href="/friends/"> 近邻 </a>
+                
+
+            
+        </span>
+    
+</div>
+<!--这是指一条线往下的内容-->
+<div class="footer-last">
+    
+        <span class="footer-last-span">🌊看过大海的人不会忘记海的广阔🌊</span>
+    
+</div>
+
+
+<link rel="stylesheet" href="/css/a11y-dark.min.css">
+
+
+<script src="/js/highlight.min.js"></script>
+
+
+<script src="/js/highlightjs-line-numbers.js"></script>
+
+
+<script>
+    hljs.initHighlightingOnLoad();
+    hljs.initLineNumbersOnLoad();
+</script>
+                </div>
+            
+    </body>
+</html>
