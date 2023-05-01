@@ -613,4 +613,11 @@ margin-left: 10px; /* 调整a标签和span之间的距离 */
     }
   }
   
-  
+.inline-ul {
+    list-style: none;
+    padding: 0;
+} 
+.inline-li {
+    display: inline-block;
+    margin-right: 10px; /* 可以根据需要调整元素之间的间距 */
+}
