@@ -15,8 +15,43 @@
     <atom:link href="https://www.ninojay.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Web开发者｜阅读写作爱好者</description>
-    <pubDate>Mon, 01 May 2023 20:37:42 GMT</pubDate>
+    <pubDate>Mon, 01 May 2023 20:45:48 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>我的博客网站写作工作流（二）</title>
+      <link>https://www.ninojay.top/2023/how-to-deploy-your-own-website-1/</link>
+      <guid>https://www.ninojay.top/2023/how-to-deploy-your-own-website-1/</guid>
+      <pubDate>Mon, 01 May 2023 20:44:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;这是真正意义上，在github上编</description>
+          
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p>这是真正意义上，在github上编写md文章。提交后自动发布。</p><p>教程待写ing…</p>]]></content:encoded>
+      
+      
+      <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
+      
+      
+      <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
+      
+      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
+      
+      <comments>https://www.ninojay.top/2023/how-to-deploy-your-own-website-1/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>hexo底层json数据内容</title>
