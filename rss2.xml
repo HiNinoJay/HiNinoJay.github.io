@@ -15,13 +15,13 @@
     <atom:link href="https://www.ninojay.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Web开发者｜阅读写作爱好者</description>
-    <pubDate>Mon, 01 May 2023 21:59:08 GMT</pubDate>
+    <pubDate>Mon, 01 May 2023 22:12:10 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
       <title>我的博客网站写作工作流（二）-Hexo&amp;GithubAction-推荐-这是最新成熟的流程</title>
-      <link>https://www.ninojay.top/2023/how-to-deploy-your-own-website-1/</link>
-      <guid>https://www.ninojay.top/2023/how-to-deploy-your-own-website-1/</guid>
+      <link>https://www.ninojay.top/2023/writeByGithub-2/</link>
+      <guid>https://www.ninojay.top/2023/writeByGithub-2/</guid>
       <pubDate>Mon, 01 May 2023 20:44:00 GMT</pubDate>
       
         
@@ -40,16 +40,14 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
-      
       <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
       
+      <category domain="https://www.ninojay.top/tags/CI/">CI</category>
       
-      <comments>https://www.ninojay.top/2023/how-to-deploy-your-own-website-1/#disqus_thread</comments>
+      
+      <comments>https://www.ninojay.top/2023/writeByGithub-2/#disqus_thread</comments>
       
     </item>
     
@@ -187,8 +185,8 @@
     
     <item>
       <title>我的博客网站写作工作流（一）</title>
-      <link>https://www.ninojay.top/2023/writeByGithub/</link>
-      <guid>https://www.ninojay.top/2023/writeByGithub/</guid>
+      <link>https://www.ninojay.top/2023/writeByGithub-1/</link>
+      <guid>https://www.ninojay.top/2023/writeByGithub-1/</guid>
       <pubDate>Sat, 15 Apr 2023 09:23:00 GMT</pubDate>
       
         
@@ -207,14 +205,14 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E7%94%9F%E6%B4%BB/">生活</category>
+      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
-      <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
+      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
       
-      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
+      <category domain="https://www.ninojay.top/tags/CI/">CI</category>
       
       
-      <comments>https://www.ninojay.top/2023/writeByGithub/#disqus_thread</comments>
+      <comments>https://www.ninojay.top/2023/writeByGithub-1/#disqus_thread</comments>
       
     </item>
     
