@@ -106,7 +106,7 @@
 
     <div class="post-md">
         
-            <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E8%83%8C%E6%99%AF"><span class="post-toc-text">背景</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E7%BD%91%E9%A1%B5%E4%B8%8A%E8%BF%9B%E8%A1%8C%E7%BD%91%E7%AB%99%E7%9A%84%E5%86%99%E4%BD%9C%E8%BF%87%E7%A8%8B%E6%8F%8F%E8%BF%B0%F0%9F%92%AF"><span class="post-toc-text">网页上进行网站的写作过程描述💯</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E4%B9%8B%E5%90%8EGithub%E4%BC%9A%E8%87%AA%E5%8A%A8%E8%BF%9B%E8%A1%8C%E7%9A%84%E6%93%8D%E4%BD%9C"><span class="post-toc-text">之后Github会自动进行的操作</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E5%A6%82%E4%BD%95%E5%81%9A%E5%88%B0-Github-Action"><span class="post-toc-text">如何做到-Github Action</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#1-%E5%86%8D%E6%AC%A1%E6%8F%90%E9%86%92%E5%92%B1%E4%BB%AC%E5%B7%B2%E6%9C%89%E7%9A%84%E4%BB%93%E5%BA%93"><span class="post-toc-text">1.再次提醒咱们已有的仓库</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#2-%E5%9C%A8%E6%9C%AC%E5%9C%B0%E5%85%88%E7%94%9F%E6%88%90%E4%B8%80%E5%AF%B9%E5%AF%86%E9%92%A5"><span class="post-toc-text">2.在本地先生成一对密钥</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#3-%E7%BD%91%E9%A1%B5%E4%B8%8A%E5%88%86%E5%88%AB%E9%85%8D%E7%BD%AE%E8%BF%99%E5%AF%B9%E5%AF%86%E9%92%A5%E7%BB%99%E4%B8%A4%E4%B8%AA%E4%BB%93%E5%BA%93"><span class="post-toc-text">3.网页上分别配置这对密钥给两个仓库</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#4-%E6%AD%A3%E5%BC%8F%E7%BC%96%E5%86%99Github-Actions"><span class="post-toc-text">4.正式编写Github Actions</span></a></li></ol></li></ol>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E8%83%8C%E6%99%AF"><span class="post-toc-text">背景</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E7%BD%91%E9%A1%B5%E4%B8%8A%E8%BF%9B%E8%A1%8C%E7%BD%91%E7%AB%99%E7%9A%84%E5%86%99%E4%BD%9C%E8%BF%87%E7%A8%8B%E6%8F%8F%E8%BF%B0%F0%9F%92%AF"><span class="post-toc-text">网页上进行网站的写作过程描述💯</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E4%B9%8B%E5%90%8EGithub%E4%BC%9A%E8%87%AA%E5%8A%A8%E8%BF%9B%E8%A1%8C%E7%9A%84%E6%93%8D%E4%BD%9C"><span class="post-toc-text">之后Github会自动进行的操作</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E5%A6%82%E4%BD%95%E5%81%9A%E5%88%B0-Github-Action"><span class="post-toc-text">如何做到-Github Action</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#%E5%86%8D%E6%AC%A1%E6%8F%90%E9%86%92%E5%92%B1%E4%BB%AC%E5%B7%B2%E6%9C%89%E7%9A%84%E4%BB%93%E5%BA%93"><span class="post-toc-text">再次提醒咱们已有的仓库</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#%E5%9C%A8%E6%9C%AC%E5%9C%B0%E5%85%88%E7%94%9F%E6%88%90%E4%B8%80%E5%AF%B9%E5%AF%86%E9%92%A5"><span class="post-toc-text">在本地先生成一对密钥</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#%E7%BD%91%E9%A1%B5%E4%B8%8A%E5%88%86%E5%88%AB%E9%85%8D%E7%BD%AE%E8%BF%99%E5%AF%B9%E5%AF%86%E9%92%A5%E7%BB%99%E4%B8%A4%E4%B8%AA%E4%BB%93%E5%BA%93"><span class="post-toc-text">网页上分别配置这对密钥给两个仓库</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#%E6%AD%A3%E5%BC%8F%E7%BC%96%E5%86%99Github-Actions"><span class="post-toc-text">正式编写Github Actions</span></a></li></ol></li></ol>
         
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/lightgallery.js/1.0.1/css/lightgallery.min.css" /><div class=".article-gallery"><p>这是真正意义上，在github上编写md文章。提交后啥也不用管，自动发布。</p>
 <hr>
@@ -145,14 +145,14 @@ comment: false # 手动关闭该篇文章的评论系统（选填）
 <h3 id="之后Github会自动进行的操作"><a href="#之后Github会自动进行的操作" class="headerlink" title="之后Github会自动进行的操作"></a>之后Github会自动进行的操作</h3><p>当我们在github网页完成文章的新增或者修改后，提交commit。github会自动帮我们运行一些本来我们在本地执行的命令（如hexo generate、hexo deploy），将website仓库，即网站的源码，自动生成网站所有的最新静态页面，推送到 github pages仓库。vercel再自动拉取 github pages仓库的代码数据，完成部署网站。</p>
 <h3 id="如何做到-Github-Action"><a href="#如何做到-Github-Action" class="headerlink" title="如何做到-Github Action"></a>如何做到-Github Action</h3><p>以上是整个流程。最关键的一步，是“github识别到website仓库有更新，会去自动生成静态页面，推送到github pages仓库” 这一操作。实际上用到的就是Github Action服务。</p>
 <p><strong>以下为配置步骤：</strong></p>
-<h4 id="1-再次提醒咱们已有的仓库"><a href="#1-再次提醒咱们已有的仓库" class="headerlink" title="1.再次提醒咱们已有的仓库"></a>1.再次提醒咱们已有的仓库</h4><p><strong>私有的</strong>  <em>website 仓库</em> ：网站真正意义上的源代码，存放hexo项目</p>
+<h4 id="再次提醒咱们已有的仓库"><a href="#再次提醒咱们已有的仓库" class="headerlink" title="再次提醒咱们已有的仓库"></a>再次提醒咱们已有的仓库</h4><p><strong>私有的</strong>  <em>website 仓库</em> ：网站真正意义上的源代码，存放hexo项目</p>
 <p><strong>公开的</strong> <em>github pages 仓库</em>  ：将只会存储源代码生成后的静态页面</p>
-<h4 id="2-在本地先生成一对密钥"><a href="#2-在本地先生成一对密钥" class="headerlink" title="2.在本地先生成一对密钥"></a>2.在本地先生成一对密钥</h4><p>这对密钥将使得 website仓库，能够访问到 github pages 仓库。</p>
+<h4 id="在本地先生成一对密钥"><a href="#在本地先生成一对密钥" class="headerlink" title="在本地先生成一对密钥"></a>在本地先生成一对密钥</h4><p>这对密钥将使得 website仓库，能够访问到 github pages 仓库。</p>
 <p>在本地电脑任意路径执行命令（你需要git环境）：</p>
 <pre><code class="shell">ssh-keygen -f github-deploy-key
 </code></pre>
 <p>当前目录下会有 <code>github-deploy-key</code> 和 <code>github-deploy-key.pub</code> 两个文件。</p>
-<h4 id="3-网页上分别配置这对密钥给两个仓库"><a href="#3-网页上分别配置这对密钥给两个仓库" class="headerlink" title="3.网页上分别配置这对密钥给两个仓库"></a>3.网页上分别配置这对密钥给两个仓库</h4><p><strong>配置website仓库</strong></p>
+<h4 id="网页上分别配置这对密钥给两个仓库"><a href="#网页上分别配置这对密钥给两个仓库" class="headerlink" title="网页上分别配置这对密钥给两个仓库"></a>网页上分别配置这对密钥给两个仓库</h4><p><strong>配置website仓库</strong></p>
 <p>复制 本地刚生成的其中一个密钥<code>github-deploy-key</code> 文件的内容，在 website 仓库  Settings -&gt; Secrets -&gt; Add a new secret  页面上添加。</p>
 <ol>
 <li>在 <code>Name</code> 输入框填写 <code>HEXO_DEPLOY_PRI</code>。</li>
@@ -165,7 +165,7 @@ comment: false # 手动关闭该篇文章的评论系统（选填）
 <li>在 <code>Key</code> 输入框填写 <code>github-deploy-key.pub</code> 文件内容。</li>
 <li>勾选  Allow write access 选项。</li>
 </ol>
-<h4 id="4-正式编写Github-Actions"><a href="#4-正式编写Github-Actions" class="headerlink" title="4.正式编写Github Actions"></a>4.正式编写Github Actions</h4><p>来到 website 仓库，点击Action标签，点击页面上的 <code>New workflow</code> -&gt; <code>set up a workflow yourself</code> ，复制以下内容</p>
+<h4 id="正式编写Github-Actions"><a href="#正式编写Github-Actions" class="headerlink" title="正式编写Github Actions"></a>正式编写Github Actions</h4><p>来到 website 仓库，点击Action标签，点击页面上的 <code>New workflow</code> -&gt; <code>set up a workflow yourself</code> ，复制以下内容</p>
 <pre><code class="yml">name: hexo-blog-deploy
 
 on:
