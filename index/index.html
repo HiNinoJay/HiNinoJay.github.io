@@ -20,6 +20,10 @@
  
             <!--注意：首页既不是post也不是page-->
             
+                
+<link rel="stylesheet" href="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/css/waline.css">
+
+            
         
         
        
@@ -110,8 +114,8 @@
 <p>期待：</p>
 <ul>
 <li><del>hexo官方收录hexo-theme-A4（已申请）</del></li>
+<li><del>2023 GitHub star数获得10个</del></li>
 <li>玩《塞尔达·王国之泪》</li>
-<li>2023 GitHub star数获得10个</li>
 </ul>
 <br>
 
@@ -134,6 +138,44 @@
         
         </i>
     </div>
+    
+        
+    <div class="comments-container">
+    <div id="comment-anchor"></div>
+    <div class="comment-area-title">
+        以上。 
+    </div>
+        
+
+    <div id="waline"></div>
+    <script type="module"  >
+        import { init } from 'https://npm.elemecdn.com/hexo-theme-a4@latest/source/js/waline.mjs'; 
+        function loadWaline() {
+            init({
+                el: '#waline',
+                serverURL: 'waline.ninojay.top',
+                lang: 'zh-CN',
+                dark: 'body[class~="dark-mode"]',
+                requiredMeta: ['nick','mail'], // cannot customize by theme config, change it yourself
+                search: false, // 禁止表情包搜索
+                reaction: false, // 对文章打分
+                pageview: false, // 浏览量统计
+                comment: false, // 评论数统计
+
+                locale: {
+                    placeholder: '正确的邮箱地址，回复将能得到邮件通知。', 
+                    sofa: ''
+                },
+            });
+            
+        }
+        window.addEventListener('DOMContentLoaded', loadWaline);
+    </script>
+
+
+    </div>
+
+
      
 </div>
 
