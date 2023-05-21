@@ -3,7 +3,7 @@
     <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  viewport-fit=cover" name="viewport" />
-    <meta name="description" content="index" />
+    <meta name="description" content="A4支持文章密码访问" />
     <link rel="alternate icon" type="image/webp" href="/img/favicon.webp">
     <title>Nino | Web开发者｜阅读写作爱好者</title>
 
@@ -102,43 +102,94 @@
                         <div class="post-main">
 
     
+        <div class="post-main-title">
+            A4支持文章密码访问
+        </div>
+      
+    
 
     <div class="post-md">
         
-        <p>项目：</p>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#%E6%95%88%E6%9E%9C%E6%BC%94%E7%A4%BA"><span class="post-toc-text">效果演示</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95"><span class="post-toc-text">使用方法</span></a></li></ol>
+        
+        <h2 id="效果演示"><a href="#效果演示" class="headerlink" title="效果演示"></a>效果演示</h2><p>以下页面已加密，密码为：123456</p>
+<p><a target="_blank" rel="noopener" href="https://ninojay.top/hexoplugin/test-encrypt">点击访问</a></p>
+<h2 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h2><p>你的网站文件夹，举例为<code>website</code>。</p>
+<ol>
+<li><p>命令行进入到<code>webiste</code>目录。</p>
+</li>
+<li><p>执行命令安装hexo插件：</p>
+</li>
+</ol>
+<pre><code class="shell">npm install  hexo-blog-encrypt
+</code></pre>
+<ol start="3">
+<li>添加如下配置到<code>_config.yml</code>文件（注意不是A4主题的配置文件）</li>
+</ol>
+<pre><code class="yml"># hexo 支持 加密访问文章 插件
+encrypt:
+  enable: true
+  abstract: Here&#39;s something encrypted, password is required to continue reading.
+  message: Hey, password is required here.
+  wrong_pass_message: Oh, this is an invalid password. Check and try again, please.
+  wrong_hash_message: Oh, these decrypted content cannot be verified, but you can still have a look.
+</code></pre>
+<ol start="4">
+<li>在想要文章支持加密的post的<code>front-matter</code>中添加</li>
+</ol>
+<pre><code class="markdown">password: 123456
+</code></pre>
+<ol start="5">
+<li>执行命令查看效果</li>
+</ol>
+<pre><code class="shell">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s
+</code></pre>
+<p>引用：</p>
 <ul>
-<li><del>博客网站搭建：最终定型为A4纸风格</del></li>
-<li><del>开源博客主题</del> <a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4.git">hexo-theme-A4</a>（正在活跃维护）</li>
-<li>开发并开源博客主题对应的typora主题typora-theme-A4</li>
-<li>系统阅读奥威尔、卡夫卡</li>
-<li>写30篇文章，不包括摘抄（16&#x2F;30）</li>
+<li><strong><a target="_blank" rel="noopener" href="https://github.com/D0n9X1n/hexo-blog-encrypt">hexo-blog-encrypt</a></strong></li>
 </ul>
-<br>
-
-<p>期待：</p>
-<ul>
-<li><del>hexo官方收录hexo-theme-A4（已申请）</del></li>
-<li><del>2023 GitHub star数获得10个</del></li>
-<li>玩《塞尔达·王国之泪》</li>
-</ul>
-<br>
-
-
-
-<p>年度任务（0&#x2F;1）：</p>
-<ul>
-<li>找到工作</li>
-</ul>
-<br>
-
-
-
-<p>本站所有<a href="/categories/">分类</a>、所有<a href="/tags/">标签</a>、本站使用到的<a href="/tags/hexoPlugin/">hexo插件</a></p>
 
     </div>
 
     <div class="post-meta">
         <i>
+        
+            <span>2023-05-21</span>
+            
+                <span>该篇文章被 nino</span>
+            
+            
+                <span>打上标签:
+                    
+                    
+                        <a href='/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/'>
+                            本站相关
+                        </a>
+                    
+                        <a href='/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/'>
+                            工具使用
+                        </a>
+                    
+                        <a href='/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/'>
+                            搭建网站
+                        </a>
+                    
+                        <a href='/tags/hexoPlugin/'>
+                            hexoPlugin
+                        </a>
+                    
+                </span>
+             
+             
+                <span>归为分类:
+                    
+                    
+                        <a href='/categories/%E8%BD%AF%E4%BB%B6/'>
+                            软件
+                        </a>
+                    
+                </span>
+            
         
         </i>
     </div>
