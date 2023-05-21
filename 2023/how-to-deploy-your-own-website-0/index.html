@@ -288,62 +288,110 @@
 
     
     <style>
-      body {
-        color: #fec591;
-        background: #005454; 
-      }
-      a {
-        color: #fec591;  
-    }
-    .post-md a {
-        color: #fec591; 
-    }
-    .nav li a {
-        color: #fec591;  
-    } 
-    .archive-main a:link {
-        color: #fec591;  
-    }
-    .archive li span {
-        color: #fec591; 
-    }
-      .post-main-title {
-        color: #fec591; 
-      }
-      .post-md h1, .post-md h2, .post-md h3, .post-md h4, .post-md h5, .post-md h6 {
-        color: #fec591;
+        :root {
+            --waline-theme-color: #fec591; 
+            --waline-color: #fec591; 
+            --waline-border-color: #fec591; 
+            --waline-white: #fec591; 
+            --waline-bgcolor-light: #005454;  
         }
+        body {
+            color: #fec591;
+            background: #005454;
+        }
+        .wl-card span.wl-nick {
+            color: #fec591; 
+        }
+        .wl-btn {
+            border: 1px solid #fec591; 
+            color:  #fec591;  
+        }
+        .wl-btn.primary {
+            color: #005454; 
+        }
+        .wl-header label {
+            color: #fec591;
+        }
+        a {
+            color: #fec591;
+        }
+
+        .post-md a {
+            color: #fec591;
+        }
+
+        .nav li a {
+            color: #fec591;
+        }
+
+        .archive-main a:link {
+            color: #fec591;
+        }
+
+        .archive li span {
+            color: #fec591;
+        }
+
+        .post-main-title {
+            color: #fec591;
+        }
+
+        .post-md h1,
+        .post-md h2,
+        .post-md h3,
+        .post-md h4,
+        .post-md h5,
+        .post-md h6 {
+            color: #fec591;
+        }
+
         [data-waline] p {
-        color: #fec591; 
+            color: #fec591;
         }
+        [data-waline] a {
+            color: #fec591;
+        } 
+        .wl-sort li.active {
+            color: #fec591;
+        }
+
         .wl-card .wl-meta>span {
             background: #005454;
         }
-      .paper {
-        background: #005454;
-      }
-      .index-main {
-        background: #005454;
-      }
-      .paper-main {
-        background: #005454;
-      }
-      .wl-panel {
-        background: #005454;
-      }
-      .archive li:nth-child(odd) {
-        background: #005454;;
-      }
-      .archive li:nth-child(even) {
-        background: #005454;
-      } 
-      .post-md>table tr:nth-child(odd) td {
-    background: #005454;
-}
-.post-md>table tr:nth-child(even) td {
-    background: #005454;
-}
+
+        .paper {
+            background: #005454;
+        }
+
+        .index-main {
+            background: #005454;
+        }
+
+        .paper-main {
+            background: #005454;
+        }
+
+        .wl-panel {
+            background: #005454;
+        }
+
+        .archive li:nth-child(odd) {
+            background: #005454;
+            ;
+        }
+
+        .archive li:nth-child(even) {
+            background: #005454;
+        }
+
+        .post-md>table tr:nth-child(odd) td {
+            background: #005454;
+        }
+
+        .post-md>table tr:nth-child(even) td {
+            background: #005454;
+        }
     </style>
-    
+
 
 </html>
