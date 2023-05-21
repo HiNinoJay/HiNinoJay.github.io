@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  viewport-fit=cover" name="viewport" />
+    <meta name="description" content="hexo底层json数据内容" />
+    <link rel="alternate icon" type="image/webp" href="/img/favicon.webp">
+    <title>Nino | Web开发者｜阅读写作爱好者</title>
+
+    
+        
+            
+<link rel="stylesheet" href="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/css/reset.css">
+
+            
+<link rel="stylesheet" href="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/css/markdown.css">
+
+            
+<link rel="stylesheet" href="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/css/fonts.css">
+ 
+            <!--注意：首页既不是post也不是page-->
+            
+                
+<link rel="stylesheet" href="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/css/waline.css">
+
+            
+        
+    
+    
+<link rel="stylesheet" href="/css/ui.css">
+ 
+    
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="Nino" type="application/atom+xml">
+<link rel="alternate" href="/rss2.xml" title="Nino" type="application/rss+xml">
+</head>
+    <body>
+        <div class="paper">
+            
+            
+            
+            
+                <div class="shadow-drop-2-bottom paper-main">
+                    
+<div class="header">
+    <div class="header-container">
+        <img style="
+        width: 56px;
+        height: auto;" alt="^-^" cache-control="max-age=86400" class="header-img" src="/img/favicon.webp" width="10%"></img>
+        <div class="header-content">
+            <a class="logo" href="/">Nino</a> 
+            <span class="description">Web开发者｜阅读写作爱好者</span> 
+        </div>
+        
+    </div>
+    
+   
+    <ul class="nav">
+        
+            
+                <li><a href="/">首页</a></li>
+            
+        
+            
+                <li><a href="/list/">文章</a></li>
+            
+        
+            
+                <li><a href="/works/">作品</a></li>
+            
+        
+            
+                <li><a href="/message/">留言</a></li>
+            
+        
+            
+                <li><a href="/about/">关于</a></li>
+            
+        
+            
+                <li><a href="/now/">Now</a></li>
+            
+        
+    </ul>
+</div> 
+        
+                    
+                    
+
+                    
+                    
+                    
+                    <!--说明是文章post页面-->
+                    
+                        <div class="post-main">
+
+    
+        <div class="post-main-title">
+            hexo底层json数据内容
+        </div>
+      
+    
+
+    <div class="post-md">
+        
+            
+        
+        <p>为了便于开发hexo主题，在此记录下hexo启动后，基本的参数内容。</p>
+<p>因为几乎都是json格式，熟悉了过后，用ejs写代码去实现自己想要的功能，两个字：带劲。</p>
+<blockquote>
+<p>不明白官网使用手册，基本的参数都提供了，这个json数据为啥不直接提供。都是我自己运行后调用，打印出来的。</p>
+</blockquote>
+<p><strong>page</strong></p>
+<pre><code class="json">&#123;
+  title: &#39;now&#39;,
+  date: Moment&lt;2023-04-13T23:30:27+08:00&gt;,
+  _content: &#39;&#39;,
+  source: &#39;now/index.md&#39;,
+  raw: &#39;&#39;,
+  updated: Moment&lt;2023-04-21T12:08:08+08:00&gt;,
+  path: &#39;now/index.html&#39;,
+  comments: true,
+  layout: &#39;page&#39;,
+  _id: &#39;&#39;,
+  content: &#39;具体内容&#39;,
+  site: &#123; data: &#123;&#125; &#125;,
+  excerpt: &#39;&#39;,
+  more: &#39;&#39;,
+  permalink: &#39;https://www.ninojay.top/now/index.html&#39;,
+  full_source: &#39;/Users/cengzhongjie/Desktop/website/source/now/index.md&#39;,
+  __page: true,
+  lang: &#39;en&#39;,
+  canonical_path: &#39;now/index.html&#39;
+&#125;
+</code></pre>
+<p><strong>page(is_post() &#x3D;&#x3D; true)</strong></p>
+<pre><code class="json">&#123;
+  title: &#39;hexo底层json数据内容&#39;,
+  date: Moment&lt;2023-04-21T12:49:00+08:00&gt;,
+  _content: &#39;&#39;,
+  source: &#39;_posts/2023/hexo-date-inside.md&#39;,
+  raw: &#39;&#39;,
+  slug: &#39;2023/hexo-date-inside&#39;,
+  published: true,
+  updated: Moment&lt;2023-04-21T12:56:33+08:00&gt;,
+  _id: &#39;&#39;,
+  comments: true,
+  layout: &#39;post&#39;,
+  photos: [],
+  link: &#39;&#39;,
+  content: &#39;&#39;,
+  site: &#123; data: &#123;&#125; &#125;,
+  excerpt: &#39;&#39;,
+  more: &#39;&#39;,
+  path: &#39;2023/hexo-date-inside/&#39;,
+  permalink: &#39;https://www.ninojay.top/2023/hexo-date-inside/&#39;,
+  full_source: &#39;/Users/cengzhongjie/Desktop/website/source/_posts/2023/hexo-date-inside.md&#39;,
+  asset_dir: &#39;/Users/cengzhongjie/Desktop/website/source/_posts/2023/hexo-date-inside/&#39;,
+  tags: _Query &#123;
+    data: [ [_Document], [_Document], [_Document], [_Document] ],
+    length: 4
+  &#125;,
+  categories: _Query &#123; data: [ [_Document] ], length: 1 &#125;,
+  next: &lt;ref *1&gt; _Document &#123;
+    title: &#39;这个世界真的能消灭贫困吗？&#39;,
+    date: Moment&lt;2023-04-20T20:17:00+08:00&gt;,
+    _content: &#39;&#39;,
+    source: &#39;_posts/2023/ask-why-no-more-peaceful-person.md&#39;,
+    raw: &#39;&#39;,
+    slug: &#39;2023/ask-why-no-more-peaceful-person&#39;,
+    published: true,
+    updated: Moment&lt;2023-04-21T10:31:50+08:00&gt;,
+    _id: &#39;&#39;,
+    comments: true,
+    layout: &#39;post&#39;,
+    photos: [],
+    link: &#39;&#39;,
+    content: &#39;&#39;,
+    site: &#123; data: &#123;&#125; &#125;,
+    excerpt: &#39;&#39;,
+    more: &#39;&#39;,
+    path: [Getter],
+    permalink: [Getter],
+    full_source: [Getter],
+    asset_dir: [Getter],
+    tags: [Getter],
+    categories: [Getter],
+    prev: _Document &#123;
+      title: &#39;hexo底层json数据内容&#39;,
+      date: Moment&lt;2023-04-21T12:49:00+08:00&gt;,
+      _content: &#39;&#39;,
+      source: &#39;_posts/2023/hexo-date-inside.md&#39;,
+      raw: &#39;&#39;,
+      slug: &#39;2023/hexo-date-inside&#39;,
+      published: true,
+      updated: Moment&lt;2023-04-21T12:56:33+08:00&gt;,
+      _id: &#39;&#39;,
+      comments: true,
+      layout: &#39;post&#39;,
+      photos: [],
+      link: &#39;&#39;,
+      content: &#39;&#39;,
+      site: [Object],
+      excerpt: &#39;&#39;,
+      more: &#39;&#39;,
+      path: [Getter],
+      permalink: [Getter],
+      full_source: [Getter],
+      asset_dir: [Getter],
+      tags: [Getter],
+      categories: [Getter],
+      next: [Circular *1],
+      __post: true
+    &#125;,
+    next: _Document &#123;
+      title: &#39;手把手教你搭建轻型个人网站（0）——前言&#39;,
+      date: Moment&lt;2023-04-19T13:45:00+08:00&gt;,
+      _content: &#39;&#39;,
+      source: &#39;_posts/2023/how-to-deploy-your-own-website-0.md&#39;,
+      raw: &#39;&#39;,
+      slug: &#39;2023/how-to-deploy-your-own-website-0&#39;,
+      published: true,
+      updated: Moment&lt;2023-04-21T12:50:39+08:00&gt;,
+      _id: &#39;clgq2pcx20008inqt63x2a5i1&#39;,
+      comments: true,
+      layout: &#39;post&#39;,
+      photos: [],
+      link: &#39;&#39;,
+      content: &#39;&#39;,
+      path: [Getter],
+      permalink: [Getter],
+      full_source: [Getter],
+      asset_dir: [Getter],
+      tags: [Getter],
+      categories: [Getter],
+      prev: [Circular *1],
+      next: [_Document],
+      __post: true
+    &#125;,
+    __post: true
+  &#125;,
+  __post: true,
+  lang: &#39;en&#39;,
+  canonical_path: &#39;2023/hexo-date-inside/index.html&#39;
+&#125;
+</code></pre>
+<p><strong>page.tags</strong></p>
+<pre><code class="json">_Query &#123;
+  data: [
+    _Document &#123;
+      name: &#39;互联网&#39;,
+      _id: &#39;&#39;,
+      slug: [Getter], // 互联网
+      path: [Getter], // tags/工具使用/
+      permalink: [Getter], // https://www.ninojay.top/tags/%E6%80%9D%E8%80%83/
+      posts: [Getter], //见下
+      length: [Getter] // 1 代表这个标签下的post数目
+    &#125;,
+    _Document &#123;
+      name: &#39;工具使用&#39;,
+      _id: &#39;&#39;,
+      slug: [Getter],
+      path: [Getter], 
+      permalink: [Getter],
+      posts: [Getter],
+      length: [Getter]
+    &#125;,
+    _Document &#123;
+      name: &#39;搭建网站&#39;,
+      _id: &#39;&#39;,
+      slug: [Getter],
+      path: [Getter],
+      permalink: [Getter],
+      posts: [Getter],
+      length: [Getter]
+    &#125;,
+    _Document &#123;
+      name: &#39;hexo&#39;,
+      _id: &#39;&#39;,
+      slug: [Getter],
+      path: [Getter],
+      permalink: [Getter],
+      posts: [Getter],
+      length: [Getter]
+    &#125;
+  ],
+  length: 4
+&#125;
+
+</code></pre>
+<p><strong>page.tags.data[0].posts</strong></p>
+<pre><code class="json">_Query &#123;
+  data: [
+    _Document &#123;
+      title: &#39;这个世界真的能消灭贫困吗？&#39;,
+      date: Moment&lt;2023-04-20T20:17:00+08:00&gt;,
+      _content: &#39;&#39;,
+      source: &#39;&#39;,
+      slug: &#39;2023/ask-why-no-more-peaceful-person&#39;,
+      published: true,
+      updated: Moment&lt;2023-04-21T10:31:50+08:00&gt;,
+      _id: &#39;&#39;,
+      comments: true,
+      layout: &#39;post&#39;,
+      photos: [],
+      link: &#39;&#39;,
+      content: &#39;&#39;,
+      site: [Object],
+      excerpt: &#39;&#39;,
+      more: &#39;&#39;,
+      path: [Getter],
+      permalink: [Getter],
+      full_source: [Getter],
+      asset_dir: [Getter],
+      tags: [Getter],
+      categories: [Getter],
+      prev: [_Document],
+      next: [_Document],
+      __post: true
+    &#125;
+  ],
+  length: 1
+&#125;
+</code></pre>
+<p><strong>page.categoires</strong></p>
+<pre><code class="json">_Query &#123;
+  data: [
+    _Document &#123;
+      name: &#39;思辨&#39;,
+      _id: &#39;&#39;,
+      slug: [Getter], // 思辨
+      path: [Getter], // categories/思辨/
+      permalink: [Getter],  // https://www.ninojay.top/categories/%E6%80%9D%E8%BE%A8/
+      posts: [Getter],
+      length: [Getter] // 7 代表该分类下post数量
+    &#125;
+  ],
+  length: 1
+&#125;
+</code></pre>
+<p><strong>page.categories.data[0].posts</strong></p>
+<pre><code class="json">_Query &#123;
+  data: [
+    _Document &#123;
+      title: &#39;食01-小炒肉&#39;,
+      date: Moment&lt;2022-03-31T14:27:36+08:00&gt;,
+      banner: &#39;/img/postImages/xiaochaorou.jpg&#39;,
+      _content: &#39;&#39;,
+      source: &#39;_posts/2022/stir-fried-pork.md&#39;,
+      raw: &#39;&#39;,
+      slug: &#39;2022/stir-fried-pork&#39;,
+      published: true,
+      updated: Moment&lt;2023-04-19T03:11:22+08:00&gt;,
+      comments: true,
+      layout: &#39;post&#39;,
+      photos: [],
+      link: &#39;&#39;,
+      _id: &#39;&#39;,
+      content: &#39;&#39;,
+      path: [Getter],
+      permalink: [Getter],
+      full_source: [Getter],
+      asset_dir: [Getter],
+      tags: [Getter],
+      categories: [Getter],
+      prev: [_Document],
+      next: [_Document],
+      __post: true
+    &#125;
+  ],
+  length: 1
+&#125;
+</code></pre>
+
+    </div>
+
+    <div class="post-meta">
+        <i>
+        
+            <span>2023-04-21</span>
+            
+                <span>该篇文章被 nino</span>
+            
+            
+                <span>打上标签:
+                    
+                    
+                        <a href='/tags/%E4%BA%92%E8%81%94%E7%BD%91/'>
+                            互联网
+                        </a>
+                    
+                        <a href='/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/'>
+                            工具使用
+                        </a>
+                    
+                        <a href='/tags/hexo/'>
+                            hexo
+                        </a>
+                    
+                        <a href='/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/'>
+                            搭建网站
+                        </a>
+                    
+                </span>
+             
+             
+                <span>归为分类:
+                    
+                    
+                        <a href='/categories/%E8%BD%AF%E4%BB%B6/'>
+                            软件
+                        </a>
+                    
+                </span>
+            
+        
+        </i>
+    </div>
+    
+        
+    <div class="comments-container">
+    <div id="comment-anchor"></div>
+    <div class="comment-area-title">
+        以上。 
+    </div>
+        
+
+    <div id="waline"></div>
+    <script type="module"  >
+        import { init } from 'https://npm.elemecdn.com/hexo-theme-a4@latest/source/js/waline.mjs'; 
+        function loadWaline() {
+            init({
+                el: '#waline',
+                serverURL: 'waline.ninojay.top',
+                lang: 'zh-CN',
+                dark: 'body[class~="dark-mode"]',
+                requiredMeta: ['nick','mail'], // cannot customize by theme config, change it yourself
+                search: false, // 禁止表情包搜索
+                reaction: false, // 对文章打分
+                pageview: false, // 浏览量统计
+                comment: false, // 评论数统计
+
+                locale: {
+                    placeholder: '正确的邮箱地址，回复将能得到邮件通知。', 
+                    sofa: ''
+                },
+            });
+            
+        }
+        window.addEventListener('DOMContentLoaded', loadWaline);
+    </script>
+
+
+    </div>
+
+
+     
+</div>
+
+
+
+                    
+                    
+                    <div class="footer">
+    
+        <span> 
+            © 2023-1999 nino 
+
+            
+                
+
+            
+                
+                    / <a href="/contact/"> 联系 </a>
+                
+
+            
+                
+                    / <a href="/support/"> 支持 </a>
+                
+
+            
+                
+                    / <a href="/subscribe/"> 订阅 </a>
+                
+
+            
+                
+                    / <a href="/friends/"> 近邻 </a>
+                
+
+            
+        </span>
+    
+</div>
+<!--这是指一条线往下的内容-->
+<div class="footer-last">
+    
+        <span style="border-top: 1px solid var(--line-1); margin-top: -30px;"></span>
+        <div style="display: float;">
+            <span style="float: left; font-size: 10px;">🌊看过大海的人不会忘记海的广阔🌊</span>
+            
+                <span class="footer-last-span-right"><i>本站由<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/index.html">Hexo</a>驱动｜使用<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4">Hexo-theme-A4</a>主题</i></span>
+            
+        </div>
+    
+</div>
+
+
+    
+        
+<link rel="stylesheet" href="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/css/a11y-dark.min.css">
+
+        
+<script src="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/js/highlight.min.js"></script>
+
+        
+<script src="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/js/highlightjs-line-numbers.js"></script>
+
+    
+
+
+<script>
+    hljs.initHighlightingOnLoad();
+    hljs.initLineNumbersOnLoad();
+</script>
+                </div>
+            
+    </body>
+
+    
+    <style>
+        :root {
+            --waline-theme-color: #fec591; 
+            --waline-color: #fec591; 
+            --waline-border-color: #fec591; 
+            --waline-white: #fec591; 
+            --waline-bgcolor-light: #005454;  
+        }
+        body {
+            color: #fec591;
+            background: #005454;
+        }
+        .wl-card span.wl-nick {
+            color: #fec591; 
+        }
+        .wl-card .wl-badge {
+            border: 1px solid #fec591;
+            color: #fec591; 
+        }
+        .wl-btn {
+            border: 1px solid #fec591; 
+            color:  #fec591;  
+        }
+        .wl-btn.primary {
+            color: #005454; 
+        }
+        .wl-header label {
+            color: #fec591;
+        }
+        a {
+            color: #fec591;
+        }
+
+        .post-md a {
+            color: #fec591;
+        }
+
+        .nav li a {
+            color: #fec591;
+        }
+
+        .archive-main a:link {
+            color: #fec591;
+        }
+
+        .archive li span {
+            color: #fec591;
+        }
+
+        .post-main-title {
+            color: #fec591;
+        }
+
+        .post-md h1,
+        .post-md h2,
+        .post-md h3,
+        .post-md h4,
+        .post-md h5,
+        .post-md h6 {
+            color: #fec591;
+        }
+
+        [data-waline] p {
+            color: #fec591;
+        }
+        [data-waline] a {
+            color: #fec591;
+        } 
+        .wl-sort li.active {
+            color: #fec591;
+        }
+
+        .wl-card .wl-meta>span {
+            background: #005454;
+        }
+
+        .paper {
+            background: #005454;
+        }
+
+        .index-main {
+            background: #005454;
+        }
+
+        .paper-main {
+            background: #005454;
+        }
+
+        .wl-panel {
+            background: #005454;
+        }
+
+        .archive li:nth-child(odd) {
+            background: #005454;
+            ;
+        }
+
+        .archive li:nth-child(even) {
+            background: #005454;
+        }
+
+        .post-md>table tr:nth-child(odd) td {
+            background: #005454;
+        }
+
+        .post-md>table tr:nth-child(even) td {
+            background: #005454;
+        }
+    </style>
+
+
+</html>
