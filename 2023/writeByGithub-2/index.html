@@ -32,7 +32,9 @@
     
 <link rel="stylesheet" href="/css/style.css">
 
-<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="Nino" type="application/atom+xml">
+<meta name="generator" content="Hexo 6.3.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="Nino" type="application/atom+xml">
 <link rel="alternate" href="/rss2.xml" title="Nino" type="application/rss+xml">
 </head>
     
@@ -236,7 +238,7 @@
 <ol>
 <li><p>打开浏览器，点击保存的书签，跳转到我github上的website仓库（虽然是私有仓库，但是我自己能访问）</p>
 </li>
-<li><p>在website仓库里的&#x2F;source&#x2F;_post文件夹下创建一个markdown文件，直接在github页面进行该markdown文件写作</p>
+<li><p>在website仓库里的/source/_post文件夹下创建一个markdown文件，直接在github页面进行该markdown文件写作</p>
 </li>
 <li><p><strong>注意</strong>：hexo对markdown文件的<code>front-matter</code>有一些必须的参数（title、date必须），在写文章正文前添加如下信息</p>
 <pre><code class="markdown">---
@@ -295,7 +297,7 @@ env:
 
 jobs:
   build:
-    name: Build on node $&#123;&#123; matrix.node_version &#125;&#125; and $&#123;&#123; matrix.os &#125;&#125;
+    name: Build on node ${{ matrix.node_version }} and ${{ matrix.os }}
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -309,24 +311,24 @@ jobs:
       - name: Checkout deploy repo
         uses: actions/checkout@v2
         with:
-          repository: $&#123;&#123; env.DEPLOY_REPO &#125;&#125;
-          ref: $&#123;&#123; env.DEPLOY_BRANCH &#125;&#125;
+          repository: ${{ env.DEPLOY_REPO }}
+          ref: ${{ env.DEPLOY_BRANCH }}
           path: .deploy_git
 
-      - name: Use Node.js $&#123;&#123; matrix.node_version &#125;&#125;
+      - name: Use Node.js ${{ matrix.node_version }}
         uses: actions/setup-node@v1
         with:
-          node-version: $&#123;&#123; matrix.node_version &#125;&#125;
+          node-version: ${{ matrix.node_version }}
 
       - name: Configuration environment
         env:
-          HEXO_DEPLOY_SECRET: $&#123;&#123;secrets.HEXO_DEPLOY_PRI&#125;&#125;
+          HEXO_DEPLOY_SECRET: ${{secrets.HEXO_DEPLOY_PRI}}
         run: |
-          sudo timedatectl set-timezone &quot;Asia/Shanghai&quot;
+          sudo timedatectl set-timezone "Asia/Shanghai"
 
           # 配置私钥，否则无法访问部署库，提示 git@github.com: Permission denied (publickey).
           mkdir -p ~/.ssh/
-          echo &quot;$HEXO_DEPLOY_SECRET&quot; &gt; ~/.ssh/id_rsa
+          echo "$HEXO_DEPLOY_SECRET" &gt; ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan github.com &gt;&gt; ~/.ssh/known_hosts
 
@@ -354,7 +356,7 @@ jobs:
 <p>其实这个配置文件就是告诉Github，我监测当前仓库的哪个分支变动，然后将会推送给哪个仓库的哪个分支，这个过程中我要用什么样的机器，在这个机器上执行哪些指令。</p>
 <p>完成以上过后保存即可。</p>
 <p>建议此时，本地在 website目录下 执行 git pull，拉取下最新代码。以后只要你在本地，push代码到website仓库，那么Github Action都会执行配置文件里的命令自动帮你部署至 github pages仓库。</p>
-<p>自然，你在Github网页上直接新增&#x2F;修改 website仓库的任何内容，只要一commit，也都会自动执行 Github Action。</p>
+<p>自然，你在Github网页上直接新增/修改 website仓库的任何内容，只要一commit，也都会自动执行 Github Action。</p>
 <blockquote>
 <p>ps：该配置文件，我找了好久，自己调试了很多次，做了一些修改，才运行成功，如果你遇到了什么问题，可在下方评论区留言。</p>
 </blockquote>

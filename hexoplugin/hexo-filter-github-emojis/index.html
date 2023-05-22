@@ -3,7 +3,7 @@
     <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  viewport-fit=cover" name="viewport" />
-    <meta name="description" content="" />
+    <meta name="description" content="A4支持emojis语法" />
     <link rel="alternate icon" type="image/webp" href="/img/favicon.webp">
     <title>Nino | Web开发者｜阅读写作爱好者</title>
 
@@ -19,6 +19,10 @@
 <link rel="stylesheet" href="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/css/fonts.css">
  
             <!--注意：首页既不是post也不是page-->
+            
+                
+<link rel="stylesheet" href="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/css/waline.css">
+
             
         
     
@@ -202,28 +206,145 @@
                     
 
                     
-                            <div class="archive-list">
-  <ul class="archive">
-
-    
-    <span>📌<i>面试</i></span>
-      
-      
-      
-    
-    
-    
-  
-    
-  
-  </ul>
-</div>
-
- 
-                    
                     
                     
                     <!--说明是文章post页面-->
+                    
+                        <div class="post-main">
+
+    
+        <div class="post-main-title">
+            A4支持emojis语法
+        </div>
+      
+    
+
+    <div class="post-md">
+        
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#%E6%95%88%E6%9E%9C%E6%BC%94%E7%A4%BA"><span class="post-toc-text">效果演示</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95"><span class="post-toc-text">使用方法</span></a></li></ol>
+        
+        <h2 id="效果演示"><a href="#效果演示" class="headerlink" title="效果演示"></a>效果演示</h2><p>在md文件中使用如下语法：</p>
+<pre><code class="markdown">:smile:
+</code></pre>
+<p>即可显示：</p>
+<p><span class="github-emoji"><span>😄</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span></p>
+<h2 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h2><p>你的网站文件夹，举例为<code>website</code>。</p>
+<ol>
+<li><p>命令行进入到<code>webiste</code>目录。</p>
+</li>
+<li><p>执行命令安装hexo插件：</p>
+</li>
+</ol>
+<pre><code class="shell">npm install hexo-filter-github-emojis
+</code></pre>
+<ol start="3">
+<li>添加如下配置到<code>_config.yml</code>文件（注意不是A4主题的配置文件）</li>
+</ol>
+<pre><code class="yml"># hexo 支持 emojis语法 插件
+githubEmojis:
+  enable: true
+  className: github-emoji
+  unicode: false
+  styles:
+  localEmojis:
+</code></pre>
+<ol start="4">
+<li>执行命令查看效果</li>
+</ol>
+<pre><code class="shell">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s
+</code></pre>
+<p>引用：</p>
+<ul>
+<li><strong><a target="_blank" rel="noopener" href="https://github.com/crimx/hexo-filter-github-emojis">hexo-filter-github-emojis</a></strong></li>
+</ul>
+
+    </div>
+
+    <div class="post-meta">
+        <i>
+        
+            <span>2023-05-22</span>
+            
+                <span>该篇文章被 nino</span>
+            
+            
+                <span>打上标签:
+                    
+                    
+                        <a href='/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/'>
+                            本站相关
+                        </a>
+                    
+                        <a href='/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/'>
+                            工具使用
+                        </a>
+                    
+                        <a href='/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/'>
+                            搭建网站
+                        </a>
+                    
+                        <a href='/tags/hexoPlugin/'>
+                            hexoPlugin
+                        </a>
+                    
+                </span>
+             
+             
+                <span>归为分类:
+                    
+                    
+                        <a href='/categories/%E8%BD%AF%E4%BB%B6/'>
+                            软件
+                        </a>
+                    
+                </span>
+            
+        
+        </i>
+    </div>
+    
+        
+    <div class="comments-container">
+    <div id="comment-anchor"></div>
+    <div class="comment-area-title">
+        以上。 
+    </div>
+        
+
+    <div id="waline"></div>
+    <script type="module"  >
+        import { init } from 'https://npm.elemecdn.com/hexo-theme-a4@latest/source/js/waline.mjs'; 
+        function loadWaline() {
+            init({
+                el: '#waline',
+                serverURL: 'waline.ninojay.top',
+                lang: 'zh-CN',
+                dark: 'body[class~="dark-mode"]',
+                requiredMeta: ['nick','mail'], // cannot customize by theme config, change it yourself
+                search: false, // 禁止表情包搜索
+                reaction: false, // 对文章打分
+                pageview: false, // 浏览量统计
+                comment: false, // 评论数统计
+
+                locale: {
+                    placeholder: '正确的邮箱地址，回复将能得到邮件通知。', 
+                    sofa: ''
+                },
+            });
+            
+        }
+        window.addEventListener('DOMContentLoaded', loadWaline);
+    </script>
+
+
+    </div>
+
+
+     
+</div>
+
+
+
                     
                     
                     <div class="footer">
