@@ -15,7 +15,7 @@
     <atom:link href="https://www.ninojay.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Web开发者｜阅读写作爱好者</description>
-    <pubDate>Mon, 22 May 2023 05:59:58 GMT</pubDate>
+    <pubDate>Mon, 22 May 2023 06:52:49 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -34,7 +34,7 @@
       
       
       
-      <content:encoded><![CDATA[<h2 id="效果演示"><a href="#效果演示" class="headerlink" title="效果演示"></a>效果演示</h2><p>在md文件中使用如下语法：</p><pre><code class="markdown">:smile:</code></pre><p>即可显示：</p><p><span class="github-emoji"><span>😄</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span></p><h2 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h2><p>你的网站文件夹，举例为<code>website</code>。</p><ol><li><p>命令行进入到<code>webiste</code>目录。</p></li><li><p>执行命令安装hexo插件：</p></li></ol><pre><code class="shell">npm install hexo-filter-github-emojis</code></pre><ol start="3"><li>添加如下配置到<code>_config.yml</code>文件（注意不是A4主题的配置文件）</li></ol><pre><code class="yml"># hexo 支持 emojis语法 插件githubEmojis:  enable: true  className: github-emoji  unicode: false  styles:  localEmojis:</code></pre><ol start="4"><li>执行命令查看效果</li></ol><pre><code class="shell">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</code></pre><p>引用：</p><ul><li><strong><a href="https://github.com/crimx/hexo-filter-github-emojis">hexo-filter-github-emojis</a></strong></li></ul>]]></content:encoded>
+      <content:encoded><![CDATA[<h2 id="效果演示"><a href="#效果演示" class="headerlink" title="效果演示"></a>效果演示</h2><p>在md文件中使用如下语法：</p><pre><code class="markdown">:smile: :taco: :santa:</code></pre><p>即可显示：</p><p><span class="github-emoji"><span>😄</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span> <span class="github-emoji"><span>🌮</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f32e.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span> <span class="github-emoji"><span>🎅</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f385.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span></p><h2 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h2><p>你的网站文件夹，举例为<code>website</code>。</p><ol><li><p>命令行进入到<code>webiste</code>目录。</p></li><li><p>执行命令安装hexo插件：</p></li></ol><pre><code class="shell">npm install hexo-filter-github-emojis</code></pre><ol start="3"><li>添加如下配置到<code>_config.yml</code>文件（注意不是A4主题的配置文件）</li></ol><pre><code class="yml"># hexo 支持 emojis语法 插件githubEmojis:  enable: true  className: github-emoji  unicode: false  styles:  localEmojis:</code></pre><ol start="4"><li>执行命令查看效果</li></ol><pre><code class="shell">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</code></pre><p>引用：</p><ul><li><strong><a href="https://github.com/crimx/hexo-filter-github-emojis">hexo-filter-github-emojis</a></strong></li></ul>]]></content:encoded>
       
       
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
