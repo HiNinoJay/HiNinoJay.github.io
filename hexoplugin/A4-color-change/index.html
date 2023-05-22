@@ -228,20 +228,21 @@
 </blockquote>
 <h3 id="灰白配色-默认"><a href="#灰白配色-默认" class="headerlink" title="灰白配色-默认"></a>灰白配色-默认</h3><h4 id="效果演示"><a href="#效果演示" class="headerlink" title="效果演示"></a>效果演示</h4><p><img src="https://jsd.onmicrosoft.cn/gh/hininojay/images/a4color/greywhite.png" alt="灰白A4"></p>
 <h4 id="如何启用？"><a href="#如何启用？" class="headerlink" title="如何启用？"></a>如何启用？</h4><p>该配色为A4启动后默认配色。保证<code>_config.a4.yml</code>配置文件中<code>color</code>设置为<code>false</code>即可</p>
+<p>或者<code>color</code>设置为<code>true</code>采用以下配置</p>
 <pre><code class="yml"># 实验性功能：A4色调调整：颜色搭配是很主观的行为
 # 设置为 false 为 A4 默认色调，可设置为 true 直接hexo s 体验下 另一种预置色调
 # 注：颜色代码需加“#”，颜色单词不需要加“#”
 color: 
-  enable: false # 这里为false，即为灰白默认配色
-  font: &quot;#fec591&quot; 
-  background: &quot;#005454&quot; 
-  indexBackGround: &quot;#005454&quot; 
-  postBackGround: &quot;#005454&quot; 
+  enable: true 
+  font: &quot;#000000&quot; 
+  background: &quot;#e4e4e4&quot; 
+  indexBackGround: &quot;#ffffff&quot; 
+  postBackGround: &quot;#ffffff&quot; 
   codeBackGround: &quot;black&quot; 
   codeFont: &quot;white&quot;  
 </code></pre>
 <h3 id="绿金配色-预置"><a href="#绿金配色-预置" class="headerlink" title="绿金配色-预置"></a>绿金配色-预置</h3><h4 id="效果演示-1"><a href="#效果演示-1" class="headerlink" title="效果演示"></a>效果演示</h4><p><img src="https://jsd.onmicrosoft.cn/gh/hininojay/images/a4color/greengolden.png" alt="绿金A4"></p>
-<h4 id="如何启用？-1"><a href="#如何启用？-1" class="headerlink" title="如何启用？"></a>如何启用？</h4><p>该配色<code>_config.a4.yml</code>配置文件中预置，将<code>color</code>设置为<code>true</code>即可</p>
+<h4 id="如何启用？-1"><a href="#如何启用？-1" class="headerlink" title="如何启用？"></a>如何启用？</h4><p>该配色<code>_config.a4.yml</code>配置文件中预置，将<code>color</code>设置为<code>true</code>，采用以下配置</p>
 <pre><code class="yml"># 实验性功能：A4色调调整：颜色搭配是很主观的行为
 # 设置为 false 为 A4 默认色调，可设置为 true 直接hexo s 体验下 另一种预置色调
 # 注：颜色代码需加“#”，颜色单词不需要加“#”
