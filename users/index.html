@@ -3,7 +3,7 @@
     <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  viewport-fit=cover" name="viewport" />
-    <meta name="description" content="A4使用者们" />
+    <meta name="description" content="a4-users" />
     <link rel="alternate icon" type="image/webp" href="/img/favicon.webp">
     <title>Nino | Web开发者｜阅读写作爱好者</title>
 
@@ -19,6 +19,10 @@
 <link rel="stylesheet" href="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/css/fonts.css">
  
             <!--注意：首页既不是post也不是page-->
+            
+                
+<link rel="stylesheet" href="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/css/waline.css">
+
             
         
     
@@ -95,20 +99,14 @@
                         <div class="post-main">
 
     
-        <div class="post-main-title">
-            A4使用者们
-        </div>
-      
-    
 
     <div class="post-md">
         
-            
-        
-        <ul>
+        <h2 id="A4使用者们"><a href="#A4使用者们" class="headerlink" title="A4使用者们"></a>A4使用者们</h2><ul>
 <li><a target="_blank" rel="noopener" href="https://www.apt.ink/list/">https://www.apt.ink/list/</a></li>
 <li><a target="_blank" rel="noopener" href="http://abdeeglr.life/">http://abdeeglr.life</a></li>
 <li><a target="_blank" rel="noopener" href="https://noteitall.github.io/">https://noteitall.github.io/</a></li>
+<li><a target="_blank" rel="noopener" href="https://wang551.github.io/">https://wang551.github.io/</a></li>
 </ul>
 
     </div>
@@ -116,13 +114,46 @@
     <div class="post-meta">
         <i>
         
-            <span>2023-05-20</span>
-            
-            
-             
-        
         </i>
     </div>
+    
+        
+    <div class="comments-container">
+    <div id="comment-anchor"></div>
+    <div class="comment-area-title">
+        以上。 
+    </div>
+        
+
+    <div id="waline"></div>
+    <script type="module"  >
+        import { init } from 'https://npm.elemecdn.com/hexo-theme-a4@latest/source/js/waline.mjs'; 
+        function loadWaline() {
+            init({
+                el: '#waline',
+                serverURL: 'waline.ninojay.top',
+                lang: 'zh-CN',
+                dark: 'body[class~="dark-mode"]',
+                requiredMeta: ['nick','mail'], // cannot customize by theme config, change it yourself
+                search: false, // 禁止表情包搜索
+                reaction: false, // 对文章打分
+                pageview: false, // 浏览量统计
+                comment: false, // 评论数统计
+
+                locale: {
+                    placeholder: '正确的邮箱地址，回复将能得到邮件通知。', 
+                    sofa: ''
+                },
+            });
+            
+        }
+        window.addEventListener('DOMContentLoaded', loadWaline);
+    </script>
+
+
+    </div>
+
+
      
 </div>
 
