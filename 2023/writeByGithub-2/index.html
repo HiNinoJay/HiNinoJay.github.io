@@ -127,7 +127,7 @@
 <li><p>在website仓库里的/source/_post文件夹下创建一个markdown文件，直接在github页面进行该markdown文件写作</p>
 </li>
 <li><p><strong>注意</strong>：hexo对markdown文件的<code>front-matter</code>有一些必须的参数（title、date必须），在写文章正文前添加如下信息</p>
-<pre><code class="markdown">---
+<pre><code class="yaml">---
 title: 这里写你想要展示的文章标题 （必要）
 date: YYYY-MM-DD HH:mm （必要）
 tags: [自定义1, 自定义2, 等等] # 文章标签（选填）
@@ -150,7 +150,7 @@ comment: false # 手动关闭该篇文章的评论系统（选填）
 <p><strong>公开的</strong> <em>github pages 仓库</em>  ：将只会存储源代码生成后的静态页面</p>
 <h4 id="在本地先生成一对密钥"><a href="#在本地先生成一对密钥" class="headerlink" title="在本地先生成一对密钥"></a>在本地先生成一对密钥</h4><p>这对密钥将使得 website仓库，能够访问到 github pages 仓库。</p>
 <p>在本地电脑任意路径执行命令（你需要git环境）：</p>
-<pre><code class="shell">ssh-keygen -f github-deploy-key
+<pre><code class="yaml">ssh-keygen -f github-deploy-key
 </code></pre>
 <p>当前目录下会有 <code>github-deploy-key</code> 和 <code>github-deploy-key.pub</code> 两个文件。</p>
 <h4 id="网页上分别配置这对密钥给两个仓库"><a href="#网页上分别配置这对密钥给两个仓库" class="headerlink" title="网页上分别配置这对密钥给两个仓库"></a>网页上分别配置这对密钥给两个仓库</h4><p><strong>配置website仓库</strong></p>
@@ -167,7 +167,7 @@ comment: false # 手动关闭该篇文章的评论系统（选填）
 <li>勾选  Allow write access 选项。</li>
 </ol>
 <h4 id="正式编写Github-Actions"><a href="#正式编写Github-Actions" class="headerlink" title="正式编写Github Actions"></a>正式编写Github Actions</h4><p>来到 website 仓库，点击Action标签，点击页面上的 <code>New workflow</code> -&gt; <code>set up a workflow yourself</code> ，复制以下内容</p>
-<pre><code class="yml">name: hexo-blog-deploy
+<pre><code class="yaml">name: hexo-blog-deploy
 
 on:
   push:

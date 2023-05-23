@@ -110,7 +110,7 @@
             <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#%E6%95%88%E6%9E%9C%E6%BC%94%E7%A4%BA"><span class="post-toc-text">效果演示</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95"><span class="post-toc-text">使用方法</span></a></li></ol>
         
         <h2 id="效果演示"><a href="#效果演示" class="headerlink" title="效果演示"></a>效果演示</h2><p>在md文件中使用如下语法：</p>
-<pre><code class="markdown">:smile: :taco: :santa:
+<pre><code class="yaml">:smile: :taco: :santa:
 </code></pre>
 <p>即可显示：</p>
 <p><span class="github-emoji"><span>😄</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span> <span class="github-emoji"><span>🌮</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f32e.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span> <span class="github-emoji"><span>🎅</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f385.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span></p>
@@ -121,12 +121,12 @@
 <li><p>执行命令安装hexo插件：</p>
 </li>
 </ol>
-<pre><code class="shell">npm install hexo-filter-github-emojis
+<pre><code class="yaml">npm install hexo-filter-github-emojis
 </code></pre>
 <ol start="3">
 <li>添加如下配置到<code>_config.yml</code>文件（注意不是A4主题的配置文件）</li>
 </ol>
-<pre><code class="yml"># hexo 支持 emojis语法 插件
+<pre><code class="yaml"># hexo 支持 emojis语法 插件
 githubEmojis:
   enable: true
   className: github-emoji
@@ -137,7 +137,7 @@ githubEmojis:
 <ol start="4">
 <li>执行命令查看效果</li>
 </ol>
-<pre><code class="shell">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s
+<pre><code class="yaml">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s
 </code></pre>
 <p>引用：</p>
 <ul>

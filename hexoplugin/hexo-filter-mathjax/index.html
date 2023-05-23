@@ -243,7 +243,7 @@ mjx-container[display="true"] + br {
 <li><p>执行命令安装hexo插件：</p>
 </li>
 </ol>
-<pre><code class="shell">npm install hexo-filter-mathjax
+<pre><code class="yaml">npm install hexo-filter-mathjax
 </code></pre>
 <ol start="3">
 <li>添加如下配置到<code>_config.yml</code>文件（注意不是A4主题的配置文件）</li>
@@ -264,12 +264,12 @@ mathjax:
 <ol start="4">
 <li>在想要文章支持数学公式的post的<code>front-matter</code>中添加</li>
 </ol>
-<pre><code class="markdown">mathjax: true
+<pre><code class="yaml">mathjax: true
 </code></pre>
 <ol start="5">
 <li>执行命令查看效果</li>
 </ol>
-<pre><code class="shell">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s
+<pre><code class="yaml">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s
 </code></pre>
 <h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><p>经过数学系专业朋友的测试，该插件使用过程中</p>
 <ul>
