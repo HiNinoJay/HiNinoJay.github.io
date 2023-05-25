@@ -15,11 +15,11 @@
     <atom:link href="https://www.ninojay.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Web开发者｜阅读写作爱好者</description>
-    <pubDate>Thu, 25 May 2023 09:42:02 GMT</pubDate>
+    <pubDate>Thu, 25 May 2023 09:59:07 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>A4支持资源压缩部署加速网站访问</title>
+      <title>hexo | A4支持资源压缩部署加速网站访问</title>
       <link>https://www.ninojay.top/hexoplugin/hexo-all-minifier/</link>
       <guid>https://www.ninojay.top/hexoplugin/hexo-all-minifier/</guid>
       <pubDate>Thu, 25 May 2023 04:48:00 GMT</pubDate>
@@ -56,7 +56,7 @@
     </item>
     
     <item>
-      <title>A4支持markdown脚标便捷显示</title>
+      <title>hexo | A4支持markdown脚标便捷显示</title>
       <link>https://www.ninojay.top/hexoplugin/hexo-reference/</link>
       <guid>https://www.ninojay.top/hexoplugin/hexo-reference/</guid>
       <pubDate>Wed, 24 May 2023 13:02:00 GMT</pubDate>
@@ -93,7 +93,7 @@
     </item>
     
     <item>
-      <title>A4支持emojis语法</title>
+      <title>hexo | A4支持emojis语法</title>
       <link>https://www.ninojay.top/hexoplugin/hexo-filter-github-emojis/</link>
       <guid>https://www.ninojay.top/hexoplugin/hexo-filter-github-emojis/</guid>
       <pubDate>Mon, 22 May 2023 05:55:00 GMT</pubDate>
@@ -130,7 +130,7 @@
     </item>
     
     <item>
-      <title>A4颜色搭配推荐</title>
+      <title>hexo | A4颜色搭配推荐</title>
       <link>https://www.ninojay.top/hexoplugin/A4-color-change/</link>
       <guid>https://www.ninojay.top/hexoplugin/A4-color-change/</guid>
       <pubDate>Sun, 21 May 2023 13:55:00 GMT</pubDate>
@@ -167,7 +167,7 @@
     </item>
     
     <item>
-      <title>A4支持文章密码访问</title>
+      <title>hexo | A4支持文章密码访问</title>
       <link>https://www.ninojay.top/hexoplugin/hexo-blog-encrypt/</link>
       <guid>https://www.ninojay.top/hexoplugin/hexo-blog-encrypt/</guid>
       <pubDate>Sun, 21 May 2023 04:11:00 GMT</pubDate>
@@ -204,7 +204,7 @@
     </item>
     
     <item>
-      <title>A4支持数学公式渲染</title>
+      <title>hexo | A4支持数学公式渲染</title>
       <link>https://www.ninojay.top/hexoplugin/hexo-filter-mathjax/</link>
       <guid>https://www.ninojay.top/hexoplugin/hexo-filter-mathjax/</guid>
       <pubDate>Sun, 21 May 2023 04:11:00 GMT</pubDate>
@@ -448,7 +448,7 @@
     </item>
     
     <item>
-      <title>一些想法</title>
+      <title>一些片段</title>
       <link>https://www.ninojay.top/2023/some-words/</link>
       <guid>https://www.ninojay.top/2023/some-words/</guid>
       <pubDate>Thu, 04 May 2023 13:58:00 GMT</pubDate>
@@ -510,7 +510,7 @@
     </item>
     
     <item>
-      <title>hexo底层json数据内容</title>
+      <title>hexo | hexo底层json数据内容</title>
       <link>https://www.ninojay.top/2023/hexo-data-inside/</link>
       <guid>https://www.ninojay.top/2023/hexo-data-inside/</guid>
       <pubDate>Fri, 21 Apr 2023 04:49:00 GMT</pubDate>
