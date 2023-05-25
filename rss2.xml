@@ -15,8 +15,45 @@
     <atom:link href="https://www.ninojay.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Web开发者｜阅读写作爱好者</description>
-    <pubDate>Thu, 25 May 2023 04:47:27 GMT</pubDate>
+    <pubDate>Thu, 25 May 2023 05:00:41 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>A4支持资源压缩部署加速网站访问</title>
+      <link>https://www.ninojay.top/hexoplugin/hexo-all-minifier/</link>
+      <guid>https://www.ninojay.top/hexoplugin/hexo-all-minifier/</guid>
+      <pubDate>Thu, 25 May 2023 04:48:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;link</description>
+          
+        
+      
+      
+      
+      <content:encoded><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="效果演示"><a href="#效果演示" class="headerlink" title="效果演示"></a>效果演示</h2><p>如果你的网站内容较多。</p><p>安装此款插件后，本地启动/部署过程中会压缩网站源码中的图片，csss，js等资源，部署成功后将大幅度提升你的网站访问速度。</p><p>如下图所示，有的图片经过压缩后，节省超过50%的空间。</p><p><img src="https://jsd.onmicrosoft.cn/gh/hininojay/images/source/img/postImages/hexo-all-minifier.png" alt="image-20230525125619014"></p><p>缺点在于，本地启动/部署耗费的时间多一些。</p><h2 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h2><p>你的网站文件夹，举例为<code>website</code>。</p><ol><li><p>命令行进入到<code>webiste</code>目录。</p></li><li><p>执行命令安装hexo插件：</p></li></ol><pre><code class="yaml">npm install hexo-all-minifier</code></pre><ol start="3"><li>添加如下配置到<code>_config.yml</code>文件（注意不是A4主题的配置文件）</li></ol><pre><code class="yaml"># 资源进行打包压缩all_minifier: true </code></pre><ol start="4"><li>执行命令查看效果</li></ol><pre><code class="yaml">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</code></pre><p>引用：</p><ul><li><strong><a href="https://github.com/chenzhutian/hexo-all-minifier">hexo-all-minifier</a></strong></li></ul>]]></content:encoded>
+      
+      
+      <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
+      
+      
+      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
+      
+      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
+      <category domain="https://www.ninojay.top/tags/hexoPlugin/">hexoPlugin</category>
+      
+      
+      <comments>https://www.ninojay.top/hexoplugin/hexo-all-minifier/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>A4支持markdown脚标便捷显示</title>
