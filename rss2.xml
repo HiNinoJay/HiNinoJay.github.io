@@ -15,8 +15,72 @@
     <atom:link href="https://www.ninojay.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Web开发者｜阅读写作爱好者</description>
-    <pubDate>Sat, 27 May 2023 03:58:06 GMT</pubDate>
+    <pubDate>Sat, 27 May 2023 12:18:25 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>中文词语/成语解释</title>
+      <link>https://www.ninojay.top/writing/Chinese-keyword/</link>
+      <guid>https://www.ninojay.top/writing/Chinese-keyword/</guid>
+      <pubDate>Sat, 27 May 2023 11:40:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;link</description>
+          
+        
+      
+      
+      
+      <content:encoded><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>[TOC]</p><h5 id="词语"><a href="#词语" class="headerlink" title="词语"></a>词语</h5><h6 id="斧正"><a href="#斧正" class="headerlink" title="斧正"></a><strong>斧正</strong></h6><p><em>动词</em>，<em>敬词</em>，用于请他人指正、修改诗文。</p><hr><h6 id="砥砺"><a href="#砥砺" class="headerlink" title="砥砺"></a>砥砺</h6><p>/dǐ lì/</p><p><em>名词</em> 磨刀石。</p><p><em>动词</em> 磨炼。</p><hr><h6 id="存殁"><a href="#存殁" class="headerlink" title="存殁"></a>存殁</h6><p>/cún mò/</p><p>生存和死亡。</p><hr><p>占筮</p><p>/zhàn shì/</p><p>它是通过特定的方法，通过抛筛、抽签或摇筛等方式，来预测未来或者解决问题。</p><hr><p>临沂</p><p>/lín yí/</p><p>临沂是中国山东省的一个城市，位于山东省南部。</p><h5 id="成语"><a href="#成语" class="headerlink" title="成语"></a>成语</h5><h6 id="治丝益棼"><a href="#治丝益棼" class="headerlink" title="治丝益棼"></a>治丝益棼</h6><p>/zhìsī-yìfén/</p><p>（棼：纷乱）意思是理丝不找出头绪，只能越理越乱。后用「治丝益棼」比喻解决问题不得要领，反而使问题更加复杂。</p><hr><h6 id="聚讼不已"><a href="#聚讼不已" class="headerlink" title="聚讼不已"></a>聚讼不已</h6><p>/jù sòng bù yǐ/</p><p>形容许多人在一起争论不休，没有一致看法。</p><hr><h6 id="和而不同"><a href="#和而不同" class="headerlink" title="和而不同"></a>和而不同</h6><p>/hé ér bù tóng/</p><p>尽管各自有所不同，但是可以和睦相处，避免冲突。</p>]]></content:encoded>
+      
+      
+      <category domain="https://www.ninojay.top/categories/%E5%A3%B0%E5%85%89/">声光</category>
+      
+      
+      <category domain="https://www.ninojay.top/tags/%E8%AE%B0%E5%BF%86/">记忆</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E6%91%98%E6%8A%84/">摘抄</category>
+      
+      
+      <comments>https://www.ninojay.top/writing/Chinese-keyword/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>常见英文缩写解释</title>
+      <link>https://www.ninojay.top/writing/English-keyword/</link>
+      <guid>https://www.ninojay.top/writing/English-keyword/</guid>
+      <pubDate>Sat, 27 May 2023 11:40:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;link</description>
+          
+        
+      
+      
+      
+      <content:encoded><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>[TOC]</p><h3 id="生活常见"><a href="#生活常见" class="headerlink" title="生活常见"></a>生活常见</h3><h4 id="ps（postscript）"><a href="#ps（postscript）" class="headerlink" title="ps（postscript）"></a>ps（postscript）</h4><p>又写作“P.S.”，附言。</p><hr><h3 id="网站相关"><a href="#网站相关" class="headerlink" title="网站相关"></a>网站相关</h3><h4 id="UV-unique-visitors"><a href="#UV-unique-visitors" class="headerlink" title="UV (unique visitors)"></a>UV (unique visitors)</h4><p>独立访问者数量，00：00——23：59，也即1天内某站点的访问人数（以cookie为依据）。一天内同一个访客的多次访问只记为1个UV。</p><h4 id="PV-page-views"><a href="#PV-page-views" class="headerlink" title="PV (page views)"></a>PV (page views)</h4><p>页面浏览数，用户每打开/刷新一次页面就记录一次，多次打开会累计。</p><hr><h3 id="开发接口相关"><a href="#开发接口相关" class="headerlink" title="开发接口相关"></a>开发接口相关</h3><h4 id="QPS（Queries-Per-Second）"><a href="#QPS（Queries-Per-Second）" class="headerlink" title="QPS（Queries Per Second）"></a>QPS（Queries Per Second）</h4><p>每秒查询率，是一台服务器每秒能够相应的查询次数，是对一个特定的查询服务器在规定时间内所处理流量多少的衡量标准。</p><p>互联网中，作为域名系统服务器的机器的性能经常用每秒查询率来衡量。</p><h4 id="TPS（TransactionsPerSecond）"><a href="#TPS（TransactionsPerSecond）" class="headerlink" title="TPS（TransactionsPerSecond）"></a>TPS（TransactionsPerSecond）</h4><p>每秒事务数。它是软件测试结果的测量单位。一个事务是指一个客户机向服务器发送请求然后服务器做出反应的过程。</p><p>客户机在发送请求时开始计时，收到服务器响应后结束计时，以此来计算使用的时间和完成的事务个数。</p><h5 id="QPS-vs-TPS"><a href="#QPS-vs-TPS" class="headerlink" title="QPS vs TPS"></a>QPS vs TPS</h5><p>QPS基本类似于TPS，但是不同的是，对于一个页面的一次访问，形成一个TPS；</p><p>但一次页面请求，可能产生多次对服务器的请求，服务器对这些请求，就可计入“QPS”之中。</p><p>如，访问一个页面会请求服务器2次，一次访问，产生一个“T”，产生2个“Q”。</p>]]></content:encoded>
+      
+      
+      <category domain="https://www.ninojay.top/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/">程序员</category>
+      
+      
+      <category domain="https://www.ninojay.top/tags/%E8%AE%B0%E5%BF%86/">记忆</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
+      
+      <comments>https://www.ninojay.top/writing/English-keyword/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>hexo | A4支持资源压缩部署加速网站访问</title>
@@ -44,9 +108,9 @@
       
       <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
-      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
-      
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
+      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
       <category domain="https://www.ninojay.top/tags/hexoPlugin/">hexoPlugin</category>
       
@@ -81,9 +145,9 @@
       
       <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
-      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
-      
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
+      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
       <category domain="https://www.ninojay.top/tags/hexoPlugin/">hexoPlugin</category>
       
@@ -118,9 +182,9 @@
       
       <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
-      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
-      
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
+      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
       <category domain="https://www.ninojay.top/tags/hexoPlugin/">hexoPlugin</category>
       
@@ -155,9 +219,9 @@
       
       <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
-      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
-      
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
+      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
       <category domain="https://www.ninojay.top/tags/hexoPlugin/">hexoPlugin</category>
       
@@ -192,9 +256,9 @@
       
       <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
-      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
-      
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
+      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
       <category domain="https://www.ninojay.top/tags/hexoPlugin/">hexoPlugin</category>
       
@@ -229,9 +293,9 @@
       
       <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
-      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
-      
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
+      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
       <category domain="https://www.ninojay.top/tags/hexoPlugin/">hexoPlugin</category>
       
@@ -265,8 +329,8 @@
     
     <item>
       <title>重新融入社会-2023</title>
-      <link>https://www.ninojay.top/2023/interview-2023/</link>
-      <guid>https://www.ninojay.top/2023/interview-2023/</guid>
+      <link>https://www.ninojay.top/writing/interview-2023/</link>
+      <guid>https://www.ninojay.top/writing/interview-2023/</guid>
       <pubDate>Thu, 18 May 2023 12:20:00 GMT</pubDate>
       
         
@@ -279,7 +343,7 @@
       
       
       
-      <content:encoded><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>完成了简历的梳理。20230519开始投递小公司，甚至外包。</p><p>我的最终目标是：去一家能让我在上海相对体面的活着、且正规不996的公司。</p><p>似乎<code>创业公司</code>、<code>外企</code>似乎是我的归宿。</p><blockquote><p>就算是2月份刷了算法题，我还是偏向于不考算法的公司。</p></blockquote><h3 id="知识点"><a href="#知识点" class="headerlink" title="知识点"></a>知识点</h3><p>针对简历还需要去学习的知识点如下：</p><ul><li><input disabled="" type="checkbox"> QPS</li><li><input disabled="" type="checkbox"> 阿里组织架构，人员上下级关系（阅读ppt即可）</li><li><input disabled="" type="checkbox"> 使用Java实现一个线程池</li><li><input disabled="" type="checkbox"> 了解定时调度框架</li><li><input disabled="" type="checkbox"> 数据加密：AES、RES、保持相对大小加密</li><li><input disabled="" type="checkbox"> java实现SPI技术</li><li><input disabled="" type="checkbox"> serverless功能了解</li><li><input disabled="" type="checkbox"> RPC架构</li></ul><p>知识面还需准备：</p><ul><li><input disabled="" type="checkbox"> Redis</li><li><input disabled="" type="checkbox"> Java并发：AQS</li><li><input disabled="" type="checkbox"> SpringIoC</li><li><input disabled="" type="checkbox"> SpringAOP</li><li><input disabled="" type="checkbox"> MyBatis</li><li><input disabled="" type="checkbox"> 常用设计模式</li></ul><h3 id="面试"><a href="#面试" class="headerlink" title="面试"></a>面试</h3><p>第一批10个公司面试练手，不抱直接拿到offer的打算，涨经验。</p><table><thead><tr><th>公司</th><th>投递简历</th><th>一面</th><th>二面</th><th>三面</th><th>四面</th></tr></thead><tbody><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>]]></content:encoded>
+      <content:encoded><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>完成了简历的梳理。<del>20230519</del> 20230527开始投递小公司，甚至外包。</p><p>我的最终目标是：去一家能让我在上海相对体面的活着、且正规不996的公司。</p><p>似乎<code>创业公司</code>、<code>外企</code>似乎是我的归宿。</p><blockquote><p>就算是2月份刷了算法题，我还是偏向于不考算法的公司。</p></blockquote><h3 id="知识点"><a href="#知识点" class="headerlink" title="知识点"></a>知识点</h3><p>针对简历还需要去学习的知识点如下：</p><ul><li><input checked="" disabled="" type="checkbox"> 了解什么是QPS/TPS</li><li><input disabled="" type="checkbox"> 阿里组织架构，人员上下级关系（阅读ppt即可）</li><li><input disabled="" type="checkbox"> 使用Java实现一个线程池</li><li><input disabled="" type="checkbox"> 了解定时调度框架</li><li><input disabled="" type="checkbox"> 数据加密：AES、RES、保持相对大小加密</li><li><input disabled="" type="checkbox"> java实现SPI技术</li><li><input disabled="" type="checkbox"> serverless功能了解</li><li><input disabled="" type="checkbox"> RPC架构</li></ul><p>知识面还需准备：</p><ul><li><input disabled="" type="checkbox"> Redis</li><li><input disabled="" type="checkbox"> Java并发：AQS</li><li><input disabled="" type="checkbox"> SpringIoC</li><li><input disabled="" type="checkbox"> SpringAOP</li><li><input disabled="" type="checkbox"> MyBatis</li><li><input disabled="" type="checkbox"> 常用设计模式</li></ul><h3 id="面试"><a href="#面试" class="headerlink" title="面试"></a>面试</h3><p>第一批10个公司面试练手，不抱直接拿到offer的打算，涨经验。</p><table><thead><tr><th>公司</th><th>投递简历</th><th>一面</th><th>二面</th><th>三面</th><th>四面</th></tr></thead><tbody><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>]]></content:encoded>
       
       
       <category domain="https://www.ninojay.top/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/">程序员</category>
@@ -290,14 +354,14 @@
       <category domain="https://www.ninojay.top/tags/%E9%9D%A2%E8%AF%95/">面试</category>
       
       
-      <comments>https://www.ninojay.top/2023/interview-2023/#disqus_thread</comments>
+      <comments>https://www.ninojay.top/writing/interview-2023/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>系统性 leetcode 刷题记录</title>
-      <link>https://www.ninojay.top/2023/leetcode/</link>
-      <guid>https://www.ninojay.top/2023/leetcode/</guid>
+      <link>https://www.ninojay.top/writing/leetcode/</link>
+      <guid>https://www.ninojay.top/writing/leetcode/</guid>
       <pubDate>Thu, 18 May 2023 04:11:00 GMT</pubDate>
       
         
@@ -321,7 +385,7 @@
       <category domain="https://www.ninojay.top/tags/Java/">Java</category>
       
       
-      <comments>https://www.ninojay.top/2023/leetcode/#disqus_thread</comments>
+      <comments>https://www.ninojay.top/writing/leetcode/#disqus_thread</comments>
       
     </item>
     
@@ -498,9 +562,9 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
-      
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
+      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
       <category domain="https://www.ninojay.top/tags/CICD/">CICD</category>
       
@@ -511,8 +575,8 @@
     
     <item>
       <title>hexo | hexo底层json数据内容</title>
-      <link>https://www.ninojay.top/2023/hexo-data-inside/</link>
-      <guid>https://www.ninojay.top/2023/hexo-data-inside/</guid>
+      <link>https://www.ninojay.top/hexoplugin/hexo-data-inside/</link>
+      <guid>https://www.ninojay.top/hexoplugin/hexo-data-inside/</guid>
       <pubDate>Fri, 21 Apr 2023 04:49:00 GMT</pubDate>
       
         
@@ -535,12 +599,14 @@
       
       <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
-      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
-      
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
       
+      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
-      <comments>https://www.ninojay.top/2023/hexo-data-inside/#disqus_thread</comments>
+      <category domain="https://www.ninojay.top/tags/hexoPlugin/">hexoPlugin</category>
+      
+      
+      <comments>https://www.ninojay.top/hexoplugin/hexo-data-inside/#disqus_thread</comments>
       
     </item>
     
@@ -599,9 +665,9 @@
       
       <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
-      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
-      
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
+      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
       
       <comments>https://www.ninojay.top/2023/how-to-deploy-your-own-website-0/#disqus_thread</comments>
@@ -661,9 +727,9 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
-      
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
+      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
       <category domain="https://www.ninojay.top/tags/CICD/">CICD</category>
       
