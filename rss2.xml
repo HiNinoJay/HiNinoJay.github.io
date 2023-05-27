@@ -15,7 +15,7 @@
     <atom:link href="https://www.ninojay.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Web开发者｜阅读写作爱好者</description>
-    <pubDate>Sat, 27 May 2023 12:41:12 GMT</pubDate>
+    <pubDate>Sat, 27 May 2023 12:44:41 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -676,8 +676,8 @@
     
     <item>
       <title>我的快捷键逻辑-myKeyboardShortcuts</title>
-      <link>https://www.ninojay.top/2023/myKeyboardShortcuts/</link>
-      <guid>https://www.ninojay.top/2023/myKeyboardShortcuts/</guid>
+      <link>https://www.ninojay.top/writing/myKeyboardShortcuts/</link>
+      <guid>https://www.ninojay.top/writing/myKeyboardShortcuts/</guid>
       <pubDate>Sun, 16 Apr 2023 18:12:00 GMT</pubDate>
       
         
@@ -701,7 +701,7 @@
       <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
       
-      <comments>https://www.ninojay.top/2023/myKeyboardShortcuts/#disqus_thread</comments>
+      <comments>https://www.ninojay.top/writing/myKeyboardShortcuts/#disqus_thread</comments>
       
     </item>
     
