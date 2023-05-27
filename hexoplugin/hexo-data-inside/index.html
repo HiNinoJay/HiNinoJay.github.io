@@ -2,7 +2,7 @@
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
 <link rel="alternate" href="/atom.xml" title="Nino" type="application/atom+xml">
 <link rel="alternate" href="/rss2.xml" title="Nino" type="application/rss+xml">
-</head><body><div class="paper"><div class="shadow-drop-2-bottom paper-main"><div class="header"><div class="header-container"><img style="width:56px;height:auto" alt="^-^" cache-control="max-age=86400" class="header-img" src="/img/favicon.webp" width="10%"><div class="header-content"><a class="logo" href="/">Nino</a> <span class="description">Web开发者｜阅读写作爱好者</span></div></div><ul class="nav"><li><a href="/">首页</a></li><li><a href="/list/">文章</a></li><li><a href="/works/">作品</a></li><li><a href="/message/">留言</a></li><li><a href="/about/">关于</a></li><li><a href="/now/">Now</a></li></ul></div><div class="post-main"><div class="post-main-title">hexo | hexo底层json数据内容</div><div class="post-md"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>为了便于开发hexo主题，在此记录下hexo启动后，基本的参数内容。</p><p>因为几乎都是json格式，熟悉了过后，用ejs写代码去实现自己想要的功能，两个字：带劲。</p><blockquote><p>不明白官网使用手册，基本的参数都提供了，这个json数据为啥不直接提供。都是我自己运行后调用，打印出来的。</p></blockquote><p><strong>page</strong></p><pre><code class="yaml">{
+</head><body><div class="paper"><div class="shadow-drop-2-bottom paper-main"><div class="header"><div class="header-container"><img style="width:56px;height:auto" alt="^-^" cache-control="max-age=86400" class="header-img" src="/img/favicon.webp" width="10%"><div class="header-content"><a class="logo" href="/">Nino</a> <span class="description">Web开发者｜阅读写作爱好者</span></div></div><ul class="nav"><li><a href="/">首页</a></li><li><a href="/list/">文章</a></li><li><a href="/works/">作品</a></li><li><a href="/message/">留言</a></li><li><a href="/about/">关于</a></li><li><a href="/now/">Now</a></li></ul></div><div class="post-main"><div class="post-main-title">hexo | hexo底层json数据内容</div><div class="post-md"><ol class="post-toc"><li class="post-toc-item post-toc-level-6"><a class="post-toc-link" href="#page"><span class="post-toc-text">page</span></a></li><li class="post-toc-item post-toc-level-6"><a class="post-toc-link" href="#page-is-post-x3D-x3D-true"><span class="post-toc-text">page(is_post() &#x3D;&#x3D; true)</span></a></li><li class="post-toc-item post-toc-level-6"><a class="post-toc-link" href="#page-tags"><span class="post-toc-text">page.tags</span></a></li><li class="post-toc-item post-toc-level-6"><a class="post-toc-link" href="#page-tags-data-0-posts"><span class="post-toc-text">page.tags.data[0].posts</span></a></li><li class="post-toc-item post-toc-level-6"><a class="post-toc-link" href="#page-categoires"><span class="post-toc-text">page.categoires</span></a></li><li class="post-toc-item post-toc-level-6"><a class="post-toc-link" href="#page-categories-data-0-posts"><span class="post-toc-text">page.categories.data[0].posts</span></a></li></ol><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>为了便于开发hexo主题，在此记录下hexo启动后，基本的参数内容。</p><p>因为几乎都是json格式，熟悉了过后，用ejs写代码去实现自己想要的功能，两个字：带劲。</p><blockquote><p>不明白官网使用手册，基本的参数都提供了，这个json数据为啥不直接提供。都是我自己运行后调用，打印出来的。</p></blockquote><h6 id="page"><a href="#page" class="headerlink" title="page"></a><strong>page</strong></h6><pre><code class="yaml">{
   title: 'now',
   date: Moment&lt;2023-04-13T23:30:27+08:00&gt;,
   _content: '',
@@ -23,7 +23,7 @@
   lang: 'en',
   canonical_path: 'now/index.html'
 }
-</code></pre><p><strong>page(is_post() == true)</strong></p><pre><code class="yaml">{
+</code></pre><h6 id="page-is-post-x3D-x3D-true"><a href="#page-is-post-x3D-x3D-true" class="headerlink" title="page(is_post() == true)"></a><strong>page(is_post() == true)</strong></h6><pre><code class="yaml">{
   title: 'hexo底层json数据内容',
   date: Moment&lt;2023-04-21T12:49:00+08:00&gt;,
   _content: '',
@@ -132,7 +132,7 @@
   lang: 'en',
   canonical_path: '2023/hexo-date-inside/index.html'
 }
-</code></pre><p><strong>page.tags</strong></p><pre><code class="yaml">_Query {
+</code></pre><h6 id="page-tags"><a href="#page-tags" class="headerlink" title="page.tags"></a><strong>page.tags</strong></h6><pre><code class="yaml">_Query {
   data: [
     _Document {
       name: '互联网',
@@ -174,7 +174,7 @@
   length: 4
 }
 
-</code></pre><p><strong>page.tags.data[0].posts</strong></p><pre><code class="yaml">_Query {
+</code></pre><h6 id="page-tags-data-0-posts"><a href="#page-tags-data-0-posts" class="headerlink" title="page.tags.data[0].posts"></a><strong>page.tags.data[0].posts</strong></h6><pre><code class="yaml">_Query {
   data: [
     _Document {
       title: '这个世界真的能消灭贫困吗？',
@@ -206,7 +206,7 @@
   ],
   length: 1
 }
-</code></pre><p><strong>page.categoires</strong></p><pre><code class="yaml">_Query {
+</code></pre><h6 id="page-categoires"><a href="#page-categoires" class="headerlink" title="page.categoires"></a><strong>page.categoires</strong></h6><pre><code class="yaml">_Query {
   data: [
     _Document {
       name: '思辨',
@@ -220,7 +220,7 @@
   ],
   length: 1
 }
-</code></pre><p><strong>page.categories.data[0].posts</strong></p><pre><code class="yaml">_Query {
+</code></pre><h6 id="page-categories-data-0-posts"><a href="#page-categories-data-0-posts" class="headerlink" title="page.categories.data[0].posts"></a><strong>page.categories.data[0].posts</strong></h6><pre><code class="yaml">_Query {
   data: [
     _Document {
       title: '食01-小炒肉',
