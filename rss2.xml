@@ -15,7 +15,7 @@
     <atom:link href="https://www.ninojay.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Web开发者｜阅读写作爱好者</description>
-    <pubDate>Sun, 02 Jul 2023 15:06:46 GMT</pubDate>
+    <pubDate>Thu, 06 Jul 2023 19:29:04 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -83,6 +83,39 @@
     </item>
     
     <item>
+      <title>常见英文缩写解释</title>
+      <link>https://www.ninojay.top/writing/English-keyword/</link>
+      <guid>https://www.ninojay.top/writing/English-keyword/</guid>
+      <pubDate>Sat, 27 May 2023 11:40:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;link</description>
+          
+        
+      
+      
+      
+      <content:encoded><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>[TOC]</p><h3 id="生活常见"><a href="#生活常见" class="headerlink" title="生活常见"></a>生活常见</h3><h4 id="ps（postscript）"><a href="#ps（postscript）" class="headerlink" title="ps（postscript）"></a>ps（postscript）</h4><p>又写作“P.S.”，附言。</p><h4 id="FAQ（Frequently-Asked-Questions）"><a href="#FAQ（Frequently-Asked-Questions）" class="headerlink" title="FAQ（Frequently Asked Questions）"></a>FAQ（Frequently Asked Questions）</h4><p>“常见问题解答”。通常在网站、论坛或应用程序中，FAQ是一份列出常见问题和答案的文档，旨在帮助用户解决问题。</p><h4 id="DLC（Downloadable-Content）"><a href="#DLC（Downloadable-Content）" class="headerlink" title="DLC（Downloadable Content）"></a>DLC（Downloadable Content）</h4><p>即可下载内容。在游戏中，DLC是指玩家可以通过下载的方式获得的额外游戏内容，如新地图、新任务、新角色、新道具等。这些DLC通常需要额外付费，可以为游戏增添新的玩法和体验。</p><h4 id="eldest和oldest"><a href="#eldest和oldest" class="headerlink" title="eldest和oldest"></a>eldest和oldest</h4><p>“Eldest” 和 “oldest” 是英语中两个不同的词，它们的意思都是”最年长的”。</p><p>“Eldest” 通常用于描述家庭中年龄最大的<strong>孩子</strong></p><p> “oldest” 通常用于描述年龄最大的人或物体。</p><hr><h3 id="网站相关"><a href="#网站相关" class="headerlink" title="网站相关"></a>网站相关</h3><h4 id="UV-unique-visitors"><a href="#UV-unique-visitors" class="headerlink" title="UV (unique visitors)"></a>UV (unique visitors)</h4><p>独立访问者数量，00：00——23：59，也即1天内某站点的访问人数（以cookie为依据）。一天内同一个访客的多次访问只记为1个UV。</p><h4 id="PV-page-views"><a href="#PV-page-views" class="headerlink" title="PV (page views)"></a>PV (page views)</h4><p>页面浏览数，用户每打开/刷新一次页面就记录一次，多次打开会累计。</p><hr><h3 id="开发接口相关"><a href="#开发接口相关" class="headerlink" title="开发接口相关"></a>开发接口相关</h3><h4 id="QPS（Queries-Per-Second）"><a href="#QPS（Queries-Per-Second）" class="headerlink" title="QPS（Queries Per Second）"></a>QPS（Queries Per Second）</h4><p>每秒查询率，是一台服务器每秒能够相应的查询次数，是对一个特定的查询服务器在规定时间内所处理流量多少的衡量标准。</p><p>互联网中，作为域名系统服务器的机器的性能经常用每秒查询率来衡量。</p><h4 id="TPS（TransactionsPerSecond）"><a href="#TPS（TransactionsPerSecond）" class="headerlink" title="TPS（TransactionsPerSecond）"></a>TPS（TransactionsPerSecond）</h4><p>每秒事务数。它是软件测试结果的测量单位。一个事务是指一个客户机向服务器发送请求然后服务器做出反应的过程。</p><p>客户机在发送请求时开始计时，收到服务器响应后结束计时，以此来计算使用的时间和完成的事务个数。</p><h5 id="QPS-vs-TPS"><a href="#QPS-vs-TPS" class="headerlink" title="QPS vs TPS"></a>QPS vs TPS</h5><p>QPS基本类似于TPS，但是不同的是，对于一个页面的一次访问，形成一个TPS；</p><p>但一次页面请求，可能产生多次对服务器的请求，服务器对这些请求，就可计入“QPS”之中。</p><p>如，访问一个页面会请求服务器2次，一次访问，产生一个“T”，产生2个“Q”。</p>]]></content:encoded>
+      
+      
+      <category domain="https://www.ninojay.top/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/">程序员</category>
+      
+      
+      <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E8%AE%B0%E5%BF%86/">记忆</category>
+      
+      
+      <comments>https://www.ninojay.top/writing/English-keyword/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>中文字/词语/成语解释</title>
       <link>https://www.ninojay.top/writing/Chinese-keyword/</link>
       <guid>https://www.ninojay.top/writing/Chinese-keyword/</guid>
@@ -114,39 +147,6 @@
     </item>
     
     <item>
-      <title>常见英文缩写解释</title>
-      <link>https://www.ninojay.top/writing/English-keyword/</link>
-      <guid>https://www.ninojay.top/writing/English-keyword/</guid>
-      <pubDate>Sat, 27 May 2023 11:40:00 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;link</description>
-          
-        
-      
-      
-      
-      <content:encoded><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>[TOC]</p><h3 id="生活常见"><a href="#生活常见" class="headerlink" title="生活常见"></a>生活常见</h3><h4 id="ps（postscript）"><a href="#ps（postscript）" class="headerlink" title="ps（postscript）"></a>ps（postscript）</h4><p>又写作“P.S.”，附言。</p><h4 id="FAQ（Frequently-Asked-Questions）"><a href="#FAQ（Frequently-Asked-Questions）" class="headerlink" title="FAQ（Frequently Asked Questions）"></a>FAQ（Frequently Asked Questions）</h4><p>“常见问题解答”。通常在网站、论坛或应用程序中，FAQ是一份列出常见问题和答案的文档，旨在帮助用户解决问题。</p><h4 id="DLC（Downloadable-Content）"><a href="#DLC（Downloadable-Content）" class="headerlink" title="DLC（Downloadable Content）"></a>DLC（Downloadable Content）</h4><p>即可下载内容。在游戏中，DLC是指玩家可以通过下载的方式获得的额外游戏内容，如新地图、新任务、新角色、新道具等。这些DLC通常需要额外付费，可以为游戏增添新的玩法和体验。</p><h4 id="eldest和oldest"><a href="#eldest和oldest" class="headerlink" title="eldest和oldest"></a>eldest和oldest</h4><p>“Eldest” 和 “oldest” 是英语中两个不同的词，它们的意思都是”最年长的”。</p><p>“Eldest” 通常用于描述家庭中年龄最大的<strong>孩子</strong></p><p> “oldest” 通常用于描述年龄最大的人或物体。</p><hr><h3 id="网站相关"><a href="#网站相关" class="headerlink" title="网站相关"></a>网站相关</h3><h4 id="UV-unique-visitors"><a href="#UV-unique-visitors" class="headerlink" title="UV (unique visitors)"></a>UV (unique visitors)</h4><p>独立访问者数量，00：00——23：59，也即1天内某站点的访问人数（以cookie为依据）。一天内同一个访客的多次访问只记为1个UV。</p><h4 id="PV-page-views"><a href="#PV-page-views" class="headerlink" title="PV (page views)"></a>PV (page views)</h4><p>页面浏览数，用户每打开/刷新一次页面就记录一次，多次打开会累计。</p><hr><h3 id="开发接口相关"><a href="#开发接口相关" class="headerlink" title="开发接口相关"></a>开发接口相关</h3><h4 id="QPS（Queries-Per-Second）"><a href="#QPS（Queries-Per-Second）" class="headerlink" title="QPS（Queries Per Second）"></a>QPS（Queries Per Second）</h4><p>每秒查询率，是一台服务器每秒能够相应的查询次数，是对一个特定的查询服务器在规定时间内所处理流量多少的衡量标准。</p><p>互联网中，作为域名系统服务器的机器的性能经常用每秒查询率来衡量。</p><h4 id="TPS（TransactionsPerSecond）"><a href="#TPS（TransactionsPerSecond）" class="headerlink" title="TPS（TransactionsPerSecond）"></a>TPS（TransactionsPerSecond）</h4><p>每秒事务数。它是软件测试结果的测量单位。一个事务是指一个客户机向服务器发送请求然后服务器做出反应的过程。</p><p>客户机在发送请求时开始计时，收到服务器响应后结束计时，以此来计算使用的时间和完成的事务个数。</p><h5 id="QPS-vs-TPS"><a href="#QPS-vs-TPS" class="headerlink" title="QPS vs TPS"></a>QPS vs TPS</h5><p>QPS基本类似于TPS，但是不同的是，对于一个页面的一次访问，形成一个TPS；</p><p>但一次页面请求，可能产生多次对服务器的请求，服务器对这些请求，就可计入“QPS”之中。</p><p>如，访问一个页面会请求服务器2次，一次访问，产生一个“T”，产生2个“Q”。</p>]]></content:encoded>
-      
-      
-      <category domain="https://www.ninojay.top/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/">程序员</category>
-      
-      
-      <category domain="https://www.ninojay.top/tags/%E8%AE%B0%E5%BF%86/">记忆</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
-      
-      
-      <comments>https://www.ninojay.top/writing/English-keyword/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>hexo | A4支持资源压缩部署加速网站访问</title>
       <link>https://www.ninojay.top/hexoplugin/hexo-all-minifier/</link>
       <guid>https://www.ninojay.top/hexoplugin/hexo-all-minifier/</guid>
@@ -168,11 +168,11 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
+      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
       <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
       
       <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
       
       <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
@@ -205,11 +205,11 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
+      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
       <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
       
       <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
       
       <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
@@ -242,11 +242,11 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
+      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
       <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
       
       <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
       
       <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
@@ -273,17 +273,17 @@
       
       
       
-      <content:encoded><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>在hexo-theme-A4即本主题更新了1.6.7版本后，支持页面所有颜色自定义调整，只需要在<code>_config.a4.yml</code>配置文件中相应配置修改为你喜欢的颜色即可。<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="脚标测试">[1]</span></a></sup></p><p>但是<code>颜色搭配是一门学问</code>，以下直接告诉你可供选择使用的配色，利于切换主题风格。</p><blockquote><p>你有自己研究出来的顺眼配色，也可在下方评论区留言，我看到后将更新到此页面。</p></blockquote><h3 id="灰白配色-默认"><a href="#灰白配色-默认" class="headerlink" title="灰白配色-默认"></a>灰白配色-默认</h3><h4 id="效果演示"><a href="#效果演示" class="headerlink" title="效果演示"></a>效果演示</h4><p><img src="https://jsd.onmicrosoft.cn/gh/hininojay/images/a4color/greywhite.png" alt="灰白A4"></p><h4 id="如何启用？"><a href="#如何启用？" class="headerlink" title="如何启用？"></a>如何启用？</h4><p>该配色为A4启动后默认配色。保证<code>_config.a4.yml</code>配置文件中<code>color</code>设置为<code>false</code>即可</p><p>或者<code>color</code>设置为<code>true</code>采用以下配置</p><pre><code class="yml"># 实验性功能：A4色调调整：颜色搭配是很主观的行为# 设置为 false 为 A4 默认色调，可设置为 true 直接hexo s 体验下 另一种预置色调# 注：颜色代码需加“#”，颜色单词不需要加“#”color:   enable: true   font: "#000000"   background: "#e4e4e4"   indexBackGround: "#ffffff"   postBackGround: "#ffffff"   codeBackGround: "black"   codeFont: "white"  </code></pre><h3 id="绿金配色-预置"><a href="#绿金配色-预置" class="headerlink" title="绿金配色-预置"></a>绿金配色-预置</h3><h4 id="效果演示-1"><a href="#效果演示-1" class="headerlink" title="效果演示"></a>效果演示</h4><p><img src="https://jsd.onmicrosoft.cn/gh/hininojay/images/a4color/greengolden.png" alt="绿金A4"></p><h4 id="如何启用？-1"><a href="#如何启用？-1" class="headerlink" title="如何启用？"></a>如何启用？</h4><p>该配色<code>_config.a4.yml</code>配置文件中预置，将<code>color</code>设置为<code>true</code>，采用以下配置</p><pre><code class="yml"># 实验性功能：A4色调调整：颜色搭配是很主观的行为# 设置为 false 为 A4 默认色调，可设置为 true 直接hexo s 体验下 另一种预置色调# 注：颜色代码需加“#”，颜色单词不需要加“#”color:   enable: true # true | false   font: "#fec591" # 字体颜色  background: "#005454" # 最底部层背景颜色  indexBackGround: "#005454" # 首页层颜色  postBackGround: "#005454" # 文章页层颜色  codeBackGround: "black" # 代码块背景颜色  codeFont: "white" # 代码块字体颜色 </code></pre><h3 id="你想推荐你的配色？"><a href="#你想推荐你的配色？" class="headerlink" title="你想推荐你的配色？"></a>你想推荐你的配色？</h3><p>请在评论区回复你的配置文件<code>color</code>部分代码。</p><pre><code class="yml"># 实验性功能：A4色调调整：颜色搭配是很主观的行为# 设置为 false 为 A4 默认色调，可设置为 true 直接hexo s 体验下 另一种预置色调# 注：颜色代码需加“#”，颜色单词不需要加“#”color:   enable: true # true | false   font: "#fec591" # 字体颜色  background: "#005454" # 最底部层背景颜色  indexBackGround: "#005454" # 首页层颜色  postBackGround: "#005454" # 文章页层颜色  codeBackGround: "black" # 代码块背景颜色  codeFont: "white" # 代码块字体颜色 </code></pre><p>我看到后将更新到此页面。</p><div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">脚标测试<a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content:encoded>
+      <content:encoded><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>在hexo-theme-A4即本主题更新了1.6.7版本后，支持页面所有颜色自定义调整，只需要在<code>_config.a4.yml</code>配置文件中相应配置修改为你喜欢的颜色即可。<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="脚标测试">[1]</span></a></sup></p><p>但是<code>颜色搭配是一门学问</code>，以下直接告诉你可供选择使用的配色，利于切换主题风格。</p><blockquote><p>你有自己研究出来的顺眼配色，也可在下方评论区留言，我看到后将更新到此页面。</p></blockquote><h3 id="灰白配色-默认"><a href="#灰白配色-默认" class="headerlink" title="灰白配色-默认"></a>灰白配色-默认</h3><h4 id="效果演示"><a href="#效果演示" class="headerlink" title="效果演示"></a>效果演示</h4><p><img src="https://jsd.onmicrosoft.cn/gh/hininojay/images/a4color/greywhite.png" alt="灰白A4"></p><h4 id="如何启用？"><a href="#如何启用？" class="headerlink" title="如何启用？"></a>如何启用？</h4><p>该配色为A4启动后默认配色。保证<code>_config.a4.yml</code>配置文件中<code>color</code>设置为<code>false</code>即可</p><p>或者<code>color</code>设置为<code>true</code>采用以下配置</p><pre><code class="yml"># 实验性功能：A4色调调整：颜色搭配是很主观的行为# 设置为 false 为 A4 默认色调，可设置为 true 直接hexo s 体验下 另一种预置色调# 注：颜色代码需加“#”，颜色单词不需要加“#”color:   enable: true   font: "#000000"   background: "#e4e4e4"   indexBackGround: "#ffffff"   postBackGround: "#ffffff"   codeBackGround: "black"   codeFont: "white"    linkBeforeClick: "#fec591" # 链接点击前的颜色，标题也是链接，所以标题颜色也在此修改  linkAfterClick: "#fec591" # 链接点击后的颜色</code></pre><h3 id="绿金配色-预置"><a href="#绿金配色-预置" class="headerlink" title="绿金配色-预置"></a>绿金配色-预置</h3><h4 id="效果演示-1"><a href="#效果演示-1" class="headerlink" title="效果演示"></a>效果演示</h4><p><img src="https://jsd.onmicrosoft.cn/gh/hininojay/images/a4color/greengolden.png" alt="绿金A4"></p><h4 id="如何启用？-1"><a href="#如何启用？-1" class="headerlink" title="如何启用？"></a>如何启用？</h4><p>该配色<code>_config.a4.yml</code>配置文件中预置，将<code>color</code>设置为<code>true</code>，采用以下配置</p><pre><code class="yml"># 实验性功能：A4色调调整：颜色搭配是很主观的行为# 设置为 false 为 A4 默认色调，可设置为 true 直接hexo s 体验下 另一种预置色调# 注：颜色代码需加“#”，颜色单词不需要加“#”color:   enable: true # true | false   font: "#fec591" # 字体颜色  background: "#005454" # 最底部层背景颜色  indexBackGround: "#005454" # 首页层颜色  postBackGround: "#005454" # 文章页层颜色  codeBackGround: "black" # 代码块背景颜色  codeFont: "white" # 代码块字体颜色   linkBeforeClick: "#fec591" # 链接点击前的颜色，标题也是链接，所以标题颜色也在此修改  linkAfterClick: "#fec591" # 链接点击后的颜色</code></pre><h3 id="你想推荐你的配色？"><a href="#你想推荐你的配色？" class="headerlink" title="你想推荐你的配色？"></a>你想推荐你的配色？</h3><p>请在评论区回复你的配置文件<code>color</code>部分代码。</p><pre><code class="yml"># 实验性功能：A4色调调整：颜色搭配是很主观的行为# 设置为 false 为 A4 默认色调，可设置为 true 直接hexo s 体验下 另一种预置色调# 注：颜色代码需加“#”，颜色单词不需要加“#”color:   enable: true # true | false   font: "#fec591" # 字体颜色  background: "#005454" # 最底部层背景颜色  indexBackGround: "#005454" # 首页层颜色  postBackGround: "#005454" # 文章页层颜色  codeBackGround: "black" # 代码块背景颜色  codeFont: "white" # 代码块字体颜色   linkBeforeClick: "#fec591" # 链接点击前的颜色，标题也是链接，所以标题颜色也在此修改  linkAfterClick: "#fec591" # 链接点击后的颜色</code></pre><p>我看到后将更新到此页面。</p><div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">脚标测试<a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content:encoded>
       
       
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
+      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
       <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
       
       <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
       
       <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
@@ -316,11 +316,11 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
+      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
       <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
       
       <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
       
       <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
@@ -353,11 +353,11 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
+      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
       <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
       
       <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
       
       <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
@@ -506,9 +506,9 @@
       
       <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
       
-      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
-      
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
       
       <comments>https://www.ninojay.top/2023/website-cdn/#disqus_thread</comments>
@@ -630,9 +630,9 @@
       
       <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
       
-      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
-      
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
       <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
@@ -696,9 +696,9 @@
       
       <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
       
-      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
-      
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
       <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
