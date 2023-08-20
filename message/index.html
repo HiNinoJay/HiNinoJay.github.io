@@ -107,6 +107,15 @@
         
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="留言板"><a href="#留言板" class="headerlink" title="留言板"></a>留言板</h2><p>你想告诉或者问我什么吗，欢迎。</p>
 <p>主题相关问题，请先阅读<a target="_blank" rel="noopener" href="https://doc.ninojay.top/">帮助手册</a>，仍无法得到解决，在Github上发起<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4/issues">issue</a>吧。</p>
+<ul>
+<li><code>2023.08.21</code>如果你的A4出现之前没有的显示问题，请更新至<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4/releases/tag/v1.7.1">v1.7.1版本</a>，更新完毕按照教程修改配置文件，或者你不想更新，可手动关闭A4配置文件中的cdn，重新部署网站即可。</li>
+</ul>
+<pre><code class="yml"># 你可能会用到的 https://ninojay.top/2023/website-cdn/
+cdn:
+  enable: false # 如果你修改了 css/js ，也许需要把cdn设置为false才会生效
+  choose: jsdelivr  # aliyun | unpkg| jsdelivr  # 都调整为利于国内的cdn，建议使用默认的 jsdelivr 即可
+  # 因为是免费CDN，所以有挂的风险，一旦发现网站样式出现原来没有的问题，请尝试关闭CDN
+</code></pre>
 
     </div>
 
