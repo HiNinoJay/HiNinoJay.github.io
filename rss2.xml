@@ -15,7 +15,7 @@
     <atom:link href="https://www.ninojay.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Web开发者｜阅读写作爱好者</description>
-    <pubDate>Sun, 20 Aug 2023 17:26:26 GMT</pubDate>
+    <pubDate>Sun, 20 Aug 2023 17:51:28 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -69,9 +69,9 @@
       <category domain="https://www.ninojay.top/categories/%E5%A3%B0%E5%85%89/">声光</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E9%98%85%E8%AF%BB/">阅读</category>
-      
       <category domain="https://www.ninojay.top/tags/%E6%91%98%E6%8A%84/">摘抄</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E9%98%85%E8%AF%BB/">阅读</category>
       
       <category domain="https://www.ninojay.top/tags/%E5%93%B2%E5%AD%A6/">哲学</category>
       
@@ -102,9 +102,9 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
-      
       <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
       
       <comments>https://www.ninojay.top/writing/%E6%8B%9B%E8%81%98/#disqus_thread</comments>
@@ -133,9 +133,9 @@
       <category domain="https://www.ninojay.top/categories/%E5%A3%B0%E5%85%89/">声光</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E8%AE%B0%E5%BF%86/">记忆</category>
-      
       <category domain="https://www.ninojay.top/tags/%E6%91%98%E6%8A%84/">摘抄</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E8%AE%B0%E5%BF%86/">记忆</category>
       
       
       <comments>https://www.ninojay.top/writing/Chinese-keyword/#disqus_thread</comments>
@@ -191,11 +191,13 @@
       
       
       
-      <content:encoded><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="效果演示"><a href="#效果演示" class="headerlink" title="效果演示"></a>效果演示</h2><p>如果你的网站内容较多。</p><p>安装此款插件后，本地启动/部署过程中会压缩网站源码中的图片，csss，js等资源，部署成功后将大幅度提升你的网站访问速度。</p><p>如下图所示，有的图片经过压缩后，节省超过50%的空间。</p><p><img src="https://jsd.onmicrosoft.cn/gh/hininojay/images/source/img/postImages/hexo-all-minifier.png" alt="image-20230525125619014"></p><p>缺点在于，本地启动/部署耗费的时间多一些。</p><h2 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h2><p>你的网站文件夹，举例为<code>website</code>。</p><ol><li><p>命令行进入到<code>webiste</code>目录。</p></li><li><p>执行命令安装hexo插件：</p></li></ol><pre><code class="yaml">npm install hexo-all-minifier</code></pre><ol start="3"><li>添加如下配置到<code>_config.yml</code>文件（注意不是A4主题的配置文件）</li></ol><pre><code class="yaml"># 资源进行打包压缩all_minifier: true </code></pre><ol start="4"><li>执行命令查看效果</li></ol><pre><code class="yaml">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</code></pre><p>引用：</p><ul><li><strong><a href="https://github.com/chenzhutian/hexo-all-minifier">hexo-all-minifier</a></strong></li></ul>]]></content:encoded>
+      <content:encoded><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="效果演示"><a href="#效果演示" class="headerlink" title="效果演示"></a>效果演示</h2><p>如果你的网站内容较多。</p><p>安装此款插件后，本地启动/部署过程中会压缩网站源码中的图片，csss，js等资源，部署成功后将大幅度提升你的网站访问速度。</p><p>如下图所示，有的图片经过压缩后，节省超过50%的空间。</p><p><img src="https://cdn.jsdelivr.net/gh/hininojay/images/source/img/postImages/hexo-all-minifier.png" alt="image-20230525125619014"></p><p>缺点在于，本地启动/部署耗费的时间多一些。</p><h2 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h2><p>你的网站文件夹，举例为<code>website</code>。</p><ol><li><p>命令行进入到<code>webiste</code>目录。</p></li><li><p>执行命令安装hexo插件：</p></li></ol><pre><code class="yaml">npm install hexo-all-minifier</code></pre><ol start="3"><li>添加如下配置到<code>_config.yml</code>文件（注意不是A4主题的配置文件）</li></ol><pre><code class="yaml"># 资源进行打包压缩all_minifier: true </code></pre><ol start="4"><li>执行命令查看效果</li></ol><pre><code class="yaml">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</code></pre><p>引用：</p><ul><li><strong><a href="https://github.com/chenzhutian/hexo-all-minifier">hexo-all-minifier</a></strong></li></ul>]]></content:encoded>
       
       
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
+      
+      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
       
       <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
@@ -204,8 +206,6 @@
       <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
       <category domain="https://www.ninojay.top/tags/hexoPlugin/">hexoPlugin</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
       
       
       <comments>https://www.ninojay.top/hexoplugin/hexo-all-minifier/#disqus_thread</comments>
@@ -228,11 +228,13 @@
       
       
       
-      <content:encoded><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="效果演示"><a href="#效果演示" class="headerlink" title="效果演示"></a>效果演示</h2><p>markdown文件中末尾使用如下语法，定义一个脚标：</p><pre><code class="yaml">[ ^ 1]: 第一个脚标，信息显示成功 # 把[]里的空格去除，演示需要加空格</code></pre><p>在文件内容里想要引入脚标的位置使用如下语法：</p><pre><code class="yaml">这里有一个脚标[ ^ 1 ] # 把[]里的空格去除，演示需要加空格</code></pre><p>将呈现如下效果：</p><p>这里有一个脚标<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="第一个脚标，信息显示成功">[1]</span></a></sup>，鼠标放上去会显示内容。<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="第二个脚标">[2]</span></a></sup></p><p><img src="https://jsd.onmicrosoft.cn/gh/hininojay/images/source/img/postImages/hexo-reference.png"></p><h2 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h2><p>你的网站文件夹，举例为<code>website</code>。</p><ol><li><p>命令行进入到<code>webiste</code>目录。</p></li><li><p>执行命令安装hexo插件：</p></li></ol><pre><code class="yaml">npm install hexo-reference --save</code></pre><ol start="3"><li>执行命令查看效果</li></ol><pre><code class="yaml">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</code></pre><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>经过A4使用者<a href="https://github.com/AllenGo912">AllenGo912</a>使用测试，中国大陆使用hexo-reference插件可能会有加载速度变慢的情况（该插件自带CDN的链接缘故）。</p><p>如果需要，可安装经过@AllenGo912调整CDN后的<a href="https://github.com/AllenGo912/hexo-reference-new">hexo-reference-new</a>。</p><p>1.执行命令删除hexo-reference插件</p><pre><code class="yaml">npm uninstall hexo-reference</code></pre><p>2.执行命令安装hexo-reference-new插件</p><pre><code class="yaml">npm install hexo-reference-new --save</code></pre><p>引用：</p><ul><li><strong><a href="https://github.com/kchen0x/hexo-reference">hexo-reference</a></strong></li><li><strong><a href="https://github.com/AllenGo912/hexo-reference-new">hexo-reference-new</a></strong></li></ul><div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">第一个脚标，信息显示成功<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">第二个脚标<a href="#fnref:2" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content:encoded>
+      <content:encoded><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="效果演示"><a href="#效果演示" class="headerlink" title="效果演示"></a>效果演示</h2><p>markdown文件中末尾使用如下语法，定义一个脚标：</p><pre><code class="yaml">[ ^ 1]: 第一个脚标，信息显示成功 # 把[]里的空格去除，演示需要加空格</code></pre><p>在文件内容里想要引入脚标的位置使用如下语法：</p><pre><code class="yaml">这里有一个脚标[ ^ 1 ] # 把[]里的空格去除，演示需要加空格</code></pre><p>将呈现如下效果：</p><p>这里有一个脚标<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="第一个脚标，信息显示成功">[1]</span></a></sup>，鼠标放上去会显示内容。<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="第二个脚标">[2]</span></a></sup></p><p><img src="https://cdn.jsdelivr.net/gh/hininojay/images/source/img/postImages/hexo-reference.png"></p><h2 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h2><p>你的网站文件夹，举例为<code>website</code>。</p><ol><li><p>命令行进入到<code>webiste</code>目录。</p></li><li><p>执行命令安装hexo插件：</p></li></ol><pre><code class="yaml">npm install hexo-reference --save</code></pre><ol start="3"><li>执行命令查看效果</li></ol><pre><code class="yaml">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</code></pre><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>经过A4使用者<a href="https://github.com/AllenGo912">AllenGo912</a>使用测试，中国大陆使用hexo-reference插件可能会有加载速度变慢的情况（该插件自带CDN的链接缘故）。</p><p>如果需要，可安装经过@AllenGo912调整CDN后的<a href="https://github.com/AllenGo912/hexo-reference-new">hexo-reference-new</a>。</p><p>1.执行命令删除hexo-reference插件</p><pre><code class="yaml">npm uninstall hexo-reference</code></pre><p>2.执行命令安装hexo-reference-new插件</p><pre><code class="yaml">npm install hexo-reference-new --save</code></pre><p>引用：</p><ul><li><strong><a href="https://github.com/kchen0x/hexo-reference">hexo-reference</a></strong></li><li><strong><a href="https://github.com/AllenGo912/hexo-reference-new">hexo-reference-new</a></strong></li></ul><div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">第一个脚标，信息显示成功<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">第二个脚标<a href="#fnref:2" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content:encoded>
       
       
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
+      
+      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
       
       <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
@@ -241,8 +243,6 @@
       <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
       <category domain="https://www.ninojay.top/tags/hexoPlugin/">hexoPlugin</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
       
       
       <comments>https://www.ninojay.top/hexoplugin/hexo-reference/#disqus_thread</comments>
@@ -271,6 +271,8 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
+      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
+      
       <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
@@ -278,8 +280,6 @@
       <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
       <category domain="https://www.ninojay.top/tags/hexoPlugin/">hexoPlugin</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
       
       
       <comments>https://www.ninojay.top/hexoplugin/hexo-filter-github-emojis/#disqus_thread</comments>
@@ -302,11 +302,13 @@
       
       
       
-      <content:encoded><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>在hexo-theme-A4即本主题更新了1.6.7版本后，支持页面所有颜色自定义调整，只需要在<code>_config.a4.yml</code>配置文件中相应配置修改为你喜欢的颜色即可。<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="脚标测试">[1]</span></a></sup></p><p>但是<code>颜色搭配是一门学问</code>，以下直接告诉你可供选择使用的配色，利于切换主题风格。</p><blockquote><p>你有自己研究出来的顺眼配色，也可在下方评论区留言，我看到后将更新到此页面。</p></blockquote><h3 id="灰白配色-默认"><a href="#灰白配色-默认" class="headerlink" title="灰白配色-默认"></a>灰白配色-默认</h3><h4 id="效果演示"><a href="#效果演示" class="headerlink" title="效果演示"></a>效果演示</h4><p><img src="https://jsd.onmicrosoft.cn/gh/hininojay/images/a4color/greywhite.png" alt="灰白A4"></p><h4 id="如何启用？"><a href="#如何启用？" class="headerlink" title="如何启用？"></a>如何启用？</h4><p>该配色为A4启动后默认配色。保证<code>_config.a4.yml</code>配置文件中<code>color</code>设置为<code>false</code>即可</p><p>或者<code>color</code>设置为<code>true</code>采用以下配置</p><pre><code class="yml"># 实验性功能：A4色调调整：颜色搭配是很主观的行为# 设置为 false 为 A4 默认色调，可设置为 true 直接hexo s 体验下 另一种预置色调# 注：颜色代码需加“#”，颜色单词不需要加“#”color:   enable: true   font: "#000000"   background: "#e4e4e4"   indexBackGround: "#ffffff"   postBackGround: "#ffffff"   codeBackGround: "black"   codeFont: "white"    linkBeforeClick: "#fec591" # 链接点击前的颜色，标题也是链接，所以标题颜色也在此修改  linkAfterClick: "#fec591" # 链接点击后的颜色</code></pre><h3 id="绿金配色-预置"><a href="#绿金配色-预置" class="headerlink" title="绿金配色-预置"></a>绿金配色-预置</h3><h4 id="效果演示-1"><a href="#效果演示-1" class="headerlink" title="效果演示"></a>效果演示</h4><p><img src="https://jsd.onmicrosoft.cn/gh/hininojay/images/a4color/greengolden.png" alt="绿金A4"></p><h4 id="如何启用？-1"><a href="#如何启用？-1" class="headerlink" title="如何启用？"></a>如何启用？</h4><p>该配色<code>_config.a4.yml</code>配置文件中预置，将<code>color</code>设置为<code>true</code>，采用以下配置</p><pre><code class="yml"># 实验性功能：A4色调调整：颜色搭配是很主观的行为# 设置为 false 为 A4 默认色调，可设置为 true 直接hexo s 体验下 另一种预置色调# 注：颜色代码需加“#”，颜色单词不需要加“#”color:   enable: true # true | false   font: "#fec591" # 字体颜色  background: "#005454" # 最底部层背景颜色  indexBackGround: "#005454" # 首页层颜色  postBackGround: "#005454" # 文章页层颜色  codeBackGround: "black" # 代码块背景颜色  codeFont: "white" # 代码块字体颜色   linkBeforeClick: "#fec591" # 链接点击前的颜色，标题也是链接，所以标题颜色也在此修改  linkAfterClick: "#fec591" # 链接点击后的颜色</code></pre><h3 id="你想推荐你的配色？"><a href="#你想推荐你的配色？" class="headerlink" title="你想推荐你的配色？"></a>你想推荐你的配色？</h3><p>请在评论区回复你的配置文件<code>color</code>部分代码。</p><pre><code class="yml"># 实验性功能：A4色调调整：颜色搭配是很主观的行为# 设置为 false 为 A4 默认色调，可设置为 true 直接hexo s 体验下 另一种预置色调# 注：颜色代码需加“#”，颜色单词不需要加“#”color:   enable: true # true | false   font: "#fec591" # 字体颜色  background: "#005454" # 最底部层背景颜色  indexBackGround: "#005454" # 首页层颜色  postBackGround: "#005454" # 文章页层颜色  codeBackGround: "black" # 代码块背景颜色  codeFont: "white" # 代码块字体颜色   linkBeforeClick: "#fec591" # 链接点击前的颜色，标题也是链接，所以标题颜色也在此修改  linkAfterClick: "#fec591" # 链接点击后的颜色</code></pre><p>我看到后将更新到此页面。</p><div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">脚标测试<a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content:encoded>
+      <content:encoded><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>在hexo-theme-A4即本主题更新了1.6.7版本后，支持页面所有颜色自定义调整，只需要在<code>_config.a4.yml</code>配置文件中相应配置修改为你喜欢的颜色即可。<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="脚标测试">[1]</span></a></sup></p><p>但是<code>颜色搭配是一门学问</code>，以下直接告诉你可供选择使用的配色，利于切换主题风格。</p><blockquote><p>你有自己研究出来的顺眼配色，也可在下方评论区留言，我看到后将更新到此页面。</p></blockquote><h3 id="灰白配色-默认"><a href="#灰白配色-默认" class="headerlink" title="灰白配色-默认"></a>灰白配色-默认</h3><h4 id="效果演示"><a href="#效果演示" class="headerlink" title="效果演示"></a>效果演示</h4><p><img src="https://cdn.jsdelivr.net/gh/hininojay/images/a4color/greywhite.png" alt="灰白A4"></p><h4 id="如何启用？"><a href="#如何启用？" class="headerlink" title="如何启用？"></a>如何启用？</h4><p>该配色为A4启动后默认配色。保证<code>_config.a4.yml</code>配置文件中<code>color</code>设置为<code>false</code>即可</p><p>或者<code>color</code>设置为<code>true</code>采用以下配置</p><pre><code class="yml"># 实验性功能：A4色调调整：颜色搭配是很主观的行为# 设置为 false 为 A4 默认色调，可设置为 true 直接hexo s 体验下 另一种预置色调# 注：颜色代码需加“#”，颜色单词不需要加“#”color:   enable: true   font: "#000000"   background: "#e4e4e4"   indexBackGround: "#ffffff"   postBackGround: "#ffffff"   codeBackGround: "black"   codeFont: "white"    linkBeforeClick: "#fec591" # 链接点击前的颜色，标题也是链接，所以标题颜色也在此修改  linkAfterClick: "#fec591" # 链接点击后的颜色</code></pre><h3 id="绿金配色-预置"><a href="#绿金配色-预置" class="headerlink" title="绿金配色-预置"></a>绿金配色-预置</h3><h4 id="效果演示-1"><a href="#效果演示-1" class="headerlink" title="效果演示"></a>效果演示</h4><p><img src="https://cdn.jsdelivr.net/gh/hininojay/images/a4color/greengolden.png" alt="绿金A4"></p><h4 id="如何启用？-1"><a href="#如何启用？-1" class="headerlink" title="如何启用？"></a>如何启用？</h4><p>该配色<code>_config.a4.yml</code>配置文件中预置，将<code>color</code>设置为<code>true</code>，采用以下配置</p><pre><code class="yml"># 实验性功能：A4色调调整：颜色搭配是很主观的行为# 设置为 false 为 A4 默认色调，可设置为 true 直接hexo s 体验下 另一种预置色调# 注：颜色代码需加“#”，颜色单词不需要加“#”color:   enable: true # true | false   font: "#fec591" # 字体颜色  background: "#005454" # 最底部层背景颜色  indexBackGround: "#005454" # 首页层颜色  postBackGround: "#005454" # 文章页层颜色  codeBackGround: "black" # 代码块背景颜色  codeFont: "white" # 代码块字体颜色   linkBeforeClick: "#fec591" # 链接点击前的颜色，标题也是链接，所以标题颜色也在此修改  linkAfterClick: "#fec591" # 链接点击后的颜色</code></pre><h3 id="你想推荐你的配色？"><a href="#你想推荐你的配色？" class="headerlink" title="你想推荐你的配色？"></a>你想推荐你的配色？</h3><p>请在评论区回复你的配置文件<code>color</code>部分代码。</p><pre><code class="yml"># 实验性功能：A4色调调整：颜色搭配是很主观的行为# 设置为 false 为 A4 默认色调，可设置为 true 直接hexo s 体验下 另一种预置色调# 注：颜色代码需加“#”，颜色单词不需要加“#”color:   enable: true # true | false   font: "#fec591" # 字体颜色  background: "#005454" # 最底部层背景颜色  indexBackGround: "#005454" # 首页层颜色  postBackGround: "#005454" # 文章页层颜色  codeBackGround: "black" # 代码块背景颜色  codeFont: "white" # 代码块字体颜色   linkBeforeClick: "#fec591" # 链接点击前的颜色，标题也是链接，所以标题颜色也在此修改  linkAfterClick: "#fec591" # 链接点击后的颜色</code></pre><p>我看到后将更新到此页面。</p><div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">脚标测试<a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content:encoded>
       
       
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
+      
+      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
       
       <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
@@ -315,8 +317,6 @@
       <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
       <category domain="https://www.ninojay.top/tags/hexoPlugin/">hexoPlugin</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
       
       
       <comments>https://www.ninojay.top/hexoplugin/A4-color-change/#disqus_thread</comments>
@@ -345,6 +345,8 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
+      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
+      
       <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
@@ -352,8 +354,6 @@
       <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
       <category domain="https://www.ninojay.top/tags/hexoPlugin/">hexoPlugin</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
       
       
       <comments>https://www.ninojay.top/hexoplugin/hexo-blog-encrypt/#disqus_thread</comments>
@@ -382,6 +382,8 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
+      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
+      
       <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
@@ -389,8 +391,6 @@
       <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
       <category domain="https://www.ninojay.top/tags/hexoPlugin/">hexoPlugin</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
       
       
       <comments>https://www.ninojay.top/hexoplugin/hexo-filter-mathjax/#disqus_thread</comments>
@@ -467,7 +467,7 @@
       
       
       
-      <content:encoded><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>小时候寒暑假，跟着家人去到祖国的大小山川名胜古迹。我的心里面只留下了，旅游即跋山涉水，累死累活。</p><p>毕业去往杭州，亲身体会到著名的灵隐寺也铺满了人，江南的炊烟袅袅形象在我心中也破碎了。</p><p>今年机缘巧合，搬家的附近是一座小山。听大家说，山上有一座寺庙，西林寺。西林寺啊，印象中是泥泞的上山路，山路中间有素面馆，不知道是不是小时候的记忆错乱，素面馆里是可以点牛肉面的。我还知道母校高中有个传统，临近高考当届班主任们会组织前往西林寺为考生们拜佛祈福。</p><p>总而言之，自不自然也从山脚溜达上去。山脚就出现茂大的植物有些违和，跟着台阶顺势生长，能主观判断出两侧花丛也是经过人细心挑选。再抬头，富有艺术气息的建筑一角出现了。没有想到这里有这样的建筑。跟着走进，牌匾为大千博物馆，是为纪念出生于此地的著名山水画大师张大千所建。</p><p>大千博物馆位于这条上山的长阶梯中部左侧的平台，继续往上山的长阶梯走，已经能看到尽头是一面墙壁，墙壁上有一个红色笔墨的大“佛”字。</p><p>只有我一个人走在这长阶梯。这几个月，大都如此。走在这条长阶梯，眉头不再紧皱，心里面平静如镜，虫鸣鸟叫也比耳机里的音乐更耐听。右侧还有个平台，这里有一个小神龛，神龛里菩萨，佛像都有。神龛前是供人烧香的祭坛。祭坛里的灰烬和寺庙特有的烟尘味吹向我的面容。每次闻到烧香的味道，总是让我想起小时候参加的那些葬礼。我把随身携带的信拿出来，一角靠近祭坛里唯一燃烧着的蜡烛火焰。火焰从蜡烛蔓延到信，烧到一半，我松开了手，目睹信变为灰烬融入祭坛里的其他灰烬。我亲眼看到信能被烧为灰烬，信上的字却烧不为灰烬，将浮现在灰烬上，那些字更显眼了。拿来祭坛里的木棒，搅浑了祭坛。继续上山。</p><p>寺庙，人少才能叫寺庙。我始终有这样一个念想。后来才知道，西林寺是一座尼姑庵。庙里女出家人行为举止有自己的风度，站在大佛前右侧念经敲木鱼，然后再走出门到一座莲花石像前，弯腰在手中点了点，再点了点莲花。再接着回到大佛前念经敲木鱼。庙占地不算大，佛和菩萨的像都很大。看到有些跪垫摆歪了，我将其摆正一些，跟着就踱步出来。我虽然喜欢逛人少的寺庙，但其实不太信佛，更认为年轻人不应该经常去求神拜佛。</p><p>西林寺很漂亮。寺庙常见的红瓦墙也融入了周围树林。没走原路下山，走在了庙旁一条下山小道。小道不一会儿就变为平路。左边往上是庙墙，右边是大片树林。就是这样，我遇到了那颗150年的菩提树。我觉得自己遇到这颗菩提树是命中注定，她好像就在等我来看她。接下来的时间，只要又来爬山，我也都来看了她。菩提树，你的名字多么好听啊。</p><p>有次舍弃大阶梯，沿着这条小路上山，告别了菩提树，我想起在山下往上看到的一栋大阁楼。怎么之前没在山上遇到呢。围绕山的水泥路走，终于发现还有一条延伸出去的路，连接到了山下的大千园林。这条路的中途分叉是一条空中栈道，走在空中栈道，这座城市的甜城湖横铺在眼前，与近看觉得水面像果冻不同，在空中看湖面水波，是一片白，再定睛隐约看到光反射的水波褶皱。水边总是有人在眺望湖的另一端，我想这些经常看大江大海大湖的人，心胸能有多狭隘呢？</p><p>空中栈道的尽头，即是那座山下看到的大阁楼。它叫太白楼。银色的外表，庞大的身躯，位于这座城市的最高点，只有我一个人。我想叫它银阁寺。</p><p>世上再无比银阁更美之物。</p><p><img src="https://jsd.onmicrosoft.cn/gh/hininojay/images/source/img/postImages/%E9%93%B6%E9%98%81.jpeg" alt="银阁"></p>]]></content:encoded>
+      <content:encoded><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>小时候寒暑假，跟着家人去到祖国的大小山川名胜古迹。我的心里面只留下了，旅游即跋山涉水，累死累活。</p><p>毕业去往杭州，亲身体会到著名的灵隐寺也铺满了人，江南的炊烟袅袅形象在我心中也破碎了。</p><p>今年机缘巧合，搬家的附近是一座小山。听大家说，山上有一座寺庙，西林寺。西林寺啊，印象中是泥泞的上山路，山路中间有素面馆，不知道是不是小时候的记忆错乱，素面馆里是可以点牛肉面的。我还知道母校高中有个传统，临近高考当届班主任们会组织前往西林寺为考生们拜佛祈福。</p><p>总而言之，自不自然也从山脚溜达上去。山脚就出现茂大的植物有些违和，跟着台阶顺势生长，能主观判断出两侧花丛也是经过人细心挑选。再抬头，富有艺术气息的建筑一角出现了。没有想到这里有这样的建筑。跟着走进，牌匾为大千博物馆，是为纪念出生于此地的著名山水画大师张大千所建。</p><p>大千博物馆位于这条上山的长阶梯中部左侧的平台，继续往上山的长阶梯走，已经能看到尽头是一面墙壁，墙壁上有一个红色笔墨的大“佛”字。</p><p>只有我一个人走在这长阶梯。这几个月，大都如此。走在这条长阶梯，眉头不再紧皱，心里面平静如镜，虫鸣鸟叫也比耳机里的音乐更耐听。右侧还有个平台，这里有一个小神龛，神龛里菩萨，佛像都有。神龛前是供人烧香的祭坛。祭坛里的灰烬和寺庙特有的烟尘味吹向我的面容。每次闻到烧香的味道，总是让我想起小时候参加的那些葬礼。我把随身携带的信拿出来，一角靠近祭坛里唯一燃烧着的蜡烛火焰。火焰从蜡烛蔓延到信，烧到一半，我松开了手，目睹信变为灰烬融入祭坛里的其他灰烬。我亲眼看到信能被烧为灰烬，信上的字却烧不为灰烬，将浮现在灰烬上，那些字更显眼了。拿来祭坛里的木棒，搅浑了祭坛。继续上山。</p><p>寺庙，人少才能叫寺庙。我始终有这样一个念想。后来才知道，西林寺是一座尼姑庵。庙里女出家人行为举止有自己的风度，站在大佛前右侧念经敲木鱼，然后再走出门到一座莲花石像前，弯腰在手中点了点，再点了点莲花。再接着回到大佛前念经敲木鱼。庙占地不算大，佛和菩萨的像都很大。看到有些跪垫摆歪了，我将其摆正一些，跟着就踱步出来。我虽然喜欢逛人少的寺庙，但其实不太信佛，更认为年轻人不应该经常去求神拜佛。</p><p>西林寺很漂亮。寺庙常见的红瓦墙也融入了周围树林。没走原路下山，走在了庙旁一条下山小道。小道不一会儿就变为平路。左边往上是庙墙，右边是大片树林。就是这样，我遇到了那颗150年的菩提树。我觉得自己遇到这颗菩提树是命中注定，她好像就在等我来看她。接下来的时间，只要又来爬山，我也都来看了她。菩提树，你的名字多么好听啊。</p><p>有次舍弃大阶梯，沿着这条小路上山，告别了菩提树，我想起在山下往上看到的一栋大阁楼。怎么之前没在山上遇到呢。围绕山的水泥路走，终于发现还有一条延伸出去的路，连接到了山下的大千园林。这条路的中途分叉是一条空中栈道，走在空中栈道，这座城市的甜城湖横铺在眼前，与近看觉得水面像果冻不同，在空中看湖面水波，是一片白，再定睛隐约看到光反射的水波褶皱。水边总是有人在眺望湖的另一端，我想这些经常看大江大海大湖的人，心胸能有多狭隘呢？</p><p>空中栈道的尽头，即是那座山下看到的大阁楼。它叫太白楼。银色的外表，庞大的身躯，位于这座城市的最高点，只有我一个人。我想叫它银阁寺。</p><p>世上再无比银阁更美之物。</p><p><img src="https://cdn.jsdelivr.net/gh/hininojay/images/source/img/postImages/%E9%93%B6%E9%98%81.jpeg" alt="银阁"></p>]]></content:encoded>
       
       
       <category domain="https://www.ninojay.top/categories/%E9%A3%8E%E6%99%AF/">风景</category>
@@ -513,8 +513,8 @@
     
     <item>
       <title>利于搭建国内网站的免费CDN加速github和npm方式</title>
-      <link>https://www.ninojay.top/2023/website-cdn/</link>
-      <guid>https://www.ninojay.top/2023/website-cdn/</guid>
+      <link>https://www.ninojay.top/hexoplugin/website-cdn/</link>
+      <guid>https://www.ninojay.top/hexoplugin/website-cdn/</guid>
       <pubDate>Sat, 06 May 2023 18:10:00 GMT</pubDate>
       
         
@@ -527,20 +527,49 @@
       
       
       
-      <content:encoded><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>因为开发自己的hexo主题<a href="https://github.com/HiNinoJay/hexo-theme-A4">hexo-theme-A4</a>需要，以及搭建网站的图床加速需求。</p><p>记录下常用的免费cdn，以下链接可直接访问我部署的数据，那么根据这个格式可替换为你对应的数据仓库格式。</p><p>建议有回源选回源。</p><h3 id="npm"><a href="#npm" class="headerlink" title="npm"></a>npm</h3><p>可用来加速访问npm包内资源</p><p><strong>aliyun</strong></p><p><a href="https://npm.elemecdn.com/hexo-theme-a4@latest/source/css/markdown.css">https://npm.elemecdn.com/hexo-theme-a4@latest/source/css/markdown.css</a></p><p><a href="https://github.elemecdn.com/hexo-theme-a4@latest/source/css/markdown.css">https://github.elemecdn.com/hexo-theme-a4@latest/source/css/markdown.css</a></p><p><strong>jsdelivr</strong></p><p><a href="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/css/markdown.css">https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/css/markdown.css</a></p><p>回源：<a href="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/css/markdown.css">https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/css/markdown.css</a></p><p><strong>unpkg</strong></p><p><a href="https://unpkg.com/hexo-theme-a4@latest/source/css/markdown.css">https://unpkg.com/hexo-theme-a4@latest/source/css/markdown.css</a></p><p>回源：<a href="https://npm.onmicrosoft.cn/hexo-theme-a4@latest/source/css/markdown.css">https://npm.onmicrosoft.cn/hexo-theme-a4@latest/source/css/markdown.css</a></p><h3 id="github"><a href="#github" class="headerlink" title="github"></a>github</h3><p>可用来加速访问你的github图床仓库</p><p><strong>jsdelivr</strong></p><p><a href="https://cdn.jsdelivr.net/gh/hininojay/images/source/img/postImages/GTD.jpg">https://cdn.jsdelivr.net/gh/hininojay/images/source/img/postImages/GTD.jpg</a></p><p>回源：<a href="https://jsd.onmicrosoft.cn/gh/hininojay/images/source/img/postImages/GTD.jpg">https://jsd.onmicrosoft.cn/gh/hininojay/images/source/img/postImages/GTD.jpg</a></p><p><strong>statically</strong></p><p><a href="https://cdn.statically.io/gh/hininojay/images/main/source/img/postImages/GTD.jpg">https://cdn.statically.io/gh/hininojay/images/main/source/img/postImages/GTD.jpg</a></p>]]></content:encoded>
+      <content:encoded><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>因为开发自己的hexo主题<a href="https://github.com/HiNinoJay/hexo-theme-A4">hexo-theme-A4</a>需要，以及搭建网站的图床加速需求。</p><p>记录下常用的免费cdn，以下链接可直接访问我部署的数据，那么根据这个格式可替换为你对应的数据仓库格式。</p><p>建议有回源选回源。</p><p><code>2023.08.21 回源有可能挂，求稳建议还是用主要的。</code></p><h3 id="npm"><a href="#npm" class="headerlink" title="npm"></a>npm</h3><p>可用来加速访问npm包内资源</p><p><strong>aliyun</strong></p><p><a href="https://npm.elemecdn.com/hexo-theme-a4@latest/source/css/markdown.css">https://npm.elemecdn.com/hexo-theme-a4@latest/source/css/markdown.css</a></p><p><a href="https://github.elemecdn.com/hexo-theme-a4@latest/source/css/markdown.css">https://github.elemecdn.com/hexo-theme-a4@latest/source/css/markdown.css</a></p><p><strong>jsdelivr</strong></p><p><a href="https://cdn.jsdelivr.net/npm/hexo-theme-a4@latest/source/css/markdown.css">https://cdn.jsdelivr.net/npm/hexo-theme-a4@latest/source/css/markdown.css</a></p><p>回源：<a href="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/css/markdown.css">https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/css/markdown.css</a></p><p><strong>unpkg</strong></p><p><a href="https://unpkg.com/hexo-theme-a4@latest/source/css/markdown.css">https://unpkg.com/hexo-theme-a4@latest/source/css/markdown.css</a></p><p>回源：<a href="https://npm.onmicrosoft.cn/hexo-theme-a4@latest/source/css/markdown.css">https://npm.onmicrosoft.cn/hexo-theme-a4@latest/source/css/markdown.css</a></p><h3 id="github"><a href="#github" class="headerlink" title="github"></a>github</h3><p>可用来加速访问你的github图床仓库</p><p><strong>jsdelivr</strong></p><p><a href="https://cdn.jsdelivr.net/gh/hininojay/images/source/img/postImages/GTD.jpg">https://cdn.jsdelivr.net/gh/hininojay/images/source/img/postImages/GTD.jpg</a></p><p>回源：<a href="https://jsd.onmicrosoft.cn/gh/hininojay/images/source/img/postImages/GTD.jpg">https://jsd.onmicrosoft.cn/gh/hininojay/images/source/img/postImages/GTD.jpg</a></p><p><strong>statically</strong></p><p><a href="https://cdn.statically.io/gh/hininojay/images/main/source/img/postImages/GTD.jpg">https://cdn.statically.io/gh/hininojay/images/main/source/img/postImages/GTD.jpg</a></p>]]></content:encoded>
       
       
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
-      
       <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
       
       
-      <comments>https://www.ninojay.top/2023/website-cdn/#disqus_thread</comments>
+      <comments>https://www.ninojay.top/hexoplugin/website-cdn/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>植物有思想吗?</title>
+      <link>https://www.ninojay.top/2023/have-to-do/</link>
+      <guid>https://www.ninojay.top/2023/have-to-do/</guid>
+      <pubDate>Thu, 04 May 2023 13:58:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;link</description>
+          
+        
+      
+      
+      
+      <content:encoded><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>在山上碰到一个经常背着挎包，寺庙下，树下，亭子下，阳光下，看书的人。</p><p>他与我有些交谈，我好奇为什么前段时间每天下午看到他， 这几天又不见他，今天怎么又碰到他。他回答了我，提到了来这座山的经历，心情。其他的我记不得，中途的话题也不断的切换，我只记得下面这些内容。</p><p>他问我：“你觉得植物有思想吗？”</p><p>我还没来得及回答。</p><p>“植物没有思想。因为我们说有了思想，就能懂得趋利避害。有人害我，要懂得闪躲，回避。而植物就那么待在那里，任由人的摆布。所以思想之于植物毫无用处，我们可以说植物实际上没有思想，或者说我们人本身希望植物没有思想。”</p><p>“可大家都知道植物有趋光性，它会选择向阳生长。”</p><p>“也许是这个世界整个系统设计好的规则。也只代表了植物在这个系统中设置好的趋利，植物本身还是不能避人为的害。你看，连动物和人相处久了，它也会对人的喜怒哀乐有所感官，做出利己的反应。我再这么说吧，你说植物朝着阳光缓慢生长，那么我说，一只断手被扔在地上，这只断手随着时间流逝也会慢慢腐烂。我相信没人会说，这只断手有思想。”</p><p>“我明白了。”</p><p>“明白了什么。”</p><p>“学会尊重这个世界的游戏规则。在此基础上，既然我们有了思想，还是要学会反抗。我想起看过昆德拉的一句话，他说人一旦沉溺于自身的软弱，会在众目睽睽的目光中倒下去，倒在比臭水沟还低的位置。”</p><p>他笑了。</p><p>”你笑什么。“</p><p>”你说咱俩为什么会在这里相遇。你说为什么我们会在这里谈论这些东西。“</p><p>“在这里吹风很舒服。那里有棵树我很喜欢。我相信它们也喜欢我。”</p><p>“从我们聊完这些话题，产生一些改变，我们和周围的一切，接下来，也许将是貌合神离。”</p><p><img src="https://cdn.jsdelivr.net/gh/hininojay/images/source/img/postImages/xilinsideshu.jpg" alt="西林寺的树"></p>]]></content:encoded>
+      
+      
+      <category domain="https://www.ninojay.top/categories/%E6%80%9D%E8%BE%A8/">思辨</category>
+      
+      
+      <category domain="https://www.ninojay.top/tags/%E8%AF%9D%E5%A4%B4/">话头</category>
+      
+      
+      <comments>https://www.ninojay.top/2023/have-to-do/#disqus_thread</comments>
       
     </item>
     
@@ -570,35 +599,6 @@
       
       
       <comments>https://www.ninojay.top/2023/some-words/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>植物有思想吗?</title>
-      <link>https://www.ninojay.top/2023/have-to-do/</link>
-      <guid>https://www.ninojay.top/2023/have-to-do/</guid>
-      <pubDate>Thu, 04 May 2023 13:58:00 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;link</description>
-          
-        
-      
-      
-      
-      <content:encoded><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>在山上碰到一个经常背着挎包，寺庙下，树下，亭子下，阳光下，看书的人。</p><p>他与我有些交谈，我好奇为什么前段时间每天下午看到他， 这几天又不见他，今天怎么又碰到他。他回答了我，提到了来这座山的经历，心情。其他的我记不得，中途的话题也不断的切换，我只记得下面这些内容。</p><p>他问我：“你觉得植物有思想吗？”</p><p>我还没来得及回答。</p><p>“植物没有思想。因为我们说有了思想，就能懂得趋利避害。有人害我，要懂得闪躲，回避。而植物就那么待在那里，任由人的摆布。所以思想之于植物毫无用处，我们可以说植物实际上没有思想，或者说我们人本身希望植物没有思想。”</p><p>“可大家都知道植物有趋光性，它会选择向阳生长。”</p><p>“也许是这个世界整个系统设计好的规则。也只代表了植物在这个系统中设置好的趋利，植物本身还是不能避人为的害。你看，连动物和人相处久了，它也会对人的喜怒哀乐有所感官，做出利己的反应。我再这么说吧，你说植物朝着阳光缓慢生长，那么我说，一只断手被扔在地上，这只断手随着时间流逝也会慢慢腐烂。我相信没人会说，这只断手有思想。”</p><p>“我明白了。”</p><p>“明白了什么。”</p><p>“学会尊重这个世界的游戏规则。在此基础上，既然我们有了思想，还是要学会反抗。我想起看过昆德拉的一句话，他说人一旦沉溺于自身的软弱，会在众目睽睽的目光中倒下去，倒在比臭水沟还低的位置。”</p><p>他笑了。</p><p>”你笑什么。“</p><p>”你说咱俩为什么会在这里相遇。你说为什么我们会在这里谈论这些东西。“</p><p>“在这里吹风很舒服。那里有棵树我很喜欢。我相信它们也喜欢我。”</p><p>“从我们聊完这些话题，产生一些改变，我们和周围的一切，接下来，也许将是貌合神离。”</p><p><img src="https://jsd.onmicrosoft.cn/gh/hininojay/images/source/img/postImages/xilinsideshu.jpg" alt="西林寺的树"></p>]]></content:encoded>
-      
-      
-      <category domain="https://www.ninojay.top/categories/%E6%80%9D%E8%BE%A8/">思辨</category>
-      
-      
-      <category domain="https://www.ninojay.top/tags/%E8%AF%9D%E5%A4%B4/">话头</category>
-      
-      
-      <comments>https://www.ninojay.top/2023/have-to-do/#disqus_thread</comments>
       
     </item>
     
@@ -657,9 +657,9 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
-      
       <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
       
@@ -723,9 +723,9 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
-      
       <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
       
@@ -758,9 +758,9 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
-      
       <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
       
       <comments>https://www.ninojay.top/writing/myKeyboardShortcuts/#disqus_thread</comments>
@@ -930,7 +930,7 @@
       
       
       
-      <content:encoded><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>《被讨厌的勇气》从高中时期就听到过，一直以来有一个偏见，觉得这类书名就极具商业吸引力的书，不用去购买。最大的作用就是书名那几个字，一旦被大众所看见，所接受，就完成了这本书的使命。书里面的内容多半是车轱辘话：无非讨厌的基本原理，一直在意被讨厌会导致怎样的心理，不怕被讨厌的人生又会如何…</p><p>等我真正打开这本书过后，我才意识到自己的偏见实属傲慢。</p><blockquote><p>同样的感受也体现在《断舍离》的阅读过程上。</p></blockquote><p>书里的内容和我所预想的完全不同，是一本关于阿德勒个体心理学的对话式辩论书籍。按照作者的描述，他一开始就想像柏拉图用对话式辩论传播苏格拉底的智慧一般，传播阿德勒的个体心理学。从而这本书的辩论双方是一个还未经历太多世事充满迷茫的年轻人和一位长者的对话。</p><p>年轻人带着自己的疑惑不断发问长者，对长者的建议提出辩驳，再一一被长者折服。在此过程中，年轻人提出的那些问题确确实实让我，我也相信如推荐序写的一般，会让很多人脸红，感受到被批评。每个人都能从这迷茫的年轻人身上看到自己的影子。长者的解决种种问题的核心办法，即是阿德勒个体心理学。</p><h3 id="目的论"><a href="#目的论" class="headerlink" title="目的论"></a>目的论</h3><blockquote><p>阿尔弗雷德·阿德勒，奥地利精神病学家。和弗洛伊德，荣格并称心理学上的三大巨头。</p></blockquote><p>在2023过年以前，我都还是一个习惯性主动让自己不快乐的人，我会将自己的不快乐合理化，脑子里面回想从小到大的种种不愉快的经历，随后告诉其他人，我现在这么不快乐是应该的，因为我过去如何如何成长而来。按照《被讨厌的勇气》的说法，以上我的描述即是弗洛伊德的决定论，决定论告诉人们，是过去发生了什么导致人现在的心理。阿德勒却提出了目的论，他严肃的提出自己的观点：<strong>过去决定不了什么，未来一切都可以改变，当下则是自己有了一些目的，才会有当下的种种情绪，种种选择</strong>。也就是说，阿德勒认为，我现在的不快乐是我自身的选择，是我本身为了达到某个目的，选择让自己不快乐。这份不快乐能够为我带来什么想要的东西，比方说周围人的特殊关心，缺失的爱，逃避真正想做的事。这个时候把自己的悲伤调取出来，就合理化了当下自己的行为，心安理得过的不愉快。</p><p>事实上，我最近几年一直都在反思自己的悲伤，也和许多确诊抑郁症的同学深度交流过，我觉得自身还是比她们更有力量一些。所以毫不夸张的说，阿德勒所描述的个体心理学非常对我的胃口，我甚至觉得他理论化的东西，我之前就已经经历过了同样的思考。我一直都相信自己有勇气改变，每个人同样都可以。</p><p>再来一次总结，弗洛伊德的决定论并非毫无意义，能够解释一些现象，但过度的强调决定论，容易给人带来悲观的态度，大家会认为一切都无法改变，当下的悲惨遭遇都是应该的。而阿德勒，在我心中最大的作用，就是告诉人们，我们身为人类，一切可以改变的！过去决定不了任何事，都是我们为了达到消极的目的主动选择的，所以直面真正的问题！</p><p>也就是说，阿德勒给我，也一定能给很多人活下去的正向力量。</p><h3 id="课题分离"><a href="#课题分离" class="headerlink" title="课题分离"></a>课题分离</h3><p>书中还提到“课题分离”这一方法论。很多抑郁的人，在我看来大概率是一个善良的人。过度的善良让这类人接受不了人际交往的真实残酷。正常的人都心安理得的自私，过度善良的人只能接受现实，学习变得自私一些，才能不陷入这类苦恼。“课题分离”即是实践“学会变得自私”的方法论。在我们面对任何一件与人际交往相关的事，苦恼不知道怎么选择去做的时候，那么就先思考，这是谁的课题。如果是对方的课题，就心安理得，甚至在其他人眼中认为是“狠心”的放下。如果是自己的课题，那么就不要抱怨，去全力付出。</p><blockquote><p>人生的三大课题：交友课题、工作课题以及爱的课题”</p></blockquote><p>这里本该举一些例子，思考过后还是算了。课题的分离提供的是一种方法论，我非常认可，最近也一直在实践。实践的结果是，不过度地在意人际交往的许多事。正确的理性向任何人提出自己身份发展来的问题。不惧后果，因为我提出问题，明确拒绝，发起批评，与人争吵，是我的课题。那么对方听到这个问题，遇到这份拒绝，经历这起批评，和我产生争吵后的处理，都是对方的课题。</p><p>说实话，这样活起来，轻松很多。</p><h3 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h3><p>以上即是《被讨厌的勇气》带给我印象最深刻的点。除此之外，该书还讲到梦的作用，自卑感和自卑情结等等。这些部分在我看这本书之前就已经做过了相应的思考。</p><p>总而言之，这书作为阿德勒个体心理学的入门非常带劲。读起来十分畅快。为我正在读的阿德勒《自卑与超越》提供了便利。</p><blockquote><p>Ps ：机缘巧合，在我本科看过卡耐基《人性的弱点》，上个月看过史蒂芬·柯维《高效能人士的七个习惯》后，《被讨厌的勇气》开篇就提到了以上两本书。这种（书里面提到我看过的书）感受非常爽。</p></blockquote><p>2023年2月28日，阅读完《被讨厌的勇气》。</p><p><img src="https://jsd.onmicrosoft.cn/gh/hininojay/images/source/img/postImages/beitaoyandeyongqi.jpg"></p>]]></content:encoded>
+      <content:encoded><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>《被讨厌的勇气》从高中时期就听到过，一直以来有一个偏见，觉得这类书名就极具商业吸引力的书，不用去购买。最大的作用就是书名那几个字，一旦被大众所看见，所接受，就完成了这本书的使命。书里面的内容多半是车轱辘话：无非讨厌的基本原理，一直在意被讨厌会导致怎样的心理，不怕被讨厌的人生又会如何…</p><p>等我真正打开这本书过后，我才意识到自己的偏见实属傲慢。</p><blockquote><p>同样的感受也体现在《断舍离》的阅读过程上。</p></blockquote><p>书里的内容和我所预想的完全不同，是一本关于阿德勒个体心理学的对话式辩论书籍。按照作者的描述，他一开始就想像柏拉图用对话式辩论传播苏格拉底的智慧一般，传播阿德勒的个体心理学。从而这本书的辩论双方是一个还未经历太多世事充满迷茫的年轻人和一位长者的对话。</p><p>年轻人带着自己的疑惑不断发问长者，对长者的建议提出辩驳，再一一被长者折服。在此过程中，年轻人提出的那些问题确确实实让我，我也相信如推荐序写的一般，会让很多人脸红，感受到被批评。每个人都能从这迷茫的年轻人身上看到自己的影子。长者的解决种种问题的核心办法，即是阿德勒个体心理学。</p><h3 id="目的论"><a href="#目的论" class="headerlink" title="目的论"></a>目的论</h3><blockquote><p>阿尔弗雷德·阿德勒，奥地利精神病学家。和弗洛伊德，荣格并称心理学上的三大巨头。</p></blockquote><p>在2023过年以前，我都还是一个习惯性主动让自己不快乐的人，我会将自己的不快乐合理化，脑子里面回想从小到大的种种不愉快的经历，随后告诉其他人，我现在这么不快乐是应该的，因为我过去如何如何成长而来。按照《被讨厌的勇气》的说法，以上我的描述即是弗洛伊德的决定论，决定论告诉人们，是过去发生了什么导致人现在的心理。阿德勒却提出了目的论，他严肃的提出自己的观点：<strong>过去决定不了什么，未来一切都可以改变，当下则是自己有了一些目的，才会有当下的种种情绪，种种选择</strong>。也就是说，阿德勒认为，我现在的不快乐是我自身的选择，是我本身为了达到某个目的，选择让自己不快乐。这份不快乐能够为我带来什么想要的东西，比方说周围人的特殊关心，缺失的爱，逃避真正想做的事。这个时候把自己的悲伤调取出来，就合理化了当下自己的行为，心安理得过的不愉快。</p><p>事实上，我最近几年一直都在反思自己的悲伤，也和许多确诊抑郁症的同学深度交流过，我觉得自身还是比她们更有力量一些。所以毫不夸张的说，阿德勒所描述的个体心理学非常对我的胃口，我甚至觉得他理论化的东西，我之前就已经经历过了同样的思考。我一直都相信自己有勇气改变，每个人同样都可以。</p><p>再来一次总结，弗洛伊德的决定论并非毫无意义，能够解释一些现象，但过度的强调决定论，容易给人带来悲观的态度，大家会认为一切都无法改变，当下的悲惨遭遇都是应该的。而阿德勒，在我心中最大的作用，就是告诉人们，我们身为人类，一切可以改变的！过去决定不了任何事，都是我们为了达到消极的目的主动选择的，所以直面真正的问题！</p><p>也就是说，阿德勒给我，也一定能给很多人活下去的正向力量。</p><h3 id="课题分离"><a href="#课题分离" class="headerlink" title="课题分离"></a>课题分离</h3><p>书中还提到“课题分离”这一方法论。很多抑郁的人，在我看来大概率是一个善良的人。过度的善良让这类人接受不了人际交往的真实残酷。正常的人都心安理得的自私，过度善良的人只能接受现实，学习变得自私一些，才能不陷入这类苦恼。“课题分离”即是实践“学会变得自私”的方法论。在我们面对任何一件与人际交往相关的事，苦恼不知道怎么选择去做的时候，那么就先思考，这是谁的课题。如果是对方的课题，就心安理得，甚至在其他人眼中认为是“狠心”的放下。如果是自己的课题，那么就不要抱怨，去全力付出。</p><blockquote><p>人生的三大课题：交友课题、工作课题以及爱的课题”</p></blockquote><p>这里本该举一些例子，思考过后还是算了。课题的分离提供的是一种方法论，我非常认可，最近也一直在实践。实践的结果是，不过度地在意人际交往的许多事。正确的理性向任何人提出自己身份发展来的问题。不惧后果，因为我提出问题，明确拒绝，发起批评，与人争吵，是我的课题。那么对方听到这个问题，遇到这份拒绝，经历这起批评，和我产生争吵后的处理，都是对方的课题。</p><p>说实话，这样活起来，轻松很多。</p><h3 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h3><p>以上即是《被讨厌的勇气》带给我印象最深刻的点。除此之外，该书还讲到梦的作用，自卑感和自卑情结等等。这些部分在我看这本书之前就已经做过了相应的思考。</p><p>总而言之，这书作为阿德勒个体心理学的入门非常带劲。读起来十分畅快。为我正在读的阿德勒《自卑与超越》提供了便利。</p><blockquote><p>Ps ：机缘巧合，在我本科看过卡耐基《人性的弱点》，上个月看过史蒂芬·柯维《高效能人士的七个习惯》后，《被讨厌的勇气》开篇就提到了以上两本书。这种（书里面提到我看过的书）感受非常爽。</p></blockquote><p>2023年2月28日，阅读完《被讨厌的勇气》。</p><p><img src="https://cdn.jsdelivr.net/gh/hininojay/images/source/img/postImages/beitaoyandeyongqi.jpg"></p>]]></content:encoded>
       
       
       <category domain="https://www.ninojay.top/categories/%E5%A3%B0%E5%85%89/">声光</category>
@@ -1025,9 +1025,9 @@
       <category domain="https://www.ninojay.top/categories/%E5%A3%B0%E5%85%89/">声光</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E9%98%85%E8%AF%BB/">阅读</category>
-      
       <category domain="https://www.ninojay.top/tags/%E6%91%98%E6%8A%84/">摘抄</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E9%98%85%E8%AF%BB/">阅读</category>
       
       <category domain="https://www.ninojay.top/tags/%E6%95%A3%E6%96%87/">散文</category>
       
@@ -1141,7 +1141,7 @@
       
       
       
-      <content:encoded><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="小炒肉"><a href="#小炒肉" class="headerlink" title="小炒肉"></a>小炒肉</h2><h3 id="一、食材"><a href="#一、食材" class="headerlink" title="一、食材"></a>一、食材</h3><p>【主料】<br>五花肉（约150克）<br>里脊肉（约100克）</p><p>【辅料】<br>二荆条（300克）<br>小米辣（几个）<br>蒜苗（2根）<br>大蒜（15克）<br>生姜（15克）<br>蛋清（2克）<br>干淀粉（少许）<br>植物油（适量）</p><p>【调味料】<br>食用盐（少许）<br>胡椒粉（少许）<br>生抽酱油（适量）<br>蚝油（6克）<br>白糖（少许）<br>老抽（2克）</p><h3 id="二、做法"><a href="#二、做法" class="headerlink" title="二、做法"></a>二、做法</h3><h4 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h4><ol><li>将二荆条（辣）或者大绿椒（不辣）🫑、小米辣🌶️都切好（小米辣中间竖着切，切成条状，炒出来比颗粒更好看）</li><li>把蒜🧄，姜先拿刀🔪拍散，切成颗粒</li><li>把两条蒜苗斜着切成条状</li><li>五花肉🐷切薄片，越薄越好，里脊肉🐷切成条状（五花肉和里脊肉增加肥瘦混合感）</li><li>腌里脊肉🐷：放入盐🧂、胡椒粉、生抽酱油、蛋清、淀粉、植物油</li></ol><h4 id="炒菜"><a href="#炒菜" class="headerlink" title="炒菜"></a>炒菜</h4><ol><li>干炒辣椒，把辣椒炒出虎皮即可</li><li>清洗锅</li><li>用油滑锅后，五花肉🐷下去榨油出来八成熟，再下里脊肉🐷</li><li>放入姜蒜🧄末，爆香</li><li>加蚝油🦪、生抽酱油、白糖🍬、胡椒粉、老抽酱油（上色）</li><li>加辣椒</li><li>最后加蒜苗，炒至蒜苗断生即可出锅</li></ol><h3 id="三、卖家秀"><a href="#三、卖家秀" class="headerlink" title="三、卖家秀"></a>三、卖家秀</h3><div style="position: relative; padding: 30% 45%;"><iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=98598787&amp;bvid=BV1G7411m7Qn&amp;cid=168313216&amp;page=1&amp;as_wide=1&amp;high_quality=1&amp;danmaku=0" frameborder="no" scrolling="no"></iframe></div><h3 id="买家秀"><a href="#买家秀" class="headerlink" title="买家秀"></a>买家秀</h3><p><img src="https://jsd.onmicrosoft.cn/gh/hininojay/images/source/img/postImages/xiaochaorou.jpg"></p><p>反思：</p><ul><li>切🔪辣椒🌶️，切的不够好看，小米辣应该切成条状</li><li>油少了，锅都被我炒干了</li><li>炒菜环节忘加白糖！</li><li>以为二荆条不够辣，腌肉的时候又私自加了一勺豆瓣，吃的时候辣死了</li></ul><p>还不错，一次比一次好吃😋</p><p>家常菜就是吃的饱，扎实😄</p>]]></content:encoded>
+      <content:encoded><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="小炒肉"><a href="#小炒肉" class="headerlink" title="小炒肉"></a>小炒肉</h2><h3 id="一、食材"><a href="#一、食材" class="headerlink" title="一、食材"></a>一、食材</h3><p>【主料】<br>五花肉（约150克）<br>里脊肉（约100克）</p><p>【辅料】<br>二荆条（300克）<br>小米辣（几个）<br>蒜苗（2根）<br>大蒜（15克）<br>生姜（15克）<br>蛋清（2克）<br>干淀粉（少许）<br>植物油（适量）</p><p>【调味料】<br>食用盐（少许）<br>胡椒粉（少许）<br>生抽酱油（适量）<br>蚝油（6克）<br>白糖（少许）<br>老抽（2克）</p><h3 id="二、做法"><a href="#二、做法" class="headerlink" title="二、做法"></a>二、做法</h3><h4 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h4><ol><li>将二荆条（辣）或者大绿椒（不辣）🫑、小米辣🌶️都切好（小米辣中间竖着切，切成条状，炒出来比颗粒更好看）</li><li>把蒜🧄，姜先拿刀🔪拍散，切成颗粒</li><li>把两条蒜苗斜着切成条状</li><li>五花肉🐷切薄片，越薄越好，里脊肉🐷切成条状（五花肉和里脊肉增加肥瘦混合感）</li><li>腌里脊肉🐷：放入盐🧂、胡椒粉、生抽酱油、蛋清、淀粉、植物油</li></ol><h4 id="炒菜"><a href="#炒菜" class="headerlink" title="炒菜"></a>炒菜</h4><ol><li>干炒辣椒，把辣椒炒出虎皮即可</li><li>清洗锅</li><li>用油滑锅后，五花肉🐷下去榨油出来八成熟，再下里脊肉🐷</li><li>放入姜蒜🧄末，爆香</li><li>加蚝油🦪、生抽酱油、白糖🍬、胡椒粉、老抽酱油（上色）</li><li>加辣椒</li><li>最后加蒜苗，炒至蒜苗断生即可出锅</li></ol><h3 id="三、卖家秀"><a href="#三、卖家秀" class="headerlink" title="三、卖家秀"></a>三、卖家秀</h3><div style="position: relative; padding: 30% 45%;"><iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=98598787&amp;bvid=BV1G7411m7Qn&amp;cid=168313216&amp;page=1&amp;as_wide=1&amp;high_quality=1&amp;danmaku=0" frameborder="no" scrolling="no"></iframe></div><h3 id="买家秀"><a href="#买家秀" class="headerlink" title="买家秀"></a>买家秀</h3><p><img src="https://cdn.jsdelivr.net/gh/hininojay/images/source/img/postImages/xiaochaorou.jpg"></p><p>反思：</p><ul><li>切🔪辣椒🌶️，切的不够好看，小米辣应该切成条状</li><li>油少了，锅都被我炒干了</li><li>炒菜环节忘加白糖！</li><li>以为二荆条不够辣，腌肉的时候又私自加了一勺豆瓣，吃的时候辣死了</li></ul><p>还不错，一次比一次好吃😋</p><p>家常菜就是吃的饱，扎实😄</p>]]></content:encoded>
       
       
       <category domain="https://www.ninojay.top/categories/%E8%A1%A3%E9%A3%9F%E4%BD%8F%E8%A1%8C/">衣食住行</category>
@@ -1228,7 +1228,7 @@
       
       
       
-      <content:encoded><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><center>为什么那么多的人歌颂月亮🌙</center><center>为</center><center>什么</center><p>2020年7月31日左右。走在杭州的余杭街道。实习下班回家的路上，江南的空气闷热得不像话。任何的感官刺激都与我在丰子恺书中预期的江南违背甚远，我很失望。</p><p>我，那时，呆呆的，在江南上班了。我，像还在上学一样，背着书包。和学生又不太一样，书包里装的只有电脑，和公司里领取的加班夜宵-牛奶面包，这一点，像周围大多数成年人一样。</p><p>为什么这么闷热。下班距离是两公里。步行二十分钟左右。时间通常是从夜晚九点开始计算。</p><p>已经九点了为什么还是这么闷热呢。</p><p>我的头发很长，那样让我自己好看一些。书包解放了我的双手，随着步伐的前进，它间断地在我后背摇荡，在它荡到最大的角度，我感受到肩膀很酸，穿过缝隙的风让我知道我的后背已经湿透了，牛奶和面包也已经热了吧，这才不过走几分钟。这个时间段，没有公交车。就算有，我也不想坐。我坐了一天，走走吧，即使是已经接近夜晚十点。</p><p>十点。江南漆黑一片。路上能看见的行人都和我一样背着书包。下班了，我便当他们不是人，他们只是一条条会行走的随风草。所以街上每天晚上都只有我一个人。我一个人的时候喜欢散步🚶‍♀️。这是从高中就一直保持的好习惯。思想随着夜的降临终于敢大声地和我商量一点什么。</p><p>“你今天那一句话说的真是妙啊，逗得大家哈哈大笑”，我微笑。</p><p>“他们好像都在夸你，也不要骄傲，其实你知道自己很危险”，我沉默。</p><p>“觉得自己能完成安排的任务吗，还得请教请教前辈”，我皱眉。</p><p>“回去舒舒服服看看追的剧，不过洗完澡好像只能看一集了，还是直接洗洗睡吧，你一看就停不下来，肯定会看到凌晨两三点，接着第二天精神又不好，日复一日重复精神不好，想着早睡，然后晚睡，然后精神不好，然后…”，我停下脚步大叫：“打住。”</p><p>路上有三个红绿灯。我走到了第二个。时间是60s。我的小腿也有点酸痛。十字路口总是空旷，风能够一丛丛从江南附近的河吹来，这才对嘛，我点头，擦擦太阳穴上的汗，我想：晚上应该叫月亮穴。</p><p>江南不像书里面写的那么小。这条斑马线大概一百多米。他们说公司搬到这个地方是因为这里便宜，前几年这里到处都是农田，是公司让这里变成了这样。我更想在这里看到农田，在西湖边看到公司。</p><p>这个红绿灯一过，路灯接着减少，光亮减少，影子拉得模糊且更长。经过一座小桥的时候，有时候迎面是一条野狗，或者没穿衣服的中年人。狗或人从我身旁像风一样游过，我仿佛都能闻到一丝酒气。</p><p>“对嘛，这才是江南。”我站在桥上看桥下的小河，河里有月亮🌙。</p><p>“这一切有意义吗？”</p><p>“什么？”</p><p>“你每天被动做的事，你如今花时间不得不像他们一样讨好年长的人，你花的每一分时间。”</p><p>“他们不是都羡慕我吗？羡慕我的年轻，羡慕我的勤奋好学。”</p><p>“你羡慕你自己吗？”</p><p>“我还太年轻吧。大家不都是这么过来的吗。”</p><p>“行了，别找借口了，果真像你所想，此时是谁在问你呢？”</p><p>“是…”</p><p>“你不会想说是月亮吧🌙。”</p><p>“你说为什么那么多诗人文人歌颂月亮呢，你抬头看看，不过是一个圆圆的白光，有时半圆，有时半弯，有时四分之一弯，你看今天的月亮就比昨天的要扁…等等…”</p><p>“月有阴晴圆缺。凌晨四点，海棠花未眠。这些都是被人观察到了，才被记录下来的对吧。”</p><p>“你说之前的人们生活跟现在比，夜晚的娱乐肯定更无趣一些。睡的晚，睡不着的人们目之所及，月亮就在那里照耀，对于那时的人们来说，月亮也未免过于明显了一些。也就是说，这就有了人的观察。人一观察，就容易联想到很多这那。比方说：‘她要是没有睡，和我也看的是一个月亮吧’，‘今天的月亮缺了一大半，似是照应我心中的悲愤’…”</p><p>“大家都观察到月亮，但未必有人，记其于笔，画于纸。所以说，哈哈哈，我看，月亮的意义无非是那些人无聊生活的触景生情。不对，’触景生情‘得加上引号，因为这个景并不难遇到。”</p><p>“所以？”</p><p>“所以，不过如此。”</p><p>“但是？”</p><p>“但是，我还是觉得月亮很温柔。她不像太阳那么主动产生热。她就静静地坐落在那里。她从不主动做什么，就算散发着光也是别人给她的，让她穿上她就这样穿在身上。似乎就觉得她没有什么所求，也没有什么所失。她就在那里。她也没有告诉你什么来，也没有说她什么时候会走，她就在那儿。夜晚，你一抬头，你就知道，她，一定在那里。不曾刻意与任何人约定，所有人却都仿佛和她达成了默契。”</p><p>“所以。”</p><p>“所以，如果要我选，成为太阳还是月亮。我想:”</p><p>“等一下。为什么要这么快下结论呢？”</p><p>“我是说，我想像月亮那样温柔。不辜负明月22年的关照。”</p><p><img src="https://jsd.onmicrosoft.cn/gh/hininojay/images/source/img/postImages/hangzhoudeyekong.jpg"></p>]]></content:encoded>
+      <content:encoded><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><center>为什么那么多的人歌颂月亮🌙</center><center>为</center><center>什么</center><p>2020年7月31日左右。走在杭州的余杭街道。实习下班回家的路上，江南的空气闷热得不像话。任何的感官刺激都与我在丰子恺书中预期的江南违背甚远，我很失望。</p><p>我，那时，呆呆的，在江南上班了。我，像还在上学一样，背着书包。和学生又不太一样，书包里装的只有电脑，和公司里领取的加班夜宵-牛奶面包，这一点，像周围大多数成年人一样。</p><p>为什么这么闷热。下班距离是两公里。步行二十分钟左右。时间通常是从夜晚九点开始计算。</p><p>已经九点了为什么还是这么闷热呢。</p><p>我的头发很长，那样让我自己好看一些。书包解放了我的双手，随着步伐的前进，它间断地在我后背摇荡，在它荡到最大的角度，我感受到肩膀很酸，穿过缝隙的风让我知道我的后背已经湿透了，牛奶和面包也已经热了吧，这才不过走几分钟。这个时间段，没有公交车。就算有，我也不想坐。我坐了一天，走走吧，即使是已经接近夜晚十点。</p><p>十点。江南漆黑一片。路上能看见的行人都和我一样背着书包。下班了，我便当他们不是人，他们只是一条条会行走的随风草。所以街上每天晚上都只有我一个人。我一个人的时候喜欢散步🚶‍♀️。这是从高中就一直保持的好习惯。思想随着夜的降临终于敢大声地和我商量一点什么。</p><p>“你今天那一句话说的真是妙啊，逗得大家哈哈大笑”，我微笑。</p><p>“他们好像都在夸你，也不要骄傲，其实你知道自己很危险”，我沉默。</p><p>“觉得自己能完成安排的任务吗，还得请教请教前辈”，我皱眉。</p><p>“回去舒舒服服看看追的剧，不过洗完澡好像只能看一集了，还是直接洗洗睡吧，你一看就停不下来，肯定会看到凌晨两三点，接着第二天精神又不好，日复一日重复精神不好，想着早睡，然后晚睡，然后精神不好，然后…”，我停下脚步大叫：“打住。”</p><p>路上有三个红绿灯。我走到了第二个。时间是60s。我的小腿也有点酸痛。十字路口总是空旷，风能够一丛丛从江南附近的河吹来，这才对嘛，我点头，擦擦太阳穴上的汗，我想：晚上应该叫月亮穴。</p><p>江南不像书里面写的那么小。这条斑马线大概一百多米。他们说公司搬到这个地方是因为这里便宜，前几年这里到处都是农田，是公司让这里变成了这样。我更想在这里看到农田，在西湖边看到公司。</p><p>这个红绿灯一过，路灯接着减少，光亮减少，影子拉得模糊且更长。经过一座小桥的时候，有时候迎面是一条野狗，或者没穿衣服的中年人。狗或人从我身旁像风一样游过，我仿佛都能闻到一丝酒气。</p><p>“对嘛，这才是江南。”我站在桥上看桥下的小河，河里有月亮🌙。</p><p>“这一切有意义吗？”</p><p>“什么？”</p><p>“你每天被动做的事，你如今花时间不得不像他们一样讨好年长的人，你花的每一分时间。”</p><p>“他们不是都羡慕我吗？羡慕我的年轻，羡慕我的勤奋好学。”</p><p>“你羡慕你自己吗？”</p><p>“我还太年轻吧。大家不都是这么过来的吗。”</p><p>“行了，别找借口了，果真像你所想，此时是谁在问你呢？”</p><p>“是…”</p><p>“你不会想说是月亮吧🌙。”</p><p>“你说为什么那么多诗人文人歌颂月亮呢，你抬头看看，不过是一个圆圆的白光，有时半圆，有时半弯，有时四分之一弯，你看今天的月亮就比昨天的要扁…等等…”</p><p>“月有阴晴圆缺。凌晨四点，海棠花未眠。这些都是被人观察到了，才被记录下来的对吧。”</p><p>“你说之前的人们生活跟现在比，夜晚的娱乐肯定更无趣一些。睡的晚，睡不着的人们目之所及，月亮就在那里照耀，对于那时的人们来说，月亮也未免过于明显了一些。也就是说，这就有了人的观察。人一观察，就容易联想到很多这那。比方说：‘她要是没有睡，和我也看的是一个月亮吧’，‘今天的月亮缺了一大半，似是照应我心中的悲愤’…”</p><p>“大家都观察到月亮，但未必有人，记其于笔，画于纸。所以说，哈哈哈，我看，月亮的意义无非是那些人无聊生活的触景生情。不对，’触景生情‘得加上引号，因为这个景并不难遇到。”</p><p>“所以？”</p><p>“所以，不过如此。”</p><p>“但是？”</p><p>“但是，我还是觉得月亮很温柔。她不像太阳那么主动产生热。她就静静地坐落在那里。她从不主动做什么，就算散发着光也是别人给她的，让她穿上她就这样穿在身上。似乎就觉得她没有什么所求，也没有什么所失。她就在那里。她也没有告诉你什么来，也没有说她什么时候会走，她就在那儿。夜晚，你一抬头，你就知道，她，一定在那里。不曾刻意与任何人约定，所有人却都仿佛和她达成了默契。”</p><p>“所以。”</p><p>“所以，如果要我选，成为太阳还是月亮。我想:”</p><p>“等一下。为什么要这么快下结论呢？”</p><p>“我是说，我想像月亮那样温柔。不辜负明月22年的关照。”</p><p><img src="https://cdn.jsdelivr.net/gh/hininojay/images/source/img/postImages/hangzhoudeyekong.jpg"></p>]]></content:encoded>
       
       
       <category domain="https://www.ninojay.top/categories/%E6%83%85%E7%BB%AA/">情绪</category>
@@ -1412,9 +1412,9 @@
       <category domain="https://www.ninojay.top/categories/%E5%A3%B0%E5%85%89/">声光</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E9%98%85%E8%AF%BB/">阅读</category>
-      
       <category domain="https://www.ninojay.top/tags/%E6%91%98%E6%8A%84/">摘抄</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E9%98%85%E8%AF%BB/">阅读</category>
       
       <category domain="https://www.ninojay.top/tags/%E5%93%B2%E5%AD%A6/">哲学</category>
       
@@ -1555,7 +1555,7 @@
       
       
       
-      <content:encoded><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote><p> <em>GTD -&gt; Get Things Done</em></p></blockquote><p>所谓GTD思想，即是大部分管理软件所倡导的思想。</p><p>我们熟知的一些系统管理软件都是基于GTD思想来为用户设计的，比如ios，ipadOS，mac系统中的提醒事项、日历、备忘录。根据亲身经历并细心观察，大部分用户和我一样并没有深入学习软件的使用，直接暴力地使用软件常见的功能。我有时候总觉得有些不得劲，明明软件设计的很精巧，随着时间推移，我产生的内容在软件中越来越杂乱无章，即便是在我时不时刻意去分类的情况下。</p><p><em><strong>掌握GTD思想更有助于合理使用软件服务生活、改善焦虑与拖延症、今日事今日毕。</strong></em></p><p>这里是直接借鉴<a href="https://www.youtube.com/watch?v=fFE0Td2o98Y">YouTuber“mac云课堂”的休康</a>总结的使用方法，完全够用。具体的GTD思想的细节使用，就贴一下维基百科：<a href="https://en.wikipedia.org/wiki/Getting_Things_Done">https://en.wikipedia.org/wiki/Getting_Things_Done</a></p><h2 id="具体内容"><a href="#具体内容" class="headerlink" title="具体内容"></a>具体内容</h2><p>按照休康的总结，GTD <em>(Get Things Done)</em> 分为五个步骤：捕获、明晰、组织、回顾、执行</p><p>捕获：弄一个收集箱，把脑袋中所有的想法记录下来。</p><p>明晰：将这些想法进行分类。</p><p>组织：按照分类将它们放到对应的清单。</p><p>回顾：每天<strong>固定的时间</strong>查看收集、项目清单的内容，拆解项目清单的步骤。</p><p>执行：在执行清单中<strong>列出</strong>每个任务需要的时间，并按照花费时间由少到多进行排序去<strong>完成</strong>。</p><p><img src="https://jsd.onmicrosoft.cn/gh/hininojay/images/source/img/postImages/GTD.jpg" alt="ios提醒事项"></p><p>ps：</p><ol><li>把任何一项待做/任务都以<strong>动词开头</strong>。比如“奖学金申请”，应该写成“填写奖学金申请表”，并且不能以模糊的动词比如“完成”、“做完”等等。这样就能大幅减少看到一件待做不想去理它、不知道具体该做什么的烦恼。</li><li>如果发现没法给予任务一个动词，代表这个任务属于<strong>需要再细拆分</strong>，直到可以为每一项任务加上动词。在等待事项里，也可以试试看把一些任务转换为主动跟进。</li><li>如果是<strong>事件安排时间</strong>已经确定，即可以将其放在<strong>日历</strong>里面。</li><li>等待清单，应当是需要等待第三方的回馈后再进行执行的事件，最好已<strong>“等待xxx”</strong>命名</li><li>项目清单是无法直接的完成，需要拆解步骤的任务</li><li>可能清单则是目前相对来说无法完成的事情，比如学一门乐器，后续时机成熟的时候再拆解，制定详细的步骤</li></ol>]]></content:encoded>
+      <content:encoded><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote><p> <em>GTD -&gt; Get Things Done</em></p></blockquote><p>所谓GTD思想，即是大部分管理软件所倡导的思想。</p><p>我们熟知的一些系统管理软件都是基于GTD思想来为用户设计的，比如ios，ipadOS，mac系统中的提醒事项、日历、备忘录。根据亲身经历并细心观察，大部分用户和我一样并没有深入学习软件的使用，直接暴力地使用软件常见的功能。我有时候总觉得有些不得劲，明明软件设计的很精巧，随着时间推移，我产生的内容在软件中越来越杂乱无章，即便是在我时不时刻意去分类的情况下。</p><p><em><strong>掌握GTD思想更有助于合理使用软件服务生活、改善焦虑与拖延症、今日事今日毕。</strong></em></p><p>这里是直接借鉴<a href="https://www.youtube.com/watch?v=fFE0Td2o98Y">YouTuber“mac云课堂”的休康</a>总结的使用方法，完全够用。具体的GTD思想的细节使用，就贴一下维基百科：<a href="https://en.wikipedia.org/wiki/Getting_Things_Done">https://en.wikipedia.org/wiki/Getting_Things_Done</a></p><h2 id="具体内容"><a href="#具体内容" class="headerlink" title="具体内容"></a>具体内容</h2><p>按照休康的总结，GTD <em>(Get Things Done)</em> 分为五个步骤：捕获、明晰、组织、回顾、执行</p><p>捕获：弄一个收集箱，把脑袋中所有的想法记录下来。</p><p>明晰：将这些想法进行分类。</p><p>组织：按照分类将它们放到对应的清单。</p><p>回顾：每天<strong>固定的时间</strong>查看收集、项目清单的内容，拆解项目清单的步骤。</p><p>执行：在执行清单中<strong>列出</strong>每个任务需要的时间，并按照花费时间由少到多进行排序去<strong>完成</strong>。</p><p><img src="https://cdn.jsdelivr.net/gh/hininojay/images/source/img/postImages/GTD.jpg" alt="ios提醒事项"></p><p>ps：</p><ol><li>把任何一项待做/任务都以<strong>动词开头</strong>。比如“奖学金申请”，应该写成“填写奖学金申请表”，并且不能以模糊的动词比如“完成”、“做完”等等。这样就能大幅减少看到一件待做不想去理它、不知道具体该做什么的烦恼。</li><li>如果发现没法给予任务一个动词，代表这个任务属于<strong>需要再细拆分</strong>，直到可以为每一项任务加上动词。在等待事项里，也可以试试看把一些任务转换为主动跟进。</li><li>如果是<strong>事件安排时间</strong>已经确定，即可以将其放在<strong>日历</strong>里面。</li><li>等待清单，应当是需要等待第三方的回馈后再进行执行的事件，最好已<strong>“等待xxx”</strong>命名</li><li>项目清单是无法直接的完成，需要拆解步骤的任务</li><li>可能清单则是目前相对来说无法完成的事情，比如学一门乐器，后续时机成熟的时候再拆解，制定详细的步骤</li></ol>]]></content:encoded>
       
       
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
@@ -1592,9 +1592,9 @@
       <category domain="https://www.ninojay.top/categories/%E5%A3%B0%E5%85%89/">声光</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E9%98%85%E8%AF%BB/">阅读</category>
-      
       <category domain="https://www.ninojay.top/tags/%E6%91%98%E6%8A%84/">摘抄</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E9%98%85%E8%AF%BB/">阅读</category>
       
       <category domain="https://www.ninojay.top/tags/%E5%8F%A5%E5%AD%90/">句子</category>
       
