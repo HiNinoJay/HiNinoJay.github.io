@@ -88,133 +88,71 @@
 
                     
                     
-                        <div class="archive-list">
-  <ul class="archive">
-
-    
-    <span>🔖<i>情绪</i></span>
-      
-      
-      
-          
-    
-    
-  
-    
-        <li>
-          <span class="archive-date">2023/09/04</span>
-          <div class="archive-main">
-              <a class="archive-title" href="/2023/2023-summer/">2023上半年小结</a>
-          </div>
-        </li>
-    
-  
-    
-        <li>
-          <span class="archive-date">2023/07/22</span>
-          <div class="archive-main">
-              <a class="archive-title" href="/2023/cry/">泪和抑郁</a>
-          </div>
-        </li>
-    
-  
-    
-        <li>
-          <span class="archive-date">2023/05/04</span>
-          <div class="archive-main">
-              <a class="archive-title" href="/2023/some-words/">一些片段</a>
-          </div>
-        </li>
-    
-  
-    
-        <li>
-          <span class="archive-date">2023/03/23</span>
-          <div class="archive-main">
-              <a class="archive-title" href="/2023/songs-in-my-memory/">流水账-歌曲对我的影响</a>
-          </div>
-        </li>
-    
-  
-    
-        <li>
-          <span class="archive-date">2023/03/19</span>
-          <div class="archive-main">
-              <a class="archive-title" href="/2023/letting-go-of-attachments/">断舍离后的平白记忆</a>
-          </div>
-        </li>
-    
-  
-    
-        <li>
-          <span class="archive-date">2023/02/28</span>
-          <div class="archive-main">
-              <a class="archive-title" href="/2022/song-algorith/">演算法</a>
-          </div>
-        </li>
-    
-  
-    
-        <li>
-          <span class="archive-date">2023/02/14</span>
-          <div class="archive-main">
-              <a class="archive-title" href="/2022/another-valentine/">又是一年情人节</a>
-          </div>
-        </li>
-    
-  
-    
-        <li>
-          <span class="archive-date">2022/12/29</span>
-          <div class="archive-main">
-              <a class="archive-title" href="/2022/before-the-waves-churned/">海浪翻涌之前</a>
-          </div>
-        </li>
-    
-  
-    
-        <li>
-          <span class="archive-date">2022/03/21</span>
-          <div class="archive-main">
-              <a class="archive-title" href="/2022/child-encounter/">小孩遭遇</a>
-          </div>
-        </li>
-    
-  
-    
-        <li>
-          <span class="archive-date">2022/03/06</span>
-          <div class="archive-main">
-              <a class="archive-title" href="/2022/bright-moon-may-you-wear-gentleness/">明月，愿温柔穿戴于你</a>
-          </div>
-        </li>
-    
-  
-    
-        <li>
-          <span class="archive-date">2022/02/12</span>
-          <div class="archive-main">
-              <a class="archive-title" href="/2022/red-river/">谢谢你，红色的河</a>
-          </div>
-        </li>
-    
-  
-    
-        <li>
-          <span class="archive-date">2022/01/29</span>
-          <div class="archive-main">
-              <a class="archive-title" href="/2022/Being-a-Good-Listener/">我和“会倾听”的故事</a>
-          </div>
-        </li>
-    
-  
-  </ul>
-</div>
-
- 
-                    
                     
                     <!--说明是文章post页面-->
+                    
+                        <div class="post-main">
+
+    
+
+    <div class="post-md">
+        
+        
+    </div>
+
+    <div class="post-meta">
+        <i>
+        
+        </i>
+    </div>
+    
+        
+    <div class="comments-container">
+    <div id="comment-anchor"></div>
+    <div class="comment-area-title">
+        以上。 
+    </div>
+    
+        
+
+    <div id="waline"></div>
+    <script type="module"  >
+        import { init } from 'https://npm.elemecdn.com/hexo-theme-a4@latest/source/js/waline.mjs'; 
+        function loadWaline() {
+            init({
+                el: '#waline',
+                serverURL: 'waline.ninojay.top',
+                lang: 'zh-CN',
+                dark: 'body[class~="dark-mode"]',
+                requiredMeta: ['nick','mail'], // cannot customize by theme config, change it yourself
+                search: false, // 禁止表情包搜索
+                reaction: false, // 对文章打分
+                pageview: false, // 浏览量统计
+                comment: false, // 评论数统计
+
+                locale: {
+                    placeholder: '正确的邮箱地址，回复将能得到邮件通知。', 
+                    sofa: ''
+                },
+            });
+            
+        }
+        window.addEventListener('DOMContentLoaded', loadWaline);
+    </script>
+
+
+
+    
+    
+    
+    </div>
+
+
+     
+</div>
+
+
+
                     
                     
                     <div class="footer">
