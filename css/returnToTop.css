@@ -54,7 +54,7 @@
 	line-height: 46px;
 	font-size: 24px;
 	opacity: 0;
-	background-image: linear-gradient(298deg, rgb(254, 254, 254), rgb(253, 253, 253));
+	background-image: linear-gradient(298deg, rgb(0, 0, 0), rgb(0, 0, 0));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	left: 0;
