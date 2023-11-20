@@ -115,10 +115,10 @@
 .bs-docs-sidebar .nav>.active>a,
 .bs-docs-sidebar .nav>li>a:hover,
 .bs-docs-sidebar .nav>li>a:focus {
-  color: #397bb7;
+  color: #4f7ddf;
   text-decoration: none;
   background-color: transparent;
-  border-left-color: #397bb7;
+  border-left-color: #4f7ddf;
 }
 
 
