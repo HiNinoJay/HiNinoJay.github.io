@@ -1,13 +1,42 @@
 
 
+.left-toc-container{ 
+  top: 206px;
+  left: 1px;
+  bottom: 110px;
+  overflow-y: auto; /* 或者使用 overflow-y: scroll; */
+  max-height: -webkit-fill-available; /* 设置最大高度，可以根据需要进行调整 */
+  position: fixed;
+  scrollbar-width: thin;
+}
+
+.left-toc-container::-webkit-scrollbar {
+  width: 10px; /* 设置滚动条宽度 */
+}
+
+.left-toc-container::-webkit-scrollbar-thumb {
+  background-color: white; /* 设置滚动条拖动块的颜色 */
+  border-radius: 5px; /* 设置圆角 */
+}
+
+.left-toc-container::-webkit-scrollbar-track {
+  background-color: transparent; /* 设置滚动条轨道的颜色 */
+}
+
 /* The Table of Contents container element */
 
 .tocify {
   overflow: auto;
-  position: fixed;
-  left: -240px;
+  /* position: fixed;
+  left: -240px; */
 }
 
+/* sidebar */
+
+.bs-docs-sidebar {
+  /* top: 235px;
+  left: 1px; */
+}
 
 /* The Table of Contents is composed of multiple nested unordered lists.  These styles remove the default styling of an unordered list because it is ugly. */
 
@@ -73,12 +102,7 @@
 }
 
 
-/* sidebar */
 
-.bs-docs-sidebar {
-  top: 235px;
-  left: 1px;
-}
 
 
 /* all links */
