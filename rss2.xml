@@ -15,7 +15,7 @@
     <atom:link href="https://www.ninojay.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Web开发者｜阅读写作爱好者</description>
-    <pubDate>Fri, 24 Nov 2023 04:22:51 GMT</pubDate>
+    <pubDate>Fri, 24 Nov 2023 04:47:58 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -127,11 +127,11 @@
       <category domain="https://www.ninojay.top/categories/%E5%A3%B0%E5%85%89/">声光</category>
       
       
+      <category domain="https://www.ninojay.top/tags/%E6%91%98%E6%8A%84/">摘抄</category>
+      
       <category domain="https://www.ninojay.top/tags/%E9%98%85%E8%AF%BB/">阅读</category>
       
       <category domain="https://www.ninojay.top/tags/%E5%93%B2%E5%AD%A6/">哲学</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E6%91%98%E6%8A%84/">摘抄</category>
       
       
       <comments>https://www.ninojay.top/2023/excerpt-from-the-myth-of-sisyphus/#disqus_thread</comments>
@@ -160,9 +160,9 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
-      
       <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
       
       
       <comments>https://www.ninojay.top/writing/%E6%8B%9B%E8%81%98/#disqus_thread</comments>
@@ -191,9 +191,9 @@
       <category domain="https://www.ninojay.top/categories/%E5%A3%B0%E5%85%89/">声光</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E8%AE%B0%E5%BF%86/">记忆</category>
-      
       <category domain="https://www.ninojay.top/tags/%E6%91%98%E6%8A%84/">摘抄</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E8%AE%B0%E5%BF%86/">记忆</category>
       
       
       <comments>https://www.ninojay.top/writing/Chinese-keyword/#disqus_thread</comments>
@@ -222,11 +222,11 @@
       <category domain="https://www.ninojay.top/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/">程序员</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E8%AE%B0%E5%BF%86/">记忆</category>
-      
       <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
       
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E8%AE%B0%E5%BF%86/">记忆</category>
       
       
       <comments>https://www.ninojay.top/writing/English-keyword/#disqus_thread</comments>
@@ -255,11 +255,11 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
-      
       <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
       
       <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
@@ -292,11 +292,11 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
-      
       <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
       
       <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
@@ -329,11 +329,11 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
-      
       <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
       
       <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
@@ -360,17 +360,17 @@
       
       
       
-      <content:encoded><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>在hexo-theme-A4即本主题更新了1.6.7版本后，支持页面所有颜色自定义调整，只需要在<code>_config.a4.yml</code>配置文件中相应配置修改为你喜欢的颜色即可。<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="脚标测试">[1]</span></a></sup></p><p>但是<code>颜色搭配是一门学问</code>，以下直接告诉你可供选择使用的配色，利于切换主题风格。</p><blockquote><p>你有自己研究出来的顺眼配色，也可在下方评论区留言，我看到后将更新到此页面。</p></blockquote><h3 id="灰白配色-默认"><a href="#灰白配色-默认" class="headerlink" title="灰白配色-默认"></a>灰白配色-默认</h3><h4 id="效果演示"><a href="#效果演示" class="headerlink" title="效果演示"></a>效果演示</h4><p><img src="https://jsd.onmicrosoft.cn/gh/hininojay/images/a4color/greywhite.png" alt="灰白A4"></p><h4 id="如何启用？"><a href="#如何启用？" class="headerlink" title="如何启用？"></a>如何启用？</h4><p>该配色为A4启动后默认配色。保证<code>_config.a4.yml</code>配置文件中<code>color</code>设置为<code>false</code>即可</p><p>或者<code>color</code>设置为<code>true</code>采用以下配置</p><pre><code class="yml"># 实验性功能：A4色调调整：颜色搭配是很主观的行为# 设置为 false 为 A4 默认色调，可设置为 true 直接hexo s 体验下 另一种预置色调# 注：颜色代码需加“#”，颜色单词不需要加“#”color:   enable: true   font: "#000000"   background: "#e4e4e4"   indexBackGround: "#ffffff"   postBackGround: "#ffffff"   codeBackGround: "black"   codeFont: "white"    linkBeforeClick: "#fec591" # 链接点击前的颜色，标题也是链接，所以标题颜色也在此修改  linkAfterClick: "#fec591" # 链接点击后的颜色</code></pre><h3 id="绿金配色-预置"><a href="#绿金配色-预置" class="headerlink" title="绿金配色-预置"></a>绿金配色-预置</h3><h4 id="效果演示-1"><a href="#效果演示-1" class="headerlink" title="效果演示"></a>效果演示</h4><p><img src="https://jsd.onmicrosoft.cn/gh/hininojay/images/a4color/greengolden.png" alt="绿金A4"></p><h4 id="如何启用？-1"><a href="#如何启用？-1" class="headerlink" title="如何启用？"></a>如何启用？</h4><p>该配色<code>_config.a4.yml</code>配置文件中预置，将<code>color</code>设置为<code>true</code>，采用以下配置</p><pre><code class="yml"># 实验性功能：A4色调调整：颜色搭配是很主观的行为# 设置为 false 为 A4 默认色调，可设置为 true 直接hexo s 体验下 另一种预置色调# 注：颜色代码需加“#”，颜色单词不需要加“#”color:   enable: true # true | false   font: "#fec591" # 字体颜色  background: "#005454" # 最底部层背景颜色  indexBackGround: "#005454" # 首页层颜色  postBackGround: "#005454" # 文章页层颜色  codeBackGround: "black" # 代码块背景颜色  codeFont: "white" # 代码块字体颜色   linkBeforeClick: "#fec591" # 链接点击前的颜色，标题也是链接，所以标题颜色也在此修改  linkAfterClick: "#fec591" # 链接点击后的颜色</code></pre><h3 id="你想推荐你的配色？"><a href="#你想推荐你的配色？" class="headerlink" title="你想推荐你的配色？"></a>你想推荐你的配色？</h3><p>请在评论区回复你的配置文件<code>color</code>部分代码。</p><pre><code class="yml"># 实验性功能：A4色调调整：颜色搭配是很主观的行为# 设置为 false 为 A4 默认色调，可设置为 true 直接hexo s 体验下 另一种预置色调# 注：颜色代码需加“#”，颜色单词不需要加“#”color:   enable: true # true | false   font: "#fec591" # 字体颜色  background: "#005454" # 最底部层背景颜色  indexBackGround: "#005454" # 首页层颜色  postBackGround: "#005454" # 文章页层颜色  codeBackGround: "black" # 代码块背景颜色  codeFont: "white" # 代码块字体颜色   linkBeforeClick: "#fec591" # 链接点击前的颜色，标题也是链接，所以标题颜色也在此修改  linkAfterClick: "#fec591" # 链接点击后的颜色</code></pre><p>我看到后将更新到此页面。</p><div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">脚标测试<a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content:encoded>
+      <content:encoded><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>在hexo-theme-A4即本主题更新了1.6.7版本后，支持页面所有颜色自定义调整，只需要在<code>_config.a4.yml</code>配置文件中相应配置修改为你喜欢的颜色即可。<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="脚标测试">[1]</span></a></sup></p><p>但是<code>颜色搭配是一门学问</code>，以下直接告诉你可供选择使用的配色，利于切换主题风格。</p><blockquote><p>你有自己研究出来的顺眼配色，也可在下方评论区留言，我看到后将更新到此页面。</p></blockquote><h3 id="灰白配色-默认"><a href="#灰白配色-默认" class="headerlink" title="灰白配色-默认"></a>灰白配色-默认</h3><h4 id="效果演示"><a href="#效果演示" class="headerlink" title="效果演示"></a>效果演示</h4><p><img src="https://jsd.onmicrosoft.cn/gh/hininojay/images/a4color/greywhite.png" alt="灰白A4"></p><h4 id="如何启用？"><a href="#如何启用？" class="headerlink" title="如何启用？"></a>如何启用？</h4><p>该配色为A4启动后默认配色。保证<code>_config.a4.yml</code>配置文件中<code>color</code>设置为<code>false</code>即可</p><p>或者<code>color</code>设置为<code>true</code>采用以下配置</p><pre><code class="yml"># 实验性功能：A4色调调整：颜色搭配是很主观的行为# 设置为 false 为 A4 默认色调，可设置为 true 直接hexo s 体验下 另一种预置色调# 注：颜色代码需加“#”，颜色单词不需要加“#”color:   enable: true   font: "#000000"   background: "#e4e4e4"   indexBackGround: "#ffffff"   postBackGround: "#ffffff"   codeBackGround: "black"   codeFont: "white"    linkBeforeClick: "#fec591" # 链接点击前的颜色，标题也是链接，所以标题颜色也在此修改  linkAfterClick: "#fec591" # 链接点击后的颜色</code></pre><h3 id="棕色墨绿护眼配色-预置"><a href="#棕色墨绿护眼配色-预置" class="headerlink" title="棕色墨绿护眼配色-预置"></a>棕色墨绿护眼配色-预置</h3><h4 id="效果演示-1"><a href="#效果演示-1" class="headerlink" title="效果演示"></a>效果演示</h4><p><img src="https://jsd.onmicrosoft.cn/gh/hininojay/images/source/img/a4color/brownRed.png" alt="棕红"></p><h4 id="如何启用？-1"><a href="#如何启用？-1" class="headerlink" title="如何启用？"></a>如何启用？</h4><p>该配色<code>_config.a4.yml</code>配置文件中预置，将<code>color</code>设置为<code>true</code>，采用以下配置</p><pre><code class="yml"># 实验性功能：A4色调调整：颜色搭配是很主观的行为# 设置为 false 为 A4 默认色调，可设置为 true 直接hexo s 体验下 另一种预置色调# 注：颜色代码需加“#”，颜色单词不需要加“#”color:   enable: true   font: "#9e5345"   background: "#e8e0c9"   indexBackGround: "#efeae2"   postBackGround: "#efeae2"   codeBackGround: "#e8e0c9"  # 代码行和块的背景色  codeFont: "#2e5041"  linkBeforeClick: "#2e5041" # 链接点击前的颜色，标题也是链接，所以标题颜色也在此修改  linkAfterClick: "#9c9caf" # 链接点击后的颜色</code></pre><h3 id="青花瓷配色"><a href="#青花瓷配色" class="headerlink" title="青花瓷配色"></a>青花瓷配色</h3><h4 id="效果演示-2"><a href="#效果演示-2" class="headerlink" title="效果演示"></a>效果演示</h4><p><img src="https://jsd.onmicrosoft.cn/gh/hininojay/images/source/img/a4color/blueAndWhite.png" alt="青蓝A4"></p><h4 id="如何启用？-2"><a href="#如何启用？-2" class="headerlink" title="如何启用？"></a>如何启用？</h4><p>该配色<code>_config.a4.yml</code>配置文件中预置，将<code>color</code>设置为<code>true</code>，采用以下配置</p><pre><code class="yml"># 实验性功能：A4色调调整：颜色搭配是很主观的行为# 设置为 false 为 A4 默认色调，可设置为 true 直接hexo s 体验下 另一种预置色调# 注：颜色代码需加“#”，颜色单词不需要加“#”color:   enable: true   font: "#323e74"   background: "#eaeae8"   indexBackGround: "#f2fafc"   postBackGround: "#f2fafc"   codeBackGround: "#e7f7f3"  # 代码行和块的背景色  codeFont: "#7f688d"  linkBeforeClick: "#7f688d" # 链接点击前的颜色，标题也是链接，所以标题颜色也在此修改  linkAfterClick: "#767c7c" # 链接点击后的颜色</code></pre><h3 id="绿金配色"><a href="#绿金配色" class="headerlink" title="绿金配色"></a>绿金配色</h3><h4 id="效果演示-3"><a href="#效果演示-3" class="headerlink" title="效果演示"></a>效果演示</h4><p><img src="https://jsd.onmicrosoft.cn/gh/hininojay/images/a4color/greengolden.png" alt="绿金A4"></p><h4 id="如何启用？-3"><a href="#如何启用？-3" class="headerlink" title="如何启用？"></a>如何启用？</h4><p>该配色<code>_config.a4.yml</code>配置文件中预置，将<code>color</code>设置为<code>true</code>，采用以下配置</p><pre><code class="yml"># 实验性功能：A4色调调整：颜色搭配是很主观的行为# 设置为 false 为 A4 默认色调，可设置为 true 直接hexo s 体验下 另一种预置色调# 注：颜色代码需加“#”，颜色单词不需要加“#”color:   enable: true # true | false   font: "#fec591" # 字体颜色  background: "#005454" # 最底部层背景颜色  indexBackGround: "#005454" # 首页层颜色  postBackGround: "#005454" # 文章页层颜色  codeBackGround: "black" # 代码块背景颜色  codeFont: "white" # 代码块字体颜色   linkBeforeClick: "#fec591" # 链接点击前的颜色，标题也是链接，所以标题颜色也在此修改  linkAfterClick: "#fec591" # 链接点击后的颜色</code></pre><h3 id="你想推荐你的配色？"><a href="#你想推荐你的配色？" class="headerlink" title="你想推荐你的配色？"></a>你想推荐你的配色？</h3><p>请在评论区回复你的配置文件<code>color</code>部分代码。</p><pre><code class="yml"># 实验性功能：A4色调调整：颜色搭配是很主观的行为# 设置为 false 为 A4 默认色调，可设置为 true 直接hexo s 体验下 另一种预置色调# 注：颜色代码需加“#”，颜色单词不需要加“#”color:   enable: true # true | false   font: "#fec591" # 字体颜色  background: "#005454" # 最底部层背景颜色  indexBackGround: "#005454" # 首页层颜色  postBackGround: "#005454" # 文章页层颜色  codeBackGround: "black" # 代码块背景颜色  codeFont: "white" # 代码块字体颜色   linkBeforeClick: "#fec591" # 链接点击前的颜色，标题也是链接，所以标题颜色也在此修改  linkAfterClick: "#fec591" # 链接点击后的颜色</code></pre><p>我看到后将更新到此页面。</p><div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">脚标测试<a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content:encoded>
       
       
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
-      
       <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
       
       <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
@@ -378,6 +378,29 @@
       
       
       <comments>https://www.ninojay.top/hexoplugin/A4-color-change/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>测试加密文章</title>
+      <link>https://www.ninojay.top/hexoplugin/test-encrypt/</link>
+      <guid>https://www.ninojay.top/hexoplugin/test-encrypt/</guid>
+      <pubDate>Sun, 21 May 2023 04:11:00 GMT</pubDate>
+      
+      <description>有东西被加密了, 请输入密码查看.</description>
+      
+      
+      
+      <content:encoded><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="这么想看吗？问问博主吧。" data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">  <script id="hbeData" type="hbeData" data-hmacdigest="231d90bceed2744b00ba7e4a2ccbc1bf2a3e8513769001cd7dbde40c0acab59e">4630436162ade97ba2718b7d0c4b3b630ef8b034c35893a7afa4c54a5752d90eba191a593f89497fdfca691efaf72d5c35796184ebf2d80300d9b43598d875a7a2ad0b9eb70415ef7e6791ce86b8d42bc2930d2449c14d85e7e73a6e9f9f15fa83d46e9ca1f99dd9edda0d8febda30264fddbaa6efcab895944ce1ae7b482fc47ae9d1877742010d3e870e1b7ce3e1bee4ea3dbf8b73610606304698921b447deb909a1d6ea98cfaeb9f420a12d93e007e3e7ed865dc0c56935a2f49f36712336b0506f5eddd26a7ae00c4e3cd1652f868768ae0ba4b902248c2a1b0a52a40dc905d61fa495f2ae89d8ab61afba0248afc970f2fae883e8697171bb6c628b6fbd8eb198406882084398a0b941c085a364617ee47107b3fc208ade4b16395df555feb95c382108966b735da2e86bb3811</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-wave">      <input class="hbe hbe-input-field hbe-input-field-wave" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-wave" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-wave">您好, 这里需要密码.</span>      </label>      <svg class="hbe hbe-graphic hbe-graphic-wave" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>      </svg>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content:encoded>
+      
+      
+      <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
+      
+      
+      <category domain="https://www.ninojay.top/tags/%E6%B5%8B%E8%AF%95/">测试</category>
+      
+      
+      <comments>https://www.ninojay.top/hexoplugin/test-encrypt/#disqus_thread</comments>
       
     </item>
     
@@ -403,11 +426,11 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
-      
       <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
       
       <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
@@ -440,11 +463,11 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
-      
       <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
       
       <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
@@ -452,29 +475,6 @@
       
       
       <comments>https://www.ninojay.top/hexoplugin/hexo-filter-mathjax/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>测试加密文章</title>
-      <link>https://www.ninojay.top/hexoplugin/test-encrypt/</link>
-      <guid>https://www.ninojay.top/hexoplugin/test-encrypt/</guid>
-      <pubDate>Sun, 21 May 2023 04:11:00 GMT</pubDate>
-      
-      <description>有东西被加密了, 请输入密码查看.</description>
-      
-      
-      
-      <content:encoded><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="这么想看吗？问问博主吧。" data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">  <script id="hbeData" type="hbeData" data-hmacdigest="231d90bceed2744b00ba7e4a2ccbc1bf2a3e8513769001cd7dbde40c0acab59e">4630436162ade97ba2718b7d0c4b3b630ef8b034c35893a7afa4c54a5752d90eba191a593f89497fdfca691efaf72d5c35796184ebf2d80300d9b43598d875a7a2ad0b9eb70415ef7e6791ce86b8d42bc2930d2449c14d85e7e73a6e9f9f15fa83d46e9ca1f99dd9edda0d8febda30264fddbaa6efcab895944ce1ae7b482fc47ae9d1877742010d3e870e1b7ce3e1bee4ea3dbf8b73610606304698921b447deb909a1d6ea98cfaeb9f420a12d93e007e3e7ed865dc0c56935a2f49f36712336b0506f5eddd26a7ae00c4e3cd1652f868768ae0ba4b902248c2a1b0a52a40dc905d61fa495f2ae89d8ab61afba0248afc970f2fae883e8697171bb6c628b6fbd8eb198406882084398a0b941c085a364617ee47107b3fc208ade4b16395df555feb95c382108966b735da2e86bb3811</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-wave">      <input class="hbe hbe-input-field hbe-input-field-wave" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-wave" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-wave">您好, 这里需要密码.</span>      </label>      <svg class="hbe hbe-graphic hbe-graphic-wave" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>      </svg>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content:encoded>
-      
-      
-      <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
-      
-      
-      <category domain="https://www.ninojay.top/tags/%E6%B5%8B%E8%AF%95/">测试</category>
-      
-      
-      <comments>https://www.ninojay.top/hexoplugin/test-encrypt/#disqus_thread</comments>
       
     </item>
     
@@ -591,9 +591,9 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
-      
       <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
       
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
       
@@ -715,9 +715,9 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
-      
       <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
       
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
       
@@ -781,9 +781,9 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
-      
       <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
       
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
       
@@ -816,9 +816,9 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
-      
       <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
       
       
       <comments>https://www.ninojay.top/writing/myKeyboardShortcuts/#disqus_thread</comments>
@@ -1083,9 +1083,9 @@
       <category domain="https://www.ninojay.top/categories/%E5%A3%B0%E5%85%89/">声光</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E9%98%85%E8%AF%BB/">阅读</category>
-      
       <category domain="https://www.ninojay.top/tags/%E6%91%98%E6%8A%84/">摘抄</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E9%98%85%E8%AF%BB/">阅读</category>
       
       <category domain="https://www.ninojay.top/tags/%E6%95%A3%E6%96%87/">散文</category>
       
@@ -1470,11 +1470,11 @@
       <category domain="https://www.ninojay.top/categories/%E5%A3%B0%E5%85%89/">声光</category>
       
       
+      <category domain="https://www.ninojay.top/tags/%E6%91%98%E6%8A%84/">摘抄</category>
+      
       <category domain="https://www.ninojay.top/tags/%E9%98%85%E8%AF%BB/">阅读</category>
       
       <category domain="https://www.ninojay.top/tags/%E5%93%B2%E5%AD%A6/">哲学</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E6%91%98%E6%8A%84/">摘抄</category>
       
       
       <comments>https://www.ninojay.top/2022/Phaedrus/#disqus_thread</comments>
@@ -1650,9 +1650,9 @@
       <category domain="https://www.ninojay.top/categories/%E5%A3%B0%E5%85%89/">声光</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E9%98%85%E8%AF%BB/">阅读</category>
-      
       <category domain="https://www.ninojay.top/tags/%E6%91%98%E6%8A%84/">摘抄</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E9%98%85%E8%AF%BB/">阅读</category>
       
       <category domain="https://www.ninojay.top/tags/%E5%8F%A5%E5%AD%90/">句子</category>
       
