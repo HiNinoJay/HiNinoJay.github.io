@@ -15,7 +15,7 @@
     <atom:link href="https://www.ninojay.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Web开发者｜阅读写作爱好者</description>
-    <pubDate>Tue, 02 Jan 2024 15:12:49 GMT</pubDate>
+    <pubDate>Tue, 02 Jan 2024 15:21:41 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -214,9 +214,9 @@
       
       <category domain="https://www.ninojay.top/tags/%E9%98%85%E8%AF%BB/">阅读</category>
       
-      <category domain="https://www.ninojay.top/tags/%E6%91%98%E6%8A%84/">摘抄</category>
-      
       <category domain="https://www.ninojay.top/tags/%E5%93%B2%E5%AD%A6/">哲学</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E6%91%98%E6%8A%84/">摘抄</category>
       
       
       <comments>https://www.ninojay.top/2023/excerpt-from-the-myth-of-sisyphus/#disqus_thread</comments>
@@ -340,15 +340,15 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
-      
-      <category domain="https://www.ninojay.top/tags/hexoPlugin/">hexoPlugin</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
-      
       <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
       
       <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
+      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
+      
+      <category domain="https://www.ninojay.top/tags/hexoPlugin/">hexoPlugin</category>
       
       
       <comments>https://www.ninojay.top/hexoplugin/hexo-all-minifier/#disqus_thread</comments>
@@ -377,15 +377,15 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
-      
-      <category domain="https://www.ninojay.top/tags/hexoPlugin/">hexoPlugin</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
-      
       <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
       
       <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
+      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
+      
+      <category domain="https://www.ninojay.top/tags/hexoPlugin/">hexoPlugin</category>
       
       
       <comments>https://www.ninojay.top/hexoplugin/hexo-reference/#disqus_thread</comments>
@@ -414,15 +414,15 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
-      
-      <category domain="https://www.ninojay.top/tags/hexoPlugin/">hexoPlugin</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
-      
       <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
       
       <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
+      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
+      
+      <category domain="https://www.ninojay.top/tags/hexoPlugin/">hexoPlugin</category>
       
       
       <comments>https://www.ninojay.top/hexoplugin/hexo-filter-github-emojis/#disqus_thread</comments>
@@ -451,18 +451,55 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
+      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
       <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
       <category domain="https://www.ninojay.top/tags/hexoPlugin/">hexoPlugin</category>
       
-      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
+      <comments>https://www.ninojay.top/hexoplugin/A4-color-change/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>hexo | A4支持文章密码访问</title>
+      <link>https://www.ninojay.top/hexoplugin/hexo-blog-encrypt/</link>
+      <guid>https://www.ninojay.top/hexoplugin/hexo-blog-encrypt/</guid>
+      <pubDate>Sun, 21 May 2023 04:11:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;link</description>
+          
+        
+      
+      
+      
+      <content:encoded><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="效果演示"><a href="#效果演示" class="headerlink" title="效果演示"></a>效果演示</h2><p>以下页面已加密，密码为：123456</p><p><a href="https://ninojay.top/hexoplugin/test-encrypt">点击访问</a></p><h2 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h2><p>你的网站文件夹，举例为<code>website</code>。</p><ol><li><p>命令行进入到<code>webiste</code>目录。</p></li><li><p>执行命令安装hexo插件：</p></li></ol><pre><code class="yaml">npm install hexo-blog-encrypt</code></pre><ol start="3"><li>添加如下配置到<code>_config.yml</code>文件（注意不是A4主题的配置文件）</li></ol><pre><code class="yaml"># hexo 支持 加密访问文章 插件encrypt:  enable: true  abstract: Here's something encrypted, password is required to continue reading.  message: Hey, password is required here.  wrong_pass_message: Oh, this is an invalid password. Check and try again, please.  wrong_hash_message: Oh, these decrypted content cannot be verified, but you can still have a look.</code></pre><ol start="4"><li>在想要文章支持加密的post的<code>front-matter</code>中添加</li></ol><pre><code class="yaml">password: 123456</code></pre><ol start="5"><li>执行命令查看效果</li></ol><pre><code class="yaml">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</code></pre><p>引用：</p><ul><li><strong><a href="https://github.com/D0n9X1n/hexo-blog-encrypt">hexo-blog-encrypt</a></strong></li></ul>]]></content:encoded>
+      
+      
+      <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
+      
       
       <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
       
       <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
+      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
       
-      <comments>https://www.ninojay.top/hexoplugin/A4-color-change/#disqus_thread</comments>
+      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
+      
+      <category domain="https://www.ninojay.top/tags/hexoPlugin/">hexoPlugin</category>
+      
+      
+      <comments>https://www.ninojay.top/hexoplugin/hexo-blog-encrypt/#disqus_thread</comments>
       
     </item>
     
@@ -488,15 +525,15 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
-      
-      <category domain="https://www.ninojay.top/tags/hexoPlugin/">hexoPlugin</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
-      
       <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
       
       <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
+      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
+      
+      <category domain="https://www.ninojay.top/tags/hexoPlugin/">hexoPlugin</category>
       
       
       <comments>https://www.ninojay.top/hexoplugin/hexo-filter-mathjax/#disqus_thread</comments>
@@ -523,43 +560,6 @@
       
       
       <comments>https://www.ninojay.top/hexoplugin/test-encrypt/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>hexo | A4支持文章密码访问</title>
-      <link>https://www.ninojay.top/hexoplugin/hexo-blog-encrypt/</link>
-      <guid>https://www.ninojay.top/hexoplugin/hexo-blog-encrypt/</guid>
-      <pubDate>Sun, 21 May 2023 04:11:00 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;link</description>
-          
-        
-      
-      
-      
-      <content:encoded><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="效果演示"><a href="#效果演示" class="headerlink" title="效果演示"></a>效果演示</h2><p>以下页面已加密，密码为：123456</p><p><a href="https://ninojay.top/hexoplugin/test-encrypt">点击访问</a></p><h2 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h2><p>你的网站文件夹，举例为<code>website</code>。</p><ol><li><p>命令行进入到<code>webiste</code>目录。</p></li><li><p>执行命令安装hexo插件：</p></li></ol><pre><code class="yaml">npm install hexo-blog-encrypt</code></pre><ol start="3"><li>添加如下配置到<code>_config.yml</code>文件（注意不是A4主题的配置文件）</li></ol><pre><code class="yaml"># hexo 支持 加密访问文章 插件encrypt:  enable: true  abstract: Here's something encrypted, password is required to continue reading.  message: Hey, password is required here.  wrong_pass_message: Oh, this is an invalid password. Check and try again, please.  wrong_hash_message: Oh, these decrypted content cannot be verified, but you can still have a look.</code></pre><ol start="4"><li>在想要文章支持加密的post的<code>front-matter</code>中添加</li></ol><pre><code class="yaml">password: 123456</code></pre><ol start="5"><li>执行命令查看效果</li></ol><pre><code class="yaml">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</code></pre><p>引用：</p><ul><li><strong><a href="https://github.com/D0n9X1n/hexo-blog-encrypt">hexo-blog-encrypt</a></strong></li></ul>]]></content:encoded>
-      
-      
-      <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
-      
-      
-      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
-      
-      <category domain="https://www.ninojay.top/tags/hexoPlugin/">hexoPlugin</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
-      
-      
-      <comments>https://www.ninojay.top/hexoplugin/hexo-blog-encrypt/#disqus_thread</comments>
       
     </item>
     
@@ -678,9 +678,9 @@
       
       <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
       
-      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
-      
       <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
       
       
       <comments>https://www.ninojay.top/hexoplugin/website-cdn/#disqus_thread</comments>
@@ -767,9 +767,9 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
-      
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
+      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
       <category domain="https://www.ninojay.top/tags/CICD/">CICD</category>
       
@@ -802,13 +802,13 @@
       
       <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
       
-      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
-      
-      <category domain="https://www.ninojay.top/tags/hexoPlugin/">hexoPlugin</category>
+      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
       
-      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
+      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
+      
+      <category domain="https://www.ninojay.top/tags/hexoPlugin/">hexoPlugin</category>
       
       
       <comments>https://www.ninojay.top/hexoplugin/hexo-data-inside/#disqus_thread</comments>
@@ -868,11 +868,11 @@
       
       <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
       
-      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
+      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
       
-      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
+      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
       
       <comments>https://www.ninojay.top/2023/how-to-deploy-your-own-website-0/#disqus_thread</comments>
@@ -932,9 +932,9 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
-      
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
+      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
       <category domain="https://www.ninojay.top/tags/CICD/">CICD</category>
       
@@ -1557,9 +1557,9 @@
       
       <category domain="https://www.ninojay.top/tags/%E9%98%85%E8%AF%BB/">阅读</category>
       
-      <category domain="https://www.ninojay.top/tags/%E6%91%98%E6%8A%84/">摘抄</category>
-      
       <category domain="https://www.ninojay.top/tags/%E5%93%B2%E5%AD%A6/">哲学</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E6%91%98%E6%8A%84/">摘抄</category>
       
       
       <comments>https://www.ninojay.top/2022/Phaedrus/#disqus_thread</comments>
