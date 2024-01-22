@@ -16,22 +16,6 @@ p
     white-space: pre-wrap;
 }
 
-@font-face {
-    font-family: "LXGW WenKai";
-    font-style: normal;
-    font-weight: 300;
-    src: local(""),
-        url("https://hininojay.github.io/fonts/LXGWWenKaiMono-Regular.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "LXGW WenKai";
-    font-style: normal;
-    font-weight: 400;
-    src: local(""),
-        url("https://hininojay.github.io/fonts/LXGWWenKaiMono-Regular.ttf") format("truetype");
-}
-
 body
 {
     font-family: "Times New Roman", Helvetica, Tahoma, Arial, "LXGW WenKai", "notoserifsc-medium", "Microsoft YaHei", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif;
