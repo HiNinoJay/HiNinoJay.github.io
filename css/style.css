@@ -21,7 +21,7 @@ p
     font-style: normal;
     font-weight: 300;
     src: local(""),
-        url("https://lets-pythoning.github.io/fonts/LXGWWenKaiMono-Regular.ttf") format("truetype");
+        url("../fonts/LXGWWenKaiMono-Light.ttf") format("truetype");
 }
 
 @font-face {
@@ -29,7 +29,7 @@ p
     font-style: normal;
     font-weight: 400;
     src: local(""),
-        url("https://lets-pythoning.github.io/fonts/LXGWWenKaiMono-Regular.ttf") format("truetype");
+        url("../fonts/LXGWWenKaiMono-Regular.ttf") format("truetype");
 }
 
 body

@@ -15,7 +15,7 @@
     <atom:link href="https://www.ninojay.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Web开发者｜阅读写作爱好者</description>
-    <pubDate>Mon, 22 Jan 2024 05:15:43 GMT</pubDate>
+    <pubDate>Mon, 22 Jan 2024 05:24:24 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -158,11 +158,11 @@
       <category domain="https://www.ninojay.top/categories/%E5%A3%B0%E5%85%89/">声光</category>
       
       
+      <category domain="https://www.ninojay.top/tags/%E6%91%98%E6%8A%84/">摘抄</category>
+      
       <category domain="https://www.ninojay.top/tags/%E9%98%85%E8%AF%BB/">阅读</category>
       
       <category domain="https://www.ninojay.top/tags/%E5%B0%8F%E8%AF%B4/">小说</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E6%91%98%E6%8A%84/">摘抄</category>
       
       
       <comments>https://www.ninojay.top/2023/sound-of-the-mountain/#disqus_thread</comments>
@@ -278,11 +278,11 @@
       <category domain="https://www.ninojay.top/categories/%E5%A3%B0%E5%85%89/">声光</category>
       
       
+      <category domain="https://www.ninojay.top/tags/%E6%91%98%E6%8A%84/">摘抄</category>
+      
       <category domain="https://www.ninojay.top/tags/%E9%98%85%E8%AF%BB/">阅读</category>
       
       <category domain="https://www.ninojay.top/tags/%E5%93%B2%E5%AD%A6/">哲学</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E6%91%98%E6%8A%84/">摘抄</category>
       
       
       <comments>https://www.ninojay.top/2023/excerpt-from-the-myth-of-sisyphus/#disqus_thread</comments>
@@ -311,9 +311,9 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
-      
       <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
       
       
       <comments>https://www.ninojay.top/writing/%E6%8B%9B%E8%81%98/#disqus_thread</comments>
@@ -342,9 +342,9 @@
       <category domain="https://www.ninojay.top/categories/%E5%A3%B0%E5%85%89/">声光</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E8%AE%B0%E5%BF%86/">记忆</category>
-      
       <category domain="https://www.ninojay.top/tags/%E6%91%98%E6%8A%84/">摘抄</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E8%AE%B0%E5%BF%86/">记忆</category>
       
       
       <comments>https://www.ninojay.top/writing/Chinese-keyword/#disqus_thread</comments>
@@ -373,11 +373,11 @@
       <category domain="https://www.ninojay.top/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/">程序员</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E8%AE%B0%E5%BF%86/">记忆</category>
+      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
       
       <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
       
-      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      <category domain="https://www.ninojay.top/tags/%E8%AE%B0%E5%BF%86/">记忆</category>
       
       
       <comments>https://www.ninojay.top/writing/English-keyword/#disqus_thread</comments>
@@ -406,15 +406,15 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
-      
       <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
       <category domain="https://www.ninojay.top/tags/hexoPlugin/">hexoPlugin</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
       
       <comments>https://www.ninojay.top/hexoplugin/hexo-all-minifier/#disqus_thread</comments>
@@ -443,15 +443,15 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
-      
       <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
       <category domain="https://www.ninojay.top/tags/hexoPlugin/">hexoPlugin</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
       
       <comments>https://www.ninojay.top/hexoplugin/hexo-reference/#disqus_thread</comments>
@@ -480,15 +480,15 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
-      
       <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
       <category domain="https://www.ninojay.top/tags/hexoPlugin/">hexoPlugin</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
       
       <comments>https://www.ninojay.top/hexoplugin/hexo-filter-github-emojis/#disqus_thread</comments>
@@ -517,15 +517,15 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
-      
       <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
       <category domain="https://www.ninojay.top/tags/hexoPlugin/">hexoPlugin</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
       
       <comments>https://www.ninojay.top/hexoplugin/A4-color-change/#disqus_thread</comments>
@@ -554,15 +554,15 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
-      
       <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
       <category domain="https://www.ninojay.top/tags/hexoPlugin/">hexoPlugin</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
       
       <comments>https://www.ninojay.top/hexoplugin/hexo-blog-encrypt/#disqus_thread</comments>
@@ -591,15 +591,15 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
-      
       <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
       <category domain="https://www.ninojay.top/tags/hexoPlugin/">hexoPlugin</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
       
       <comments>https://www.ninojay.top/hexoplugin/hexo-filter-mathjax/#disqus_thread</comments>
@@ -742,11 +742,11 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
+      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
       
       <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
-      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
       
       
       <comments>https://www.ninojay.top/hexoplugin/website-cdn/#disqus_thread</comments>
@@ -833,9 +833,9 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
-      
       <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
       
       <category domain="https://www.ninojay.top/tags/CICD/">CICD</category>
       
@@ -866,15 +866,15 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
-      
       <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
       <category domain="https://www.ninojay.top/tags/hexoPlugin/">hexoPlugin</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
       
       
       <comments>https://www.ninojay.top/hexoplugin/hexo-data-inside/#disqus_thread</comments>
@@ -932,13 +932,13 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
+      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
       
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
       
-      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
+      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
       
       
       <comments>https://www.ninojay.top/2023/how-to-deploy-your-own-website-0/#disqus_thread</comments>
@@ -967,9 +967,9 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
-      
       <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
       
       
       <comments>https://www.ninojay.top/writing/myKeyboardShortcuts/#disqus_thread</comments>
@@ -998,9 +998,9 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
-      
       <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
       
       <category domain="https://www.ninojay.top/tags/CICD/">CICD</category>
       
@@ -1234,9 +1234,9 @@
       <category domain="https://www.ninojay.top/categories/%E5%A3%B0%E5%85%89/">声光</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E9%98%85%E8%AF%BB/">阅读</category>
-      
       <category domain="https://www.ninojay.top/tags/%E6%91%98%E6%8A%84/">摘抄</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E9%98%85%E8%AF%BB/">阅读</category>
       
       <category domain="https://www.ninojay.top/tags/%E6%95%A3%E6%96%87/">散文</category>
       
@@ -1621,11 +1621,11 @@
       <category domain="https://www.ninojay.top/categories/%E5%A3%B0%E5%85%89/">声光</category>
       
       
+      <category domain="https://www.ninojay.top/tags/%E6%91%98%E6%8A%84/">摘抄</category>
+      
       <category domain="https://www.ninojay.top/tags/%E9%98%85%E8%AF%BB/">阅读</category>
       
       <category domain="https://www.ninojay.top/tags/%E5%93%B2%E5%AD%A6/">哲学</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E6%91%98%E6%8A%84/">摘抄</category>
       
       
       <comments>https://www.ninojay.top/2022/Phaedrus/#disqus_thread</comments>
@@ -1801,9 +1801,9 @@
       <category domain="https://www.ninojay.top/categories/%E5%A3%B0%E5%85%89/">声光</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E9%98%85%E8%AF%BB/">阅读</category>
-      
       <category domain="https://www.ninojay.top/tags/%E6%91%98%E6%8A%84/">摘抄</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E9%98%85%E8%AF%BB/">阅读</category>
       
       <category domain="https://www.ninojay.top/tags/%E5%8F%A5%E5%AD%90/">句子</category>
       
