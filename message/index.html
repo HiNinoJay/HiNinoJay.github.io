@@ -146,15 +146,24 @@
         
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/hint.css/2.7.0/hint.min.css"><h2 id="留言板"><a href="#留言板" class="headerlink" title="留言板"></a>留言板</h2><p>你想告诉或者问我什么吗，欢迎。</p>
 <p>主题相关问题，请先阅读<a target="_blank" rel="noopener" href="https://doc.ninojay.top/">帮助手册</a>，仍无法得到解决，在Github上发起<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4/issues">issue</a>吧。</p>
+<blockquote>
+<p>因为个人有其他计划的原因，2024年A4除了我个人急需的功能，其他功能就不会开发了，但是欢迎朋友们提pr，我一定会看。</p>
+</blockquote>
+<hr>
 <ul>
-<li><code>2023.08.21</code>如果你的A4出现之前没有的显示问题，请更新至<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4/releases/tag/v1.7.1">v1.7.1版本</a>，更新完毕按照教程修改配置文件，或者你不想更新，可手动关闭A4配置文件中的cdn，重新部署网站即可。</li>
+<li><code>2024.01.22 hexo-theme-A4已更新至v1.8.2</code>丰富了很多必需的功能，我的网站即是目前所有可以实现的样例。有很多朋友还在使用1.6.x或v1.7.x，在此向你们提供1.8.2版本大致的新功能清单：<ul>
+<li>中文字体优化（霞鹜文楷、思源宋体）</li>
+<li>可自定义配置底部为图片</li>
+<li>小工具：暗黑模式、左侧目录、回到顶部，且都会同步你的变色，都能自定义开关</li>
+<li>首页顶部语句可配置更多条，刷新页面随机展示其中一条，也可使用一言功能</li>
+<li>可自定义置顶文章（在front-matter中加入 <code>top: 数字</code>）、关闭顶部目录 在front-matter中加入 <code>toc: false</code>、隐藏文章（<code>hide: true</code>）</li>
+<li>支持Twikoo评论</li>
+<li>将更多静态资源加入了cdn</li>
 </ul>
-<pre><code class="yml"># 你可能会用到的 https://ninojay.top/2023/website-cdn/
-## 因为是免费CDN，所以有挂的风险，一旦发现网站样式出现原来没有的问题，请尝试关闭CDN
-cdn:
-  enable: false # 如果你修改了 css/js ，也许需要把cdn设置为false才会生效
-  choose: jsdelivr  # aliyun | unpkg| jsdelivr  # 都调整为利于国内的cdn，建议使用默认的 jsdelivr 即可
-</code></pre>
+</li>
+</ul>
+<p>还有很多小特性，都应该写进帮助手册（很久没更新帮助手册了，我的锅），排上日程。</p>
+<hr>
 <ul>
 <li><code>2023.10.28</code> 目前A4暂不支持分页，如果你的A4出现了分页按钮，请修改<code>_config.yml</code>文件中的配置，改为如下，即可关闭分页按钮。</li>
 </ul>
@@ -164,8 +173,23 @@ per_page: 0
 pagination_dir: page
 </code></pre>
 <ul>
-<li><code>2024.01.02</code>因为个人有其他计划的原因，2024年A4除了我个人急需的功能，其他功能就不会开发了，但是欢迎朋友们提pr，我一定会看。</li>
+<li>分类和标签，A4需要你使用6.3.0版本的hexo，执行该命令即可安装或替换你的hexo版本<code>npm install hexo@v6.3.0</code><ul>
+<li>A4不支持二级分类，我觉得一级分类足够了，可以多弄几个标签。二级分类会使得分类与标签的概念用乱，整个收集也会加大记忆难度。建议定义几个大而广的分类，细分就通过不断新增标签完成。</li>
 </ul>
+</li>
+</ul>
+<hr>
+<ul>
+<li><code>2023.08.21</code>如果你的A4出现之前没有的显示问题，请更新至<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4/releases/tag/v1.7.1">v1.7.1版本</a>，更新完毕按照教程修改配置文件，或者你不想更新，可<u>手动关闭A4配置文件中的cdn</u>，重新部署网站即可。</li>
+</ul>
+<pre><code class="yml"># 你可能会用到的 https://ninojay.top/2023/website-cdn/
+## 因为是免费CDN，所以有挂的风险，一旦发现网站样式出现原来没有的问题，请尝试关闭CDN
+cdn:
+  enable: false # 如果你修改了 css/js ，也许需要把cdn设置为false才会生效
+  choose: jsdelivr  # aliyun | unpkg| jsdelivr  # 都调整为利于国内的cdn，建议使用默认的 jsdelivr 即可
+</code></pre>
+<hr>
+<p>等我心血来潮去更新帮助手册的时候，就会把这些注意事项，统一写在那里。</p>
 
     </div>
 
