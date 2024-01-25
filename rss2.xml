@@ -15,7 +15,7 @@
     <atom:link href="https://www.ninojay.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Web开发者｜阅读写作爱好者</description>
-    <pubDate>Wed, 24 Jan 2024 05:16:40 GMT</pubDate>
+    <pubDate>Thu, 25 Jan 2024 06:36:52 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -472,6 +472,80 @@
     </item>
     
     <item>
+      <title>hexo | A4支持生成RSS订阅文件</title>
+      <link>https://www.ninojay.top/hexoplugin/hexo-generator-feed/</link>
+      <guid>https://www.ninojay.top/hexoplugin/hexo-generator-feed/</guid>
+      <pubDate>Thu, 25 May 2023 04:48:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;link</description>
+          
+        
+      
+      
+      
+      <content:encoded><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/hint.css/2.7.0/hint.min.css"><h2 id="效果演示"><a href="#效果演示" class="headerlink" title="效果演示"></a>效果演示</h2><p>安装此款插件，会自动生成atom.xml文件，让你的网站具备RSS订阅功能（可以通过使用RSS软件订阅你的网站）。</p><p><img src="https://jsd.onmicrosoft.cn/gh/hininojay/images/source/img/a4color/hexo-generator-feed.png"></p><h2 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h2><p>你的网站文件夹，举例为<code>website</code>。</p><ol><li><p>命令行进入到<code>webiste</code>目录。</p></li><li><p>执行命令安装hexo插件：</p></li></ol><pre><code class="yaml">$ npm install hexo-generator-feed --save</code></pre><ol start="3"><li>添加如下配置到<code>_config.yml</code>文件（注意不是A4主题的配置文件）</li></ol><pre><code class="yaml">feed:  enable: true  type: atom  path: atom.xml  limit: 20  hub:  content:  content_limit: 140  content_limit_delim: ' '  order_by: -date  icon: icon.png  autodiscovery: true  template:</code></pre><ol start="4"><li>执行命令查看效果</li></ol><pre><code class="yaml">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</code></pre><p>引用：</p><ul><li><strong><a href="https://github.com/hexojs/hexo-generator-feed">hexo-generator-feed</a></strong></li></ul>]]></content:encoded>
+      
+      
+      <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
+      
+      
+      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
+      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
+      
+      <category domain="https://www.ninojay.top/tags/hexoPlugin/">hexoPlugin</category>
+      
+      
+      <comments>https://www.ninojay.top/hexoplugin/hexo-generator-feed/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>hexo | A4支持生成sitemap站点地图</title>
+      <link>https://www.ninojay.top/hexoplugin/hexo-generator-sitemap/</link>
+      <guid>https://www.ninojay.top/hexoplugin/hexo-generator-sitemap/</guid>
+      <pubDate>Thu, 25 May 2023 04:48:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;link</description>
+          
+        
+      
+      
+      
+      <content:encoded><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/hint.css/2.7.0/hint.min.css"><h2 id="效果演示"><a href="#效果演示" class="headerlink" title="效果演示"></a>效果演示</h2><p>通常想要搜索引擎比如谷歌/百度，收录我们的网站，提供一个更好的搜索效果，为后期的搜索引擎优化(SEO)工作提供有力的帮助。我们需要提供sitemap。</p><blockquote><p>sitemap（网站地图）通常就是一个展示网站所有链接的页面。</p></blockquote><p>安装插件即可自动生成sitemap.txt和sitemap.xml文件。</p><p><img src="https://jsd.onmicrosoft.cn/gh/hininojay/images/source/img/a4color/hexo-generator-sitemap.png"></p><h2 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h2><p>你的网站文件夹，举例为<code>website</code>。</p><ol><li><p>命令行进入到<code>webiste</code>目录。</p></li><li><p>执行命令安装hexo插件：</p></li></ol><pre><code class="yaml">npm install hexo-generator-sitemap --save</code></pre><ol start="3"><li>添加如下配置到<code>_config.yml</code>文件（注意不是A4主题的配置文件）</li></ol><pre><code class="yaml">sitemap:  path:     - sitemap.xml    - sitemap.txt  template: ./sitemap_template.xml  template_txt: ./sitemap_template.txt  rel: false  tags: true  categories: true</code></pre><ol start="4"><li>执行命令查看效果</li></ol><pre><code class="yaml">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</code></pre><p>引用：</p><ul><li><strong><a href="https://github.com/hexojs/hexo-generator-sitemap">hexo-generator-sitemap</a></strong></li></ul>]]></content:encoded>
+      
+      
+      <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
+      
+      
+      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      
+      <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
+      
+      <category domain="https://www.ninojay.top/tags/hexoPlugin/">hexoPlugin</category>
+      
+      
+      <comments>https://www.ninojay.top/hexoplugin/hexo-generator-sitemap/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>hexo | A4支持markdown脚标便捷显示</title>
       <link>https://www.ninojay.top/hexoplugin/hexo-reference/</link>
       <guid>https://www.ninojay.top/hexoplugin/hexo-reference/</guid>
@@ -583,29 +657,6 @@
     </item>
     
     <item>
-      <title>测试加密文章</title>
-      <link>https://www.ninojay.top/hexoplugin/test-encrypt/</link>
-      <guid>https://www.ninojay.top/hexoplugin/test-encrypt/</guid>
-      <pubDate>Sun, 21 May 2023 04:11:00 GMT</pubDate>
-      
-      <description>有东西被加密了, 请输入密码查看.</description>
-      
-      
-      
-      <content:encoded><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="这么想看吗？问问博主吧。" data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">  <script id="hbeData" type="hbeData" data-hmacdigest="3686f644455888c9a5de3ba739798731348d00fcd3e368c3069f584b3a75aeb6">4630436162ade97ba2718b7d0c4b3b630ef8b034c35893a7afa4c54a5752d90eba191a593f89497fdfca691efaf72d5c35796184ebf2d80300d9b43598d875a7a2ad0b9eb70415ef7e6791ce86b8d42b70cd8a1afd69deb058f6d64a314dc8262e131f226d9d1bbb273abbf5c69b50aa4fe07d7c07c6d59ff8c2702708afb2ca90ac7f9077abd7842c3caad42a82e1856abf0b6389210bc7d65174dbbaace60d053df95f23e0c0574b387fb65dcec34edc3edb270e159180d81480930993832acaf7c910e6ed10c8e58d68cd6d6bffbf14d0aceb94e4b901e5071e3bd727762dbcb33471a1e4635e016f9057a2eecd43be9d14b1327cbced265f5c1eec964597c4e7cca608f48a2e7acf5d6187d165d4989ad97af06b1bb0f8c69a6b05c96d36b15e1325bc37ff8c4b100d3c30a39ed3</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-wave">      <input class="hbe hbe-input-field hbe-input-field-wave" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-wave" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-wave">您好, 这里需要密码.</span>      </label>      <svg class="hbe hbe-graphic hbe-graphic-wave" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>      </svg>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content:encoded>
-      
-      
-      <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
-      
-      
-      <category domain="https://www.ninojay.top/tags/%E6%B5%8B%E8%AF%95/">测试</category>
-      
-      
-      <comments>https://www.ninojay.top/hexoplugin/test-encrypt/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>hexo | A4支持文章密码访问</title>
       <link>https://www.ninojay.top/hexoplugin/hexo-blog-encrypt/</link>
       <guid>https://www.ninojay.top/hexoplugin/hexo-blog-encrypt/</guid>
@@ -676,6 +727,29 @@
       
       
       <comments>https://www.ninojay.top/hexoplugin/hexo-filter-mathjax/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>测试加密文章</title>
+      <link>https://www.ninojay.top/hexoplugin/test-encrypt/</link>
+      <guid>https://www.ninojay.top/hexoplugin/test-encrypt/</guid>
+      <pubDate>Sun, 21 May 2023 04:11:00 GMT</pubDate>
+      
+      <description>有东西被加密了, 请输入密码查看.</description>
+      
+      
+      
+      <content:encoded><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="这么想看吗？问问博主吧。" data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">  <script id="hbeData" type="hbeData" data-hmacdigest="3686f644455888c9a5de3ba739798731348d00fcd3e368c3069f584b3a75aeb6">4630436162ade97ba2718b7d0c4b3b630ef8b034c35893a7afa4c54a5752d90eba191a593f89497fdfca691efaf72d5c35796184ebf2d80300d9b43598d875a7a2ad0b9eb70415ef7e6791ce86b8d42b70cd8a1afd69deb058f6d64a314dc8262e131f226d9d1bbb273abbf5c69b50aa4fe07d7c07c6d59ff8c2702708afb2ca90ac7f9077abd7842c3caad42a82e1856abf0b6389210bc7d65174dbbaace60d053df95f23e0c0574b387fb65dcec34edc3edb270e159180d81480930993832acaf7c910e6ed10c8e58d68cd6d6bffbf14d0aceb94e4b901e5071e3bd727762dbcb33471a1e4635e016f9057a2eecd43be9d14b1327cbced265f5c1eec964597c4e7cca608f48a2e7acf5d6187d165d4989ad97af06b1bb0f8c69a6b05c96d36b15e1325bc37ff8c4b100d3c30a39ed3</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-wave">      <input class="hbe hbe-input-field hbe-input-field-wave" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-wave" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-wave">您好, 这里需要密码.</span>      </label>      <svg class="hbe hbe-graphic hbe-graphic-wave" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>      </svg>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content:encoded>
+      
+      
+      <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
+      
+      
+      <category domain="https://www.ninojay.top/tags/%E6%B5%8B%E8%AF%95/">测试</category>
+      
+      
+      <comments>https://www.ninojay.top/hexoplugin/test-encrypt/#disqus_thread</comments>
       
     </item>
     
