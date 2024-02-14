@@ -4,7 +4,7 @@
     <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  viewport-fit=cover" name="viewport" />
-    <meta name="description" content="hexo | A4支持markdown脚标便捷显示" />
+    <meta name="description" content="" />
     <meta name="hexo-theme-A4" content="v1.8.1" />
     <link rel="alternate icon" type="image/webp" href="/img/favicon.webp">
     <title>Nino | Web开发者｜阅读写作爱好者</title>
@@ -23,10 +23,6 @@
 <link rel="stylesheet" href="/css/fonts.css">
  
          <!--注意：首页既不是post也不是page-->
-        
-            
-<link rel="stylesheet" href="/css/waline.css">
-
         
         
         
@@ -135,101 +131,16 @@
                         <div class="post-main">
 
     
-        <div class="post-main-title">
-            hexo | A4支持markdown脚标便捷显示
-        </div>
-      
-    
 
     <div class="post-md">
         
             
-                <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#%E6%95%88%E6%9E%9C%E6%BC%94%E7%A4%BA"><span class="post-toc-text">效果演示</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95"><span class="post-toc-text">使用方法</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#%E5%85%B6%E4%BB%96"><span class="post-toc-text">其他</span></a></li></ol>
-            
         
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/hint.css/2.7.0/hint.min.css"><h2 id="效果演示"><a href="#效果演示" class="headerlink" title="效果演示"></a>效果演示</h2><p>markdown文件中末尾使用如下语法，定义一个脚标：</p>
-<pre><code class="yaml">[ ^ 1]: 第一个脚标，信息显示成功 # 把[]里的空格去除，演示需要加空格
-</code></pre>
-<p>在文件内容里想要引入脚标的位置使用如下语法：</p>
-<pre><code class="yaml">这里有一个脚标[ ^ 1 ] # 把[]里的空格去除，演示需要加空格
-</code></pre>
-<p>将呈现如下效果：</p>
-<p>这里有一个脚标<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="第一个脚标，信息显示成功
-">[1]</span></a></sup>，鼠标放上去会显示内容。<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="第二个脚标">[2]</span></a></sup></p>
-<p><img src="https://jsd.onmicrosoft.cn/gh/hininojay/images/source/img/postImages/hexo-reference.png"></p>
-<h2 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h2><p>你的网站文件夹，举例为<code>website</code>。</p>
-<ol>
-<li><p>命令行进入到<code>webiste</code>目录。</p>
-</li>
-<li><p>执行命令安装hexo插件：</p>
-</li>
-</ol>
-<pre><code class="yaml">npm install hexo-reference --save
-</code></pre>
-<ol start="3">
-<li>执行命令查看效果</li>
-</ol>
-<pre><code class="yaml">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s
-</code></pre>
-<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>经过A4使用者<a target="_blank" rel="noopener" href="https://github.com/AllenGo912">AllenGo912</a>使用测试，中国大陆使用hexo-reference插件可能会有加载速度变慢的情况（该插件自带CDN的链接缘故）。</p>
-<p>如果需要，可安装经过@AllenGo912调整CDN后的<a target="_blank" rel="noopener" href="https://github.com/AllenGo912/hexo-reference-new">hexo-reference-new</a>。</p>
-<p>1.执行命令删除hexo-reference插件</p>
-<pre><code class="yaml">npm uninstall hexo-reference
-</code></pre>
-<p>2.执行命令安装hexo-reference-new插件</p>
-<pre><code class="yaml">npm install hexo-reference-new --save
-</code></pre>
-<p>引用：</p>
-<ul>
-<li><strong><a target="_blank" rel="noopener" href="https://github.com/kchen0x/hexo-reference">hexo-reference</a></strong></li>
-<li><strong><a target="_blank" rel="noopener" href="https://github.com/AllenGo912/hexo-reference-new">hexo-reference-new</a></strong></li>
-</ul>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">第一个脚标，信息显示成功<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">第二个脚标<a href="#fnref:2" rev="footnote"> ↩</a></span></li></ol></div></div>
+        
     </div>
 
     <div class="post-meta">
         <i>
-        
-            <span>2023-05-24</span>
-            
-                <span>该篇文章被 nino</span>
-            
-            
-                <span>打上标签:
-                    
-                    
-                        <a href='/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/'>
-                            搭建网站
-                        </a>
-                    
-                        <a href='/tags/hexo/'>
-                            hexo
-                        </a>
-                    
-                        <a href='/tags/hexoPlugin/'>
-                            hexoPlugin
-                        </a>
-                    
-                        <a href='/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/'>
-                            本站相关
-                        </a>
-                    
-                        <a href='/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/'>
-                            工具使用
-                        </a>
-                    
-                </span>
-             
-             
-                <span>归为分类:
-                    
-                    
-                        <a href='/categories/%E8%BD%AF%E4%BB%B6/'>
-                            软件
-                        </a>
-                    
-                </span>
-            
         
         </i>
     </div>
