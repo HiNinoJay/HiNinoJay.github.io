@@ -7,7 +7,7 @@
   border-width: 1px 0;
   overflow: auto;
   color: #ccc;
-  line-height: 22.400000000000002px;
+  line-height: 20.480000000000004px;
 }
 .post-md .highlight .gutter pre,
 .post-md .gist .gist-file .gist-data .line-numbers {
@@ -26,6 +26,9 @@
   background: none;
   text-shadow: none;
   padding: 0;
+}
+.post-md .highlight {
+  font-size: 14.8px;
 }
 .post-md .highlight pre {
   border: none;
@@ -71,13 +74,12 @@
   padding-right: 20px;
 }
 .post-md .highlight .line {
-  height: 22.400000000000002px;
+  height: 20.480000000000004px;
 }
 .post-md .highlight .line.marked {
   background: #515151;
 }
 .post-md .gist {
-  margin: 0 -20px;
   border-style: solid;
   border-color: #ddd;
   border-width: 1px 0;
