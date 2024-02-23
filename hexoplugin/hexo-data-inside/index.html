@@ -53,6 +53,9 @@
         
     
     
+    <link href="
+https://cdn.jsdelivr.net/npm/lightgallery.js@1.4.0/dist/css/lightgallery.min.css
+" rel="stylesheet">
 
 <meta name="generator" content="Hexo 7.1.1">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
@@ -149,7 +152,7 @@
                 <ol class="post-toc"><li class="post-toc-item post-toc-level-6"><a class="post-toc-link" href="#page"><span class="post-toc-text">page</span></a></li><li class="post-toc-item post-toc-level-6"><a class="post-toc-link" href="#page-is-post-x3D-x3D-true"><span class="post-toc-text">page(is_post() &#x3D;&#x3D; true)</span></a></li><li class="post-toc-item post-toc-level-6"><a class="post-toc-link" href="#page-tags"><span class="post-toc-text">page.tags</span></a></li><li class="post-toc-item post-toc-level-6"><a class="post-toc-link" href="#page-tags-data-0-posts"><span class="post-toc-text">page.tags.data[0].posts</span></a></li><li class="post-toc-item post-toc-level-6"><a class="post-toc-link" href="#page-categoires"><span class="post-toc-text">page.categoires</span></a></li><li class="post-toc-item post-toc-level-6"><a class="post-toc-link" href="#page-categories-data-0-posts"><span class="post-toc-text">page.categories.data[0].posts</span></a></li></ol>
             
         
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/hint.css/2.7.0/hint.min.css"><p>为了便于开发hexo主题，在此记录下hexo启动后，基本的参数内容。</p>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/hint.css/2.7.0/hint.min.css"><div class=".article-gallery"><p>为了便于开发hexo主题，在此记录下hexo启动后，基本的参数内容。</p>
 <p>因为几乎都是json格式，熟悉了过后，用ejs写代码去实现自己想要的功能，两个字：带劲。</p>
 <blockquote>
 <p>不明白官网使用手册，基本的参数都提供了，这个json数据为啥不直接提供。都是我自己运行后调用，打印出来的。</p>
@@ -166,7 +169,12 @@
 
 <h6 id="page-categories-data-0-posts"><a href="#page-categories-data-0-posts" class="headerlink" title="page.categories.data[0].posts"></a><strong>page.categories.data[0].posts</strong></h6><figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">_Query</span> {</span><br><span class="line">  <span class="attr">data:</span> [</span><br><span class="line">    <span class="string">_Document</span> {</span><br><span class="line">      <span class="attr">title:</span> <span class="string">'食01-小炒肉'</span>,</span><br><span class="line">      <span class="attr">date:</span> <span class="string">Moment&lt;2022-03-31T14:27:36+08:00&gt;</span>,</span><br><span class="line">      <span class="attr">banner:</span> <span class="string">'/img/postImages/xiaochaorou.jpg'</span>,</span><br><span class="line">      <span class="attr">_content:</span> <span class="string">''</span>,</span><br><span class="line">      <span class="attr">source:</span> <span class="string">'_posts/2022/stir-fried-pork.md'</span>,</span><br><span class="line">      <span class="attr">raw:</span> <span class="string">''</span>,</span><br><span class="line">      <span class="attr">slug:</span> <span class="string">'2022/stir-fried-pork'</span>,</span><br><span class="line">      <span class="attr">published:</span> <span class="literal">true</span>,</span><br><span class="line">      <span class="attr">updated:</span> <span class="string">Moment&lt;2023-04-19T03:11:22+08:00&gt;</span>,</span><br><span class="line">      <span class="attr">comments:</span> <span class="literal">true</span>,</span><br><span class="line">      <span class="attr">layout:</span> <span class="string">'post'</span>,</span><br><span class="line">      <span class="attr">photos:</span> [],</span><br><span class="line">      <span class="attr">link:</span> <span class="string">''</span>,</span><br><span class="line">      <span class="attr">_id:</span> <span class="string">''</span>,</span><br><span class="line">      <span class="attr">content:</span> <span class="string">''</span>,</span><br><span class="line">      <span class="attr">path:</span> [<span class="string">Getter</span>],</span><br><span class="line">      <span class="attr">permalink:</span> [<span class="string">Getter</span>],</span><br><span class="line">      <span class="attr">full_source:</span> [<span class="string">Getter</span>],</span><br><span class="line">      <span class="attr">asset_dir:</span> [<span class="string">Getter</span>],</span><br><span class="line">      <span class="attr">tags:</span> [<span class="string">Getter</span>],</span><br><span class="line">      <span class="attr">categories:</span> [<span class="string">Getter</span>],</span><br><span class="line">      <span class="attr">prev:</span> [<span class="string">_Document</span>],</span><br><span class="line">      <span class="attr">next:</span> [<span class="string">_Document</span>],</span><br><span class="line">      <span class="attr">__post:</span> <span class="literal">true</span></span><br><span class="line">    }</span><br><span class="line">  ],</span><br><span class="line">  <span class="attr">length:</span> <span class="number">1</span></span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
 
-
+</div><script src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.4.0/dist/js/lightgallery.min.js"></script><script>if (typeof lightGallery !== 'undefined') {
+        var options = {
+            selector: '.gallery-item'
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options);
+        }</script>
     </div>
 
     <div class="post-meta">
@@ -339,15 +347,15 @@
 
     
 
-    
 
 
 
-<script>
-    hljs.initHighlightingOnLoad();
-    hljs.initLineNumbersOnLoad();
-</script>
 
+
+
+<script src="
+https://cdn.jsdelivr.net/npm/lightgallery.js@1.4.0/dist/js/lightgallery.min.js
+"></script>
 
 
                 </div>

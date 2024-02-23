@@ -38,10 +38,16 @@
 .post-md .highlight table {
   margin: 0;
   width: auto;
+  padding: 0px 0 !important;
+  border-bottom: none !important;
+  background: none !important;
 }
 .post-md .highlight td {
   border: none;
   padding: 0;
+  padding: 0px 0 !important;
+  border-bottom: none !important;
+  background: none !important;
 }
 .post-md .highlight figcaption {
   font-size: 0.85em;
