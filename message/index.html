@@ -156,33 +156,24 @@ https://cdn.jsdelivr.net/npm/lightgallery.js@1.4.0/dist/css/lightgallery.min.css
 </blockquote>
 <hr>
 <ul>
-<li><code>2024.01.22 hexo-theme-A4已更新至v1.8.2</code>丰富了很多必需的功能，我的网站即是目前所有可以实现的样例。有很多朋友还在使用1.6.x或v1.7.x，在此向你们提供1.8.2版本大致的新功能清单：<ul>
+<li><p><code>2024.02.24 hexo-theme-A4已更新至v1.8.5</code>，已经丰富了很多必需的功能。<br>有很多朋友还在使用1.6.x和v1.7.x，向你们提供一个大致新功能总的清单：</p>
+<ul>
 <li>中文字体优化（霞鹜文楷、思源宋体）</li>
+<li>图片幻灯片流，点击放大图片</li>
 <li>可自定义配置底部为图片</li>
 <li>小工具：暗黑模式、左侧目录、回到顶部，且都会同步你的变色，都能自定义开关</li>
 <li>首页顶部语句可配置更多条，刷新页面随机展示其中一条，也可使用一言功能</li>
-<li>可自定义置顶文章（在front-matter中加入 <code>top: 数字</code>）、关闭顶部目录 在front-matter中加入 <code>toc: false</code>、隐藏文章（<code>hide: true</code>）</li>
+<li>可自定义置顶文章（在front-matter中加入 <code>top: 数字</code>）、关闭顶部目录 在front-matter中加入 <code>toc: false</code>、隐藏文章（<code>hide: true</code>）、每篇文章页面头部均可自定义展示语句池（<code>words:["1", "2"]</code>）</li>
 <li>支持Twikoo评论</li>
 <li>将更多静态资源加入了cdn</li>
 </ul>
-</li>
-</ul>
-<p>还有很多小特性，都应该写进帮助手册（很久没更新帮助手册了，我的锅），排上日程。</p>
-<hr>
-<ul>
-<li><code>2023.10.28</code> 目前A4暂不支持分页，如果你的A4出现了分页按钮，请修改<code>_config.yml</code>文件中的配置，改为如下，即可关闭分页按钮。</li>
-</ul>
-<figure class="highlight yml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Pagination</span></span><br><span class="line"><span class="comment">## Set per_page to 0 to disable pagination</span></span><br><span class="line"><span class="attr">per_page:</span> <span class="number">0</span></span><br><span class="line"><span class="attr">pagination_dir:</span> <span class="string">page</span></span><br></pre></td></tr></tbody></table></figure>
-
-<ul>
-<li>分类和标签，A4需要你使用6.3.0版本的hexo，执行该命令即可安装或替换你的hexo版本<code>npm install hexo@v6.3.0</code><ul>
-<li>A4不支持二级分类，我觉得一级分类足够了，可以多弄几个标签。二级分类会使得分类与标签的概念用乱，整个收集也会加大记忆难度。建议定义几个大而广的分类，细分就通过不断新增标签完成。</li>
-</ul>
-</li>
+<p>还有很多小特性，都应该写进帮助手册，排上日程。</p>
+<p>ps：该版本修复了分类/标签/需要关闭官方代码块的bug，不再要求只能安装6.3.0版本的hexo，直接随意安装hexo最新版本(&gt;hexo-v6.3.0)即可，采用从hexo6.3.0升级的用户，记得把以前修改的<code>_config.yml</code>如下参数恢复成官方默认配置，或者建议直接重新安装最新版本hexo。</p>
+<figure class="highlight yml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">syntax_highlighter:</span> <span class="string">highlight.js</span></span><br><span class="line"><span class="attr">highlight:</span></span><br><span class="line">  <span class="attr">line_number:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">auto_detect:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">tab_replace:</span> <span class="string">''</span></span><br><span class="line">  <span class="attr">wrap:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">hljs:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">prismjs:</span></span><br><span class="line">  <span class="attr">preprocess:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">line_number:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">tab_replace:</span> <span class="string">''</span></span><br></pre></td></tr></tbody></table></figure></li>
 </ul>
 <hr>
 <ul>
-<li><code>2023.08.21</code>如果你的A4出现之前没有的显示问题，请更新至<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4/releases/tag/v1.7.1">v1.7.1版本</a>，更新完毕按照教程修改配置文件，或者你不想更新，可<u>手动关闭A4配置文件中的cdn</u>，重新部署网站即可。</li>
+<li><code>2023.08.21</code>如果你的A4出现之前没有的显示问题，请更新至<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4/releases">最新版本</a>，更新完毕按照教程修改配置文件，或者你不想更新，可<u>手动关闭A4配置文件中的cdn</u>，重新部署网站即可。</li>
 </ul>
 <figure class="highlight yml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 你可能会用到的 https://ninojay.top/2023/website-cdn/</span></span><br><span class="line"><span class="comment">## 因为是免费CDN，所以有挂的风险，一旦发现网站样式出现原来没有的问题，请尝试关闭CDN</span></span><br><span class="line"><span class="attr">cdn:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span> <span class="comment"># 如果你修改了 css/js ，也许需要把cdn设置为false才会生效</span></span><br><span class="line">  <span class="attr">choose:</span> <span class="string">jsdelivr</span>  <span class="comment"># aliyun | unpkg| jsdelivr  # 都调整为利于国内的cdn，建议使用默认的 jsdelivr 即可</span></span><br></pre></td></tr></tbody></table></figure>
 
