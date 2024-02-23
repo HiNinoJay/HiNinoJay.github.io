@@ -54,7 +54,7 @@
     
     
 
-<meta name="generator" content="Hexo 6.3.0">
+<meta name="generator" content="Hexo 7.1.1">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
 <link rel="alternate" href="/atom.xml" title="Nino" type="application/atom+xml">
 <link rel="alternate" href="/rss2.xml" title="Nino" type="application/rss+xml">
@@ -156,30 +156,20 @@
 <li><p>执行命令安装hexo插件：</p>
 </li>
 </ol>
-<pre><code class="yaml">$ npm install hexo-generator-feed --save
-</code></pre>
+<figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">$</span> <span class="string">npm</span> <span class="string">install</span> <span class="string">hexo-generator-feed</span> <span class="string">--save</span></span><br></pre></td></tr></tbody></table></figure>
+
 <ol start="3">
 <li>添加如下配置到<code>_config.yml</code>文件（注意不是A4主题的配置文件）</li>
 </ol>
-<pre><code class="yaml">feed:
-  enable: true
-  type: atom
-  path: atom.xml
-  limit: 20
-  hub:
-  content:
-  content_limit: 140
-  content_limit_delim: ' '
-  order_by: -date
-  icon: icon.png
-  autodiscovery: true
-  template:
-</code></pre>
+<figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">feed:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">atom</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">atom.xml</span></span><br><span class="line">  <span class="attr">limit:</span> <span class="number">20</span></span><br><span class="line">  <span class="attr">hub:</span></span><br><span class="line">  <span class="attr">content:</span></span><br><span class="line">  <span class="attr">content_limit:</span> <span class="number">140</span></span><br><span class="line">  <span class="attr">content_limit_delim:</span> <span class="string">' '</span></span><br><span class="line">  <span class="attr">order_by:</span> <span class="string">-date</span></span><br><span class="line">  <span class="attr">icon:</span> <span class="string">icon.png</span></span><br><span class="line">  <span class="attr">autodiscovery:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">template:</span></span><br></pre></td></tr></tbody></table></figure>
+
 <ol start="4">
 <li>执行命令查看效果</li>
 </ol>
-<pre><code class="yaml">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s
-</code></pre>
+<figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">hexo</span> <span class="string">clean</span> <span class="string">&amp;&amp;</span> <span class="string">hexo</span> <span class="string">g</span> <span class="string">&amp;&amp;</span> <span class="string">hexo</span> <span class="string">s</span></span><br></pre></td></tr></tbody></table></figure>
+
+
+
 <p>引用：</p>
 <ul>
 <li><strong><a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo-generator-feed">hexo-generator-feed</a></strong></li>

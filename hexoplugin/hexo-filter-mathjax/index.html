@@ -54,7 +54,7 @@
     
     
 
-<meta name="generator" content="Hexo 6.3.0">
+<meta name="generator" content="Hexo 7.1.1">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
 <style>mjx-container[jax="SVG"] {
   direction: ltr;
@@ -281,34 +281,23 @@ mjx-container[display="true"] + br {
 <li><p>执行命令安装hexo插件：</p>
 </li>
 </ol>
-<pre><code class="yaml">npm install hexo-filter-mathjax
-</code></pre>
+<figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">npm</span> <span class="string">install</span> <span class="string">hexo-filter-mathjax</span></span><br></pre></td></tr></tbody></table></figure>
+
 <ol start="3">
 <li>添加如下配置到<code>_config.yml</code>文件（注意不是A4主题的配置文件）</li>
 </ol>
-<pre><code class="yml"># hexo markdown支持数学公式插件
-mathjax:
-  tags: none # or 'ams' or 'all'
-  single_dollars: true # enable single dollar signs as in-line math delimiters
-  cjk_width: 0.9 # relative CJK char width
-  normal_width: 0.6 # relative normal (monospace) width
-  append_css: true # add CSS to pages rendered by MathJax
-  every_page: false # if true, every page will be rendered by MathJax regardless the `mathjax` setting in Front-matter
-  packages: # extra packages to load
-  extension_options: {}
-    # you can put your extension options here
-    # see http://docs.mathjax.org/en/latest/options/input/tex.html#tex-extension-options for more detail
-</code></pre>
+<figure class="highlight yml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># hexo markdown支持数学公式插件</span></span><br><span class="line"><span class="attr">mathjax:</span></span><br><span class="line">  <span class="attr">tags:</span> <span class="string">none</span> <span class="comment"># or 'ams' or 'all'</span></span><br><span class="line">  <span class="attr">single_dollars:</span> <span class="literal">true</span> <span class="comment"># enable single dollar signs as in-line math delimiters</span></span><br><span class="line">  <span class="attr">cjk_width:</span> <span class="number">0.9</span> <span class="comment"># relative CJK char width</span></span><br><span class="line">  <span class="attr">normal_width:</span> <span class="number">0.6</span> <span class="comment"># relative normal (monospace) width</span></span><br><span class="line">  <span class="attr">append_css:</span> <span class="literal">true</span> <span class="comment"># add CSS to pages rendered by MathJax</span></span><br><span class="line">  <span class="attr">every_page:</span> <span class="literal">false</span> <span class="comment"># if true, every page will be rendered by MathJax regardless the `mathjax` setting in Front-matter</span></span><br><span class="line">  <span class="attr">packages:</span> <span class="comment"># extra packages to load</span></span><br><span class="line">  <span class="attr">extension_options:</span> {}</span><br><span class="line">    <span class="comment"># you can put your extension options here</span></span><br><span class="line">    <span class="comment"># see http://docs.mathjax.org/en/latest/options/input/tex.html#tex-extension-options for more detail</span></span><br></pre></td></tr></tbody></table></figure>
+
 <ol start="4">
 <li>在想要文章支持数学公式的post的<code>front-matter</code>中添加</li>
 </ol>
-<pre><code class="yaml">mathjax: true
-</code></pre>
+<figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">mathjax:</span> <span class="literal">true</span></span><br></pre></td></tr></tbody></table></figure>
+
 <ol start="5">
 <li>执行命令查看效果</li>
 </ol>
-<pre><code class="yaml">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s
-</code></pre>
+<figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">hexo</span> <span class="string">clean</span> <span class="string">&amp;&amp;</span> <span class="string">hexo</span> <span class="string">g</span> <span class="string">&amp;&amp;</span> <span class="string">hexo</span> <span class="string">s</span></span><br></pre></td></tr></tbody></table></figure>
+
 <h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><p>经过数学系专业朋友的测试，该插件使用过程中</p>
 <ul>
 <li><p>需要把<code>多行公式用多个$$环境分开</code>才能正确显示。<del>原本可以写在一个$$环境</del></p>

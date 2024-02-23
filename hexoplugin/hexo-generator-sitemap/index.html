@@ -54,7 +54,7 @@
     
     
 
-<meta name="generator" content="Hexo 6.3.0">
+<meta name="generator" content="Hexo 7.1.1">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
 <link rel="alternate" href="/atom.xml" title="Nino" type="application/atom+xml">
 <link rel="alternate" href="/rss2.xml" title="Nino" type="application/rss+xml">
@@ -160,26 +160,20 @@
 <li><p>执行命令安装hexo插件：</p>
 </li>
 </ol>
-<pre><code class="yaml">npm install hexo-generator-sitemap --save
-</code></pre>
+<figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">npm</span> <span class="string">install</span> <span class="string">hexo-generator-sitemap</span> <span class="string">--save</span></span><br></pre></td></tr></tbody></table></figure>
+
 <ol start="3">
 <li>添加如下配置到<code>_config.yml</code>文件（注意不是A4主题的配置文件）</li>
 </ol>
-<pre><code class="yaml">sitemap:
-  path: 
-    - sitemap.xml
-    - sitemap.txt
-  template: ./sitemap_template.xml
-  template_txt: ./sitemap_template.txt
-  rel: false
-  tags: true
-  categories: true
-</code></pre>
+<figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">sitemap:</span></span><br><span class="line">  <span class="attr">path:</span> </span><br><span class="line">    <span class="bullet">-</span> <span class="string">sitemap.xml</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">sitemap.txt</span></span><br><span class="line">  <span class="attr">template:</span> <span class="string">./sitemap_template.xml</span></span><br><span class="line">  <span class="attr">template_txt:</span> <span class="string">./sitemap_template.txt</span></span><br><span class="line">  <span class="attr">rel:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">tags:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">categories:</span> <span class="literal">true</span></span><br></pre></td></tr></tbody></table></figure>
+
 <ol start="4">
 <li>执行命令查看效果</li>
 </ol>
-<pre><code class="yaml">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s
-</code></pre>
+<figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">hexo</span> <span class="string">clean</span> <span class="string">&amp;&amp;</span> <span class="string">hexo</span> <span class="string">g</span> <span class="string">&amp;&amp;</span> <span class="string">hexo</span> <span class="string">s</span></span><br></pre></td></tr></tbody></table></figure>
+
+
+
 <p>引用：</p>
 <ul>
 <li><strong><a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo-generator-sitemap">hexo-generator-sitemap</a></strong></li>
