@@ -110,24 +110,6 @@
   </url>
   
   <url>
-    <loc>https://www.ninojay.top/writing/leetcode/</loc>
-    
-    <lastmod>2024-02-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.ninojay.top/writing/myKeyboardShortcuts/</loc>
-    
-    <lastmod>2024-02-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.ninojay.top/about/index.html</loc>
     
     <lastmod>2024-02-24</lastmod>
@@ -174,15 +156,6 @@
   
   <url>
     <loc>https://www.ninojay.top/past-years/</loc>
-    
-    <lastmod>2024-02-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.ninojay.top/2022/1-21unit/</loc>
     
     <lastmod>2024-02-24</lastmod>
     
@@ -732,6 +705,33 @@
   
   <url>
     <loc>https://www.ninojay.top/writing/English-keyword/</loc>
+    
+    <lastmod>2024-02-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ninojay.top/writing/leetcode/</loc>
+    
+    <lastmod>2024-02-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ninojay.top/writing/myKeyboardShortcuts/</loc>
+    
+    <lastmod>2024-02-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ninojay.top/2022/1-21unit/</loc>
     
     <lastmod>2024-02-24</lastmod>
     
