@@ -15,7 +15,7 @@
     <atom:link href="https://www.ninojay.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Web开发者｜阅读写作爱好者</description>
-    <pubDate>Sun, 25 Feb 2024 17:21:48 GMT</pubDate>
+    <pubDate>Sun, 25 Feb 2024 20:03:46 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -179,6 +179,8 @@
       
       
       <category domain="https://www.ninojay.top/categories/%E6%83%85%E7%BB%AA/">情绪</category>
+      
+      <category domain="https://www.ninojay.top/categories/%E6%83%85%E7%BB%AA/2%E7%BA%A7%E6%83%85%E7%BB%AA/">2级情绪</category>
       
       
       <category domain="https://www.ninojay.top/tags/%E8%AE%B0%E5%BF%86/">记忆</category>
