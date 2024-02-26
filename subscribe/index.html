@@ -65,6 +65,171 @@
 <link rel="alternate" href="/rss2.xml" title="Nino" type="application/rss+xml">
 </head>
     
+    <style>
+        :root {
+            --waline-theme-color: #323e74; 
+            --waline-color: #323e74; 
+            --waline-border-color: #323e74; 
+            --waline-white: #323e74; 
+            --waline-bgcolor-light: #f2fafc;  
+        }
+        body {
+            color: #323e74;
+            background: #eaeae8;
+        }
+        .post-md code {
+            background: #e7f7f3;
+            color: #7f688d; 
+        }
+        .post-md pre, .post-md .highlight {
+            background: #e7f7f3;
+            color: #7f688d; 
+        }
+        pre .string, pre .value, pre .inheritance, pre .header, pre .ruby .symbol, pre .xml .cdata {
+            color: #323e74;
+        }
+        pre .number, pre .preprocessor, pre .built_in, pre .literal, pre .params, pre .constant {
+            color: #323e74;
+        }
+        .year-font-color {
+            color: #323e74 !important;
+        }
+        .wl-card span.wl-nick {
+            color: #323e74; 
+        }
+        .wl-card .wl-badge {
+            border: 1px solid #323e74;
+            color: #323e74; 
+        }
+        .wl-btn {
+            border: 1px solid #323e74; 
+            color:  #323e74;  
+        }
+        .wl-btn.primary {
+            color: #f2fafc; 
+        }
+        .wl-header label {
+            color: #323e74;
+        }
+        a {
+            color: #7f688d;
+        }
+
+        .post-md a {
+            color: #7f688d;
+        }
+
+        .nav li a {
+            color: #7f688d;
+        }
+
+        .archive-main a:link {
+            color: #7f688d;
+        }
+        .archive-main a:visited {
+            color: #767c7c; 
+        }
+
+        .archive li span {
+            color: #323e74;
+        }
+
+        .post-main-title {
+            color: #323e74;
+        }
+
+        .post-md h1,
+        .post-md h2,
+        .post-md h3,
+        .post-md h4,
+        .post-md h5,
+        .post-md h6 {
+            color: #323e74;
+        }
+
+        [data-waline] p {
+            color: #323e74;
+        }
+        [data-waline] a {
+            color: #323e74;
+        } 
+        .wl-sort li.active {
+            color: #323e74;
+        }
+
+        .wl-card .wl-meta>span {
+            background: #f2fafc;
+        }
+
+        .paper {
+            background: #eaeae8;
+        }
+
+        .index-main {
+            background: #f2fafc;
+        }
+
+        .paper-main {
+            background: #f2fafc;
+        }
+
+        .wl-panel {
+            background: #f2fafc;
+        }
+
+        .archive li:nth-child(odd) {
+            background: #f2fafc;
+            ;
+        }
+
+        .archive li:nth-child(even) {
+            background: #f2fafc;
+        }
+
+        .post-md table tr:nth-child(odd) td {
+            background: #f2fafc;
+        }
+
+        .post-md table tr:nth-child(even) td {
+            background: #f2fafc;
+        }
+
+    
+        .progress-wrap::after {
+            color: #323e74; /* 箭头的颜色 */
+        }
+        .progress-wrap svg.progress-circle path {
+	        stroke: #323e74; /* 边框的颜色 */
+        }
+        .progress-wrap::before {
+	        background-image: linear-gradient(298deg, #7f688d, #7f688d); /* 鼠标滑过的箭头颜色 */
+         }
+
+        .return-to-last-progress-wrap::after {
+            color: #323e74; /* 箭头的颜色 */
+        }
+        .return-to-last-progress-wrap svg.progress-circle path {
+	        stroke: #323e74; /* 边框的颜色 */
+        }
+        .return-to-last-progress-wrap::before {
+	        background-image: linear-gradient(298deg, #7f688d, #7f688d); /* 鼠标滑过的箭头颜色 */
+         }
+
+         .left-toc-container::-webkit-scrollbar-thumb {
+            background-color: #323e74; /* 设置滚动条拖动块的颜色 */
+        }
+
+        .bs-docs-sidebar .nav>.active>a,
+        .bs-docs-sidebar .nav>li>a:hover,
+        .bs-docs-sidebar .nav>li>a:focus {
+            color: #7f688d;
+            border-left-color: #7f688d;
+        }
+        .bs-docs-sidebar .nav>li>a {
+            color:  #323e74;
+        }
+    </style>
+
     
     <body>
         
@@ -291,7 +456,7 @@
             left: '42px', // default: 'unset'
             time: '0.3s', // default: '0.3s'
             mixColor: '#fff', // default: '#fff'
-            backgroundColor: ' #e4e4e4 ',  // default: '#fff'
+            backgroundColor: ' #eaeae8  ',  // default: '#fff'
             buttonColorDark: '#100f2c',  // default: '#100f2c'
             buttonColorLight: '#fff', // default: '#fff'
             saveInCookies: true, // default: true,

@@ -69,6 +69,171 @@
 <link rel="alternate" href="/rss2.xml" title="Nino" type="application/rss+xml">
 </head>
     
+    <style>
+        :root {
+            --waline-theme-color: #323e74; 
+            --waline-color: #323e74; 
+            --waline-border-color: #323e74; 
+            --waline-white: #323e74; 
+            --waline-bgcolor-light: #f2fafc;  
+        }
+        body {
+            color: #323e74;
+            background: #eaeae8;
+        }
+        .post-md code {
+            background: #e7f7f3;
+            color: #7f688d; 
+        }
+        .post-md pre, .post-md .highlight {
+            background: #e7f7f3;
+            color: #7f688d; 
+        }
+        pre .string, pre .value, pre .inheritance, pre .header, pre .ruby .symbol, pre .xml .cdata {
+            color: #323e74;
+        }
+        pre .number, pre .preprocessor, pre .built_in, pre .literal, pre .params, pre .constant {
+            color: #323e74;
+        }
+        .year-font-color {
+            color: #323e74 !important;
+        }
+        .wl-card span.wl-nick {
+            color: #323e74; 
+        }
+        .wl-card .wl-badge {
+            border: 1px solid #323e74;
+            color: #323e74; 
+        }
+        .wl-btn {
+            border: 1px solid #323e74; 
+            color:  #323e74;  
+        }
+        .wl-btn.primary {
+            color: #f2fafc; 
+        }
+        .wl-header label {
+            color: #323e74;
+        }
+        a {
+            color: #7f688d;
+        }
+
+        .post-md a {
+            color: #7f688d;
+        }
+
+        .nav li a {
+            color: #7f688d;
+        }
+
+        .archive-main a:link {
+            color: #7f688d;
+        }
+        .archive-main a:visited {
+            color: #767c7c; 
+        }
+
+        .archive li span {
+            color: #323e74;
+        }
+
+        .post-main-title {
+            color: #323e74;
+        }
+
+        .post-md h1,
+        .post-md h2,
+        .post-md h3,
+        .post-md h4,
+        .post-md h5,
+        .post-md h6 {
+            color: #323e74;
+        }
+
+        [data-waline] p {
+            color: #323e74;
+        }
+        [data-waline] a {
+            color: #323e74;
+        } 
+        .wl-sort li.active {
+            color: #323e74;
+        }
+
+        .wl-card .wl-meta>span {
+            background: #f2fafc;
+        }
+
+        .paper {
+            background: #eaeae8;
+        }
+
+        .index-main {
+            background: #f2fafc;
+        }
+
+        .paper-main {
+            background: #f2fafc;
+        }
+
+        .wl-panel {
+            background: #f2fafc;
+        }
+
+        .archive li:nth-child(odd) {
+            background: #f2fafc;
+            ;
+        }
+
+        .archive li:nth-child(even) {
+            background: #f2fafc;
+        }
+
+        .post-md table tr:nth-child(odd) td {
+            background: #f2fafc;
+        }
+
+        .post-md table tr:nth-child(even) td {
+            background: #f2fafc;
+        }
+
+    
+        .progress-wrap::after {
+            color: #323e74; /* 箭头的颜色 */
+        }
+        .progress-wrap svg.progress-circle path {
+	        stroke: #323e74; /* 边框的颜色 */
+        }
+        .progress-wrap::before {
+	        background-image: linear-gradient(298deg, #7f688d, #7f688d); /* 鼠标滑过的箭头颜色 */
+         }
+
+        .return-to-last-progress-wrap::after {
+            color: #323e74; /* 箭头的颜色 */
+        }
+        .return-to-last-progress-wrap svg.progress-circle path {
+	        stroke: #323e74; /* 边框的颜色 */
+        }
+        .return-to-last-progress-wrap::before {
+	        background-image: linear-gradient(298deg, #7f688d, #7f688d); /* 鼠标滑过的箭头颜色 */
+         }
+
+         .left-toc-container::-webkit-scrollbar-thumb {
+            background-color: #323e74; /* 设置滚动条拖动块的颜色 */
+        }
+
+        .bs-docs-sidebar .nav>.active>a,
+        .bs-docs-sidebar .nav>li>a:hover,
+        .bs-docs-sidebar .nav>li>a:focus {
+            color: #7f688d;
+            border-left-color: #7f688d;
+        }
+        .bs-docs-sidebar .nav>li>a {
+            color:  #323e74;
+        }
+    </style>
+
     
     <body>
         
@@ -167,16 +332,16 @@
 <h3 id="灰白配色-默认"><a href="#灰白配色-默认" class="headerlink" title="灰白配色-默认"></a>灰白配色-默认</h3><h4 id="效果演示"><a href="#效果演示" class="headerlink" title="效果演示"></a>效果演示</h4><p><a target="_blank" rel="noopener" href="https://jsd.onmicrosoft.cn/gh/hininojay/images/a4color/greywhite.png" title="灰白A4" class="gallery-item" style="box-shadow: none;"> <img src="https://jsd.onmicrosoft.cn/gh/hininojay/images/a4color/greywhite.png" alt="灰白A4"></a></p>
 <h4 id="如何启用？"><a href="#如何启用？" class="headerlink" title="如何启用？"></a>如何启用？</h4><p>该配色为A4启动后默认配色。保证<code>_config.a4.yml</code>配置文件中<code>color</code>设置为<code>false</code>即可</p>
 <p>或者<code>color</code>设置为<code>true</code>采用以下配置</p>
-<figure class="highlight yml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 实验性功能：A4色调调整：颜色搭配是很主观的行为</span></span><br><span class="line"><span class="comment"># 设置为 false 为 A4 默认色调，可设置为 true 直接hexo s 体验下 另一种预置色调</span></span><br><span class="line"><span class="comment"># 注：颜色代码需加“#”，颜色单词不需要加“#”</span></span><br><span class="line"><span class="attr">color:</span> </span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span> </span><br><span class="line">  <span class="attr">font:</span> <span class="string">"#000000"</span> </span><br><span class="line">  <span class="attr">background:</span> <span class="string">"#e4e4e4"</span> </span><br><span class="line">  <span class="attr">indexBackGround:</span> <span class="string">"#ffffff"</span> </span><br><span class="line">  <span class="attr">postBackGround:</span> <span class="string">"#ffffff"</span> </span><br><span class="line">  <span class="attr">codeBackGround:</span> <span class="string">"black"</span> </span><br><span class="line">  <span class="attr">codeFont:</span> <span class="string">"white"</span>  </span><br><span class="line">  <span class="attr">linkBeforeClick:</span> <span class="string">"#fec591"</span> <span class="comment"># 链接点击前的颜色，标题也是链接，所以标题颜色也在此修改</span></span><br><span class="line">  <span class="attr">linkAfterClick:</span> <span class="string">"#fec591"</span> <span class="comment"># 链接点击后的颜色</span></span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight yml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 实验性功能：A4色调调整：颜色搭配是很主观的行为</span></span><br><span class="line"><span class="comment"># 设置为 false 为 A4 默认色调，可设置为 true 直接hexo s 体验下 另一种预置色调</span></span><br><span class="line"><span class="comment"># 注：颜色代码需加“#”，颜色单词不需要加“#”</span></span><br><span class="line"><span class="attr">color:</span> </span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span> <span class="comment"># true | false</span></span><br><span class="line">  <span class="attr">font:</span> <span class="string">"#000000"</span> <span class="comment"># 字体颜色</span></span><br><span class="line">  <span class="attr">background:</span> <span class="string">"#e4e4e4"</span> <span class="comment"># 最底部层背景颜色</span></span><br><span class="line">  <span class="attr">indexBackGround:</span> <span class="string">"#ffffff"</span> <span class="comment"># 首页层颜色</span></span><br><span class="line">  <span class="attr">postBackGround:</span> <span class="string">"#ffffff"</span> <span class="comment"># 文章页层颜色</span></span><br><span class="line">  <span class="attr">codeBackGround:</span> <span class="string">"black"</span> <span class="comment"># 代码行和块的背景色</span></span><br><span class="line">  <span class="attr">codeFont:</span> <span class="string">"white"</span>  <span class="comment"># 代码块字体颜色 </span></span><br><span class="line">  <span class="attr">linkBeforeClick:</span> <span class="string">"#fec591"</span> <span class="comment"># 链接点击前的颜色，标题也是链接，所以标题颜色也在此修改</span></span><br><span class="line">  <span class="attr">linkAfterClick:</span> <span class="string">"#fec591"</span> <span class="comment"># 链接点击后的颜色</span></span><br></pre></td></tr></tbody></table></figure>
 
 <h3 id="棕色墨绿护眼配色-预置"><a href="#棕色墨绿护眼配色-预置" class="headerlink" title="棕色墨绿护眼配色-预置"></a>棕色墨绿护眼配色-预置</h3><h4 id="效果演示-1"><a href="#效果演示-1" class="headerlink" title="效果演示"></a>效果演示</h4><p><a target="_blank" rel="noopener" href="https://jsd.onmicrosoft.cn/gh/hininojay/images/source/img/a4color/brownRed.png" title="棕红" class="gallery-item" style="box-shadow: none;"> <img src="https://jsd.onmicrosoft.cn/gh/hininojay/images/source/img/a4color/brownRed.png" alt="棕红"></a></p>
 <h4 id="如何启用？-1"><a href="#如何启用？-1" class="headerlink" title="如何启用？"></a>如何启用？</h4><p>该配色<code>_config.a4.yml</code>配置文件中预置，将<code>color</code>设置为<code>true</code>，采用以下配置</p>
-<figure class="highlight yml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 实验性功能：A4色调调整：颜色搭配是很主观的行为</span></span><br><span class="line"><span class="comment"># 设置为 false 为 A4 默认色调，可设置为 true 直接hexo s 体验下 另一种预置色调</span></span><br><span class="line"><span class="comment"># 注：颜色代码需加“#”，颜色单词不需要加“#”</span></span><br><span class="line"><span class="attr">color:</span> </span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span> </span><br><span class="line">  <span class="attr">font:</span> <span class="string">"#9e5345"</span> </span><br><span class="line">  <span class="attr">background:</span> <span class="string">"#e8e0c9"</span> </span><br><span class="line">  <span class="attr">indexBackGround:</span> <span class="string">"#efeae2"</span> </span><br><span class="line">  <span class="attr">postBackGround:</span> <span class="string">"#efeae2"</span> </span><br><span class="line">  <span class="attr">codeBackGround:</span> <span class="string">"#e8e0c9"</span>  <span class="comment"># 代码行和块的背景色</span></span><br><span class="line">  <span class="attr">codeFont:</span> <span class="string">"#2e5041"</span></span><br><span class="line">  <span class="attr">linkBeforeClick:</span> <span class="string">"#2e5041"</span> <span class="comment"># 链接点击前的颜色，标题也是链接，所以标题颜色也在此修改</span></span><br><span class="line">  <span class="attr">linkAfterClick:</span> <span class="string">"#9c9caf"</span> <span class="comment"># 链接点击后的颜色</span></span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight yml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 实验性功能：A4色调调整：颜色搭配是很主观的行为</span></span><br><span class="line"><span class="comment"># 设置为 false 为 A4 默认色调，可设置为 true 直接hexo s 体验下 另一种预置色调</span></span><br><span class="line"><span class="comment"># 注：颜色代码需加“#”，颜色单词不需要加“#”</span></span><br><span class="line"><span class="attr">color:</span> </span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span> <span class="comment"># true | false</span></span><br><span class="line">  <span class="attr">font:</span> <span class="string">"#9e5345"</span> <span class="comment"># 字体颜色</span></span><br><span class="line">  <span class="attr">background:</span> <span class="string">"#e8e0c9"</span> <span class="comment"># 最底部层背景颜色</span></span><br><span class="line">  <span class="attr">indexBackGround:</span> <span class="string">"#efeae2"</span> <span class="comment"># 首页层颜色</span></span><br><span class="line">  <span class="attr">postBackGround:</span> <span class="string">"#efeae2"</span> <span class="comment"># 文章页层颜色</span></span><br><span class="line">  <span class="attr">codeBackGround:</span> <span class="string">"#e8e0c9"</span>  <span class="comment"># 代码行和块的背景色</span></span><br><span class="line">  <span class="attr">codeFont:</span> <span class="string">"#2e5041"</span> <span class="comment"># 代码块字体颜色 </span></span><br><span class="line">  <span class="attr">linkBeforeClick:</span> <span class="string">"#2e5041"</span> <span class="comment"># 链接点击前的颜色，标题也是链接，所以标题颜色也在此修改</span></span><br><span class="line">  <span class="attr">linkAfterClick:</span> <span class="string">"#9c9caf"</span> <span class="comment"># 链接点击后的颜色</span></span><br></pre></td></tr></tbody></table></figure>
 
 
 <h3 id="青花瓷配色"><a href="#青花瓷配色" class="headerlink" title="青花瓷配色"></a>青花瓷配色</h3><h4 id="效果演示-2"><a href="#效果演示-2" class="headerlink" title="效果演示"></a>效果演示</h4><p><a target="_blank" rel="noopener" href="https://jsd.onmicrosoft.cn/gh/hininojay/images/source/img/a4color/blueAndWhite.png" title="青蓝A4" class="gallery-item" style="box-shadow: none;"> <img src="https://jsd.onmicrosoft.cn/gh/hininojay/images/source/img/a4color/blueAndWhite.png" alt="青蓝A4"></a></p>
 <h4 id="如何启用？-2"><a href="#如何启用？-2" class="headerlink" title="如何启用？"></a>如何启用？</h4><p>该配色<code>_config.a4.yml</code>配置文件中预置，将<code>color</code>设置为<code>true</code>，采用以下配置</p>
-<figure class="highlight yml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 实验性功能：A4色调调整：颜色搭配是很主观的行为</span></span><br><span class="line"><span class="comment"># 设置为 false 为 A4 默认色调，可设置为 true 直接hexo s 体验下 另一种预置色调</span></span><br><span class="line"><span class="comment"># 注：颜色代码需加“#”，颜色单词不需要加“#”</span></span><br><span class="line"><span class="attr">color:</span> </span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span> </span><br><span class="line">  <span class="attr">font:</span> <span class="string">"#323e74"</span> </span><br><span class="line">  <span class="attr">background:</span> <span class="string">"#eaeae8"</span> </span><br><span class="line">  <span class="attr">indexBackGround:</span> <span class="string">"#f2fafc"</span> </span><br><span class="line">  <span class="attr">postBackGround:</span> <span class="string">"#f2fafc"</span> </span><br><span class="line">  <span class="attr">codeBackGround:</span> <span class="string">"#e7f7f3"</span>  <span class="comment"># 代码行和块的背景色</span></span><br><span class="line">  <span class="attr">codeFont:</span> <span class="string">"#7f688d"</span></span><br><span class="line">  <span class="attr">linkBeforeClick:</span> <span class="string">"#7f688d"</span> <span class="comment"># 链接点击前的颜色，标题也是链接，所以标题颜色也在此修改</span></span><br><span class="line">  <span class="attr">linkAfterClick:</span> <span class="string">"#767c7c"</span> <span class="comment"># 链接点击后的颜色</span></span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight yml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 实验性功能：A4色调调整：颜色搭配是很主观的行为</span></span><br><span class="line"><span class="comment"># 设置为 false 为 A4 默认色调，可设置为 true 直接hexo s 体验下 另一种预置色调</span></span><br><span class="line"><span class="comment"># 注：颜色代码需加“#”，颜色单词不需要加“#”</span></span><br><span class="line"><span class="attr">color:</span> </span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span> <span class="comment"># true | false</span></span><br><span class="line">  <span class="attr">font:</span> <span class="string">"#323e74"</span> <span class="comment"># 字体颜色</span></span><br><span class="line">  <span class="attr">background:</span> <span class="string">"#eaeae8"</span> <span class="comment"># 最底部层背景颜色</span></span><br><span class="line">  <span class="attr">indexBackGround:</span> <span class="string">"#f2fafc"</span> <span class="comment"># 首页层颜色</span></span><br><span class="line">  <span class="attr">postBackGround:</span> <span class="string">"#f2fafc"</span> <span class="comment"># 文章页层颜色</span></span><br><span class="line">  <span class="attr">codeBackGround:</span> <span class="string">"#e7f7f3"</span>  <span class="comment"># 代码行和块的背景色</span></span><br><span class="line">  <span class="attr">codeFont:</span> <span class="string">"#7f688d"</span> <span class="comment"># 代码块字体颜色 </span></span><br><span class="line">  <span class="attr">linkBeforeClick:</span> <span class="string">"#7f688d"</span> <span class="comment"># 链接点击前的颜色，标题也是链接，所以标题颜色也在此修改</span></span><br><span class="line">  <span class="attr">linkAfterClick:</span> <span class="string">"#767c7c"</span> <span class="comment"># 链接点击后的颜色</span></span><br></pre></td></tr></tbody></table></figure>
 
 <h3 id="绿金配色"><a href="#绿金配色" class="headerlink" title="绿金配色"></a>绿金配色</h3><h4 id="效果演示-3"><a href="#效果演示-3" class="headerlink" title="效果演示"></a>效果演示</h4><p><a target="_blank" rel="noopener" href="https://jsd.onmicrosoft.cn/gh/hininojay/images/a4color/greengolden.png" title="绿金A4" class="gallery-item" style="box-shadow: none;"> <img src="https://jsd.onmicrosoft.cn/gh/hininojay/images/a4color/greengolden.png" alt="绿金A4"></a></p>
 <h4 id="如何启用？-3"><a href="#如何启用？-3" class="headerlink" title="如何启用？"></a>如何启用？</h4><p>该配色<code>_config.a4.yml</code>配置文件中预置，将<code>color</code>设置为<code>true</code>，采用以下配置</p>
@@ -413,7 +578,7 @@
             left: '42px', // default: 'unset'
             time: '0.3s', // default: '0.3s'
             mixColor: '#fff', // default: '#fff'
-            backgroundColor: ' #e4e4e4 ',  // default: '#fff'
+            backgroundColor: ' #eaeae8  ',  // default: '#fff'
             buttonColorDark: '#100f2c',  // default: '#100f2c'
             buttonColorLight: '#fff', // default: '#fff'
             saveInCookies: true, // default: true,
