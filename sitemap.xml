@@ -2,24 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.ninojay.top/users/index.html</loc>
-    
-    <lastmod>2024-02-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.ninojay.top/works/index.html</loc>
-    
-    <lastmod>2024-02-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.ninojay.top/index/index.html</loc>
     
     <lastmod>2024-02-26</lastmod>
@@ -110,7 +92,34 @@
   </url>
   
   <url>
+    <loc>https://www.ninojay.top/users/index.html</loc>
+    
+    <lastmod>2024-02-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ninojay.top/works/index.html</loc>
+    
+    <lastmod>2024-02-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.ninojay.top/past-years/</loc>
+    
+    <lastmod>2024-02-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ninojay.top/fragments/2023/</loc>
     
     <lastmod>2024-02-26</lastmod>
     
@@ -470,15 +479,6 @@
   </url>
   
   <url>
-    <loc>https://www.ninojay.top/2022/excerpts-from-january-2022/</loc>
-    
-    <lastmod>2024-02-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.ninojay.top/2022/know-oneself/</loc>
     
     <lastmod>2024-02-26</lastmod>
@@ -489,6 +489,15 @@
   
   <url>
     <loc>https://www.ninojay.top/2022/other-website/</loc>
+    
+    <lastmod>2024-02-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ninojay.top/2022/excerpts-from-january-2022/</loc>
     
     <lastmod>2024-02-26</lastmod>
     
@@ -730,15 +739,6 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://www.ninojay.top/fragments/2023/</loc>
-    
-    <lastmod>2024-02-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>https://www.ninojay.top/</loc>
@@ -826,13 +826,6 @@
   </url>
   
   <url>
-    <loc>https://www.ninojay.top/tags/%E5%8F%A5%E5%AD%90/</loc>
-    <lastmod>2024-02-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.ninojay.top/tags/%E5%BF%83%E7%90%86%E5%AD%A6/</loc>
     <lastmod>2024-02-26</lastmod>
     <changefreq>weekly</changefreq>
@@ -841,6 +834,13 @@
   
   <url>
     <loc>https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/</loc>
+    <lastmod>2024-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ninojay.top/tags/%E5%8F%A5%E5%AD%90/</loc>
     <lastmod>2024-02-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
