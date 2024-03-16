@@ -119,33 +119,6 @@
   </url>
   
   <url>
-    <loc>https://www.ninojay.top/2022/I-dirnk-wine/</loc>
-    
-    <lastmod>2024-03-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.ninojay.top/2022/Phaedrus/</loc>
-    
-    <lastmod>2024-03-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.ninojay.top/2022/achieve-my-goals/</loc>
-    
-    <lastmod>2024-03-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.ninojay.top/2022/before-the-waves-churned/</loc>
     
     <lastmod>2024-03-16</lastmod>
@@ -641,7 +614,7 @@
   </url>
   
   <url>
-    <loc>https://www.ninojay.top/about/index.html</loc>
+    <loc>https://www.ninojay.top/categories/index.html</loc>
     
     <lastmod>2024-03-16</lastmod>
     
@@ -650,7 +623,7 @@
   </url>
   
   <url>
-    <loc>https://www.ninojay.top/categories/index.html</loc>
+    <loc>https://www.ninojay.top/about/index.html</loc>
     
     <lastmod>2024-03-16</lastmod>
     
@@ -741,6 +714,33 @@
   
   <url>
     <loc>https://www.ninojay.top/2022/GTD/</loc>
+    
+    <lastmod>2024-03-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ninojay.top/2022/I-dirnk-wine/</loc>
+    
+    <lastmod>2024-03-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ninojay.top/2022/Phaedrus/</loc>
+    
+    <lastmod>2024-03-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ninojay.top/2022/achieve-my-goals/</loc>
     
     <lastmod>2024-03-16</lastmod>
     
