@@ -15,7 +15,7 @@
     <atom:link href="https://www.ninojay.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Web开发者｜阅读写作爱好者</description>
-    <pubDate>Sat, 16 Mar 2024 11:29:10 GMT</pubDate>
+    <pubDate>Sat, 16 Mar 2024 12:05:08 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -99,12 +99,10 @@
       <content:encoded><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/hint.css/2.7.0/hint.min.css"><div class=".article-gallery"><hr><div align="right"><p><a href="/coder/">Return To coder page🔙</a></p></div></div><script src="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/js/lightgallery.min.js"></script><script>if (typeof lightGallery !== 'undefined') {        var options = {            selector: '.gallery-item'        };        lightGallery(document.getElementsByClassName('.article-gallery')[0], options);        }</script>]]></content:encoded>
       
       
-      <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
+      <category domain="https://www.ninojay.top/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/">程序员</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
+      <category domain="https://www.ninojay.top/tags/%E9%9D%A2%E8%AF%95/">面试</category>
       
       
       <comments>https://www.ninojay.top/java/Interview-process/#disqus_thread</comments>
@@ -130,12 +128,12 @@
       <content:encoded><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/hint.css/2.7.0/hint.min.css"><div class=".article-gallery"><h2 id="系统知识"><a href="#系统知识" class="headerlink" title="系统知识"></a>系统知识</h2><p>🈳：待整理面试题</p><p>✅：只需加强记忆</p><h3 id="算法"><a href="#算法" class="headerlink" title="算法"></a>算法</h3><ul><li><del>《LeeCode101》</del>✅</li></ul><h3 id="通用知识"><a href="#通用知识" class="headerlink" title="通用知识"></a>通用知识</h3><ul><li><p>网络：<del>《计算机网络》</del>✅</p></li><li><p>操作系统：<del>《操作系统》</del>✅</p></li><li><p>MySQL：<del>《Mysql是怎样运行的》</del>✅、<a href="https://funnylog.gitee.io/mysql45/">《MySQL 实战 45 讲》</a></p><blockquote><p>《MySQL 技术内幕：InnoDB 存储引擎》、《高性能 MySQL》、《从零开始带你成为 MySQL 实战优化高手》</p></blockquote></li><li><p>Redis：《Redis 开发与运维》、《Redis 设计与实现》、<a href="http://kaito-kidd.com/categories/Redis/">水滴与银弹Redis 系列文章</a></p></li><li><p>Kafka：<del>《Apache Kafka 实战》✅</del>、<a href="https://www.orchome.com/66">半兽人博客</a></p></li><li><p>Zookeeper：<del>《从 Paxos 到 Zookeeper：分布式一致性原理与实践》✅</del></p></li><li><p>Hbase</p><ul><li><p><a href="https://juejin.cn/post/7069386733531922468">https://juejin.cn/post/7069386733531922468</a></p></li><li><p><a href="https://blog.51cto.com/u_16213662/7654865">https://blog.51cto.com/u_16213662/7654865</a></p></li></ul></li><li><p>架构：《凤凰架构》</p><blockquote><p>《领域驱动设计：软件核心复杂性应对之道》</p></blockquote></li><li><p>docker/k8s：</p></li></ul><h3 id="Java"><a href="#Java" class="headerlink" title="Java"></a>Java</h3><ul><li><p>Java：<del>《effective Java》✅</del>、<del>《Java 并发编程实战》✅</del></p><blockquote><p>《Java 并发编程的艺术》、</p></blockquote></li><li><p>JVM：<del>《深入理解 Java 虚拟机》第三版✅</del></p><blockquote><p>《深入 Java 虚拟机：JVM G1GC 的算法与实现》、《新一代垃圾回收器 ZGC 设计与实现》、<a href="https://tech.meituan.com/tags/jvm.html">美团技术团队相关 JVM 的文章</a>、R 大相关 JVM 文章</p></blockquote></li><li><p>Spring：《Spring微服务实战》</p></li></ul><h3 id="面经"><a href="#面经" class="headerlink" title="面经"></a>面经</h3><ul><li><a href="https://heapdump.cn/article/4040756">🌟2023-社招两年半10个公司28轮面试面经</a></li><li><a href="https://www.nowcoder.com/discuss/507961220322861056">2023-快手社招Java后端2年面经</a></li><li><a href="https://xie.infoq.cn/article/d2d624f36239633e5d4fcd4e0">2023-腾讯</a></li><li><a href="https://leetcode.cn/circle/discuss/3vLNFY/">2023-字节/同花顺/拼多多</a></li><li><a href="https://youle.zhipin.com/articles/5f199dbe2f844fddqxB73d-4Eg~~.html">2022-京东</a></li><li><a href="https://zhuanlan.zhihu.com/p/87899892">2021-菜鸟</a></li><li><a href="https://juejin.cn/post/6844904197888933896">🌟2020-阿里腾讯</a></li><li><a href="https://www.nowcoder.com/discuss/353155941996634112">2019-6家Java后端社招面经</a></li></ul><h3 id="面试八股文题库"><a href="#面试八股文题库" class="headerlink" title="面试八股文题库"></a>面试八股文题库</h3><ul><li><a href="https://javabetter.cn/sidebar/sanfene/nixi.html">沉默王二</a></li></ul><hr><div align="right"><p><a href="/coder/">Return To coder page🔙</a></p></div></div><script src="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/js/lightgallery.min.js"></script><script>if (typeof lightGallery !== 'undefined') {        var options = {            selector: '.gallery-item'        };        lightGallery(document.getElementsByClassName('.article-gallery')[0], options);        }</script>]]></content:encoded>
       
       
-      <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
+      <category domain="https://www.ninojay.top/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/">程序员</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
+      <category domain="https://www.ninojay.top/tags/%E9%98%85%E8%AF%BB/">阅读</category>
       
-      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
+      <category domain="https://www.ninojay.top/tags/java/">java</category>
       
       
       <comments>https://www.ninojay.top/java/knowledge/#disqus_thread</comments>
@@ -248,8 +246,6 @@
       
       
       <category domain="https://www.ninojay.top/tags/%E9%98%85%E8%AF%BB/">阅读</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E6%80%9D%E6%83%B3/">思想</category>
       
       <category domain="https://www.ninojay.top/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/">方法论</category>
       
@@ -427,6 +423,8 @@
       
       <category domain="https://www.ninojay.top/tags/%E8%AE%B0%E5%BF%86/">记忆</category>
       
+      <category domain="https://www.ninojay.top/tags/%E6%AD%8C%E6%9B%B2/">歌曲</category>
+      
       
       <comments>https://www.ninojay.top/2023/cry/#disqus_thread</comments>
       
@@ -484,12 +482,10 @@
       <content:encoded><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/hint.css/2.7.0/hint.min.css"><div class=".article-gallery"><p>当前坐标：上海</p><p>当前目标：外企</p><p>当前目的：不卷/外国文化/</p><h2 id="外国企业"><a href="#外国企业" class="headerlink" title="外国企业"></a>外国企业</h2><table><thead><tr><th>公司名称</th><th>位置</th><th>技术栈</th><th>简单说明</th></tr></thead><tbody><tr><td>微软</td><td></td><td></td><td></td></tr><tr><td>MicroFocus</td><td></td><td></td><td></td></tr><tr><td>paypal</td><td></td><td></td><td></td></tr><tr><td><a href="https://wish.zhiye.com/">wish</a></td><td>苏河湾中心</td><td></td><td>跨境电商</td></tr></tbody></table><h2 id="中国企业"><a href="#中国企业" class="headerlink" title="中国企业"></a>中国企业</h2><table><thead><tr><th>公司名称</th><th>位置</th><th>技术栈</th><th>简单说明</th></tr></thead><tbody><tr><td>滴滴</td><td></td><td></td><td></td></tr><tr><td>字节跳动</td><td></td><td></td><td></td></tr><tr><td>腾讯</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table><hr><div align="right"><p><a href="/coder/">Return To coder page🔙</a></p></div></div><script src="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/js/lightgallery.min.js"></script><script>if (typeof lightGallery !== 'undefined') {        var options = {            selector: '.gallery-item'        };        lightGallery(document.getElementsByClassName('.article-gallery')[0], options);        }</script>]]></content:encoded>
       
       
-      <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
+      <category domain="https://www.ninojay.top/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/">程序员</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
+      <category domain="https://www.ninojay.top/tags/%E8%A1%8C/">行</category>
       
       
       <comments>https://www.ninojay.top/java/recruitment/#disqus_thread</comments>
@@ -517,8 +513,6 @@
       
       <category domain="https://www.ninojay.top/categories/%E5%A3%B0%E5%85%89/">声光</category>
       
-      
-      <category domain="https://www.ninojay.top/tags/%E8%AE%B0%E5%BF%86/">记忆</category>
       
       <category domain="https://www.ninojay.top/tags/%E6%91%98%E6%8A%84/">摘抄</category>
       
@@ -549,11 +543,7 @@
       <category domain="https://www.ninojay.top/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/">程序员</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E8%AE%B0%E5%BF%86/">记忆</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
+      <category domain="https://www.ninojay.top/tags/%E6%91%98%E6%8A%84/">摘抄</category>
       
       
       <comments>https://www.ninojay.top/writing/English-keyword/#disqus_thread</comments>
@@ -581,10 +571,6 @@
       
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
-      
-      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
       
@@ -619,10 +605,6 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
-      
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
       
       <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
@@ -655,10 +637,6 @@
       
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
-      
-      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
       
@@ -693,10 +671,6 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
-      
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
       
       <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
@@ -729,10 +703,6 @@
       
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
-      
-      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
       
@@ -767,10 +737,6 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
-      
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
       
       <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
@@ -804,10 +770,6 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
-      
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
       
       <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
@@ -840,10 +802,6 @@
       
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
-      
-      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
       
@@ -901,7 +859,7 @@
       <category domain="https://www.ninojay.top/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/">程序员</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E7%AE%97%E6%B3%95%E9%A2%98/">算法题</category>
+      <category domain="https://www.ninojay.top/tags/%E7%AE%97%E6%B3%95/">算法</category>
       
       <category domain="https://www.ninojay.top/tags/Java/">Java</category>
       
@@ -911,7 +869,7 @@
     </item>
     
     <item>
-      <title>行-银阁寺</title>
+      <title>银阁寺</title>
       <link>https://www.ninojay.top/2023/silver-temple/</link>
       <guid>https://www.ninojay.top/2023/silver-temple/</guid>
       <pubDate>Wed, 10 May 2023 04:41:00 GMT</pubDate>
@@ -963,7 +921,7 @@
       
       <category domain="https://www.ninojay.top/tags/AI/">AI</category>
       
-      <category domain="https://www.ninojay.top/tags/%E6%9C%AA%E6%9D%A5/">未来</category>
+      <category domain="https://www.ninojay.top/tags/%E8%AF%9D%E5%A4%B4/">话头</category>
       
       
       <comments>https://www.ninojay.top/2023/about-ai-chatgpt-2023/#disqus_thread</comments>
@@ -991,10 +949,6 @@
       
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
-      
-      <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
       
@@ -1056,6 +1010,10 @@
       
       <category domain="https://www.ninojay.top/tags/%E8%AE%B0%E5%BF%86/">记忆</category>
       
+      <category domain="https://www.ninojay.top/tags/%E6%91%98%E6%8A%84/">摘抄</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E5%8F%A5%E5%AD%90/">句子</category>
+      
       
       <comments>https://www.ninojay.top/2023/some-words/#disqus_thread</comments>
       
@@ -1115,10 +1073,6 @@
       
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
-      
-      <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
       
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
       
@@ -1180,10 +1134,6 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
-      
       <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
       
       <category domain="https://www.ninojay.top/tags/hexo/">hexo</category>
@@ -1215,9 +1165,7 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</category>
+      <category domain="https://www.ninojay.top/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/">方法论</category>
       
       
       <comments>https://www.ninojay.top/writing/myKeyboardShortcuts/#disqus_thread</comments>
@@ -1575,7 +1523,7 @@
       <category domain="https://www.ninojay.top/categories/%E6%80%9D%E8%BE%A8/">思辨</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E8%AE%B0%E5%BF%86/">记忆</category>
+      <category domain="https://www.ninojay.top/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/">方法论</category>
       
       
       <comments>https://www.ninojay.top/2022/achieve-my-goals/#disqus_thread</comments>
@@ -1583,7 +1531,7 @@
     </item>
     
     <item>
-      <title>食-小炒肉</title>
+      <title>小炒肉</title>
       <link>https://www.ninojay.top/2022/stir-fried-pork/</link>
       <guid>https://www.ninojay.top/2022/stir-fried-pork/</guid>
       <pubDate>Thu, 31 Mar 2022 06:27:36 GMT</pubDate>
@@ -1722,6 +1670,8 @@
       
       <category domain="https://www.ninojay.top/tags/%E9%98%85%E8%AF%BB/">阅读</category>
       
+      <category domain="https://www.ninojay.top/tags/%E6%91%98%E6%8A%84/">摘抄</category>
+      
       <category domain="https://www.ninojay.top/tags/%E5%BF%83%E7%90%86%E5%AD%A6/">心理学</category>
       
       
@@ -1781,6 +1731,8 @@
       
       
       <category domain="https://www.ninojay.top/tags/%E8%AE%B0%E5%BF%86/">记忆</category>
+      
+      <category domain="https://www.ninojay.top/tags/%E6%AD%8C%E6%9B%B2/">歌曲</category>
       
       
       <comments>https://www.ninojay.top/2022/red-river/#disqus_thread</comments>
@@ -1931,7 +1883,7 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E6%9C%AC%E7%AB%99%E7%9B%B8%E5%85%B3/">本站相关</category>
+      <category domain="https://www.ninojay.top/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">搭建网站</category>
       
       
       <comments>https://www.ninojay.top/2022/other-website/#disqus_thread</comments>
@@ -2018,9 +1970,7 @@
       <category domain="https://www.ninojay.top/categories/%E8%BD%AF%E4%BB%B6/">软件</category>
       
       
-      <category domain="https://www.ninojay.top/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</category>
-      
-      <category domain="https://www.ninojay.top/tags/%E6%80%9D%E6%83%B3/">思想</category>
+      <category domain="https://www.ninojay.top/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/">方法论</category>
       
       
       <comments>https://www.ninojay.top/2022/GTD/#disqus_thread</comments>
