@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.ninojay.top/index/index.html</loc>
+    
+    <lastmod>2024-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ninojay.top/list/index.html</loc>
+    
+    <lastmod>2024-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ninojay.top/message/index.html</loc>
+    
+    <lastmod>2024-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.ninojay.top/now/index.html</loc>
     
     <lastmod>2024-03-24</lastmod>
@@ -83,34 +110,25 @@
   </url>
   
   <url>
-    <loc>https://www.ninojay.top/index/index.html</loc>
-    
-    <lastmod>2024-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.ninojay.top/list/index.html</loc>
-    
-    <lastmod>2024-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.ninojay.top/message/index.html</loc>
-    
-    <lastmod>2024-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.ninojay.top/past-years/</loc>
+    
+    <lastmod>2024-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ninojay.top/hexoplugin/hexo-blog-encrypt/</loc>
+    
+    <lastmod>2024-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ninojay.top/hexoplugin/hexo-data-inside/</loc>
     
     <lastmod>2024-03-24</lastmod>
     
@@ -452,7 +470,7 @@
   </url>
   
   <url>
-    <loc>https://www.ninojay.top/2022/simple-words/</loc>
+    <loc>https://www.ninojay.top/2022/stir-fried-pork/</loc>
     
     <lastmod>2024-03-24</lastmod>
     
@@ -461,7 +479,7 @@
   </url>
   
   <url>
-    <loc>https://www.ninojay.top/2022/stir-fried-pork/</loc>
+    <loc>https://www.ninojay.top/2022/simple-words/</loc>
     
     <lastmod>2024-03-24</lastmod>
     
@@ -741,24 +759,6 @@
   
   <url>
     <loc>https://www.ninojay.top/hexoplugin/hexo-all-minifier/</loc>
-    
-    <lastmod>2024-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.ninojay.top/hexoplugin/hexo-blog-encrypt/</loc>
-    
-    <lastmod>2024-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.ninojay.top/hexoplugin/hexo-data-inside/</loc>
     
     <lastmod>2024-03-24</lastmod>
     
