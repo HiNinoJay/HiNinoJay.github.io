@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport" />
+    <meta name="description" content="缓存" />
+    <meta name="hexo-theme-A4" content="v1.9.6" />
+    <link rel="alternate icon" type="image/webp" href="/img/favicon.webp">
+    <title>Nino | Web开发者｜阅读写作爱好者</title>
+
+    
+        
+<link rel="stylesheet" href="/css/highlight/style1.css">
+
+        
+<link rel="stylesheet" href="/css/reset.css">
+
+        
+<link rel="stylesheet" href="/css/markdown.css">
+
+        
+<link rel="stylesheet" href="/css/fonts.css">
+ 
+         <!--注意：首页既不是post也不是page-->
+        
+        
+        
+<link rel="stylesheet" href="/css/ui.css">
+ 
+        
+<link rel="stylesheet" href="/css/style.css">
+
+
+        
+            <!--返回顶部css-->
+            
+<link rel="stylesheet" href="/css/returnToTop.css">
+
+            
+<link rel="stylesheet" href="/css/unicons.css">
+
+        
+        
+            <!--目录-->
+            
+<link rel="stylesheet" href="/css/toc.css">
+
+        
+    
+
+    
+        
+<link rel="stylesheet" href="/css/returnToLastPage.css">
+
+    
+    
+   
+<link rel="stylesheet" href="/css/lightgallery-bundle.min.css">
+
+
+<meta name="generator" content="Hexo 7.3.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="Nino" type="application/atom+xml">
+<link rel="alternate" href="/rss2.xml" title="Nino" type="application/rss+xml">
+</head>
+    
+    
+
+    
+    
+
+
+
+    
+
+    
+    
+
+    
+    
+    
+    <body>
+        <script src="/js/darkmode-js.min.js"></script>
+        
+        <script>
+            const options = {
+                bottom: '40px', // default: '32px'
+                right: 'unset', // default: '32px'
+                left: '42px', // default: 'unset'
+                time: '0.3s', // default: '0.3s'
+                mixColor: '#fff', // default: '#fff'
+                backgroundColor: ' #e4e4e4 ',  // default: '#fff'
+                buttonColorDark: '#100f2c',  // default: '#100f2c'
+                buttonColorLight: '#fff', // default: '#fff'
+                saveInCookies: true, // default: true,
+                label: '🌓', // default: ''
+                autoMatchOsTheme: true // default: true
+            }
+            const darkmode = new Darkmode(options);
+            darkmode.showWidget();
+        </script>
+        
+        
+            <div class="left-toc-container">
+                <nav id="toc" class="bs-docs-sidebar"></nav>
+            </div>
+        
+        <div class="paper">
+            
+            
+            
+            
+                <div class="shadow-drop-2-bottom paper-main">
+                    
+
+
+<div class="header">
+    <div class="header-container">
+        <style>
+            .header-img {
+                width: 56px;
+                height: auto;
+                object-fit: cover; /* 保持图片比例 */
+                transition: transform 0.3s ease-in-out; 
+                border-radius: 50%; 
+            }
+            
+            .header-img:hover {
+                animation: rotateAnimation 2s linear infinite; /* 悬停旋转动画 */
+            }
+            @keyframes rotateAnimation {
+                0% {
+                    transform: rotate(0deg);
+                }
+                100% {
+                    transform: rotate(360deg);
+                }
+            }
+            
+        </style>
+        <img 
+            alt="^-^" 
+            cache-control="max-age=86400" 
+            class="header-img" 
+            src="/img/favicon.webp" 
+        />
+        <div class="header-content">
+            <a class="logo" href="/">Nino</a> 
+            <span class="description">Web开发者｜阅读写作爱好者</span> 
+        </div>
+    </div>
+    
+   
+    <ul class="nav">
+        
+            
+                <li><a href="/">🏃首页</a></li>
+            
+        
+            
+                <li><a href="/list/">⛰️文章</a></li>
+            
+        
+            
+                <li><a href="/works/">🌸作品</a></li>
+            
+        
+            
+                <li><a href="/message/">🔈留言</a></li>
+            
+        
+            
+                <li><a href="/tags/">📌标签</a></li>
+            
+        
+            
+                <li><a href="/categories/">🔖分类</a></li>
+            
+        
+            
+                <li><a href="/about/">🌕关于</a></li>
+            
+        
+            
+                <li><a href="/now/">📅Now</a></li>
+            
+        
+    </ul>
+</div> 
+        
+                    
+                    
+
+                    
+                    
+                    
+                    <!--说明是文章post页面-->
+                    
+                        <div class="post-main">
+    
+
+    
+        
+            
+                <div class="post-main-title" style="text-align: center;">
+                    缓存
+                </div>
+            
+        
+      
+    
+
+    
+
+        
+            <div class="post-head-meta-center">
+        
+                
+                    <span>最近更新：2024-08-29</span> 
+                
+                
+                    
+                        &nbsp; | &nbsp;
+                    
+                     <span>字数总计：388</span>
+                
+                
+                    
+                        &nbsp; | &nbsp;
+                    
+                    <span>阅读估时：1分钟</span>
+                
+                
+                    
+                        &nbsp; | &nbsp;
+                    
+                    <span id="busuanzi_container_page_pv">
+                        阅读量：<span id="busuanzi_value_page_pv"></span>次
+                    </span>
+                
+            </div>
+    
+
+    <div class="post-md">
+        
+            
+        
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/hint.css/2.7.0/hint.min.css"><div class=".article-gallery"><h2 id="Redis"><a href="#Redis" class="headerlink" title="Redis"></a>Redis</h2><ul>
+<li><a target="_blank" rel="noopener" href="https://xiaolincoding.com/redis/">小林coding</a></li>
+<li><a target="_blank" rel="noopener" href="https://javabetter.cn/sidebar/sanfene/redis.html">沉默王二</a></li>
+</ul>
+<h3 id="面试题收集"><a href="#面试题收集" class="headerlink" title="面试题收集"></a>面试题收集</h3><h4 id="什么是Redis"><a href="#什么是Redis" class="headerlink" title="什么是Redis?"></a>什么是Redis?</h4><h4 id="Redis-和-Memcached-有什么区别？"><a href="#Redis-和-Memcached-有什么区别？" class="headerlink" title="Redis 和 Memcached 有什么区别？"></a>Redis 和 Memcached 有什么区别？</h4><h4 id="为什么用-Redis-作为-MySQL-的缓存？"><a href="#为什么用-Redis-作为-MySQL-的缓存？" class="headerlink" title="为什么用 Redis 作为 MySQL 的缓存？"></a>为什么用 Redis 作为 MySQL 的缓存？</h4><h4 id="Redis-数据类型以及使用场景分别是什么？"><a href="#Redis-数据类型以及使用场景分别是什么？" class="headerlink" title="Redis 数据类型以及使用场景分别是什么？"></a>Redis 数据类型以及使用场景分别是什么？</h4><h4 id="五种常见的-Redis-数据类型是怎么实现？"><a href="#五种常见的-Redis-数据类型是怎么实现？" class="headerlink" title="五种常见的 Redis 数据类型是怎么实现？"></a>五种常见的 Redis 数据类型是怎么实现？</h4><h4 id="Redis-是单线程吗？"><a href="#Redis-是单线程吗？" class="headerlink" title="Redis 是单线程吗？"></a>Redis 是单线程吗？</h4><h4 id="Redis-单线程模式是怎样的？"><a href="#Redis-单线程模式是怎样的？" class="headerlink" title="Redis 单线程模式是怎样的？"></a>Redis 单线程模式是怎样的？</h4><h4 id="Redis-采用单线程为什么还这么快？"><a href="#Redis-采用单线程为什么还这么快？" class="headerlink" title="Redis 采用单线程为什么还这么快？"></a>Redis 采用单线程为什么还这么快？</h4><h4 id="Redis-6-0-之前为什么使用单线程？"><a href="#Redis-6-0-之前为什么使用单线程？" class="headerlink" title="Redis 6.0 之前为什么使用单线程？"></a>Redis 6.0 之前为什么使用单线程？</h4><h4 id="Redis-6-0-之后为什么引入了多线程？"><a href="#Redis-6-0-之后为什么引入了多线程？" class="headerlink" title="Redis 6.0 之后为什么引入了多线程？"></a>Redis 6.0 之后为什么引入了多线程？</h4><h4 id="Redis-如何实现数据不丢失？"><a href="#Redis-如何实现数据不丢失？" class="headerlink" title="Redis 如何实现数据不丢失？"></a>Redis 如何实现数据不丢失？</h4><h4 id="AOF-日志是如何实现的？"><a href="#AOF-日志是如何实现的？" class="headerlink" title="AOF 日志是如何实现的？"></a>AOF 日志是如何实现的？</h4><h4 id="RDB-快照是如何实现的呢？"><a href="#RDB-快照是如何实现的呢？" class="headerlink" title="RDB 快照是如何实现的呢？"></a>RDB 快照是如何实现的呢？</h4><h4 id="为什么会有混合持久化？"><a href="#为什么会有混合持久化？" class="headerlink" title="为什么会有混合持久化？"></a>为什么会有混合持久化？</h4><h4 id="Redis-如何实现服务高可用？"><a href="#Redis-如何实现服务高可用？" class="headerlink" title="Redis 如何实现服务高可用？"></a>Redis 如何实现服务高可用？</h4><h4 id="集群脑裂导致数据丢失怎么办？"><a href="#集群脑裂导致数据丢失怎么办？" class="headerlink" title="集群脑裂导致数据丢失怎么办？"></a>集群脑裂导致数据丢失怎么办？</h4><h4 id="Redis-使用的过期删除策略是什么？"><a href="#Redis-使用的过期删除策略是什么？" class="headerlink" title="Redis 使用的过期删除策略是什么？"></a>Redis 使用的过期删除策略是什么？</h4><h4 id="Redis-持久化时，对过期键会如何处理的？"><a href="#Redis-持久化时，对过期键会如何处理的？" class="headerlink" title="Redis 持久化时，对过期键会如何处理的？"></a>Redis 持久化时，对过期键会如何处理的？</h4><h4 id="Redis-主从模式中，对过期键会如何处理？"><a href="#Redis-主从模式中，对过期键会如何处理？" class="headerlink" title="Redis 主从模式中，对过期键会如何处理？"></a>Redis 主从模式中，对过期键会如何处理？</h4><h4 id="Redis-内存满了，会发生什么？"><a href="#Redis-内存满了，会发生什么？" class="headerlink" title="Redis 内存满了，会发生什么？"></a>Redis 内存满了，会发生什么？</h4><h4 id="Redis-内存淘汰策略有哪些？"><a href="#Redis-内存淘汰策略有哪些？" class="headerlink" title="Redis 内存淘汰策略有哪些？"></a>Redis 内存淘汰策略有哪些？</h4><h4 id="LRU-算法和-LFU-算法有什么区别？"><a href="#LRU-算法和-LFU-算法有什么区别？" class="headerlink" title="LRU 算法和 LFU 算法有什么区别？"></a>LRU 算法和 LFU 算法有什么区别？</h4><h4 id="如何避免缓存雪崩、缓存击穿、缓存穿透？"><a href="#如何避免缓存雪崩、缓存击穿、缓存穿透？" class="headerlink" title="如何避免缓存雪崩、缓存击穿、缓存穿透？"></a>如何避免缓存雪崩、缓存击穿、缓存穿透？</h4><h4 id="如何设计一个缓存策略，可以动态缓存热点数据呢？"><a href="#如何设计一个缓存策略，可以动态缓存热点数据呢？" class="headerlink" title="如何设计一个缓存策略，可以动态缓存热点数据呢？"></a>如何设计一个缓存策略，可以动态缓存热点数据呢？</h4><h4 id="说说常见的缓存更新策略？"><a href="#说说常见的缓存更新策略？" class="headerlink" title="说说常见的缓存更新策略？"></a>说说常见的缓存更新策略？</h4><h4 id="如何保证缓存和数据库数据的一致性？"><a href="#如何保证缓存和数据库数据的一致性？" class="headerlink" title="如何保证缓存和数据库数据的一致性？"></a>如何保证缓存和数据库数据的一致性？</h4><h4 id="Redis-如何实现延迟队列？"><a href="#Redis-如何实现延迟队列？" class="headerlink" title="Redis 如何实现延迟队列？"></a>Redis 如何实现延迟队列？</h4><h4 id="Redis-的大-key-如何处理？"><a href="#Redis-的大-key-如何处理？" class="headerlink" title="Redis 的大 key 如何处理？"></a>Redis 的大 key 如何处理？</h4><h4 id="Redis-管道有什么用？"><a href="#Redis-管道有什么用？" class="headerlink" title="Redis 管道有什么用？"></a>Redis 管道有什么用？</h4><h4 id="Redis-事务支持回滚吗？"><a href="#Redis-事务支持回滚吗？" class="headerlink" title="Redis 事务支持回滚吗？"></a>Redis 事务支持回滚吗？</h4><h4 id="如何用-Redis-实现分布式锁的？"><a href="#如何用-Redis-实现分布式锁的？" class="headerlink" title="如何用 Redis 实现分布式锁的？"></a>如何用 Redis 实现分布式锁的？</h4><h4 id="主从复制是怎么实现的？"><a href="#主从复制是怎么实现的？" class="headerlink" title="主从复制是怎么实现的？"></a>主从复制是怎么实现的？</h4><h4 id="为什么要有哨兵？"><a href="#为什么要有哨兵？" class="headerlink" title="为什么要有哨兵？"></a>为什么要有哨兵？</h4><hr>
+<div align="right">
+
+<p><a href="/coder/">Return To coder page🔙</a></p>
+</div></div>
+    </div>
+
+    <div class="post-meta">
+        <i>
+        
+            <span>2024-08-28</span>
+            
+            
+             
+        
+        </i>
+    </div>
+    <br>
+    
+    
+        
+    
+
+     
+</div>
+
+
+
+                                      
+                    
+                    
+                    <div class="footer">
+    
+        <span> 
+            © 2024-1999 nino 
+
+            
+                
+
+            
+                
+                    / <a href="/contact/"> 联系 </a>
+                
+
+            
+                
+                    / <a href="/support/"> 支持 </a>
+                
+
+            
+                
+                    / <a href="/subscribe/"> 订阅 </a>
+                
+
+            
+                
+                    / <a href="/friends/"> 近邻 </a>
+                
+
+            
+        </span>
+       
+    
+</div>
+
+
+
+<!--这是指一条线往下的内容-->
+<div class="footer-last">
+    
+            <span>🌊看过大海的人不会忘记海的广阔🌊</span>
+            
+                <span class="footer-last-span-right"><i>本站由<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/index.html">Hexo</a>驱动｜使用<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4">Hexo-theme-A4</a>主题</i></span>
+            
+    
+</div>
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <!--目录-->
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js" type="text/javascript" ></script>
+        
+<script src="/js/toc.js"></script>
+
+    
+
+    
+<script src="/js/randomHeaderContent.js"></script>
+
+    <!--回到顶部按钮-->
+    
+        
+<script src="/js/returnToTop.js"></script>
+
+    
+
+    
+        
+<script src="/js/returnToLastPage.js"></script>
+
+    
+
+
+
+
+
+<script src="/js/lightgallery/lightgallery.umd.min.js"></script>
+
+
+
+<script src="/js/lightgallery/plugins/lg-thumbnail.umd.min.js"></script>
+
+
+
+<script src="/js/lightgallery/plugins/lg-fullscreen.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-autoplay.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-zoom.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-rotate.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-paper.umd.min.js"></script>
+
+
+
+
+<script type="text/javascript">
+     
+    if (typeof lightGallery !== "undefined") {
+        var options1 = {
+            selector: '.gallery-item',
+            plugins: [lgThumbnail, lgFullscreen, lgAutoplay, lgZoom, lgRotate, lgPager], // 启用插件
+            thumbnail: true,          // 显示缩略图
+            zoom: true,               // 启用缩放功
+            rotate: true,             // 启用旋转功能能
+            autoplay: true,        // 启用自动播放功能
+            fullScreen: true,      // 启用全屏功能
+            pager: false, //页码,
+            zoomFromOrigin: true,   // 从原始位置缩放
+            actualSize: true,       // 启用查看实际大小的功能
+            enableZoomAfter: 300,    // 延迟缩放，确保图片加载完成后可缩放
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options1); // 修复选择器
+    }
+    
+</script>
+
+
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script> 
+
+                </div>
+            
+            
+                <!-- 回到顶部的按钮-->  
+                <div class="progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
+            
+                <!-- 返回的按钮-->  
+                <div class="return-to-last-progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
+    </body>
+</html>
