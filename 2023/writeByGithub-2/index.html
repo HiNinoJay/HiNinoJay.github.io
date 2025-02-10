@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport" />
+    <meta name="description" content="我的博客网站写作工作流（二）Hexo&amp;GithubAction" />
+    <meta name="hexo-theme-A4" content="v1.9.7" />
+    <link rel="alternate icon" type="image/webp" href="/img/favicon.webp">
+    <title>Nino | Web开发者｜阅读写作爱好者</title>
+
+    
+        
+<link rel="stylesheet" href="/css/highlight/style1.css">
+
+        
+<link rel="stylesheet" href="/css/reset.css">
+
+        
+<link rel="stylesheet" href="/css/markdown.css">
+
+        
+<link rel="stylesheet" href="/css/fonts.css">
+ 
+         <!--注意：首页既不是post也不是page-->
+        
+            
+<link rel="stylesheet" href="/css/waline.css">
+
+        
+        
+        
+<link rel="stylesheet" href="/css/ui.css">
+ 
+        
+<link rel="stylesheet" href="/css/style.css">
+
+
+        
+            <!--返回顶部css-->
+            
+<link rel="stylesheet" href="/css/returnToTop.css">
+
+            
+<link rel="stylesheet" href="/css/unicons.css">
+
+        
+        
+            <!--目录-->
+            
+<link rel="stylesheet" href="/css/toc.css">
+
+        
+    
+
+    
+        
+<link rel="stylesheet" href="/css/returnToLastPage.css">
+
+    
+    
+   
+<link rel="stylesheet" href="/css/lightgallery-bundle.min.css">
+
+
+<meta name="generator" content="Hexo 7.3.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="Nino" type="application/atom+xml">
+<link rel="alternate" href="/rss2.xml" title="Nino" type="application/rss+xml">
+</head>
+    
+    
+
+    
+    
+
+
+
+    
+
+    
+    
+
+    
+    
+    
+    <body>
+        <script src="/js/darkmode-js.min.js"></script>
+        
+        <script>
+            const options = {
+                bottom: '40px', // default: '32px'
+                right: 'unset', // default: '32px'
+                left: '42px', // default: 'unset'
+                time: '0.3s', // default: '0.3s'
+                mixColor: '#fff', // default: '#fff'
+                backgroundColor: ' #e4e4e4 ',  // default: '#fff'
+                buttonColorDark: '#100f2c',  // default: '#100f2c'
+                buttonColorLight: '#fff', // default: '#fff'
+                saveInCookies: true, // default: true,
+                label: '🌓', // default: ''
+                autoMatchOsTheme: true // default: true
+            }
+            const darkmode = new Darkmode(options);
+            darkmode.showWidget();
+        </script>
+        
+        
+            <div class="left-toc-container">
+                <nav id="toc" class="bs-docs-sidebar"></nav>
+            </div>
+        
+        <div class="paper">
+            
+            
+            
+            
+                <div class="shadow-drop-2-bottom paper-main">
+                    
+
+
+<div class="header">
+    <div class="header-container">
+        <style>
+            .header-img {
+                width: 56px;
+                height: auto;
+                object-fit: cover; /* 保持图片比例 */
+                transition: transform 0.3s ease-in-out; 
+                border-radius: 50%; 
+            }
+            
+        </style>
+        <img 
+            alt="^-^" 
+            cache-control="max-age=86400" 
+            class="header-img" 
+            src="/img/favicon.webp" 
+        />
+        <div class="header-content">
+            <a class="logo" href="/">Nino</a> 
+            <span class="description">Web开发者｜阅读写作爱好者</span> 
+        </div>
+    </div>
+    
+   
+    <ul class="nav">
+        
+            
+                <li><a href="/">🏃首页</a></li>
+            
+        
+            
+                <li><a href="/list/">⛰️文章</a></li>
+            
+        
+            
+                <li><a href="/works/">🌸作品</a></li>
+            
+        
+            
+                <li><a href="/message/">🔈留言</a></li>
+            
+        
+            
+                <li><a href="/tags/">📌标签</a></li>
+            
+        
+            
+                <li><a href="/categories/">🔖分类</a></li>
+            
+        
+            
+                <li><a href="/about/">🌕关于</a></li>
+            
+        
+            
+                <li><a href="/now/">📅Now</a></li>
+            
+        
+    </ul>
+</div> 
+        
+                    
+                    
+
+                    
+                    
+                    
+                    <!--说明是文章post页面-->
+                    
+                        <div class="post-main">
+    
+
+    
+        
+            
+                <div class="post-main-title" style="text-align: center;">
+                    我的博客网站写作工作流（二）Hexo&amp;GithubAction
+                </div>
+            
+        
+      
+    
+
+    
+
+        
+            <div class="post-head-meta-center">
+        
+                
+                    <span>最近更新：2024-09-26</span> 
+                
+                
+                    
+                        &nbsp; | &nbsp;
+                    
+                     <span>字数总计：2k</span>
+                
+                
+                    
+                        &nbsp; | &nbsp;
+                    
+                    <span>阅读估时：7分钟</span>
+                
+                
+                    
+                        &nbsp; | &nbsp;
+                    
+                    <span id="busuanzi_container_page_pv">
+                        阅读量：<span id="busuanzi_value_page_pv"></span>次
+                    </span>
+                
+            </div>
+    
+
+    <div class="post-md">
+        
+            
+                <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E8%83%8C%E6%99%AF"><span class="post-toc-text">背景</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E7%BD%91%E9%A1%B5%E4%B8%8A%E8%BF%9B%E8%A1%8C%E7%BD%91%E7%AB%99%E7%9A%84%E5%86%99%E4%BD%9C%E8%BF%87%E7%A8%8B%E6%8F%8F%E8%BF%B0%F0%9F%92%AF"><span class="post-toc-text">网页上进行网站的写作过程描述💯</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E4%B9%8B%E5%90%8EGithub%E4%BC%9A%E8%87%AA%E5%8A%A8%E8%BF%9B%E8%A1%8C%E7%9A%84%E6%93%8D%E4%BD%9C"><span class="post-toc-text">之后Github会自动进行的操作</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E5%A6%82%E4%BD%95%E5%81%9A%E5%88%B0-Github-Action"><span class="post-toc-text">如何做到-Github Action</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#%E5%86%8D%E6%AC%A1%E6%8F%90%E9%86%92%E5%92%B1%E4%BB%AC%E5%B7%B2%E6%9C%89%E7%9A%84%E4%BB%93%E5%BA%93"><span class="post-toc-text">再次提醒咱们已有的仓库</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#%E5%9C%A8%E6%9C%AC%E5%9C%B0%E5%85%88%E7%94%9F%E6%88%90%E4%B8%80%E5%AF%B9%E5%AF%86%E9%92%A5"><span class="post-toc-text">在本地先生成一对密钥</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#%E7%BD%91%E9%A1%B5%E4%B8%8A%E5%88%86%E5%88%AB%E9%85%8D%E7%BD%AE%E8%BF%99%E5%AF%B9%E5%AF%86%E9%92%A5%E7%BB%99%E4%B8%A4%E4%B8%AA%E4%BB%93%E5%BA%93"><span class="post-toc-text">网页上分别配置这对密钥给两个仓库</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#%E6%AD%A3%E5%BC%8F%E7%BC%96%E5%86%99Github-Actions"><span class="post-toc-text">正式编写Github Actions</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#2024-09-26%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E"><span class="post-toc-text">2024.09.26更新说明</span></a></li></ol>
+            
+        
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/hint.css/2.7.0/hint.min.css"><div class=".article-gallery"><p>这是真正意义上，在github上编写md文章。提交后啥也不用管，自动发布。</p>
+<hr>
+<p>以上文字是我在github网页上创建了新的md文章，提交后，啥也不用管，自动就更新到我的网站！也就是真正意义上的，只要有网络，我就可以写文章，而之前<del>要更新hexo博客网站，就必须携带电脑敲代码。</del></p>
+<p>甚至，就算是在电脑上本地写文章，也不需要再执行hexo clean&amp;&amp;hexo deploy，等待hexo编译网站源代码，命令行打出一长串的生成信息。只需要将所有的代码push到github仓库，网站自动就会更新。</p>
+<p><strong><u><em>强烈推荐该种方法。</em></u></strong></p>
+<p>看以下教程时，注意有的步骤与<a target="_blank" rel="noopener" href="https://ninojay.top/2023/writebygithub/">我的博客网站写作工作流（一）</a>区分。</p>
+<h3 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h3><p>我在github上建好了两个仓库： <strong>私有的</strong>  <em>website 仓库</em> 和 <strong>公开的</strong> <em>github pages 仓库</em>  </p>
+<p>我的<a target="_blank" rel="noopener" href="https://ninojay.top/">网站</a>是通过本地<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">hexo</a>加载自己做的博客网站主题<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4">hexo-theme-A4</a>(已开源)，生成<em><strong>静态页面</strong></em>，发布代码到 github pages仓库 ，再用<a target="_blank" rel="noopener" href="https://vercel.com/dashboard">vercel容器</a>拉取 github pages代码 进行部署，使得允许互联网的访问。所以当 github pages仓库 任何的改动，vercel都会拉取最新的代码进行自动网站部署更新。</p>
+<p><strong>以上是<a target="_blank" rel="noopener" href="https://ninojay.top/2023/writebygithub/">我的博客网站写作工作流（一）</a>的描述</strong>。现在是直接将本地hexo网站项目（举例我的文件夹名website）目录下所有数据，推送到github上的website仓库。</p>
+<p><strong>私有的</strong> <em>website仓库 : 网站真正意义上的源代码</em></p>
+<p><strong>公有的</strong> <em>github pages仓库 : 只存储源代码生成后的静态页面</em></p>
+<h3 id="网页上进行网站的写作过程描述💯"><a href="#网页上进行网站的写作过程描述💯" class="headerlink" title="网页上进行网站的写作过程描述💯"></a>网页上进行网站的写作过程描述💯</h3><p>举例说今天我想写篇文章：</p>
+<ol>
+<li><p>打开浏览器，点击保存的书签，跳转到我github上的website仓库（虽然是私有仓库，但是我自己能访问）</p>
+</li>
+<li><p>在website仓库里的/source/_post文件夹下创建一个markdown文件，直接在github页面进行该markdown文件写作</p>
+</li>
+<li><p><strong>注意</strong>：hexo对markdown文件的<code>front-matter</code>有一些必须的参数（title、date必须），在写文章正文前添加如下信息</p>
+<figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">这里写你想要展示的文章标题</span> <span class="string">（必要）</span></span><br><span class="line"><span class="attr">date:</span> <span class="string">YYYY-MM-DD</span> <span class="string">HH:mm</span> <span class="string">（必要）</span></span><br><span class="line"><span class="attr">tags:</span> [<span class="string">自定义1</span>, <span class="string">自定义2</span>, <span class="string">等等</span>] <span class="comment"># 文章标签（选填）</span></span><br><span class="line"><span class="attr">categories:</span> [<span class="string">自定义</span>] <span class="comment"># 文章分类（选填）</span></span><br><span class="line"><span class="attr">comment:</span> <span class="literal">false</span> <span class="comment"># 手动关闭该篇文章的评论系统（选填）</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></tbody></table></figure>
+</li>
+<li><p><strong>注意</strong>：检查github上新建的文章，文件后缀是否为.md</p>
+</li>
+<li><p>写作完毕，提交commit保存</p>
+</li>
+</ol>
+<p>以上步骤即完成了网站文章的更新。且自己在写作过程中，只需要专注于写作这件事，不会涉及到其他东西（诸如本地数据存储，上传，部署到网站等等）。</p>
+<p>明白了新增一篇文章，那么去修改网站任意页面的内容相信你也一通百通了。</p>
+<h3 id="之后Github会自动进行的操作"><a href="#之后Github会自动进行的操作" class="headerlink" title="之后Github会自动进行的操作"></a>之后Github会自动进行的操作</h3><p>当我们在github网页完成文章的新增或者修改后，提交commit。github会自动帮我们运行一些本来我们在本地执行的命令（如hexo generate、hexo deploy），将website仓库，即网站的源码，自动生成网站所有的最新静态页面，推送到 github pages仓库。vercel再自动拉取 github pages仓库的代码数据，完成部署网站。</p>
+<h3 id="如何做到-Github-Action"><a href="#如何做到-Github-Action" class="headerlink" title="如何做到-Github Action"></a>如何做到-Github Action</h3><p>以上是整个流程。最关键的一步，是“github识别到website仓库有更新，会去自动生成静态页面，推送到github pages仓库” 这一操作。实际上用到的就是Github Action服务。</p>
+<p><strong>以下为配置步骤：</strong></p>
+<h4 id="再次提醒咱们已有的仓库"><a href="#再次提醒咱们已有的仓库" class="headerlink" title="再次提醒咱们已有的仓库"></a>再次提醒咱们已有的仓库</h4><p><strong>私有的</strong>  <em>website 仓库</em> ：网站真正意义上的源代码，存放hexo项目</p>
+<p><strong>公开的</strong> <em>github pages 仓库</em>  ：将只会存储源代码生成后的静态页面</p>
+<h4 id="在本地先生成一对密钥"><a href="#在本地先生成一对密钥" class="headerlink" title="在本地先生成一对密钥"></a>在本地先生成一对密钥</h4><p>这对密钥将使得 website仓库，能够访问到 github pages 仓库。</p>
+<p>在本地电脑任意路径执行命令（你需要git环境）：</p>
+<figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">ssh-keygen</span> <span class="string">-f</span> <span class="string">github-deploy-key</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p>当前目录下会有 <code>github-deploy-key</code> 和 <code>github-deploy-key.pub</code> 两个文件。</p>
+<h4 id="网页上分别配置这对密钥给两个仓库"><a href="#网页上分别配置这对密钥给两个仓库" class="headerlink" title="网页上分别配置这对密钥给两个仓库"></a>网页上分别配置这对密钥给两个仓库</h4><p><strong>配置website仓库</strong></p>
+<p>复制 本地刚生成的其中一个密钥<code>github-deploy-key</code> 文件的内容，在 website 仓库  Settings -&gt; Secrets -&gt; Add a new secret  页面上添加。</p>
+<ol>
+<li>在 <code>Name</code> 输入框填写 <code>HEXO_DEPLOY_PRI</code>。</li>
+<li>在 <code>Value</code> 输入框填写 <code>github-deploy-key</code> 文件内容。</li>
+</ol>
+<p><strong>配置github pages仓库</strong></p>
+<p>复制 本地刚生成的其中一个密钥 <code>github-deploy-key.pub</code> 文件内容，在  github pages 仓库  Settings -&gt; Deploy keys -&gt; Add deploy key 页面上添加。</p>
+<ol>
+<li>在 <code>Title</code> 输入框填写 <code>HEXO_DEPLOY_PUB</code>。</li>
+<li>在 <code>Key</code> 输入框填写 <code>github-deploy-key.pub</code> 文件内容。</li>
+<li>勾选  Allow write access 选项。</li>
+</ol>
+<h4 id="正式编写Github-Actions"><a href="#正式编写Github-Actions" class="headerlink" title="正式编写Github Actions"></a>正式编写Github Actions</h4><p>来到 website 仓库，点击Action标签，点击页面上的 <code>New workflow</code> -&gt; <code>set up a workflow yourself</code> ，复制以下内容</p>
+<figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 文件路径 .github/workflows/autoDeploy.yml</span></span><br><span class="line"><span class="attr">name:</span> <span class="string">CI自动部署</span></span><br><span class="line"></span><br><span class="line"><span class="attr">on:</span></span><br><span class="line">  <span class="attr">push:</span></span><br><span class="line">    <span class="attr">branches:</span> [<span class="string">main</span>] <span class="comment"># 当push指定分支操作触发时执行自动部署</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="attr">jobs:</span></span><br><span class="line">  <span class="attr">hexo-deployment:</span></span><br><span class="line">    <span class="attr">runs-on:</span> <span class="string">ubuntu-latest</span></span><br><span class="line">    <span class="attr">env:</span></span><br><span class="line">      <span class="attr">TZ:</span> <span class="string">Asia/Shanghai</span></span><br><span class="line">      </span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="attr">steps:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span> <span class="number">0</span><span class="string">.恢复文章修改时间</span></span><br><span class="line">      <span class="attr">run:</span> <span class="string">|</span></span><br><span class="line"><span class="string">        find source/_posts -name '*.md' | while read file; do touch -d "$(git log -1 --format="@%ct" "$file")" "$file"; done</span></span><br><span class="line"><span class="string"></span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span> <span class="number">1.</span><span class="string">checkout分支</span></span><br><span class="line">      <span class="attr">uses:</span> <span class="string">actions/checkout@v2</span></span><br><span class="line">      <span class="attr">with:</span></span><br><span class="line">        <span class="attr">fetch-depth:</span> <span class="number">0</span> <span class="comment"># 添加深拷贝选择，解决github检出操作(checkout)默认是浅拷贝的问题</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span> <span class="number">2.</span><span class="string">node环境安装</span></span><br><span class="line">      <span class="attr">uses:</span> <span class="string">actions/setup-node@v1</span></span><br><span class="line">      <span class="attr">with:</span></span><br><span class="line">        <span class="attr">node-version:</span> <span class="string">'12.x'</span></span><br><span class="line"></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span> <span class="number">3</span><span class="string">.缓存</span> <span class="string">Hexo</span> <span class="string">模块，提高构建速度</span></span><br><span class="line">      <span class="attr">uses:</span> <span class="string">actions/cache@v1</span></span><br><span class="line">      <span class="attr">id:</span> <span class="string">cache</span></span><br><span class="line">      <span class="attr">with:</span></span><br><span class="line">        <span class="attr">path:</span> <span class="string">node_modules</span></span><br><span class="line">        <span class="attr">key:</span> <span class="string">${{runner.OS}}-${{hashFiles('**/package-lock.json')}}</span></span><br><span class="line"></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span> <span class="number">4</span><span class="string">.安装依赖</span></span><br><span class="line">      <span class="attr">if:</span> <span class="string">steps.cache.outputs.cache-hit</span> <span class="type">!=</span> <span class="string">'true'</span></span><br><span class="line">      <span class="attr">run:</span> <span class="string">|</span></span><br><span class="line"><span class="string">        npm install --save</span></span><br><span class="line"><span class="string"></span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span> <span class="number">5</span><span class="string">.服务器验证</span></span><br><span class="line">      <span class="attr">env:</span></span><br><span class="line">        <span class="attr">ACTION_DEPLOY_KEY:</span> <span class="string">${{</span> <span class="string">secrets.HEXO_DEPLOY_PRI</span> <span class="string">}}</span></span><br><span class="line">      <span class="attr">run:</span> <span class="string">|</span></span><br><span class="line"><span class="string">        sudo timedatectl set-timezone "Asia/Shanghai"</span></span><br><span class="line"><span class="string">        mkdir -p ~/.ssh/</span></span><br><span class="line"><span class="string">        echo "$ACTION_DEPLOY_KEY" &gt; ~/.ssh/id_rsa</span></span><br><span class="line"><span class="string">        chmod 600 ~/.ssh/id_rsa</span></span><br><span class="line"><span class="string">        ssh-keyscan github.com &gt;&gt; ~/.ssh/known_hosts  # 填写服务器IP(如果是自建Git仓库则填写相应的服务器IP)</span></span><br><span class="line"><span class="string"></span>        </span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span> <span class="number">6</span><span class="string">.三连操作部署</span></span><br><span class="line">      <span class="attr">env:</span></span><br><span class="line">        <span class="attr">GIT_NAME:</span> <span class="string">填你自己的</span></span><br><span class="line">        <span class="attr">GIT_EMAIL:</span> <span class="string">填你自己的</span></span><br><span class="line">      <span class="attr">run:</span> <span class="string">|</span></span><br><span class="line"><span class="string">        git config --global user.name ${GIT_NAME}  # GitHub用户名</span></span><br><span class="line"><span class="string">        git config --global user.email ${GIT_EMAIL} # GitHub用户名邮箱</span></span><br><span class="line"><span class="string">        git ls-files -z | while read -d '' path; do touch -d $(git log -1 --format="@%ct" "$path") "$path"; done</span></span><br><span class="line"><span class="string">        cp _config.a4.yml  themes/A4/_config.yml</span></span><br><span class="line"><span class="string">        npx hexo clean &amp;&amp; npx hexo g &amp;&amp; npx hexo deploy</span></span><br></pre></td></tr></tbody></table></figure>
+
+<blockquote>
+<p>注意根据其中的注释，有的参数改为你的相关参数。</p>
+</blockquote>
+<p>其实这个配置文件就是告诉Github，我监测当前仓库的哪个分支变动，然后将会推送给哪个仓库的哪个分支，这个过程中我要用什么样的机器，在这个机器上执行哪些指令。</p>
+<p>完成以上过后保存即可。</p>
+<p>建议此时，本地在 website目录下 执行 git pull，拉取下最新代码。以后只要你在本地，push代码到website仓库，那么Github Action都会执行配置文件里的命令自动帮你部署至 github pages仓库。</p>
+<p>自然，你在Github网页上直接新增/修改 website仓库的任何内容，只要一commit，也都会自动执行 Github Action。</p>
+<blockquote>
+<p>ps：该配置文件，我找了好久，自己调试了很多次，做了一些修改，才运行成功，如果你遇到了什么问题，可在下方评论区留言。</p>
+</blockquote>
+<h3 id="2024-09-26更新说明"><a href="#2024-09-26更新说明" class="headerlink" title="2024.09.26更新说明"></a>2024.09.26更新说明</h3><p>因为hexo更新到了v1.9.6，新增了最近更新功能，但是CI场景下，hexo的最近更新时间发生错误，所以需要调整你的Github Action文件，<strong>上面的文件内容已做更改</strong>，下面摘录出来，主要是新增了以下内容解决文章更新时间问题：</p>
+<figure class="highlight yml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 第一部份</span></span><br><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="number">0</span><span class="string">.恢复文章修改时间</span></span><br><span class="line">      <span class="attr">run:</span> <span class="string">|</span></span><br><span class="line"><span class="string">        find source/_posts -name '*.md' | while read file; do touch -d "$(git log -1 --format="@%ct" "$file")" "$file"; done</span></span><br><span class="line"><span class="string"></span>        </span><br><span class="line"></span><br><span class="line"> <span class="comment"># 第二部份  </span></span><br><span class="line"><span class="attr">with:</span></span><br><span class="line">	<span class="attr">fetch-depth:</span> <span class="number">0</span> <span class="comment"># 添加深拷贝选择，解决github检出操作(checkout)默认是浅拷贝的问题</span></span><br></pre></td></tr></tbody></table></figure>
+
+<blockquote>
+<p>ps：如果无法解决，请尝试google/百度搜索：“CI hexo 更新时间错误”，有很多案例可供你参考</p>
+</blockquote>
+</div>
+    </div>
+
+    <div class="post-meta">
+        <i>
+        
+            <span>2023-05-02</span>
+            
+                <span>该篇文章被 nino</span>
+            
+            
+                <span>打上标签:
+                    
+                    
+                        <a href='/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/'>
+                            搭建网站
+                        </a>
+                    
+                        <a href='/tags/hexo/'>
+                            hexo
+                        </a>
+                    
+                        <a href='/tags/CICD/'>
+                            CICD
+                        </a>
+                    
+                </span>
+             
+             
+                <span>归为分类:
+                    
+                    
+                        <a href='/categories/%E8%BD%AF%E4%BB%B6/'>
+                            软件
+                        </a>
+                    
+                </span>
+            
+        
+        </i>
+    </div>
+    <br>
+    
+    
+        
+            
+    
+            <div class="post-footer-pre-next">
+                
+                    <span>上一篇：<a href='/2023/some-words/'>一些片段</a></span>
+                
+
+                
+                    <span class="post-footer-pre-next-last-span-right">下一篇：<a href="/hexoplugin/hexo-data-inside/">hexo | hexo底层json数据内容</a>
+                    </span>
+                
+            </div>
+    
+        
+    
+
+    
+        
+    <div class="comments-container">
+    <div id="comment-anchor"></div>
+    <div class="comment-area-title">
+         
+    </div>
+    
+        
+
+    <div id="waline"></div>
+    <script type="module"  >
+        import { init } from 'https://npm.elemecdn.com/hexo-theme-a4@latest/source/js/waline.mjs'; 
+        function loadWaline() {
+            init({
+                el: '#waline',
+                serverURL: 'waline.ninojay.top',
+                lang: 'zh-CN',
+                dark: 'body[class~="dark-mode"]',
+                requiredMeta: ['nick','mail'], // cannot customize by theme config, change it yourself
+                search: false, // 禁止表情包搜索
+                reaction: false, // 对文章打分
+                pageview: false, // 浏览量统计
+                comment: false, // 评论数统计
+
+                locale: {
+                    placeholder: '正确的邮箱地址，回复将能得到邮件通知。', 
+                    sofa: ''
+                },
+            });
+            
+        }
+        window.addEventListener('DOMContentLoaded', loadWaline);
+    </script>
+
+
+
+    
+    
+    
+    </div>
+
+
+     
+</div>
+
+
+
+                                      
+                    
+                    
+                    <div class="footer">
+    
+        <span> 
+            © 2025-1999 nino 
+
+            
+                
+
+            
+                
+                    / <a href="/contact/"> 联系 </a>
+                
+
+            
+                
+                    / <a href="/support/"> 支持 </a>
+                
+
+            
+                
+                    / <a href="/subscribe/"> 订阅 </a>
+                
+
+            
+                
+                    / <a href="/friends/"> 近邻 </a>
+                
+
+            
+        </span>
+       
+    
+</div>
+
+
+
+<!--这是指一条线往下的内容-->
+<div class="footer-last">
+    
+            <span>🌊看过大海的人不会忘记海的广阔🌊</span>
+            
+                <span class="footer-last-span-right"><i>本站由<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/index.html">Hexo</a>驱动｜使用<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4">Hexo-theme-A4</a>主题</i></span>
+            
+    
+</div>
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <!--目录-->
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js" type="text/javascript" ></script>
+        
+<script src="/js/toc.js"></script>
+
+    
+
+    
+<script src="/js/randomHeaderContent.js"></script>
+
+    <!--回到顶部按钮-->
+    
+        
+<script src="/js/returnToTop.js"></script>
+
+    
+
+    
+        
+<script src="/js/returnToLastPage.js"></script>
+
+    
+
+
+
+
+
+<script src="/js/lightgallery/lightgallery.umd.min.js"></script>
+
+
+
+<script src="/js/lightgallery/plugins/lg-thumbnail.umd.min.js"></script>
+
+
+
+<script src="/js/lightgallery/plugins/lg-fullscreen.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-autoplay.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-zoom.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-rotate.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-paper.umd.min.js"></script>
+
+
+
+
+<script type="text/javascript">
+     
+    if (typeof lightGallery !== "undefined") {
+        var options1 = {
+            selector: '.gallery-item',
+            plugins: [lgThumbnail, lgFullscreen, lgAutoplay, lgZoom, lgRotate, lgPager], // 启用插件
+            thumbnail: true,          // 显示缩略图
+            zoom: true,               // 启用缩放功
+            rotate: true,             // 启用旋转功能能
+            autoplay: true,        // 启用自动播放功能
+            fullScreen: true,      // 启用全屏功能
+            pager: false, //页码,
+            zoomFromOrigin: true,   // 从原始位置缩放
+            actualSize: true,       // 启用查看实际大小的功能
+            enableZoomAfter: 300,    // 延迟缩放，确保图片加载完成后可缩放
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options1); // 修复选择器
+    }
+    
+</script>
+
+
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script> 
+
+                </div>
+            
+            
+                <!-- 回到顶部的按钮-->  
+                <div class="progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
+            
+                <!-- 返回的按钮-->  
+                <div class="return-to-last-progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
+    </body>
+</html>
