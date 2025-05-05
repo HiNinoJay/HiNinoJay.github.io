@@ -1,0 +1,1275 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport" />
+    <meta name="description" content="系统性 leetcode 刷题记录" />
+    <meta name="hexo-theme-A4" content="v1.9.8" />
+    <link rel="alternate icon" type="image/webp" href="/img/favicon.webp">
+    <title>Nino | Web开发者｜阅读写作爱好者</title>
+
+    
+        
+<link rel="stylesheet" href="/css/highlight/style1.css">
+
+        
+<link rel="stylesheet" href="/css/reset.css">
+
+        
+<link rel="stylesheet" href="/css/markdown.css">
+
+        
+<link rel="stylesheet" href="/css/fonts.css">
+ 
+         <!--注意：首页既不是post也不是page-->
+        
+            
+<link rel="stylesheet" href="/css/waline.css">
+
+        
+        
+        
+<link rel="stylesheet" href="/css/ui.css">
+ 
+        
+<link rel="stylesheet" href="/css/style.css">
+
+
+        
+            <!--返回顶部css-->
+            
+<link rel="stylesheet" href="/css/returnToTop.css">
+
+            
+<link rel="stylesheet" href="/css/unicons.css">
+
+        
+        
+            <!--目录-->
+            
+<link rel="stylesheet" href="/css/toc.css">
+
+        
+    
+
+    
+        
+<link rel="stylesheet" href="/css/returnToLastPage.css">
+
+    
+    
+   
+<link rel="stylesheet" href="/css/lightgallery-bundle.min.css">
+
+
+   
+        
+<link rel="stylesheet" href="/css/custom.css">
+
+    
+
+<meta name="generator" content="Hexo 7.3.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="Nino" type="application/atom+xml">
+<link rel="alternate" href="/rss2.xml" title="Nino" type="application/rss+xml">
+</head>
+    
+    
+
+    
+    
+
+
+
+    
+
+    
+    
+
+
+
+
+    
+    
+    <style>
+        body {
+            background-image: url(/img/background/see-sea-new.jpg);
+            background-attachment: fixed;  /* 背景固定，不随页面滚动 */
+            background-repeat: no-repeat;  /* 防止背景图片重复 */
+            background-size: cover;       /* 背景自适应大小，覆盖整个背景 */
+            background-position: center;   /* 背景居中显示 */
+        }
+        .paper {
+            background-image: url(/img/background/see-sea-new.jpg);
+            background-attachment: fixed;  /* 背景固定，不随页面滚动 */
+            background-repeat: no-repeat;  /* 防止背景图片重复 */
+            background-size: cover;       /* 背景自适应大小，覆盖整个背景 */
+            background-position: center;   /* 背景居中显示 */
+        }  
+    </style>
+
+
+    
+    <body>
+        <script src="/js/darkmode-js.min.js"></script>
+        
+        <script>
+            const options = {
+                bottom: '40px', // default: '32px'
+                right: 'unset', // default: '32px'
+                left: '42px', // default: 'unset'
+                time: '0.3s', // default: '0.3s'
+                mixColor: '#fff', // default: '#fff'
+                backgroundColor: ' #e4e4e4 ',  // default: '#fff'
+                buttonColorDark: '#100f2c',  // default: '#100f2c'
+                buttonColorLight: '#fff', // default: '#fff'
+                saveInCookies: true, // default: true,
+                label: '🌓', // default: ''
+                autoMatchOsTheme: true // default: true
+            }
+            const darkmode = new Darkmode(options);
+            darkmode.showWidget();
+        </script>
+        
+        
+            
+                <div class="left-toc-container">
+                    <nav id="toc" class="bs-docs-sidebar"></nav>
+                </div>
+            
+        
+        <div class="paper">
+            
+            
+            
+            
+                <div class="shadow-drop-2-bottom paper-main">
+                    
+
+
+<div class="header">
+    <div class="header-container">
+        <style>
+            .header-img {
+                width: 56px;
+                height: auto;
+                object-fit: cover; /* 保持图片比例 */
+                transition: transform 0.3s ease-in-out; 
+                border-radius: 50%; 
+            }
+            
+        </style>
+        <img 
+            alt="^-^" 
+            cache-control="max-age=86400" 
+            class="header-img" 
+            src="/img/favicon.webp" 
+        />
+        <div class="header-content">
+            <a class="logo" href="/">Nino</a> 
+            <span class="description">Web开发者｜阅读写作爱好者</span> 
+        </div>
+    </div>
+    
+   
+    <ul class="nav">
+        
+            
+                <li><a href="/">🏃首页</a></li>
+            
+        
+            
+                <li><a href="/list/">⛰️文章</a></li>
+            
+        
+            
+                <li><a href="/works/">🌸作品</a></li>
+            
+        
+            
+                <li><a href="/message/">🔈留言</a></li>
+            
+        
+            
+                <li><a href="/tags/">📌标签</a></li>
+            
+        
+            
+                <li><a href="/categories/">🔖分类</a></li>
+            
+        
+            
+                <li><a href="/about/">🌕关于</a></li>
+            
+        
+            
+                <li><a href="/now/">📅Now</a></li>
+            
+        
+    </ul>
+</div> 
+        
+                    
+                    
+
+                    
+                    
+                    
+                    <!--说明是文章post页面-->
+                    
+                        <div class="post-main">
+    
+
+    
+        
+            
+                <div class="post-main-title" style="text-align: center;">
+                    系统性 leetcode 刷题记录
+                </div>
+            
+        
+      
+    
+
+    
+
+        
+            <div class="post-head-meta-center">
+        
+                
+                    <span>最近更新：2024-08-28</span> 
+                
+                
+                    
+                        &nbsp; | &nbsp;
+                    
+                     <span>字数总计：1.3k</span>
+                
+                
+                    
+                        &nbsp; | &nbsp;
+                    
+                    <span>阅读估时：5分钟</span>
+                
+                
+                    
+                        &nbsp; | &nbsp;
+                    
+                    <span id="busuanzi_container_page_pv">
+                        阅读量：<span id="busuanzi_value_page_pv"></span>次
+                    </span>
+                
+            </div>
+    
+
+    <div class="post-md">
+        
+            
+                <ol class="post-toc"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95"><span class="post-toc-text">排序算法</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#%E8%B4%AA%E5%BF%83"><span class="post-toc-text">贪心</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#%E5%8F%8C%E6%8C%87%E9%92%88"><span class="post-toc-text">双指针</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE"><span class="post-toc-text">二分查找</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#%E6%8E%92%E5%BA%8F"><span class="post-toc-text">排序</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#%E6%90%9C%E7%B4%A2"><span class="post-toc-text">搜索</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92"><span class="post-toc-text">动态规划</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#%E6%95%B0%E5%AD%A6%E9%97%AE%E9%A2%98"><span class="post-toc-text">数学问题</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#%E4%BD%8D%E8%BF%90%E7%AE%97"><span class="post-toc-text">位运算</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84"><span class="post-toc-text">数据结构</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2"><span class="post-toc-text">字符串</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#%E9%93%BE%E8%A1%A8"><span class="post-toc-text">链表</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#%E6%A0%91"><span class="post-toc-text">树</span></a></li></ol>
+            
+        
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/hint.css/2.7.0/hint.min.css"><div class=".article-gallery"><p>主要记录自己使用<code>Java语言</code>系统性刷过的算法题。</p>
+<blockquote>
+<p>源于一份pdf刷题书，需要该pdf可在我的<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/LeetCode%20101%20-%20A%20LeetCode%20Grinding%20Guide%20(C%2B%2B%20Version).pdf">github仓库</a>下载，须知书里采用的是c++语法。</p>
+</blockquote>
+<p>分模块刷题的收获更深刻，先在此感谢该pdf的作者。</p>
+<h4 id="排序算法"><a href="#排序算法" class="headerlink" title="排序算法"></a>排序算法</h4><table>
+<thead>
+<tr>
+<th>Title</th>
+<th>平均时间复杂度</th>
+<th>空间复杂度</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/%E5%AE%9E%E7%8E%B0%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/BubbleSort.java">BubbleSort</a></td>
+<td>O(n^2)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/%E5%AE%9E%E7%8E%B0%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/InsertionSort.java">InsertionSort</a></td>
+<td>O(n^2)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/%E5%AE%9E%E7%8E%B0%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/SelectionSort.java">SelectionSort</a></td>
+<td>O(n^2)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/%E5%AE%9E%E7%8E%B0%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/MergeSort.java">MergeSort</a></td>
+<td>O(nlogn)</td>
+<td>O(n)</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/%E5%AE%9E%E7%8E%B0%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/QuickSort.java">QuickSort</a></td>
+<td>O(nlogn)</td>
+<td>O(nlogn)</td>
+</tr>
+</tbody></table>
+<h4 id="贪心"><a href="#贪心" class="headerlink" title="贪心"></a>贪心</h4><table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Solution</th>
+<th>Difficulty</th>
+<th>flag</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/assign-cookies/">455. 分发饼干</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/a%E8%B4%AA%E5%BF%83/FourFiveFive455.java">FourFiveFive455.java</a></td>
+<td>简单</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/construct-string-from-binary-tree/">606. 根据二叉树创建字符串</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/a%E8%B4%AA%E5%BF%83/SixZeroSix606.java">SixZeroSix606.java</a></td>
+<td>简单</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/minimum-number-of-arrows-to-burst-balloons/">452. 用最少数量的箭引爆气球</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/a%E8%B4%AA%E5%BF%83/FourFiveTwo452.java">FourFiveTwo452.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/find-right-interval/">436. 寻找右区间</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/a%E8%B4%AA%E5%BF%83/FourThreeSix436.java">FourThreeSix436.java</a></td>
+<td>中等</td>
+<td>❎</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/queue-reconstruction-by-height/">406. 根据身高重建队列</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/a%E8%B4%AA%E5%BF%83/FourZeroSix406.java">FourZeroSix406.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-ii/">122. 买卖股票的最佳时机 II</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/a%E8%B4%AA%E5%BF%83/OneTwoTwo122.java">OneTwoTwo122.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/partition-labels/">763. 划分字母区间</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/a%E8%B4%AA%E5%BF%83/SevenSixThree763.java">SevenSixThree763.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/non-decreasing-array/">665. 非递减数列</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/a%E8%B4%AA%E5%BF%83/SixSixFive665.java">SixSixFive665.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/candy/">135. 分发糖果</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/a%E8%B4%AA%E5%BF%83/OneThreeFive135.java">OneThreeFive135.java</a></td>
+<td>困难</td>
+<td></td>
+</tr>
+</tbody></table>
+<h4 id="双指针"><a href="#双指针" class="headerlink" title="双指针"></a>双指针</h4><table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Solution</th>
+<th>Difficulty</th>
+<th>flag</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/merge-sorted-array/">88. 合并两个有序数组</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/b%E5%8F%8C%E6%8C%87%E9%92%88/EightEight88.java">EightEight88.java</a></td>
+<td>简单</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/valid-palindrome-ii/">680. 验证回文串 II</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/b%E5%8F%8C%E6%8C%87%E9%92%88/SixEightZero680.java">SixEightZero680.java</a></td>
+<td>简单</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/longest-word-in-dictionary-through-deleting/">524. 通过删除字母匹配到字典里最</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/b%E5%8F%8C%E6%8C%87%E9%92%88/FiveTwoFour524.java">FiveTwoFour524.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/linked-list-cycle-ii/">142. 环形链表 II</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/b%E5%8F%8C%E6%8C%87%E9%92%88/OneFourTwo142.java">OneFourTwo142.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/">167. 两数之和 II - 输入有序数组</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/b%E5%8F%8C%E6%8C%87%E9%92%88/OneSisSeven167.java">OneSisSeven167.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/sum-of-square-numbers/">633. 平方数之和</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/b%E5%8F%8C%E6%8C%87%E9%92%88/SixThreeThree633.java">SixThreeThree633.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/minimum-window-substring/">76. 最小覆盖子串</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/b%E5%8F%8C%E6%8C%87%E9%92%88/SevenSix76.java">SevenSix76.java</a></td>
+<td>困难</td>
+<td></td>
+</tr>
+</tbody></table>
+<h4 id="二分查找"><a href="#二分查找" class="headerlink" title="二分查找"></a>二分查找</h4><table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Solution</th>
+<th>Difficulty</th>
+<th>flag</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/sqrtx/">69. x 的平方根</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/c%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/SixNine69.java">SixNine69.java</a></td>
+<td>简单</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/search-in-rotated-sorted-array-ii/">81. 搜索旋转排序数组 II</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/c%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/EightOne81.java">EightOne81.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/single-element-in-a-sorted-array/">540. 有序数组中的单一元</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/c%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/FiveFourZero540.java">FiveFourZero540.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/">34. 在排序数组中查找元素的第一个和最后一个位置</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/c%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/ThreeFour34.java">ThreeFour34.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array-ii/">154. 寻找旋转排序数组中的最小值 II</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/c%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/OneFiveFoue154.java">OneFiveFoue154.java</a></td>
+<td>困难</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/median-of-two-sorted-arrays/">4.寻找两个正序数组的中位数</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/c%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/Four4.java">Four4.java</a></td>
+<td>困难</td>
+<td>❎</td>
+</tr>
+</tbody></table>
+<h4 id="排序"><a href="#排序" class="headerlink" title="排序"></a>排序</h4><table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Solution</th>
+<th>Difficulty</th>
+<th>flag</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/sort-characters-by-frequency/">451. 根据字符出现频率排</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/d%E6%8E%92%E5%BA%8F/FoutFiveOne451.java">FoutFiveOne451.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/sort-colors/">75. 颜色分类</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/d%E6%8E%92%E5%BA%8F/SevenFive75.java">SevenFive75.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/top-k-frequent-elements/">347. 前 K 个高频元素</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/d%E6%8E%92%E5%BA%8F/ThreeFourSeven347.java">ThreeFourSeven347.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/kth-largest-element-in-an-array/">215. 数组中的第K个最大元</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/d%E6%8E%92%E5%BA%8F/TwoOneFIve215.java">TwoOneFIve215.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+</tbody></table>
+<h4 id="搜索"><a href="#搜索" class="headerlink" title="搜索"></a>搜索</h4><table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Solution</th>
+<th>Difficulty</th>
+<th>flag</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/binary-tree-paths/">257. 二叉树的所有路径</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e%E6%90%9C%E7%B4%A2/TwoFiveSeven257.java">TwoFiveSeven257.java</a></td>
+<td>简单</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/number-of-provinces/">547. 省份数量</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e%E6%90%9C%E7%B4%A2/FiveFourSeven547.java">FiveFourSeven547.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/pacific-atlantic-water-flow/">417. 太平洋大西洋水流</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e%E6%90%9C%E7%B4%A2/FourOneSeven417.java">FourOneSeven417.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/permutations-ii/">47. 全排列 II</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e%E6%90%9C%E7%B4%A2/FourSeven47.java">FourSeven47.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/permutations/">46. 全排列</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e%E6%90%9C%E7%B4%A2/FourSix46.java">FourSix46.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/combination-sum-ii/">40. 组合总和 II</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e%E6%90%9C%E7%B4%A2/FourZero40.java">FourZero40.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/shortest-bridge/">934. 最短的桥</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e%E6%90%9C%E7%B4%A2/MyNineThreeFour934.java">MyNineThreeFour934.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/shortest-bridge/">934. 最短的桥</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e%E6%90%9C%E7%B4%A2/NineThreeFour934.java">NineThreeFour934.java</a></td>
+<td>中等</td>
+<td>❎</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/surrounded-regions/">130. 被围绕的区域</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e%E6%90%9C%E7%B4%A2/OneThreeZero130.java">OneThreeZero130.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/word-search/">79. 单词搜索</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e%E6%90%9C%E7%B4%A2/SevenNine79.java">SevenNine79.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/combinations/">77. 组合</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e%E6%90%9C%E7%B4%A2/SevenSeven77.java">SevenSeven77.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/max-area-of-island/">695. 岛屿的最大面积</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e%E6%90%9C%E7%B4%A2/SixNineFive695ByRecursion.java">SixNineFive695ByRecursion.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/max-area-of-island/">695. 岛屿的最大面积</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e%E6%90%9C%E7%B4%A2/SixNineFive695ByStack.java">SixNineFive695ByStack.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+</tbody></table>
+<h4 id="动态规划"><a href="#动态规划" class="headerlink" title="动态规划"></a>动态规划</h4><table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Solution</th>
+<th>Difficulty</th>
+<th>flag</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/climbing-stairs/">70. 爬楼梯</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/f%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/SevenZero70.java">SevenZero70.java</a></td>
+<td>简单</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/01-matrix/">542. 01 矩阵</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/f%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/FiveFourTwo542.java">FiveFourTwo542.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/arithmetic-slices/">413. 等差数列划分</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/f%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/FourOneThreee413.java">FourOneThreee413.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/decode-ways/">91. 解码方法</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/f%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/NineOne91.java">NineOne91.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/house-robber/">198. 打家劫舍</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/f%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/OneNineEight198.java">OneNineEight198.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/minimum-path-sum/">64. 最小路径和</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/f%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/SixFour64.java">SixFour64.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/perfect-squares/">279. 完全平方数</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/f%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/TwoSevenNine279.java">TwoSevenNine279.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/maximal-square/">221. 最大正方形</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/f%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/TwoTwoOne221.java">TwoTwoOne221.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+</tbody></table>
+<h4 id="数学问题"><a href="#数学问题" class="headerlink" title="数学问题"></a>数学问题</h4><table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Solution</th>
+<th>Difficulty</th>
+<th>flag</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/palindrome-number/">9. 回文数</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/h%E6%95%B0%E5%AD%A6%E9%97%AE%E9%A2%98/Nine9.java">Nine9.java</a></td>
+<td>简单</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/power-of-three/">326. 3 的幂</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/h%E6%95%B0%E5%AD%A6%E9%97%AE%E9%A2%98/ThreeTwoSix326.java">ThreeTwoSix326.java</a></td>
+<td>简单</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/remove-element/">27. 移除元素</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/h%E6%95%B0%E5%AD%A6%E9%97%AE%E9%A2%98/TwoSeven27.java">TwoSeven27.java</a></td>
+<td>简单</td>
+<td></td>
+</tr>
+</tbody></table>
+<h4 id="位运算"><a href="#位运算" class="headerlink" title="位运算"></a>位运算</h4><table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Solution</th>
+<th>Difficulty</th>
+<th>flag</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/hamming-distance/">461. 汉明距离</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/i%E4%BD%8D%E8%BF%90%E7%AE%97/FourSixOne461.java">FourSixOne461.java</a></td>
+<td>简单</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/reverse-bits/">190. 颠倒二进制位</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/i%E4%BD%8D%E8%BF%90%E7%AE%97/OneNineZero190.java">OneNineZero190.java</a></td>
+<td>简单</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/single-number/">136. 只出现一次的数字</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/i%E4%BD%8D%E8%BF%90%E7%AE%97/OneThreeSix136.java">OneThreeSix136.java</a></td>
+<td>简单</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/power-of-four/">342. 4的幂</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/i%E4%BD%8D%E8%BF%90%E7%AE%97/TheeFourTwo342.java">TheeFourTwo342.java</a></td>
+<td>简单</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/missing-number/">268. 丢失的数字</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/i%E4%BD%8D%E8%BF%90%E7%AE%97/TwoSixEight268.java">TwoSixEight268.java</a></td>
+<td>简单</td>
+<td></td>
+</tr>
+</tbody></table>
+<h4 id="数据结构"><a href="#数据结构" class="headerlink" title="数据结构"></a>数据结构</h4><table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Solution</th>
+<th>Difficulty</th>
+<th>flag</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/find-all-numbers-disappeared-in-an-array/">448. 找到所有数组中消失</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/j%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/FourFourEight448.java">FourFourEight448.java</a></td>
+<td>简单</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/two-sum/">1. 两数之和</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/j%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/One1.java">One1.java</a></td>
+<td>简单</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/contains-duplicate/">217. 存在重复元素</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/j%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/TwoOneSeven217.java">TwoOneSeven217.java</a></td>
+<td>简单</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/implement-queue-using-stacks/">232. 用栈实现队列</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/j%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/TwoThreeTwo232.java">TwoThreeTwo232.java</a></td>
+<td>简单</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/implement-stack-using-queues/">225. 用队列实现栈</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/j%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/TwoTwoFive225.java">TwoTwoFive225.java</a></td>
+<td>简单</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/valid-parentheses/">20. 有效的括号</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/j%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/TwoZero20.java">TwoZero20.java</a></td>
+<td>简单</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/min-stack/">155. 最小栈</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/j%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/OneFiveFive155.java">OneFiveFive155.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+</tbody></table>
+<h4 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h4><table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Solution</th>
+<th>Difficulty</th>
+<th>flag</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/valid-anagram/">242. 有效的字母异位词</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/k%E5%AD%97%E7%AC%A6%E4%B8%B2/TwoFourTwo242.java">TwoFourTwo242.java</a></td>
+<td>简单</td>
+<td></td>
+</tr>
+</tbody></table>
+<h4 id="链表"><a href="#链表" class="headerlink" title="链表"></a>链表</h4><table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Solution</th>
+<th>Difficulty</th>
+<th>flag</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/remove-duplicates-from-sorted-list/">83. 删除排序链表中的重复</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/l%E9%93%BE%E8%A1%A8/EightThree83.java">EightThree83.java</a></td>
+<td>简单</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/palindrome-linked-list/">234. 回文链表</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/l%E9%93%BE%E8%A1%A8/TwoThreeFour234.java">TwoThreeFour234.java</a></td>
+<td>简单</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/reverse-linked-list/">206. 反转链表</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/l%E9%93%BE%E8%A1%A8/TwoZeroSix206.java">TwoZeroSix206.java</a></td>
+<td>简单</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/intersection-of-two-linked-lists/">160. 相交链表</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/l%E9%93%BE%E8%A1%A8/OneSixZero160.java">OneSixZero160.java</a></td>
+<td>简单</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/sort-list/">148. 排序链表</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/l%E9%93%BE%E8%A1%A8/OneFourEight148.java">OneFourEight148.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/remove-nth-node-from-end-of-list/">19. 删除链表的倒数第 N 个</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/l%E9%93%BE%E8%A1%A8/OneNine19.java">OneNine19.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/odd-even-linked-list/">328. 奇偶链表</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/l%E9%93%BE%E8%A1%A8/ThreeTwoEight328.java">ThreeTwoEight328.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/add-two-numbers/">2. 两数相加</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/l%E9%93%BE%E8%A1%A8/Two2.java">Two2.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/swap-nodes-in-pairs/">24. 两两交换链表中的节点</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/l%E9%93%BE%E8%A1%A8/TwoFour24.java">TwoFour24.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+</tbody></table>
+<h4 id="树"><a href="#树" class="headerlink" title="树"></a>树</h4><table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Solution</th>
+<th>Difficulty</th>
+<th>flag</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/increasing-order-search-tree/">897. 递增顺序搜索树</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m%E6%A0%91/EightNineSeven897.java">EightNineSeven897.java</a></td>
+<td>简单</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/minimum-absolute-difference-in-bst/">530. 二叉搜索树的最小绝对</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m%E6%A0%91/FiveThreeZero530.java">FiveThreeZero530.java</a></td>
+<td>简单</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/diameter-of-binary-tree/">543. 二叉树的直径</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m%E6%A0%91/FiveFourThree543.java">FiveFourThree543.java</a></td>
+<td>简单</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/binary-tree-inorder-traversal/">94. 二叉树的中序遍历</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m%E6%A0%91/NineFour94.java">NineFour94.java</a></td>
+<td>简单</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/sum-of-left-leaves/">404. 左叶子之和</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m%E6%A0%91/FourZeroFour404.java">FourZeroFour404.java</a></td>
+<td>简单</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/binary-tree-preorder-traversal/">144. 二叉树的前序遍历</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m%E6%A0%91/OneFourFour144.java">OneFourFour144.java</a></td>
+<td>简单</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/balanced-binary-tree/">110. 平衡二叉树</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m%E6%A0%91/OneOneZero110.java">OneOneZero110.java</a></td>
+<td>简单</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/maximum-depth-of-binary-tree/">104. 二叉树的最大深度</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m%E6%A0%91/OneZeroFour104.java">OneZeroFour104.java</a></td>
+<td>简单</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/symmetric-tree/">101. 对称二叉树</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m%E6%A0%91/OneZeroOne101.java">OneZeroOne101.java</a></td>
+<td>简单</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/two-sum-iv-input-is-a-bst/">653. 两数之和 IV - 输入二</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m%E6%A0%91/SixFiveThree653.java">SixFiveThree653.java</a></td>
+<td>简单</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/merge-two-binary-trees/">617. 合并二叉树</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m%E6%A0%91/SixOneSeven617.java">SixOneSeven617.java</a></td>
+<td>简单</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/average-of-levels-in-binary-tree/">637. 二叉树的层平均值</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m%E6%A0%91/SixThreeSeven637.java">SixThreeSeven637.java</a></td>
+<td>简单</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/invert-binary-tree/">226. 翻转二叉树</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m%E6%A0%91/TwoTwoSix226.java">TwoTwoSix226.java</a></td>
+<td>简单</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/subtree-of-another-tree/">572. 另一棵树的子树</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m%E6%A0%91/FiveSevenTwo572.java">FiveSevenTwo572.java</a></td>
+<td>简单</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-postorder-traversal/">889. 根据前序和后序遍历构造二叉树</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m%E6%A0%91/EightEightNine889.java">EightEightNine889.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/find-bottom-left-tree-value/">513. 找树左下角的值</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m%E6%A0%91/FiveOneThree513.java">FiveOneThree513.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/convert-bst-to-greater-tree/">538. 把二叉搜索树转换为</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m%E6%A0%91/FiveThreeEight538.java">FiveThreeEight538.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/delete-node-in-a-bst/">450. 删除二叉搜索树中的</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m%E6%A0%91/FourFiveZero450.java">FourFiveZero450.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/path-sum-iii/">437. 路径总和 III</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m%E6%A0%91/FourThreeSeven437.java">FourThreeSeven437.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/delete-nodes-and-return-forest/">1110. 删点成林</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m%E6%A0%91/OneOneOneZero1110.java">OneOneOneZero1110.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/">105. 从前序与中序遍历序</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m%E6%A0%91/OneZeroFive105.java">OneZeroFive105.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/construct-binary-tree-from-inorder-and-postorder-traversal/">106. 从中序与后序遍历序</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m%E6%A0%91/OneZeroSix106.java">OneZeroSix106.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/trim-a-binary-search-tree/">669. 修剪二叉搜索树</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m%E6%A0%91/SixSixNine669.java">SixSixNine669.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-search-tree/">235. 二叉搜索树的最近公共</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m%E6%A0%91/TwoThreeFive235.java">TwoThreeFive235.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/implement-trie-prefix-tree/">208. 实现 Trie (前缀树)</a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m%E6%A0%91/TwoZeroEight208.java">TwoZeroEight208.java</a></td>
+<td>中等</td>
+<td></td>
+</tr>
+</tbody></table>
+</div>
+    </div>
+
+    <div class="post-meta">
+        <i>
+        
+            <span>2023-05-18</span>
+            
+                <span>该篇文章被 nino</span>
+            
+            
+                <span>打上标签:
+                    
+                    
+                        <a href='/tags/%E7%AE%97%E6%B3%95/'>
+                            算法
+                        </a>
+                    
+                        <a href='/tags/Java/'>
+                            Java
+                        </a>
+                    
+                </span>
+             
+             
+                <span>归为分类:
+                    
+                    
+                        <a href='/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/'>
+                            程序员
+                        </a>
+                    
+                </span>
+            
+        
+        </i>
+    </div>
+    <br>
+    
+    
+        
+            
+    
+            <div class="post-footer-pre-next">
+                
+                    <span>上一篇：<a href='/hexoplugin/hexo-filter-mathjax/'>hexo | A4支持数学公式渲染</a></span>
+                
+
+                
+                    <span class="post-footer-pre-next-last-span-right">下一篇：<a href="/2023/silver-temple/">银阁寺</a>
+                    </span>
+                
+            </div>
+    
+        
+    
+
+    
+        
+    <div class="comments-container">
+    <div id="comment-anchor"></div>
+    <div class="comment-area-title">
+         
+    </div>
+    
+        
+
+    <div id="waline"></div>
+    <script type="module"  >
+        import { init } from 'https://npm.elemecdn.com/hexo-theme-a4@latest/source/js/waline.mjs'; 
+        function loadWaline() {
+            init({
+                el: '#waline',
+                serverURL: 'waline.ninojay.top',
+                lang: 'zh-CN',
+                dark: 'body[class~="dark-mode"]',
+                requiredMeta: ['nick','mail'], // cannot customize by theme config, change it yourself
+                search: false, // 禁止表情包搜索
+                reaction: false, // 对文章打分
+                pageview: false, // 浏览量统计
+                comment: false, // 评论数统计
+
+                locale: {
+                    placeholder: '正确的邮箱地址，回复将能得到邮件通知。', 
+                    sofa: ''
+                },
+            });
+            
+        }
+        window.addEventListener('DOMContentLoaded', loadWaline);
+    </script>
+
+
+
+    
+    
+    
+    </div>
+
+
+     
+</div>
+
+
+
+                                      
+                    
+                    
+                    <div class="footer">
+    
+        <span> 
+            © 2025-1999 nino 
+
+            
+                
+
+            
+                
+                    / <a href="/contact/"> 联系 </a>
+                
+
+            
+                
+                    / <a href="/support/"> 支持 </a>
+                
+
+            
+                
+                    / <a href="/subscribe/"> 订阅 </a>
+                
+
+            
+                
+                    / <a href="/friends/"> 近邻 </a>
+                
+
+            
+        </span>
+       
+    
+</div>
+
+
+
+<!--这是指一条线往下的内容-->
+<div class="footer-last">
+    
+            <span>🌊看过大海的人不会忘记海的广阔🌊</span>
+            
+                <span class="footer-last-span-right"><i>本站由<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/index.html">Hexo</a>驱动｜使用<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4">Hexo-theme-A4</a>主题</i></span>
+            
+    
+</div>
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <!--目录-->
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js" type="text/javascript" ></script>
+        
+<script src="/js/toc.js"></script>
+
+    
+
+    
+<script src="/js/randomHeaderContent.js"></script>
+
+    <!--回到顶部按钮-->
+    
+        
+<script src="/js/returnToTop.js"></script>
+
+    
+
+    
+        
+<script src="/js/returnToLastPage.js"></script>
+
+    
+
+
+
+
+
+<script src="/js/lightgallery/lightgallery.umd.min.js"></script>
+
+
+
+<script src="/js/lightgallery/plugins/lg-thumbnail.umd.min.js"></script>
+
+
+
+<script src="/js/lightgallery/plugins/lg-fullscreen.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-autoplay.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-zoom.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-rotate.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-paper.umd.min.js"></script>
+
+
+
+
+<script type="text/javascript">
+     
+    if (typeof lightGallery !== "undefined") {
+        var options1 = {
+            selector: '.gallery-item',
+            plugins: [lgThumbnail, lgFullscreen, lgAutoplay, lgZoom, lgRotate, lgPager], // 启用插件
+            thumbnail: true,          // 显示缩略图
+            zoom: true,               // 启用缩放功
+            rotate: true,             // 启用旋转功能能
+            autoplay: true,        // 启用自动播放功能
+            fullScreen: true,      // 启用全屏功能
+            pager: false, //页码,
+            zoomFromOrigin: true,   // 从原始位置缩放
+            actualSize: true,       // 启用查看实际大小的功能
+            enableZoomAfter: 300,    // 延迟缩放，确保图片加载完成后可缩放
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options1); // 修复选择器
+    }
+    
+</script>
+
+
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script> 
+
+                </div>
+            
+            
+                <!-- 回到顶部的按钮-->  
+                <div class="progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
+            
+                <!-- 返回的按钮-->  
+                <div class="return-to-last-progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
+    </body>
+</html>
+<script src="/js/emojiHandler.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    wrapEmojis('.paper');
+  });
+</script>
