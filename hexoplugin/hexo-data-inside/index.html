@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport" />
+    <meta name="description" content="hexo | hexo底层json数据内容" />
+    <meta name="hexo-theme-A4" content="v1.9.9" />
+    <link rel="alternate icon" type="image/webp" href="/img/favicon.webp">
+    <title>Nino | Web开发者｜阅读写作爱好者</title>
+    <link rel='stylesheet' href='https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkai/dist/LXGWWenKai-Regular/result.css' /> 
+    <link rel='stylesheet' href='https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkai/dist/LXGWWenKai-Bold/result.css' /> 
+    
+        
+<link rel="stylesheet" href="/css/highlight/style1.css">
+
+        
+<link rel="stylesheet" href="/css/reset.css">
+
+        
+<link rel="stylesheet" href="/css/markdown.css">
+
+        
+<link rel="stylesheet" href="/css/fonts.css">
+ 
+         <!--注意：首页既不是post也不是page-->
+        
+            
+<link rel="stylesheet" href="/css/waline.css">
+
+        
+        
+        
+<link rel="stylesheet" href="/css/ui.css">
+ 
+        
+<link rel="stylesheet" href="/css/style.css">
+
+
+        
+            <!--返回顶部css-->
+            
+<link rel="stylesheet" href="/css/returnToTop.css">
+
+            
+<link rel="stylesheet" href="/css/unicons.css">
+
+        
+        
+            <!--目录-->
+            
+<link rel="stylesheet" href="/css/toc.css">
+
+        
+    
+
+    
+        
+<link rel="stylesheet" href="/css/returnToLastPage.css">
+
+    
+    
+   
+<link rel="stylesheet" href="/css/lightgallery-bundle.min.css">
+
+
+   
+        
+<link rel="stylesheet" href="/css/custom.css">
+
+    
+<meta name="generator" content="Hexo 7.3.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="Nino" type="application/atom+xml">
+<link rel="alternate" href="/rss2.xml" title="Nino" type="application/rss+xml">
+</head>
+
+    
+    
+
+    
+    
+
+
+
+    
+
+    
+    
+
+
+
+
+    
+    
+
+
+    <body>
+        <script src="/js/darkmode-js.min.js"></script>
+        
+        <script>
+            const options = {
+                bottom: '40px', // default: '32px'
+                right: 'unset', // default: '32px'
+                left: '42px', // default: 'unset'
+                time: '0.3s', // default: '0.3s'
+                mixColor: '#fff', // default: '#fff'
+                backgroundColor: ' #e4e4e4 ',  // default: '#fff'
+                buttonColorDark: '#100f2c',  // default: '#100f2c'
+                buttonColorLight: '#fff', // default: '#fff'
+                saveInCookies: true, // default: true,
+                label: '🌓', // default: ''
+                autoMatchOsTheme: true // default: true
+            }
+            const darkmode = new Darkmode(options);
+            darkmode.showWidget();
+        </script>
+        
+        
+            
+                <div class="left-toc-container">
+                    <nav id="toc" class="bs-docs-sidebar"></nav>
+                </div>
+            
+        
+        <div class="paper">
+
+            
+
+            
+                <div class="shadow-drop-2-bottom paper-main">
+                    
+
+
+<div class="header">
+    <div class="header-container">
+        <style>
+            .header-img {
+                width: 56px;
+                height: auto;
+                object-fit: cover; /* 保持图片比例 */
+                transition: transform 0.3s ease-in-out; 
+                border-radius: 50%; 
+            }
+            
+        </style>
+        <img 
+            alt="^-^" 
+            cache-control="max-age=86400" 
+            class="header-img" 
+            src="/img/favicon.webp" 
+        />
+        <div class="header-content">
+            <a class="logo" href="/">Nino</a> 
+            <span class="description">Web开发者｜阅读写作爱好者</span> 
+        </div>
+    </div>
+    
+   
+    <ul class="nav">
+        
+            
+                <li><a href="/">🏃首页</a></li>
+            
+        
+            
+                <li><a href="/list/">⛰️文章</a></li>
+            
+        
+            
+                <li><a href="/works/">🌸作品</a></li>
+            
+        
+            
+                <li><a href="/message/">🔈留言</a></li>
+            
+        
+            
+                <li><a href="/tags/">📌标签</a></li>
+            
+        
+            
+                <li><a href="/categories/">🔖分类</a></li>
+            
+        
+            
+                <li><a href="/about/">🌕关于</a></li>
+            
+        
+            
+                <li><a href="/now/">📅Now</a></li>
+            
+        
+    </ul>
+</div>
+
+                    
+                    
+
+                    
+                    
+
+                    <!--说明是文章post页面-->
+                    
+                        <div class="post-main">
+    
+
+    
+        
+            
+                <div class="post-main-title" style="text-align: center;">
+                    hexo | hexo底层json数据内容
+                </div>
+            
+        
+      
+    
+
+    
+
+        
+            <div class="post-head-meta-center">
+        
+                
+                    <span>最近更新：2024-03-16</span> 
+                
+                
+                    
+                        &nbsp; | &nbsp;
+                    
+                     <span>字数总计：880</span>
+                
+                
+                    
+                        &nbsp; | &nbsp;
+                    
+                    <span>阅读估时：4分钟</span>
+                
+                
+                    
+                        &nbsp; | &nbsp;
+                    
+                    <span id="busuanzi_container_page_pv">
+                        阅读量：<span id="busuanzi_value_page_pv"></span>次
+                    </span>
+                
+            </div>
+    
+
+    <div class="post-md">
+        
+            
+                <ol class="post-toc"><li class="post-toc-item post-toc-level-6"><a class="post-toc-link" href="#page"><span class="post-toc-text">page</span></a></li><li class="post-toc-item post-toc-level-6"><a class="post-toc-link" href="#page-is-post-true"><span class="post-toc-text">page(is_post() &#x3D;&#x3D; true)</span></a></li><li class="post-toc-item post-toc-level-6"><a class="post-toc-link" href="#page-tags"><span class="post-toc-text">page.tags</span></a></li><li class="post-toc-item post-toc-level-6"><a class="post-toc-link" href="#page-tags-data-0-posts"><span class="post-toc-text">page.tags.data[0].posts</span></a></li><li class="post-toc-item post-toc-level-6"><a class="post-toc-link" href="#page-categoires"><span class="post-toc-text">page.categoires</span></a></li><li class="post-toc-item post-toc-level-6"><a class="post-toc-link" href="#page-categories-data-0-posts"><span class="post-toc-text">page.categories.data[0].posts</span></a></li></ol>
+            
+        
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/hint.css/2.7.0/hint.min.css"><div class=".article-gallery"><p>为了便于开发hexo主题，在此记录下hexo启动后，基本的参数内容。</p>
+<p>因为几乎都是json格式，熟悉了过后，用ejs写代码去实现自己想要的功能，两个字：带劲。</p>
+<blockquote>
+<p>不明白官网使用手册，基本的参数都提供了，这个json数据为啥不直接提供。都是我自己运行后调用，打印出来的。</p>
+</blockquote>
+<h6 id="page"><a href="#page" class="headerlink" title="page"></a><strong>page</strong></h6><figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">{</span><br><span class="line">  <span class="attr">title:</span> <span class="string">'now'</span>,</span><br><span class="line">  <span class="attr">date:</span> <span class="string">Moment&lt;2023-04-13T23:30:27+08:00&gt;</span>,</span><br><span class="line">  <span class="attr">_content:</span> <span class="string">''</span>,</span><br><span class="line">  <span class="attr">source:</span> <span class="string">'now/index.md'</span>,</span><br><span class="line">  <span class="attr">raw:</span> <span class="string">''</span>,</span><br><span class="line">  <span class="attr">updated:</span> <span class="string">Moment&lt;2023-04-21T12:08:08+08:00&gt;</span>,</span><br><span class="line">  <span class="attr">path:</span> <span class="string">'now/index.html'</span>,</span><br><span class="line">  <span class="attr">comments:</span> <span class="literal">true</span>,</span><br><span class="line">  <span class="attr">layout:</span> <span class="string">'page'</span>,</span><br><span class="line">  <span class="attr">_id:</span> <span class="string">''</span>,</span><br><span class="line">  <span class="attr">content:</span> <span class="string">'具体内容'</span>,</span><br><span class="line">  <span class="attr">site:</span> { <span class="attr">data:</span> {} },</span><br><span class="line">  <span class="attr">excerpt:</span> <span class="string">''</span>,</span><br><span class="line">  <span class="attr">more:</span> <span class="string">''</span>,</span><br><span class="line">  <span class="attr">permalink:</span> <span class="string">'https://www.ninojay.top/now/index.html'</span>,</span><br><span class="line">  <span class="attr">full_source:</span> <span class="string">'/Users/cengzhongjie/Desktop/website/source/now/index.md'</span>,</span><br><span class="line">  <span class="attr">__page:</span> <span class="literal">true</span>,</span><br><span class="line">  <span class="attr">lang:</span> <span class="string">'en'</span>,</span><br><span class="line">  <span class="attr">canonical_path:</span> <span class="string">'now/index.html'</span></span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+
+<h6 id="page-is-post-true"><a href="#page-is-post-true" class="headerlink" title="page(is_post() == true)"></a><strong>page(is_post() == true)</strong></h6><figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br></pre></td><td class="code"><pre><span class="line">{</span><br><span class="line">  <span class="attr">title:</span> <span class="string">'hexo底层json数据内容'</span>,</span><br><span class="line">  <span class="attr">date:</span> <span class="string">Moment&lt;2023-04-21T12:49:00+08:00&gt;</span>,</span><br><span class="line">  <span class="attr">_content:</span> <span class="string">''</span>,</span><br><span class="line">  <span class="attr">source:</span> <span class="string">'_posts/2023/hexo-date-inside.md'</span>,</span><br><span class="line">  <span class="attr">raw:</span> <span class="string">''</span>,</span><br><span class="line">  <span class="attr">slug:</span> <span class="string">'2023/hexo-date-inside'</span>,</span><br><span class="line">  <span class="attr">published:</span> <span class="literal">true</span>,</span><br><span class="line">  <span class="attr">updated:</span> <span class="string">Moment&lt;2023-04-21T12:56:33+08:00&gt;</span>,</span><br><span class="line">  <span class="attr">_id:</span> <span class="string">''</span>,</span><br><span class="line">  <span class="attr">comments:</span> <span class="literal">true</span>,</span><br><span class="line">  <span class="attr">layout:</span> <span class="string">'post'</span>,</span><br><span class="line">  <span class="attr">photos:</span> [],</span><br><span class="line">  <span class="attr">link:</span> <span class="string">''</span>,</span><br><span class="line">  <span class="attr">content:</span> <span class="string">''</span>,</span><br><span class="line">  <span class="attr">site:</span> { <span class="attr">data:</span> {} },</span><br><span class="line">  <span class="attr">excerpt:</span> <span class="string">''</span>,</span><br><span class="line">  <span class="attr">more:</span> <span class="string">''</span>,</span><br><span class="line">  <span class="attr">path:</span> <span class="string">'2023/hexo-date-inside/'</span>,</span><br><span class="line">  <span class="attr">permalink:</span> <span class="string">'https://www.ninojay.top/2023/hexo-date-inside/'</span>,</span><br><span class="line">  <span class="attr">full_source:</span> <span class="string">'/Users/cengzhongjie/Desktop/website/source/_posts/2023/hexo-date-inside.md'</span>,</span><br><span class="line">  <span class="attr">asset_dir:</span> <span class="string">'/Users/cengzhongjie/Desktop/website/source/_posts/2023/hexo-date-inside/'</span>,</span><br><span class="line">  <span class="attr">tags:</span> <span class="string">_Query</span> {</span><br><span class="line">    <span class="attr">data:</span> [ [<span class="string">_Document</span>], [<span class="string">_Document</span>], [<span class="string">_Document</span>], [<span class="string">_Document</span>] ],</span><br><span class="line">    <span class="attr">length:</span> <span class="number">4</span></span><br><span class="line">  },</span><br><span class="line">  <span class="attr">categories:</span> <span class="string">_Query</span> { <span class="attr">data:</span> [ [<span class="string">_Document</span>] ], <span class="attr">length:</span> <span class="number">1</span> },</span><br><span class="line">  <span class="attr">next:</span> <span class="string">&lt;ref</span> <span class="string">*1&gt;</span> <span class="string">_Document</span> {</span><br><span class="line">    <span class="attr">title:</span> <span class="string">'这个世界真的能消灭贫困吗？'</span>,</span><br><span class="line">    <span class="attr">date:</span> <span class="string">Moment&lt;2023-04-20T20:17:00+08:00&gt;</span>,</span><br><span class="line">    <span class="attr">_content:</span> <span class="string">''</span>,</span><br><span class="line">    <span class="attr">source:</span> <span class="string">'_posts/2023/ask-why-no-more-peaceful-person.md'</span>,</span><br><span class="line">    <span class="attr">raw:</span> <span class="string">''</span>,</span><br><span class="line">    <span class="attr">slug:</span> <span class="string">'2023/ask-why-no-more-peaceful-person'</span>,</span><br><span class="line">    <span class="attr">published:</span> <span class="literal">true</span>,</span><br><span class="line">    <span class="attr">updated:</span> <span class="string">Moment&lt;2023-04-21T10:31:50+08:00&gt;</span>,</span><br><span class="line">    <span class="attr">_id:</span> <span class="string">''</span>,</span><br><span class="line">    <span class="attr">comments:</span> <span class="literal">true</span>,</span><br><span class="line">    <span class="attr">layout:</span> <span class="string">'post'</span>,</span><br><span class="line">    <span class="attr">photos:</span> [],</span><br><span class="line">    <span class="attr">link:</span> <span class="string">''</span>,</span><br><span class="line">    <span class="attr">content:</span> <span class="string">''</span>,</span><br><span class="line">    <span class="attr">site:</span> { <span class="attr">data:</span> {} },</span><br><span class="line">    <span class="attr">excerpt:</span> <span class="string">''</span>,</span><br><span class="line">    <span class="attr">more:</span> <span class="string">''</span>,</span><br><span class="line">    <span class="attr">path:</span> [<span class="string">Getter</span>],</span><br><span class="line">    <span class="attr">permalink:</span> [<span class="string">Getter</span>],</span><br><span class="line">    <span class="attr">full_source:</span> [<span class="string">Getter</span>],</span><br><span class="line">    <span class="attr">asset_dir:</span> [<span class="string">Getter</span>],</span><br><span class="line">    <span class="attr">tags:</span> [<span class="string">Getter</span>],</span><br><span class="line">    <span class="attr">categories:</span> [<span class="string">Getter</span>],</span><br><span class="line">    <span class="attr">prev:</span> <span class="string">_Document</span> {</span><br><span class="line">      <span class="attr">title:</span> <span class="string">'hexo底层json数据内容'</span>,</span><br><span class="line">      <span class="attr">date:</span> <span class="string">Moment&lt;2023-04-21T12:49:00+08:00&gt;</span>,</span><br><span class="line">      <span class="attr">_content:</span> <span class="string">''</span>,</span><br><span class="line">      <span class="attr">source:</span> <span class="string">'_posts/2023/hexo-date-inside.md'</span>,</span><br><span class="line">      <span class="attr">raw:</span> <span class="string">''</span>,</span><br><span class="line">      <span class="attr">slug:</span> <span class="string">'2023/hexo-date-inside'</span>,</span><br><span class="line">      <span class="attr">published:</span> <span class="literal">true</span>,</span><br><span class="line">      <span class="attr">updated:</span> <span class="string">Moment&lt;2023-04-21T12:56:33+08:00&gt;</span>,</span><br><span class="line">      <span class="attr">_id:</span> <span class="string">''</span>,</span><br><span class="line">      <span class="attr">comments:</span> <span class="literal">true</span>,</span><br><span class="line">      <span class="attr">layout:</span> <span class="string">'post'</span>,</span><br><span class="line">      <span class="attr">photos:</span> [],</span><br><span class="line">      <span class="attr">link:</span> <span class="string">''</span>,</span><br><span class="line">      <span class="attr">content:</span> <span class="string">''</span>,</span><br><span class="line">      <span class="attr">site:</span> [<span class="string">Object</span>],</span><br><span class="line">      <span class="attr">excerpt:</span> <span class="string">''</span>,</span><br><span class="line">      <span class="attr">more:</span> <span class="string">''</span>,</span><br><span class="line">      <span class="attr">path:</span> [<span class="string">Getter</span>],</span><br><span class="line">      <span class="attr">permalink:</span> [<span class="string">Getter</span>],</span><br><span class="line">      <span class="attr">full_source:</span> [<span class="string">Getter</span>],</span><br><span class="line">      <span class="attr">asset_dir:</span> [<span class="string">Getter</span>],</span><br><span class="line">      <span class="attr">tags:</span> [<span class="string">Getter</span>],</span><br><span class="line">      <span class="attr">categories:</span> [<span class="string">Getter</span>],</span><br><span class="line">      <span class="attr">next:</span> [<span class="string">Circular</span> <span class="string">*1</span>],</span><br><span class="line">      <span class="attr">__post:</span> <span class="literal">true</span></span><br><span class="line">    },</span><br><span class="line">    <span class="attr">next:</span> <span class="string">_Document</span> {</span><br><span class="line">      <span class="attr">title:</span> <span class="string">'手把手教你搭建轻型个人网站（0）——前言'</span>,</span><br><span class="line">      <span class="attr">date:</span> <span class="string">Moment&lt;2023-04-19T13:45:00+08:00&gt;</span>,</span><br><span class="line">      <span class="attr">_content:</span> <span class="string">''</span>,</span><br><span class="line">      <span class="attr">source:</span> <span class="string">'_posts/2023/how-to-deploy-your-own-website-0.md'</span>,</span><br><span class="line">      <span class="attr">raw:</span> <span class="string">''</span>,</span><br><span class="line">      <span class="attr">slug:</span> <span class="string">'2023/how-to-deploy-your-own-website-0'</span>,</span><br><span class="line">      <span class="attr">published:</span> <span class="literal">true</span>,</span><br><span class="line">      <span class="attr">updated:</span> <span class="string">Moment&lt;2023-04-21T12:50:39+08:00&gt;</span>,</span><br><span class="line">      <span class="attr">_id:</span> <span class="string">'clgq2pcx20008inqt63x2a5i1'</span>,</span><br><span class="line">      <span class="attr">comments:</span> <span class="literal">true</span>,</span><br><span class="line">      <span class="attr">layout:</span> <span class="string">'post'</span>,</span><br><span class="line">      <span class="attr">photos:</span> [],</span><br><span class="line">      <span class="attr">link:</span> <span class="string">''</span>,</span><br><span class="line">      <span class="attr">content:</span> <span class="string">''</span>,</span><br><span class="line">      <span class="attr">path:</span> [<span class="string">Getter</span>],</span><br><span class="line">      <span class="attr">permalink:</span> [<span class="string">Getter</span>],</span><br><span class="line">      <span class="attr">full_source:</span> [<span class="string">Getter</span>],</span><br><span class="line">      <span class="attr">asset_dir:</span> [<span class="string">Getter</span>],</span><br><span class="line">      <span class="attr">tags:</span> [<span class="string">Getter</span>],</span><br><span class="line">      <span class="attr">categories:</span> [<span class="string">Getter</span>],</span><br><span class="line">      <span class="attr">prev:</span> [<span class="string">Circular</span> <span class="string">*1</span>],</span><br><span class="line">      <span class="attr">next:</span> [<span class="string">_Document</span>],</span><br><span class="line">      <span class="attr">__post:</span> <span class="literal">true</span></span><br><span class="line">    },</span><br><span class="line">    <span class="attr">__post:</span> <span class="literal">true</span></span><br><span class="line">  },</span><br><span class="line">  <span class="attr">__post:</span> <span class="literal">true</span>,</span><br><span class="line">  <span class="attr">lang:</span> <span class="string">'en'</span>,</span><br><span class="line">  <span class="attr">canonical_path:</span> <span class="string">'2023/hexo-date-inside/index.html'</span></span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+
+<h6 id="page-tags"><a href="#page-tags" class="headerlink" title="page.tags"></a><strong>page.tags</strong></h6><figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">_Query</span> {</span><br><span class="line">  <span class="attr">data:</span> [</span><br><span class="line">    <span class="string">_Document</span> {</span><br><span class="line">      <span class="attr">name:</span> <span class="string">'互联网'</span>,</span><br><span class="line">      <span class="attr">_id:</span> <span class="string">''</span>,</span><br><span class="line">      <span class="attr">slug:</span> [<span class="string">Getter</span>], <span class="string">//</span> <span class="string">互联网</span></span><br><span class="line">      <span class="attr">path:</span> [<span class="string">Getter</span>], <span class="string">//</span> <span class="string">tags/工具使用/</span></span><br><span class="line">      <span class="attr">permalink:</span> [<span class="string">Getter</span>], <span class="string">//</span> <span class="string">https://www.ninojay.top/tags/%E6%80%9D%E8%80%83/</span></span><br><span class="line">      <span class="attr">posts:</span> [<span class="string">Getter</span>], <span class="string">//见下</span></span><br><span class="line">      <span class="attr">length:</span> [<span class="string">Getter</span>] <span class="string">//</span> <span class="number">1</span> <span class="string">代表这个标签下的post数目</span></span><br><span class="line">    },</span><br><span class="line">    <span class="string">_Document</span> {</span><br><span class="line">      <span class="attr">name:</span> <span class="string">'工具使用'</span>,</span><br><span class="line">      <span class="attr">_id:</span> <span class="string">''</span>,</span><br><span class="line">      <span class="attr">slug:</span> [<span class="string">Getter</span>],</span><br><span class="line">      <span class="attr">path:</span> [<span class="string">Getter</span>], </span><br><span class="line">      <span class="attr">permalink:</span> [<span class="string">Getter</span>],</span><br><span class="line">      <span class="attr">posts:</span> [<span class="string">Getter</span>],</span><br><span class="line">      <span class="attr">length:</span> [<span class="string">Getter</span>]</span><br><span class="line">    },</span><br><span class="line">    <span class="string">_Document</span> {</span><br><span class="line">      <span class="attr">name:</span> <span class="string">'搭建网站'</span>,</span><br><span class="line">      <span class="attr">_id:</span> <span class="string">''</span>,</span><br><span class="line">      <span class="attr">slug:</span> [<span class="string">Getter</span>],</span><br><span class="line">      <span class="attr">path:</span> [<span class="string">Getter</span>],</span><br><span class="line">      <span class="attr">permalink:</span> [<span class="string">Getter</span>],</span><br><span class="line">      <span class="attr">posts:</span> [<span class="string">Getter</span>],</span><br><span class="line">      <span class="attr">length:</span> [<span class="string">Getter</span>]</span><br><span class="line">    },</span><br><span class="line">    <span class="string">_Document</span> {</span><br><span class="line">      <span class="attr">name:</span> <span class="string">'hexo'</span>,</span><br><span class="line">      <span class="attr">_id:</span> <span class="string">''</span>,</span><br><span class="line">      <span class="attr">slug:</span> [<span class="string">Getter</span>],</span><br><span class="line">      <span class="attr">path:</span> [<span class="string">Getter</span>],</span><br><span class="line">      <span class="attr">permalink:</span> [<span class="string">Getter</span>],</span><br><span class="line">      <span class="attr">posts:</span> [<span class="string">Getter</span>],</span><br><span class="line">      <span class="attr">length:</span> [<span class="string">Getter</span>]</span><br><span class="line">    }</span><br><span class="line">  ],</span><br><span class="line">  <span class="attr">length:</span> <span class="number">4</span></span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></tbody></table></figure>
+
+<h6 id="page-tags-data-0-posts"><a href="#page-tags-data-0-posts" class="headerlink" title="page.tags.data[0].posts"></a><strong>page.tags.data[0].posts</strong></h6><figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">_Query</span> {</span><br><span class="line">  <span class="attr">data:</span> [</span><br><span class="line">    <span class="string">_Document</span> {</span><br><span class="line">      <span class="attr">title:</span> <span class="string">'这个世界真的能消灭贫困吗？'</span>,</span><br><span class="line">      <span class="attr">date:</span> <span class="string">Moment&lt;2023-04-20T20:17:00+08:00&gt;</span>,</span><br><span class="line">      <span class="attr">_content:</span> <span class="string">''</span>,</span><br><span class="line">      <span class="attr">source:</span> <span class="string">''</span>,</span><br><span class="line">      <span class="attr">slug:</span> <span class="string">'2023/ask-why-no-more-peaceful-person'</span>,</span><br><span class="line">      <span class="attr">published:</span> <span class="literal">true</span>,</span><br><span class="line">      <span class="attr">updated:</span> <span class="string">Moment&lt;2023-04-21T10:31:50+08:00&gt;</span>,</span><br><span class="line">      <span class="attr">_id:</span> <span class="string">''</span>,</span><br><span class="line">      <span class="attr">comments:</span> <span class="literal">true</span>,</span><br><span class="line">      <span class="attr">layout:</span> <span class="string">'post'</span>,</span><br><span class="line">      <span class="attr">photos:</span> [],</span><br><span class="line">      <span class="attr">link:</span> <span class="string">''</span>,</span><br><span class="line">      <span class="attr">content:</span> <span class="string">''</span>,</span><br><span class="line">      <span class="attr">site:</span> [<span class="string">Object</span>],</span><br><span class="line">      <span class="attr">excerpt:</span> <span class="string">''</span>,</span><br><span class="line">      <span class="attr">more:</span> <span class="string">''</span>,</span><br><span class="line">      <span class="attr">path:</span> [<span class="string">Getter</span>],</span><br><span class="line">      <span class="attr">permalink:</span> [<span class="string">Getter</span>],</span><br><span class="line">      <span class="attr">full_source:</span> [<span class="string">Getter</span>],</span><br><span class="line">      <span class="attr">asset_dir:</span> [<span class="string">Getter</span>],</span><br><span class="line">      <span class="attr">tags:</span> [<span class="string">Getter</span>],</span><br><span class="line">      <span class="attr">categories:</span> [<span class="string">Getter</span>],</span><br><span class="line">      <span class="attr">prev:</span> [<span class="string">_Document</span>],</span><br><span class="line">      <span class="attr">next:</span> [<span class="string">_Document</span>],</span><br><span class="line">      <span class="attr">__post:</span> <span class="literal">true</span></span><br><span class="line">    }</span><br><span class="line">  ],</span><br><span class="line">  <span class="attr">length:</span> <span class="number">1</span></span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+
+<h6 id="page-categoires"><a href="#page-categoires" class="headerlink" title="page.categoires"></a><strong>page.categoires</strong></h6><figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">_Query</span> {</span><br><span class="line">  <span class="attr">data:</span> [</span><br><span class="line">    <span class="string">_Document</span> {</span><br><span class="line">      <span class="attr">name:</span> <span class="string">'思辨'</span>,</span><br><span class="line">      <span class="attr">_id:</span> <span class="string">''</span>,</span><br><span class="line">      <span class="attr">slug:</span> [<span class="string">Getter</span>], <span class="string">//</span> <span class="string">思辨</span></span><br><span class="line">      <span class="attr">path:</span> [<span class="string">Getter</span>], <span class="string">//</span> <span class="string">categories/思辨/</span></span><br><span class="line">      <span class="attr">permalink:</span> [<span class="string">Getter</span>],  <span class="string">//</span> <span class="string">https://www.ninojay.top/categories/%E6%80%9D%E8%BE%A8/</span></span><br><span class="line">      <span class="attr">posts:</span> [<span class="string">Getter</span>],</span><br><span class="line">      <span class="attr">length:</span> [<span class="string">Getter</span>] <span class="string">//</span> <span class="number">7</span> <span class="string">代表该分类下post数量</span></span><br><span class="line">    }</span><br><span class="line">  ],</span><br><span class="line">  <span class="attr">length:</span> <span class="number">1</span></span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+
+<h6 id="page-categories-data-0-posts"><a href="#page-categories-data-0-posts" class="headerlink" title="page.categories.data[0].posts"></a><strong>page.categories.data[0].posts</strong></h6><figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">_Query</span> {</span><br><span class="line">  <span class="attr">data:</span> [</span><br><span class="line">    <span class="string">_Document</span> {</span><br><span class="line">      <span class="attr">title:</span> <span class="string">'食01-小炒肉'</span>,</span><br><span class="line">      <span class="attr">date:</span> <span class="string">Moment&lt;2022-03-31T14:27:36+08:00&gt;</span>,</span><br><span class="line">      <span class="attr">banner:</span> <span class="string">'/img/postImages/xiaochaorou.jpg'</span>,</span><br><span class="line">      <span class="attr">_content:</span> <span class="string">''</span>,</span><br><span class="line">      <span class="attr">source:</span> <span class="string">'_posts/2022/stir-fried-pork.md'</span>,</span><br><span class="line">      <span class="attr">raw:</span> <span class="string">''</span>,</span><br><span class="line">      <span class="attr">slug:</span> <span class="string">'2022/stir-fried-pork'</span>,</span><br><span class="line">      <span class="attr">published:</span> <span class="literal">true</span>,</span><br><span class="line">      <span class="attr">updated:</span> <span class="string">Moment&lt;2023-04-19T03:11:22+08:00&gt;</span>,</span><br><span class="line">      <span class="attr">comments:</span> <span class="literal">true</span>,</span><br><span class="line">      <span class="attr">layout:</span> <span class="string">'post'</span>,</span><br><span class="line">      <span class="attr">photos:</span> [],</span><br><span class="line">      <span class="attr">link:</span> <span class="string">''</span>,</span><br><span class="line">      <span class="attr">_id:</span> <span class="string">''</span>,</span><br><span class="line">      <span class="attr">content:</span> <span class="string">''</span>,</span><br><span class="line">      <span class="attr">path:</span> [<span class="string">Getter</span>],</span><br><span class="line">      <span class="attr">permalink:</span> [<span class="string">Getter</span>],</span><br><span class="line">      <span class="attr">full_source:</span> [<span class="string">Getter</span>],</span><br><span class="line">      <span class="attr">asset_dir:</span> [<span class="string">Getter</span>],</span><br><span class="line">      <span class="attr">tags:</span> [<span class="string">Getter</span>],</span><br><span class="line">      <span class="attr">categories:</span> [<span class="string">Getter</span>],</span><br><span class="line">      <span class="attr">prev:</span> [<span class="string">_Document</span>],</span><br><span class="line">      <span class="attr">next:</span> [<span class="string">_Document</span>],</span><br><span class="line">      <span class="attr">__post:</span> <span class="literal">true</span></span><br><span class="line">    }</span><br><span class="line">  ],</span><br><span class="line">  <span class="attr">length:</span> <span class="number">1</span></span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+
+</div>
+    </div>
+
+    <div class="post-meta">
+        <i>
+        
+            <span>2023-04-21</span>
+            
+                <span>该篇文章被 nino</span>
+            
+            
+                <span>打上标签:
+                    
+                    
+                        <a href='/tags/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/'>
+                            搭建网站
+                        </a>
+                    
+                        <a href='/tags/hexo/'>
+                            hexo
+                        </a>
+                    
+                </span>
+             
+             
+                <span>归为分类:
+                    
+                    
+                        <a href='/categories/%E8%BD%AF%E4%BB%B6/'>
+                            软件
+                        </a>
+                    
+                </span>
+            
+        
+        </i>
+    </div>
+    <br>
+    
+    
+        
+            
+    
+            <div class="post-footer-pre-next">
+                
+                    <span>上一篇：<a href='/2023/writeByGithub-2/'>我的博客网站写作工作流（二）Hexo&amp;GithubAction</a></span>
+                
+
+                
+                    <span class="post-footer-pre-next-last-span-right">下一篇：<a href="/2023/ask-why-no-more-peaceful-person/">这个世界真的能消灭贫困吗？</a>
+                    </span>
+                
+            </div>
+    
+        
+    
+
+    
+        
+    <div class="comments-container">
+    <div id="comment-anchor"></div>
+    <div class="comment-area-title">
+        
+    </div>
+    
+        
+
+    <div id="waline"></div>
+    <script type="module"  >
+        import { init } from 'https://npm.elemecdn.com/hexo-theme-a4@latest/source/js/waline.mjs';
+        function loadWaline() {
+            init({
+                el: '#waline',
+                serverURL: 'waline.ninojay.top',
+                lang: 'zh-CN',
+                dark: 'body[class~="dark-mode"]',
+                requiredMeta: ['nick','mail'], // cannot customize by theme config, change it yourself
+                search: false, // 禁止表情包搜索
+                reaction: false, // 对文章打分
+                pageview: false, // 浏览量统计
+                comment: false, // 评论数统计
+
+                locale: {
+                    placeholder: '正确的邮箱地址，回复将能得到邮件通知。',
+                    sofa: ''
+                },
+            });
+
+        }
+        window.addEventListener('DOMContentLoaded', loadWaline);
+    </script>
+
+
+
+    
+    
+    
+    
+    </div>
+
+
+     
+</div>
+
+
+
+
+                    
+
+                    <div class="footer">
+    
+        <span> 
+            © 2025-1999 nino 
+
+            
+                
+
+            
+                
+                    / <a href="/contact/"> 联系 </a>
+                
+
+            
+                
+                    / <a href="/support/"> 支持 </a>
+                
+
+            
+                
+                    / <a href="/subscribe/"> 订阅 </a>
+                
+
+            
+                
+                    / <a href="/friends/"> 近邻 </a>
+                
+
+            
+        </span>
+       
+    
+</div>
+
+
+
+<!--这是指一条线往下的内容-->
+<div class="footer-last">
+    
+            <span>🌊看过大海的人不会忘记海的广阔🌊</span>
+            
+                <span class="footer-last-span-right"><i>本站由<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/index.html">Hexo</a>驱动｜使用<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4">Hexo-theme-A4</a>主题</i></span>
+            
+    
+</div>
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <!--目录-->
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js" type="text/javascript" ></script>
+        
+<script src="/js/toc.js"></script>
+
+    
+
+    
+<script src="/js/randomHeaderContent.js"></script>
+
+    <!--回到顶部按钮-->
+    
+        
+<script src="/js/returnToTop.js"></script>
+
+    
+
+    
+        
+<script src="/js/returnToLastPage.js"></script>
+
+    
+
+
+
+
+
+<script src="/js/lightgallery/lightgallery.umd.min.js"></script>
+
+
+
+<script src="/js/lightgallery/plugins/lg-thumbnail.umd.min.js"></script>
+
+
+
+<script src="/js/lightgallery/plugins/lg-fullscreen.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-autoplay.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-zoom.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-rotate.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-paper.umd.min.js"></script>
+
+
+
+
+<script type="text/javascript">
+     
+    if (typeof lightGallery !== "undefined") {
+        var options1 = {
+            selector: '.gallery-item',
+            plugins: [lgThumbnail, lgFullscreen, lgAutoplay, lgZoom, lgRotate, lgPager], // 启用插件
+            thumbnail: true,          // 显示缩略图
+            zoom: true,               // 启用缩放功
+            rotate: true,             // 启用旋转功能能
+            autoplay: true,        // 启用自动播放功能
+            fullScreen: true,      // 启用全屏功能
+            pager: false, //页码,
+            zoomFromOrigin: true,   // 从原始位置缩放
+            actualSize: true,       // 启用查看实际大小的功能
+            enableZoomAfter: 300,    // 延迟缩放，确保图片加载完成后可缩放
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options1); // 修复选择器
+    }
+    
+</script>
+
+
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script> 
+
+                </div>
+            
+            
+                <!-- 回到顶部的按钮-->
+                <div class="progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
+            
+                <!-- 返回的按钮-->
+                <div class="return-to-last-progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
+    </body>
+</html>
+<script src="/js/emojiHandler.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        wrapEmojis('.paper');
+    });
+</script>
