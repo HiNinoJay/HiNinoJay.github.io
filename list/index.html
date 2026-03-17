@@ -1,0 +1,1586 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport" />
+    <meta name="description" content="list" />
+    <meta name="hexo-theme-A4" content="v2.0.1" />
+    <link rel="alternate icon" type="image/webp" href="/img/favicon.webp">
+    <title>list | Nino | Web开发者｜阅读写作爱好者</title>
+
+    
+        
+<link rel="stylesheet" href="/css/highlight/style1.css">
+
+        
+<link rel="stylesheet" href="/css/reset.css">
+
+        
+<link rel="stylesheet" href="/css/markdown.css">
+
+        
+<link rel="stylesheet" href="/css/fonts.css">
+
+         <!--注意：首页既不是post也不是page-->
+        
+
+        
+<link rel="stylesheet" href="/css/ui.css">
+
+        
+<link rel="stylesheet" href="/css/style.css">
+
+
+        
+            <!--返回顶部css-->
+            
+<link rel="stylesheet" href="/css/returnToTop.css">
+
+            
+<link rel="stylesheet" href="/css/unicons.css">
+
+        
+        
+            <!--目录-->
+            
+<link rel="stylesheet" href="/css/toc.css">
+
+        
+    
+
+    
+        
+<link rel="stylesheet" href="/css/returnToLastPage.css">
+
+    
+
+    
+<link rel="stylesheet" href="/css/lightgallery-bundle.min.css">
+
+
+    
+        
+<link rel="stylesheet" href="/css/custom.css">
+
+    
+
+    
+
+    <!-- <link rel="stylesheet" href="https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkai/dist/LXGWWenKai-Regular/result.css" /> -->
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/@chinese-fonts/lxgwwenkai@3.0.0/dist/LXGWWenKai-Regular/result.css' /> 
+<meta name="generator" content="Hexo 7.3.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="Nino" type="application/atom+xml">
+<link rel="alternate" href="/rss2.xml" title="Nino" type="application/rss+xml">
+</head>
+
+    
+    
+
+    
+    
+
+
+
+    
+
+    
+    
+
+
+
+
+    
+    
+
+
+    <body>
+        
+        <script src="https://cdn.jsdelivr.net/npm/darkreader@4.9.80/darkreader.min.js"></script>
+        <script>
+            const drOptions = {
+                brightness: 100,
+                contrast: 95,
+                sepia: 10,
+                darkSchemeTextColor: '#e0e0e0',  // 粉笔白文字
+                darkSchemeBackgroundColor: '#1e1e1e', // 黑板灰背景
+                scrollbarStyle: 'native'
+            };
+
+            const savedTheme = localStorage.getItem('theme');
+            const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            if (savedTheme === 'dark' || (!savedTheme && systemDark)) {
+                DarkReader.enable(drOptions);
+            }
+
+            window.addEventListener('DOMContentLoaded', () => {
+                const btn = document.createElement('button');
+                btn.innerText = '🌓';
+                // 按钮样式：仿照你之前的布局，放在右下角
+                btn.style.cssText = `
+                    position: fixed; 
+                    bottom: 40px; 
+                    left: 42px; 
+                    z-index: 9999;
+                    width: 44px; 
+                    height: 44px; 
+                    border-radius: 50%; 
+                    border: 1px solid #ccc;
+                    background: #f7f5ed; 
+                    color: #000;
+                    font-size: 22px; 
+                    cursor: pointer;
+                    box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+                    transition: transform 0.2s, background-color 0.3s;
+                `;
+                // 根据当前状态初始化按钮颜色
+                if (DarkReader.isEnabled()) {
+                    btn.style.backgroundColor = '#1e1e1e';
+                    btn.style.color = '#fff';
+                }
+                btn.onmouseover = () => btn.style.transform = 'scale(1.1)';
+                btn.onmouseout = () => btn.style.transform = 'scale(1)';
+                document.body.appendChild(btn);
+                // 点击切换逻辑
+                btn.addEventListener('click', () => {
+                    if (DarkReader.isEnabled()) {
+                        DarkReader.disable();
+                        localStorage.setItem('theme', 'light');
+                        btn.style.backgroundColor = '#f7f5ed';
+                        btn.style.color = '#000';
+                    } else {
+                        DarkReader.enable(drOptions);
+                        localStorage.setItem('theme', 'dark');
+                        btn.style.backgroundColor = '#1e1e1e';
+                        btn.style.color = '#fff';
+                    }
+                });
+            });
+        </script>
+        
+        
+            
+        
+        <div class="paper">
+
+            
+
+            
+                <div class="shadow-drop-2-top paper-main">
+                     
+
+
+<div class="header">
+    <div class="header-container">
+        <style>
+            .header-img {
+                width: 56px;
+                height: auto;
+                object-fit: cover; /* 保持图片比例 */
+                transition: transform 0.3s ease-in-out; 
+                border-radius: 50%; 
+            }
+            
+        </style>
+        <img 
+            alt="^-^" 
+            cache-control="max-age=86400" 
+            class="header-img" 
+            src="/img/favicon.webp" 
+        />
+        <div class="header-content">
+            <a class="logo" href="/">Nino</a> 
+            <span class="description">Web开发者｜阅读写作爱好者</span> 
+        </div>
+    </div>
+    
+   
+    <ul class="nav">
+        
+            
+                <li><a href="/">🏃首页</a></li>
+            
+        
+            
+                <li><i>
+                    
+                        <a style="color: #4e7dde;" href="/list/">⛰️文章</a>
+                    
+                </i></li>
+            
+        
+            
+                <li><a href="/works/">🌸作品</a></li>
+            
+        
+            
+                <li><a href="/message/">🔈留言</a></li>
+            
+        
+            
+                <li><a href="/tags/">📌标签</a></li>
+            
+        
+            
+                <li><a href="/categories/">🔖分类</a></li>
+            
+        
+            
+                <li><a href="/about/">🌕关于</a></li>
+            
+        
+            
+                <li><a href="/now/">📅Now</a></li>
+            
+        
+        <!-- 暂时注释掉，还需要调整css 
+        <li class="search">
+            <input type="text" id="search-input" placeholder="搜索文章..." />
+            <div id="search-results"></div>
+        </li>
+         -->
+    </ul>
+</div>
+                     <div class="archive-list">
+  <ul class="archive">
+      
+
+      <!--文章先按照时间排好序-->
+      
+
+
+      
+      
+
+      
+
+      
+      
+      
+
+      <!--循环遍历文章数组-->
+      
+
+      <!--排序 置顶 文章-->
+      
+
+      <!--先放 置顶 文章-->
+      
+          
+          <li>
+            <span class="archive-date"> &nbsp;&nbsp;&nbsp;TOP
+            </span>
+            <div class="archive-main">
+                <a class="archive-title" href="/hexoplugin/A4-color-change/">hexo | A4颜色搭配推荐</a>
+            </div>
+          </li>
+      
+
+      <!--rough-notation风格效果-->
+      
+
+      <!--文章先按照时间排好序-->
+      
+      
+      <!--再放 最近更新 文章-->
+      
+
+      <!--后放 其他 文章-->
+      
+        
+        <li>
+          <span class="year-font-color">2026[2]
+             <span class="darkmode-ignore">🍃</span> 
+          </span>
+        </li>
+        
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;03/16 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/情绪/">
+                  情绪 
+                </a> | 
+              
+                <a class="archive-title" href="/2026/welcome-2026-spring/">欢迎，2026年春天</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;01/01 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/情绪/">
+                  情绪 
+                </a> | 
+              
+                <a class="archive-title" href="/2026/hongkong/">港湾的味道</a>
+            </div>
+          </li>
+        
+      
+        
+        <li>
+          <span class="year-font-color">2025[6]
+            
+          </span>
+        </li>
+        
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;12/31 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/情绪/">
+                  情绪 
+                </a> | 
+              
+                <a class="archive-title" href="/2025/my-boring-poem/">2025年用无聊的诗结束吧</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;11/11 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/情绪/">
+                  情绪 
+                </a> | 
+              
+                <a class="archive-title" href="/2025/winter-is-coming/">立冬了</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;08/10 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/思辨/">
+                  思辨 
+                </a> | 
+              
+                <a class="archive-title" href="/2025/the-past-three-months/">最近的三个月</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;05/06 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/声光/">
+                  声光 
+                </a> | 
+              
+                <a class="archive-title" href="/2025/this-philosopher-saved-me/">《这个哲学家救了我》-（意）马西莫·匹格里奇</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;04/25 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/声光/">
+                  声光 
+                </a> | 
+              
+                <a class="archive-title" href="/2025/i-am-boring/">无聊人</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;02/15 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/声光/">
+                  声光 
+                </a> | 
+              
+                <a class="archive-title" href="/2025/o-alquimista/">《牧羊少年奇幻之旅》-（巴西）保罗·柯艾略</a>
+            </div>
+          </li>
+        
+      
+        
+        <li>
+          <span class="year-font-color">2024[17]
+            
+          </span>
+        </li>
+        
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;12/31 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/思辨/">
+                  思辨 
+                </a> | 
+              
+                <a class="archive-title" href="/2024/the-end-of-2024/">2024的结束</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;11/14 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/情绪/">
+                  情绪 
+                </a> | 
+              
+                <a class="archive-title" href="/2024/recent-feeling/">真诚并不是必杀技，而是自杀技</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;09/30 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/情绪/">
+                  情绪 
+                </a> | 
+              
+                <a class="archive-title" href="/2024/recently-written-poems-6/">2024年8月底至9月写过的无聊的诗</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;08/09 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/程序员/">
+                  程序员 
+                </a> | 
+              
+                <a class="archive-title" href="/programmer/knowledge/algorithm/leetcode-hot-100/">利于java选手系统刷的Leetcode-Hot-100题解</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;08/08 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/情绪/">
+                  情绪 
+                </a> | 
+              
+                <a class="archive-title" href="/2024/recently-written-poems-5/">2024年8月初写过的无聊的诗</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;08/02 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/情绪/">
+                  情绪 
+                </a> | 
+              
+                <a class="archive-title" href="/2024/one-night/">惯常的一个晚上</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;07/26 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/情绪/">
+                  情绪 
+                </a> | 
+              
+                <a class="archive-title" href="/2024/recently-written-poems-4/">2024年7月中后写过的无聊的诗</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;07/02 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/情绪/">
+                  情绪 
+                </a> | 
+              
+                <a class="archive-title" href="/2024/recently-written-poems-3/">2024年6月至7月初写过的无聊的诗</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;06/22 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/情绪/">
+                  情绪 
+                </a> | 
+              
+                <a class="archive-title" href="/2024/recently-written-poems-2/">2024年5月至6月写过的无聊的诗</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;06/19 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/情绪/">
+                  情绪 
+                </a> | 
+              
+                <a class="archive-title" href="/2024/walk-in-the-rain/">我在雨中散步</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;04/01 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/声光/">
+                  声光 
+                </a> | 
+              
+                <a class="archive-title" href="/2024/The-Painted-Veil/">摘抄《面纱》-（英）毛姆</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;03/23 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/声光/">
+                  声光 
+                </a> | 
+              
+                <a class="archive-title" href="/2024/space-oddity/">Space Oddity</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;03/17 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/情绪/">
+                  情绪 
+                </a> | 
+              
+                <a class="archive-title" href="/2024/recently-written-poems-1/">写过的一些无聊的诗</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;03/03 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/声光/">
+                  声光 
+                </a> | 
+              
+                <a class="archive-title" href="/2024/dao/">《道德经》-（春秋）老子-度阴山（译）</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;02/15 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/情绪/">
+                  情绪 
+                </a> | 
+              
+                <a class="archive-title" href="/2024/foreigners-and-work/">过年前关于外国人的小感悟</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;01/22 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/情绪/">
+                  情绪 
+                </a> | 
+              
+                <a class="archive-title" href="/2024/What-Was-I-Made-For/">What Was I Made For</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;01/20 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/声光/">
+                  声光 
+                </a> | 
+              
+                <a class="archive-title" href="/2024/This-book-will-help-you-quit-smoking/">《这本书能让你戒烟》-（英）亚伦·卡尔</a>
+            </div>
+          </li>
+        
+      
+        
+        <li>
+          <span class="year-font-color">2023[35]
+            
+          </span>
+        </li>
+        
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;12/31 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/情绪/">
+                  情绪 
+                </a> | 
+              
+                <a class="archive-title" href="/2023/the-end-of-2023-and-the-beginning-of-2024/">2023的结束和2024的开始</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;12/09 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/声光/">
+                  声光 
+                </a> | 
+              
+                <a class="archive-title" href="/2023/sound-of-the-mountain/">《山音》-（日）川端康成</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;10/14 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/声光/">
+                  声光 
+                </a> | 
+              
+                <a class="archive-title" href="/2023/zero/">归零</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;09/04 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/情绪/">
+                  情绪 
+                </a> | 
+              
+                <a class="archive-title" href="/2023/2023-summer/">2023上半年小结</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;07/22 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/情绪/">
+                  情绪 
+                </a> | 
+              
+                <a class="archive-title" href="/2023/cry/">泪和抑郁</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;07/02 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/声光/">
+                  声光 
+                </a> | 
+              
+                <a class="archive-title" href="/2023/excerpt-from-the-myth-of-sisyphus/">摘抄-《西西弗神话》</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;05/27 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/声光/">
+                  声光 
+                </a> | 
+              
+                <a class="archive-title" href="/writing/Chinese-keyword/">中文字/词语/成语解释</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;05/27 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/程序员/">
+                  程序员 
+                </a> | 
+              
+                <a class="archive-title" href="/writing/English-keyword/">常见英文缩写解释</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;05/25 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/软件/">
+                  软件 
+                </a> | 
+              
+                <a class="archive-title" href="/hexoplugin/hexo-all-minifier/">hexo | A4支持资源压缩部署加速网站访问</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;05/25 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/软件/">
+                  软件 
+                </a> | 
+              
+                <a class="archive-title" href="/hexoplugin/hexo-generator-feed/">hexo | A4支持生成RSS订阅文件</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;05/25 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/软件/">
+                  软件 
+                </a> | 
+              
+                <a class="archive-title" href="/hexoplugin/hexo-generator-sitemap/">hexo | A4支持生成sitemap站点地图</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;05/24 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/软件/">
+                  软件 
+                </a> | 
+              
+                <a class="archive-title" href="/hexoplugin/hexo-reference/">hexo | A4支持markdown脚标便捷显示</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;05/22 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/软件/">
+                  软件 
+                </a> | 
+              
+                <a class="archive-title" href="/hexoplugin/hexo-filter-github-emojis/">hexo | A4支持emojis语法</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;05/21 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/软件/">
+                  软件 
+                </a> | 
+              
+                <a class="archive-title" href="/hexoplugin/hexo-blog-encrypt/">hexo | A4支持文章密码访问</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;05/21 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/软件/">
+                  软件 
+                </a> | 
+              
+                <a class="archive-title" href="/hexoplugin/hexo-filter-mathjax/">hexo | A4支持数学公式渲染</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;05/18 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/程序员/">
+                  程序员 
+                </a> | 
+              
+                <a class="archive-title" href="/programmer/knowledge/algorithm/leetcode101/">系统性 leetcode 刷题记录</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;05/10 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/衣食住行/">
+                  衣食住行 
+                </a> | 
+              
+                <a class="archive-title" href="/2023/silver-temple/">银阁寺</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;05/08 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/思辨/">
+                  思辨 
+                </a> | 
+              
+                <a class="archive-title" href="/2023/about-ai-chatgpt-2023/">我对人工智能的思考-公元2023年</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;05/07 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/软件/">
+                  软件 
+                </a> | 
+              
+                <a class="archive-title" href="/hexoplugin/website-cdn/">利于搭建国内网站的免费CDN加速github和npm方式</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;05/04 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/思辨/">
+                  思辨 
+                </a> | 
+              
+                <a class="archive-title" href="/2023/have-to-do/">植物有思想吗?</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;05/04 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/情绪/">
+                  情绪 
+                </a> | 
+              
+                <a class="archive-title" href="/2023/some-words/">一些片段</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;05/02 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/软件/">
+                  软件 
+                </a> | 
+              
+                <a class="archive-title" href="/2023/writeByGithub-2/">我的博客网站写作工作流（二）Hexo&amp;GithubAction</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;04/21 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/软件/">
+                  软件 
+                </a> | 
+              
+                <a class="archive-title" href="/hexoplugin/hexo-data-inside/">hexo | hexo底层json数据内容</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;04/20 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/思辨/">
+                  思辨 
+                </a> | 
+              
+                <a class="archive-title" href="/2023/ask-why-no-more-peaceful-person/">这个世界真的能消灭贫困吗？</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;04/19 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/软件/">
+                  软件 
+                </a> | 
+              
+                <a class="archive-title" href="/2023/how-to-deploy-your-own-website-0/">手把手教你搭建轻型个人网站（0）——前言</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;04/17 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/软件/">
+                  软件 
+                </a> | 
+              
+                <a class="archive-title" href="/writing/myKeyboardShortcuts/">我的快捷键逻辑-myKeyboardShortcuts</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;04/15 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/软件/">
+                  软件 
+                </a> | 
+              
+                <a class="archive-title" href="/2023/writeByGithub-1/">我的博客网站写作工作流（一）</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;03/23 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/情绪/">
+                  情绪 
+                </a> | 
+              
+                <a class="archive-title" href="/2023/songs-in-my-memory/">流水账-歌曲对我的影响</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;03/22 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/声光/">
+                  声光 
+                </a> | 
+              
+                <a class="archive-title" href="/2023/beauity-in-heart/">关于心中的美：《金阁寺》-（日）三岛由纪夫</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;03/19 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/情绪/">
+                  情绪 
+                </a> | 
+              
+                <a class="archive-title" href="/2023/letting-go-of-attachments/">断舍离后的平白记忆</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;03/09 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/声光/">
+                  声光 
+                </a> | 
+              
+                <a class="archive-title" href="/2023/the-Courage-to-be-hated/">《被讨厌的勇气》-（日）岸见一郎，古贺史健</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;02/28 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/情绪/">
+                  情绪 
+                </a> | 
+              
+                <a class="archive-title" href="/2023/song-algorith/">演算法</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;02/14 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/情绪/">
+                  情绪 
+                </a> | 
+              
+                <a class="archive-title" href="/2023/another-valentine/">又是一年情人节</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;01/31 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/声光/">
+                  声光 
+                </a> | 
+              
+                <a class="archive-title" href="/2022/different-colors-of-sadness/">摘抄《不同颜色的悲伤》-（日）若松英辅</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;01/29 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/声光/">
+                  声光 
+                </a> | 
+              
+                <a class="archive-title" href="/2022/A-Bouquet-for-Algernon/">摘抄《献给阿尔吉侬的花束》-（美）丹尼尔·凯斯</a>
+            </div>
+          </li>
+        
+      
+        
+        <li>
+          <span class="year-font-color">2022[18]
+            
+          </span>
+        </li>
+        
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;12/29 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/情绪/">
+                  情绪 
+                </a> | 
+              
+                <a class="archive-title" href="/2022/before-the-waves-churned/">海浪翻涌之前</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;05/02 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/思辨/">
+                  思辨 
+                </a> | 
+              
+                <a class="archive-title" href="/2022/achieve-my-goals/">尽可能地尝试直到达到自己的目的</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;03/31 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/衣食住行/">
+                  衣食住行 
+                </a> | 
+              
+                <a class="archive-title" href="/2022/stir-fried-pork/">小炒肉</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;03/22 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/声光/">
+                  声光 
+                </a> | 
+              
+                <a class="archive-title" href="/2022/Birdman/">《鸟人》</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;03/21 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/情绪/">
+                  情绪 
+                </a> | 
+              
+                <a class="archive-title" href="/2022/child-encounter/">小孩遭遇</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;03/06 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/情绪/">
+                  情绪 
+                </a> | 
+              
+                <a class="archive-title" href="/2022/bright-moon-may-you-wear-gentleness/">明月，愿温柔穿戴于你</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;02/27 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/声光/">
+                  声光 
+                </a> | 
+              
+                <a class="archive-title" href="/2022/know-oneself/">正确认识自我状态，像真正的成人一样-《蛤蟆先生去看心理医生》</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;02/25 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/外语/">
+                  外语 
+                </a> | 
+              
+                <a class="archive-title" href="/2022/1-frequency-words/">1频词</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;02/12 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/情绪/">
+                  情绪 
+                </a> | 
+              
+                <a class="archive-title" href="/2022/red-river/">谢谢你，红色的河</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;02/09 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/声光/">
+                  声光 
+                </a> | 
+              
+                <a class="archive-title" href="/2022/Brother/">《哥儿》夏目漱石：由读后感延伸到自我思辩</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;02/04 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/外语/">
+                  外语 
+                </a> | 
+              
+                <a class="archive-title" href="/2022/simple-words/">简单词</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;02/02 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/声光/">
+                  声光 
+                </a> | 
+              
+                <a class="archive-title" href="/2022/Phaedrus/">修辞学与论爱情-《斐德若篇》</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;01/29 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/情绪/">
+                  情绪 
+                </a> | 
+              
+                <a class="archive-title" href="/2022/Being-a-Good-Listener/">我和“会倾听”的故事</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;01/28 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/软件/">
+                  软件 
+                </a> | 
+              
+                <a class="archive-title" href="/2022/other-website/">本站涉及的网站</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;01/27 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/外语/">
+                  外语 
+                </a> | 
+              
+                <a class="archive-title" href="/2022/1-21unit/">1～21unit</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;01/27 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/声光/">
+                  声光 
+                </a> | 
+              
+                <a class="archive-title" href="/2022/I-dirnk-wine/">I dirnk wine</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;01/24 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/软件/">
+                  软件 
+                </a> | 
+              
+                <a class="archive-title" href="/2022/GTD/">GTD思想</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;01/23 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/声光/">
+                  声光 
+                </a> | 
+              
+                <a class="archive-title" href="/2022/excerpts-from-january-2022/">2022年1月份的一些摘抄</a>
+            </div>
+          </li>
+        
+      
+  </ul>
+</div>
+<!--  -->
+                     <div class="footer">
+    
+        <span> 
+            © 2025-1999 nino 
+
+            
+                
+
+            
+                
+                    / <a href="/contact/"> 联系 </a>
+                
+
+            
+                
+                    / <a href="/support/"> 支持 </a>
+                
+
+            
+                
+                    / <a href="/subscribe/"> 订阅 </a>
+                
+
+            
+                
+                    / <a href="/friends/"> 近邻 </a>
+                
+
+            
+        </span>
+       
+    
+</div>
+
+
+
+<!--这是指一条线往下的内容-->
+<div class="footer-last">
+    
+            <span>🌊看过大海的人不会忘记海的广阔🌊</span>
+            
+                <span class="footer-last-span-right"><i>本站由<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/index.html">Hexo</a>驱动｜使用<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4">Hexo-theme-A4</a>主题</i></span>
+            
+    
+</div>
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <!--目录-->
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js" type="text/javascript" ></script>
+        
+<script src="/js/toc.js"></script>
+
+    
+
+    
+<script src="/js/randomHeaderContent.js"></script>
+
+    <!--回到顶部按钮-->
+    
+        
+<script src="/js/returnToTop.js"></script>
+
+    
+
+    
+        
+<script src="/js/returnToLastPage.js"></script>
+
+    
+
+
+
+
+
+<script src="/js/lightgallery/lightgallery.umd.min.js"></script>
+
+
+
+<script src="/js/lightgallery/plugins/lg-thumbnail.umd.min.js"></script>
+
+
+
+<script src="/js/lightgallery/plugins/lg-fullscreen.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-autoplay.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-zoom.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-rotate.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-paper.umd.min.js"></script>
+
+
+
+
+<script type="text/javascript">
+     
+    if (typeof lightGallery !== "undefined") {
+        var options1 = {
+            selector: '.gallery-item',
+            plugins: [lgThumbnail, lgFullscreen, lgAutoplay, lgZoom, lgRotate, lgPager], // 启用插件
+            thumbnail: true,          // 显示缩略图
+            zoom: true,               // 启用缩放功
+            rotate: true,             // 启用旋转功能能
+            autoplay: true,        // 启用自动播放功能
+            fullScreen: true,      // 启用全屏功能
+            pager: false, //页码,
+            zoomFromOrigin: true,   // 从原始位置缩放
+            actualSize: true,       // 启用查看实际大小的功能
+            enableZoomAfter: 300,    // 延迟缩放，确保图片加载完成后可缩放
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options1); // 修复选择器
+    }
+    
+</script>
+
+
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script> 
+
+                </div>
+            
+            
+                <!-- 回到顶部的按钮-->
+                <div class="progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
+            
+                <!-- 返回的按钮-->
+                <div class="return-to-last-progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
+    </body>
+</html>
+<script src="/js/emojiHandler.js"></script>
+<script src="/js/search.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        wrapEmojis('.paper');
+    });
+</script>
